@@ -8,6 +8,8 @@ Mission d'entraînement ouverte des serveurs VEAF, sur la carte **Caucasus** de 
 
 Tout se pilote par le menu radio F10 : zones de combat, missions et CAP, soutien (*ASSETS*), porte-avions (*CARRIER OPS*).
 
+**Sommaire** : [Carte](#carte) · [Situation](#situation) · [Bases](#bases) · [Défense aérienne permanente](#défense-aérienne-permanente) · [Soutien](#soutien) · [Entraînement](#entraînement) · [Zones de combat](#zones-de-combat) · [Missions scénarisées](#missions-scénarisées) · [QRA](#qra) · [CAP à la demande](#cap-à-la-demande) · [Combat entre joueurs](#combat-entre-joueurs) · [Plan radio](#plan-radio) · [Météo et heures](#météo-et-heures) · [Commandes utiles](#commandes-utiles) · [Pour les créateurs de mission](#pour-les-créateurs-de-mission)
+
 ## Carte
 
 ![Carte de la mission](docs/carte.jpg)
@@ -248,6 +250,53 @@ Un marqueur sur la carte F10, avec une commande dans son texte : `-sa6`, `-armor
 
 ## Pour les créateurs de mission
 
-- Construire : `veaf-tools.exe build` dans ce dossier ; pour un test local, `veaf-tools.exe build --profile LOCAL_TEST` (sécurité coupée, logs debug, noms lisibles, sans variantes météo).
-- `tools/` : les générateurs qui ont construit la mission (lots rejouables, `tools/batches/`), les contrôles (`check_portees.py`, `verify.py`), ce générateur de README, et `retours-vmct.md` (ce que les outils n'ont pas su faire).
-- Construite de zéro le 28/09/2026 avec le prompt `new-open-training-mission.fr.md` de VMCT, en s'inspirant de la v5 (`VEAF-Open-Training-Mission-Caucasus`, dossier `backup_v5/`).
+Construite de zéro le 28/09/2026 avec VEAF Mission Creation Tools (`veaf-tools`, 6.25.0.1) et le serveur MCP `veaf-mission-mcp`, à partir du prompt `new-open-training-mission.fr.md` de VMCT, en s'inspirant de la v5 (`VEAF-Open-Training-Mission-Caucasus`, dossier `backup_v5/`) sans la recopier. Trois ensembles en sont repris : l'arène « Air Quake », le groupe aéronaval du Stennis et la zone hélicoptère « Mountain Hike ».
+
+### Construire
+
+```powershell
+# récupérer les outils et les scripts VEAF (exécutables et published/, hors dépôt)
+.\veaf-tools-updater.exe
+
+# contrôle avant build
+.\veaf-tools.exe mission validate
+
+# configuration serveur : sécurité active, logs info, 20 variantes météo dans missions/
+.\veaf-tools.exe mission build
+
+# essais sur un poste : sécurité coupée, logs debug, noms de groupes lisibles, pas de variantes
+.\veaf-tools.exe mission build --profile LOCAL_TEST
+```
+
+### Fichiers
+
+| Fichier | Rôle |
+|---|---|
+| `mission.yaml` | Identité, sécurité, profil `LOCAL_TEST`, modules, zones de combat (niveaux imbriqués par `includes:`), QRA, CAP, assets |
+| `ctld-config.yaml` | Points logistiques, troupes et cargos CTLD |
+| `src/mission/` | La mission DCS éclatée (groupes, zones de déclenchement, aérodromes, dessins de la carte F10) |
+| `src/presets.yaml` | Plan radio bleu et rouge |
+| `src/versions.yaml` | Variantes météo et heure |
+| `src/waypoints.yaml` | Points de navigation injectés dans les appareils joueurs |
+| `src/warehouses.yaml` | Bases qui offrent des slots, carburant et munitions illimités, appareils proposés sur le pont du porte-avions (`ships:`) |
+| `src/spawnables.yaml`, `src/spawn-groups.yaml` | Groupes tirables par les zones de combat et les QRA |
+| `src/dynamic-slot-templates.yaml` | Appareils proposés en slots dynamiques |
+| `src/scripts/*.lua` | Configuration des scripts VEAF embarqués (`veaf-config.lua`, CTLD, script de mission) |
+| `src/mission/l10n/DEFAULT/*.ogg` | Sons des balises de la zone de sauvetage (MH01 à MH03, SOS), déclarés dans `mapResource` |
+| `docs/carte.jpg` | La carte de ce briefing ; la même image est dans `src/mission/l10n/DEFAULT/carte.jpg` pour le briefing DCS |
+| `tools/` | Les générateurs qui ont construit la mission (`gen_*.py`), les lots rejouables (`tools/batches/`), les contrôles (`check_portees.py`, `verify.py`) et `retours-vmct.md` (ce que les outils n'ont pas su faire) |
+
+Hors dépôt (voir `.gitignore`) : les exécutables téléchargés (`veaf-tools`, `dcs-serve`, `dcs-client`), les scripts VEAF de `published/`, les `.miz` construits et `missions/`, les sauvegardes `.veaf-backups/`.
+
+### Régénérer ce document
+
+Ce README est **généré depuis la mission** : aucune valeur n'y est tapée à la main. Après tout changement dans `src/` ou `mission.yaml` :
+
+```powershell
+python tools\gen_map.py     # la carte docs/carte.jpg
+python tools\gen_readme.py  # ce fichier
+```
+
+### Limites connues
+
+Plusieurs éléments n'ont pas d'action MCP dédiée et ont été écrits par script directement dans la table de la mission : leurres et indicatifs des slots de l'arène, tâches ATC et slots de pont du porte-avions, entrepôt du navire, balises radio de la zone de sauvetage, balises de tirage (`#spawngroup`, `#spawncount`) des zones de combat. Ils se relisent dans `src/mission/mission` comme le reste. Le détail est dans `tools/retours-vmct.md`.
