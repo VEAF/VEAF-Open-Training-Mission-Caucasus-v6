@@ -743,7 +743,7 @@
    "category": "static",
    "combat_zone": {
     "friendly_name": "Mountain hike - équipage abattu",
-    "radio_group_name": "Entraînement hélicoptères",
+    "radio_group_name": "Entraînement recherche",
     "training": true,
     "briefing": "Un Mi-8 ami s'est écrasé en montagne, 45 nm au nord-est de Soukhoumi, près de la frontière russe. Décollez du FARP Kodori, suivez la vallée vers le nord-est et localisez l'épave. Balises FM sur l'itinéraire : MH01 31.0, MH02 32.0, MH03 33.0 ; l'équipage émet un SOS sur 34.0 FM. BULLSEYE 250/21.",
     "completable": false

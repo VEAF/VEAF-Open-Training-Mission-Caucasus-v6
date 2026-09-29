@@ -116,7 +116,7 @@ CRASH = (-167998, 629239)
 zone("combatZone_MountainHike", (-172591, 634578), 36576,
      [{"name": "epave", "units": [{"type": "Mi-8MT", "name": "combatZone_MountainHike-epave"}],
        "position": xy(CRASH), "keep_position": True}],
-     "static", "Mountain hike - équipage abattu", "Entraînement hélicoptères",
+     "static", "Mountain hike - équipage abattu", "Entraînement recherche",
      "Un Mi-8 ami s'est écrasé en montagne, 45 nm au nord-est de Soukhoumi, près de la frontière russe. "
      "Décollez du FARP Kodori, suivez la vallée vers le nord-est et localisez l'épave. Balises FM sur "
      "l'itinéraire : MH01 31.0, MH02 32.0, MH03 33.0 ; l'équipage émet un SOS sur 34.0 FM. "

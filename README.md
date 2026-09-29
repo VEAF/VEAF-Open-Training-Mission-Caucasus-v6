@@ -120,7 +120,7 @@ Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau
 - **Taman - SEAD - moyen** — `N45°14.770' E037°00.467'` — Péninsule de Taman, le SA-6 du niveau facile protégé par une défense courte portée (SA-15, SA-8, Shilka). BULLSEYE 291/261. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 243 nm.
 - **Taman - SEAD - difficile** — `N45°14.770' E037°00.467'` — Péninsule de Taman, réseau intégré complet sous Skynet : SA-10 longue portée, SA-11, le SA-6 et la courte portée des niveaux inférieurs, et un radar d'alerte 55G6. BULLSEYE 291/261. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 243 nm.
 
-### Entraînement hélicoptères
+### Entraînement recherche
 
 - **Mountain hike - équipage abattu** — `N43°13.448' E042°02.223'` — Un Mi-8 ami s'est écrasé en montagne, 45 nm au nord-est de Soukhoumi, près de la frontière russe. Décollez du FARP Kodori, suivez la vallée vers le nord-est et localisez l'épave. Balises FM sur l'itinéraire : MH01 31.0, MH02 32.0, MH03 33.0 ; l'équipage émet un SOS sur 34.0 FM. BULLSEYE 250/21.
 

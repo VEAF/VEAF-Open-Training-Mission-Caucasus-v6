@@ -163,7 +163,7 @@ if veafCombatZone then
         VeafCombatZone:new()
         :setMissionEditorZoneName("combatZone_MountainHike")
         :setFriendlyName("Mountain hike - équipage abattu")
-        :setRadioGroupName("Entraînement hélicoptères")
+        :setRadioGroupName("Entraînement recherche")
         :setBriefing([[Un Mi-8 ami s'est écrasé en montagne, 45 nm au nord-est de Soukhoumi, près de la frontière russe. Décollez du FARP Kodori, suivez la vallée vers le nord-est et localisez l'épave. Balises FM sur l'itinéraire : MH01 31.0, MH02 32.0, MH03 33.0 ; l'équipage émet un SOS sur 34.0 FM. BULLSEYE 250/21.]])
         :setCompletable(false)
         :setTraining(true)
