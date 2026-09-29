@@ -310,4 +310,6 @@ python tools\gen_readme.py  # ce fichier
 
 ### Limites connues
 
+**Scripts VEAF pris sur `develop`, pas sur une release** (état du 29/09/2026). Les `.miz` livrés embarquent `veaf-scripts.lua` construit depuis VMCT `develop` (`dd60e7a5`, 6.25.0.4), parce que deux correctifs intéressent directement cette mission et ne sont pas encore publiés : le panneau d’info d’une zone de combat compte enfin les cibles **statiques** (il annonçait « aucun ennemi » sur Kobuleti et Akhalkalaki niveau facile), et les véhicules qui apparaissent démarrent moteur chaud, donc désignables au pod dès la première seconde. `published/veaf-version.json` affiche toujours 6.25.0.1 pour que l’updater rapatrie la prochaine release : **quand elle sortira, relancer `veaf-tools-updater.exe`, reconstruire, et supprimer ce paragraphe.**
+
 Plusieurs éléments n'ont pas d'action MCP dédiée et ont été écrits par script directement dans la table de la mission : leurres et indicatifs des slots de l'arène, tâches ATC et slots de pont du porte-avions, entrepôt du navire, balises radio de la zone de sauvetage, balises de tirage (`#spawngroup`, `#spawncount`) des zones de combat. Ils se relisent dans `src/mission/mission` comme le reste. Le détail est dans `tools/retours-vmct.md`.
