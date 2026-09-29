@@ -1,0 +1,1841 @@
+[
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène - F-14B - FOX1 - bleu",
+   "unit_type": "F-14B",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -116500,
+    "y": -225000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 280.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    },
+    "2": {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    "3": {
+     "CLSID": "{F14-300gal}"
+    },
+    "4": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "5": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "6": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "7": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "8": {
+     "CLSID": "{F14-300gal}"
+    },
+    "9": {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    "10": {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène - F-14B - FOX3 - bleu",
+   "unit_type": "F-14B",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -116500,
+    "y": -227500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 280.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    },
+    "2": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "3": {
+     "CLSID": "{F14-300gal}"
+    },
+    "4": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "5": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "6": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "7": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "8": {
+     "CLSID": "{F14-300gal}"
+    },
+    "9": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "10": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène - F-16C - FOX1 - bleu",
+   "unit_type": "F-16C_50",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -116500,
+    "y": -230000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 280.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "2": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "3": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "4": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "5": {
+     "CLSID": "{8A0BE8AE-58D4-4572-9263-3144C0D06364}"
+    },
+    "6": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "7": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "8": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "9": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "11": {
+     "CLSID": "{A111396E-D3E8-4b9c-8AC9-2432489304D5}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène - F-16C - FOX3 - bleu",
+   "unit_type": "F-16C_50",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -116500,
+    "y": -232500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 280.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "2": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "3": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "4": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "5": {
+     "CLSID": "{8A0BE8AE-58D4-4572-9263-3144C0D06364}"
+    },
+    "6": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "7": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{A111396E-D3E8-4b9c-8AC9-2432489304D5}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène - FA-18C - FOX1 - bleu",
+   "unit_type": "FA-18C_hornet",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -116500,
+    "y": -235000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 280.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    },
+    "2": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "3": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "4": {
+     "CLSID": "{AAQ-28_LEFT}"
+    },
+    "5": {
+     "CLSID": "{FPU_8A_FUEL_TANK}"
+    },
+    "6": {
+     "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+    },
+    "7": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "8": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "9": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène - FA-18C - FOX3 - bleu",
+   "unit_type": "FA-18C_hornet",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -116500,
+    "y": -237500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 280.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "2": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "3": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "4": {
+     "CLSID": "{AAQ-28_LEFT}"
+    },
+    "5": {
+     "CLSID": "{FPU_8A_FUEL_TANK}"
+    },
+    "6": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "8": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "9": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arène - M-2000C - FOX1 - bleu",
+   "unit_type": "M-2000C",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -116500,
+    "y": -240000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 0,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 280.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{MMagicII}"
+    },
+    "2": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "8": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "9": {
+     "CLSID": "{MMagicII}"
+    },
+    "10": {
+     "CLSID": "{Eclair}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - F-14B - FOX1 - rouge",
+   "unit_type": "F-14B",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -225000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    },
+    "2": {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    "3": {
+     "CLSID": "{F14-300gal}"
+    },
+    "4": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "5": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "6": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "7": {
+     "CLSID": "{BELLY AIM-7M}"
+    },
+    "8": {
+     "CLSID": "{F14-300gal}"
+    },
+    "9": {
+     "CLSID": "{LAU-7 - AIM-9L}"
+    },
+    "10": {
+     "CLSID": "{LAU-138 wtip - AIM-9L}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - F-14B - FOX3 - rouge",
+   "unit_type": "F-14B",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -227500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    },
+    "2": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "3": {
+     "CLSID": "{F14-300gal}"
+    },
+    "4": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "5": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "6": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "7": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "8": {
+     "CLSID": "{F14-300gal}"
+    },
+    "9": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "10": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - F-16C - FOX1 - rouge",
+   "unit_type": "F-16C_50",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -230000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "2": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "3": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "4": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "5": {
+     "CLSID": "{8A0BE8AE-58D4-4572-9263-3144C0D06364}"
+    },
+    "6": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "7": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "8": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "9": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "11": {
+     "CLSID": "{A111396E-D3E8-4b9c-8AC9-2432489304D5}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - F-16C - FOX3 - rouge",
+   "unit_type": "F-16C_50",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -232500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "2": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "3": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "4": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "5": {
+     "CLSID": "{8A0BE8AE-58D4-4572-9263-3144C0D06364}"
+    },
+    "6": {
+     "CLSID": "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}"
+    },
+    "7": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{A111396E-D3E8-4b9c-8AC9-2432489304D5}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - FA-18C - FOX1 - rouge",
+   "unit_type": "FA-18C_hornet",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -235000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    },
+    "2": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "3": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "4": {
+     "CLSID": "{AAQ-28_LEFT}"
+    },
+    "5": {
+     "CLSID": "{FPU_8A_FUEL_TANK}"
+    },
+    "6": {
+     "CLSID": "{8D399DDA-FF81-4F14-904D-099B34FE7918}"
+    },
+    "7": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "8": {
+     "CLSID": "{LAU-115 - AIM-7M}"
+    },
+    "9": {
+     "CLSID": "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - FA-18C - FOX3 - rouge",
+   "unit_type": "FA-18C_hornet",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -237500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "2": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "3": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "4": {
+     "CLSID": "{AAQ-28_LEFT}"
+    },
+    "5": {
+     "CLSID": "{FPU_8A_FUEL_TANK}"
+    },
+    "6": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "8": {
+     "CLSID": "LAU-115_2*LAU-127_AIM-120C"
+    },
+    "9": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - J-11A - FOX1 - rouge",
+   "unit_type": "J-11A",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -240000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{RKL609_L}"
+    },
+    "2": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "5": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "6": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "8": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "9": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "10": {
+     "CLSID": "{RKL609_R}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - J-11A - FOX3 - rouge",
+   "unit_type": "J-11A",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -242500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{RKL609_L}"
+    },
+    "2": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "5": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "6": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "8": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "9": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "10": {
+     "CLSID": "{RKL609_R}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - JF-17 - FOX3 - rouge",
+   "unit_type": "JF-17",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -245000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "DIS_PL-5EII"
+    },
+    "2": {
+     "CLSID": "DIS_SD-10_DUAL_L"
+    },
+    "3": {
+     "CLSID": "DIS_TANK1100"
+    },
+    "5": {
+     "CLSID": "DIS_TANK1100"
+    },
+    "6": {
+     "CLSID": "DIS_SD-10_DUAL_R"
+    },
+    "7": {
+     "CLSID": "DIS_PL-5EII"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - M-2000C - FOX1 - rouge",
+   "unit_type": "M-2000C",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -247500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{MMagicII}"
+    },
+    "2": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "8": {
+     "CLSID": "{Matra_S530D}"
+    },
+    "9": {
+     "CLSID": "{MMagicII}"
+    },
+    "10": {
+     "CLSID": "{Eclair}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - MiG-21Bis - FOX1 - rouge",
+   "unit_type": "MiG-21Bis",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -250000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{R-60 2L}"
+    },
+    "2": {
+     "CLSID": "{R-3R}"
+    },
+    "3": {
+     "CLSID": "{PTB_490C_MIG21}"
+    },
+    "4": {
+     "CLSID": "{R-3R}"
+    },
+    "5": {
+     "CLSID": "{R-60 2R}"
+    },
+    "6": {
+     "CLSID": "{ASO-2}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - MiG-29A - FOX1 - rouge",
+   "unit_type": "MiG-29A",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -252500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "4": {
+     "CLSID": "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}"
+    },
+    "5": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "7": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - MiG-29S - FOX3 - rouge",
+   "unit_type": "MiG-29S",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -255000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "2": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "3": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "4": {
+     "CLSID": "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}"
+    },
+    "5": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "6": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "7": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - Mirage-F1EE - FOX1 - rouge",
+   "unit_type": "Mirage-F1EE",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -257500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}"
+    },
+    "3": {
+     "CLSID": "{R530F_EM}"
+    },
+    "4": {
+     "CLSID": "PTB-1200-F1"
+    },
+    "5": {
+     "CLSID": "{R530F_EM}"
+    },
+    "6": {
+     "CLSID": "BARAX_ECM"
+    },
+    "7": {
+     "CLSID": "{FC23864E-3B80-48E3-9C03-4DA8B1D7497B}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - Su-27 - FOX1 - rouge",
+   "unit_type": "Su-27",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -260000
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}"
+    },
+    "2": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "4": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "5": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "6": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "7": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "8": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "9": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "10": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Arène - Su-33 - FOX1 - rouge",
+   "unit_type": "Su-33",
+   "count": 4,
+   "start": "air",
+   "position": {
+    "x": -6000,
+    "y": -262500
+   },
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "heading_deg": 180,
+   "skill": "Client",
+   "task": "CAP",
+   "frequency_mhz": 281.0,
+   "pylons": {
+    "1": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "2": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "4": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "5": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "6": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "7": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "8": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "9": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "10": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "11": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "12": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Darkstar 1",
+   "unit_type": "E-3A",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -218277,
+    "y": -303225
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360,
+   "frequency_mhz": 280.0,
+   "task": "AWACS",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Darkstar 1",
+   "operation": "add",
+   "position": {
+    "x": -218277.0,
+    "y": -247665.0
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Darkstar 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Darkstar 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "awacs",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Darkstar 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "eplrs",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Darkstar 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 30000,
+    "speed_kt": 360
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "AWACS Arène Rouge",
+   "unit_type": "A-50",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": 83880,
+    "y": -181919
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360,
+   "frequency_mhz": 281.0,
+   "task": "AWACS",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Arène Rouge",
+   "operation": "add",
+   "position": {
+    "x": 83880.0,
+    "y": -126359.0
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Arène Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Arène Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "awacs",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Arène Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "eplrs",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Arène Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 30000,
+    "speed_kt": 360
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "ship",
+   "name": "Sanctuaire bleu-01",
+   "position": {
+    "x": -159436,
+    "y": 455547
+   },
+   "units": [
+    {
+     "type": "speedboat",
+     "name": "Sanctuaire bleu-01"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "ship",
+   "name": "Sanctuaire bleu-02",
+   "position": {
+    "x": -185871,
+    "y": 431769
+   },
+   "units": [
+    {
+     "type": "speedboat",
+     "name": "Sanctuaire bleu-02"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "ship",
+   "name": "Sanctuaire bleu-03",
+   "position": {
+    "x": -272309,
+    "y": 397430
+   },
+   "units": [
+    {
+     "type": "speedboat",
+     "name": "Sanctuaire bleu-03"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "ship",
+   "name": "Sanctuaire bleu-04",
+   "position": {
+    "x": -377828,
+    "y": 370703
+   },
+   "units": [
+    {
+     "type": "speedboat",
+     "name": "Sanctuaire bleu-04"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "ship",
+   "name": "Sanctuaire bleu-05",
+   "position": {
+    "x": -425874,
+    "y": 406991
+   },
+   "units": [
+    {
+     "type": "speedboat",
+     "name": "Sanctuaire bleu-05"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-06",
+   "position": {
+    "x": -417210,
+    "y": 559062
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-06"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-07",
+   "position": {
+    "x": -396147,
+    "y": 784591
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-07"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-08",
+   "position": {
+    "x": -366268,
+    "y": 923124
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-08"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-09",
+   "position": {
+    "x": -339406,
+    "y": 948476
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-09"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-10",
+   "position": {
+    "x": -299009,
+    "y": 932116
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-10"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-11",
+   "position": {
+    "x": -264103,
+    "y": 888195
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-11"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-12",
+   "position": {
+    "x": -238748,
+    "y": 844699
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-12"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-13",
+   "position": {
+    "x": -259665,
+    "y": 806300
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-13"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-14",
+   "position": {
+    "x": -267447,
+    "y": 757293
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-14"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-15",
+   "position": {
+    "x": -272074,
+    "y": 710180
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-15"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-16",
+   "position": {
+    "x": -267237,
+    "y": 692512
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-16"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-17",
+   "position": {
+    "x": -242628,
+    "y": 659280
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-17"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-18",
+   "position": {
+    "x": -232009,
+    "y": 623870
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-18"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-19",
+   "position": {
+    "x": -206250,
+    "y": 570189
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-19"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-20",
+   "position": {
+    "x": -183637,
+    "y": 517491
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-20"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-21",
+   "position": {
+    "x": -160058,
+    "y": 474790
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-21"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Sanctuaire bleu-22",
+   "position": {
+    "x": -158077,
+    "y": 459163
+   },
+   "units": [
+    {
+     "type": "Predator TrojanSpirit",
+     "name": "Sanctuaire bleu-22"
+    }
+   ],
+   "late_activation": true,
+   "keep_position": true
+  }
+ }
+]

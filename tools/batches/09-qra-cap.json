@@ -1,0 +1,977 @@
+[
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "QRA MinVody",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "trigger_zone": "QRA-MinVody",
+   "position": {
+    "x": -52089.51305304468,
+    "y": 707418.2369877042
+   },
+   "radius": 74080,
+   "groups": [
+    {
+     "name": "QRA MinVody - Su-30",
+     "units": [
+      {
+       "type": "Su-30",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -52089.51305304468,
+      "y": 707418.2369877042
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}"
+      },
+      "2": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      },
+      "3": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "4": {
+       "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+      },
+      "5": {
+       "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+      },
+      "6": {
+       "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+      },
+      "7": {
+       "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+      },
+      "8": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "9": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      },
+      "10": {
+       "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}"
+      }
+     }
+    },
+    {
+     "name": "QRA MinVody - Su-27",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -52089.51305304468,
+      "y": 707418.2369877042
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}"
+      },
+      "2": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      },
+      "3": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "5": {
+       "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+      },
+      "6": {
+       "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+      },
+      "8": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "9": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      },
+      "10": {
+       "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}"
+      }
+     }
+    },
+    {
+     "name": "QRA MinVody - MiG-31",
+     "units": [
+      {
+       "type": "MiG-31",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -52089.51305304468,
+      "y": 707418.2369877042
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
+      },
+      "2": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "3": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "4": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "5": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "6": {
+       "CLSID": "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
+      }
+     }
+    }
+   ],
+   "enemy_coalitions": [
+    "BLUE"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA MinVody - Su-27",
+       "QRA MinVody - Su-30"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA MinVody - Su-27",
+       "QRA MinVody - Su-30",
+       "QRA MinVody - MiG-31"
+      ],
+      "random_pick": 2
+     }
+    ],
+    "airport_link": "Mineralnye Vody",
+    "delay_before_rearming": 600,
+    "delay_before_activating": 60,
+    "react_on_helicopters": false
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "QRA Krasnodar",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "trigger_zone": "QRA-Krasnodar",
+   "position": {
+    "x": 8706.860211336985,
+    "y": 388985.72789460997
+   },
+   "radius": 101860,
+   "groups": [
+    {
+     "name": "QRA Krasnodar - MiG-29S",
+     "units": [
+      {
+       "type": "MiG-29S",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": 8706.860211336985,
+      "y": 388985.72789460997
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      },
+      "2": {
+       "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+      },
+      "3": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "4": {
+       "CLSID": "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}"
+      },
+      "5": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "6": {
+       "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+      },
+      "7": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      }
+     }
+    },
+    {
+     "name": "QRA Krasnodar - Su-27",
+     "units": [
+      {
+       "type": "Su-27",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": 8706.860211336985,
+      "y": 388985.72789460997
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}"
+      },
+      "2": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      },
+      "3": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "5": {
+       "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+      },
+      "6": {
+       "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+      },
+      "8": {
+       "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+      },
+      "9": {
+       "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+      },
+      "10": {
+       "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}"
+      }
+     }
+    },
+    {
+     "name": "QRA Krasnodar - MiG-31",
+     "units": [
+      {
+       "type": "MiG-31",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": 8706.860211336985,
+      "y": 388985.72789460997
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
+      },
+      "2": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "3": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "4": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "5": {
+       "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+      },
+      "6": {
+       "CLSID": "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
+      }
+     }
+    }
+   ],
+   "enemy_coalitions": [
+    "BLUE"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA Krasnodar - MiG-29S",
+       "QRA Krasnodar - Su-27"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA Krasnodar - MiG-29S",
+       "QRA Krasnodar - Su-27",
+       "QRA Krasnodar - MiG-31"
+      ],
+      "random_pick": 2
+     }
+    ],
+    "airport_link": "Krasnodar-Pashkovsky",
+    "delay_before_rearming": 600,
+    "delay_before_activating": 60,
+    "react_on_helicopters": false
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "QRA Kutaisi",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "trigger_zone": "QRA-Kutaisi",
+   "position": {
+    "x": -284582.7997534191,
+    "y": 685029.7345754248
+   },
+   "radius": 105564,
+   "groups": [
+    {
+     "name": "QRA Kutaisi - F-16C",
+     "units": [
+      {
+       "type": "F-16C_50",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -284582.7997534191,
+      "y": 685029.7345754248
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+      },
+      "2": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "3": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "5": {
+       "CLSID": "ALQ_184"
+      },
+      "7": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "8": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "9": {
+       "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+      }
+     }
+    },
+    {
+     "name": "QRA Kutaisi - F-15C",
+     "units": [
+      {
+       "type": "F-15C",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -284582.7997534191,
+      "y": 685029.7345754248
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+      },
+      "3": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "4": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "5": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "7": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "8": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "9": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "11": {
+       "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+      }
+     }
+    }
+   ],
+   "enemy_coalitions": [
+    "RED"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA Kutaisi - F-16C",
+       "QRA Kutaisi - F-15C"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA Kutaisi - F-16C",
+       "QRA Kutaisi - F-15C"
+      ],
+      "random_pick": 2
+     }
+    ],
+    "airport_link": "Kutaisi",
+    "delay_before_rearming": 600,
+    "delay_before_activating": 60,
+    "react_on_helicopters": false
+   }
+  }
+ },
+ {
+  "name": "create_qra",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "QRA Gudauta",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "trigger_zone": "QRA-Gudauta",
+   "position": {
+    "x": -195650.55042463169,
+    "y": 515898.7946859552
+   },
+   "radius": 74080,
+   "groups": [
+    {
+     "name": "QRA Gudauta - F-16C",
+     "units": [
+      {
+       "type": "F-16C_50",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -195650.55042463169,
+      "y": 515898.7946859552
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+      },
+      "2": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "3": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "5": {
+       "CLSID": "ALQ_184"
+      },
+      "7": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "8": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "9": {
+       "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+      }
+     }
+    },
+    {
+     "name": "QRA Gudauta - F-15C",
+     "units": [
+      {
+       "type": "F-15C",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -195650.55042463169,
+      "y": 515898.7946859552
+     },
+     "altitude_ft": 15000,
+     "speed_kt": 350,
+     "pylons": {
+      "1": {
+       "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+      },
+      "3": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "4": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "5": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "7": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "8": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "9": {
+       "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+      },
+      "11": {
+       "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+      }
+     }
+    }
+   ],
+   "enemy_coalitions": [
+    "RED"
+   ],
+   "qra": {
+    "groups_by_enemy_count": [
+     {
+      "enemy_count": 1,
+      "groups": [
+       "QRA Gudauta - F-16C",
+       "QRA Gudauta - F-15C"
+      ],
+      "random_pick": 1
+     },
+     {
+      "enemy_count": 3,
+      "groups": [
+       "QRA Gudauta - F-16C",
+       "QRA Gudauta - F-15C"
+      ],
+      "random_pick": 2
+     }
+    ],
+    "airport_link": "Gudauta",
+    "delay_before_rearming": 600,
+    "delay_before_activating": 60,
+    "react_on_helicopters": false
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "CAP Ouest - Tu-22M3 - FL300",
+   "units": [
+    {
+     "type": "Tu-22M3",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -302129,
+    "y": 177300
+   },
+   "route": [
+    {
+     "x": -302129.0,
+     "y": 251380.0,
+     "altitude_ft": 30000
+    }
+   ],
+   "altitude_ft": 30000,
+   "speed_kt": 420,
+   "cap": {
+    "menu_name": "CAP Ouest - Tu-22M3 - FL300",
+    "briefing": "Deux Tu-22M3 : bombardier à intercepter. Hippodrome au FL300 centré sur BULLSEYE 252/256.",
+    "default": false,
+    "activated": true
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "CAP Ouest - Tu-95 - FL200",
+   "units": [
+    {
+     "type": "Tu-95MS",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -301381,
+    "y": 177752
+   },
+   "route": [
+    {
+     "x": -301381.0,
+     "y": 251832.0,
+     "altitude_ft": 20000
+    }
+   ],
+   "altitude_ft": 20000,
+   "speed_kt": 380,
+   "cap": {
+    "menu_name": "CAP Ouest - Tu-95 - FL200",
+    "briefing": "Deux Tu-95 : bombardier lent à intercepter. Hippodrome au FL200 centré sur BULLSEYE 252/256.",
+    "default": false,
+    "activated": true
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "CAP Ouest - Su-27 - FL300",
+   "units": [
+    {
+     "type": "Su-27",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -300973,
+    "y": 177905
+   },
+   "route": [
+    {
+     "x": -300973.0,
+     "y": 251985.0,
+     "altitude_ft": 30000
+    }
+   ],
+   "altitude_ft": 30000,
+   "speed_kt": 420,
+   "cap": {
+    "menu_name": "CAP Ouest - Su-27 - FL300",
+    "briefing": "Paire de Su-27 armés Fox 1 (guidage radar semi-actif). Hippodrome au FL300 centré sur BULLSEYE 252/256.",
+    "default": false,
+    "activated": true
+   },
+   "pylons": {
+    "1": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}"
+    },
+    "2": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "5": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "6": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "8": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "9": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "10": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}"
+    }
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "CAP Ouest - MiG-29S - FL300",
+   "units": [
+    {
+     "type": "MiG-29S",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -300415,
+    "y": 178155
+   },
+   "route": [
+    {
+     "x": -300415.0,
+     "y": 252235.0,
+     "altitude_ft": 30000
+    }
+   ],
+   "altitude_ft": 30000,
+   "speed_kt": 420,
+   "cap": {
+    "menu_name": "CAP Ouest - MiG-29S - FL300",
+    "briefing": "Paire de MiG-29S armés Fox 3. Hippodrome au FL300 centré sur BULLSEYE 252/256.",
+    "default": false,
+    "activated": true
+   },
+   "pylons": {
+    "1": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "2": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "3": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "4": {
+     "CLSID": "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}"
+    },
+    "5": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "6": {
+     "CLSID": "{B4C01D60-A8A3-4237-BD72-CA7655BC0FE9}"
+    },
+    "7": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    }
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "CAP Ouest - MiG-31 - FL300",
+   "units": [
+    {
+     "type": "MiG-31",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -299710,
+    "y": 178366
+   },
+   "route": [
+    {
+     "x": -299710.0,
+     "y": 252446.0,
+     "altitude_ft": 30000
+    }
+   ],
+   "altitude_ft": 30000,
+   "speed_kt": 480,
+   "cap": {
+    "menu_name": "CAP Ouest - MiG-31 - FL300",
+    "briefing": "Paire de MiG-31 : intercepteur haut et rapide, Fox 3 longue portée. Hippodrome au FL300 centré sur BULLSEYE 252/255.",
+    "default": false,
+    "activated": true
+   },
+   "pylons": {
+    "1": {
+     "CLSID": "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}"
+    },
+    "2": {
+     "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+    },
+    "3": {
+     "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+    },
+    "4": {
+     "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+    },
+    "5": {
+     "CLSID": "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}"
+    },
+    "6": {
+     "CLSID": "{275A2855-4A79-4B2D-B082-91EA2ADF4691}"
+    }
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "Khashuri - L-39C - FL100",
+   "units": [
+    {
+     "type": "L-39C",
+     "count": 2
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "position": {
+    "x": -390413,
+    "y": 713312
+   },
+   "route": [
+    {
+     "x": -316333.0,
+     "y": 713312.0,
+     "altitude_ft": 10000
+    }
+   ],
+   "altitude_ft": 10000,
+   "speed_kt": 250,
+   "cap": {
+    "menu_name": "Khashuri - L-39C - FL100",
+    "briefing": "Paire de L-39C lents cap au nord, vers Khashuri : cible d'interception facile. Hippodrome au FL100 centré sur BULLSEYE 166/110.",
+    "default": false,
+    "activated": true
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "CAP F-16C - Gudauta - FL250",
+   "units": [
+    {
+     "type": "F-16C_50",
+     "count": 2
+    }
+   ],
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "position": {
+    "x": -185000,
+    "y": 540000
+   },
+   "route": [
+    {
+     "x": -185000.0,
+     "y": 614080.0,
+     "altitude_ft": 25000
+    }
+   ],
+   "altitude_ft": 25000,
+   "speed_kt": 420,
+   "cap": {
+    "menu_name": "CAP F-16C - Gudauta - FL250",
+    "briefing": "Paire de F-16C armés Fox 3 : opposition pour les joueurs rouges. Hippodrome au FL250 centré sur BULLSEYE 251/51.",
+    "default": false,
+    "activated": true
+   },
+   "pylons": {
+    "1": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    },
+    "2": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "ALQ_184"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}"
+    }
+   }
+  }
+ },
+ {
+  "name": "create_cap_mission",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_name": "CAP F-15C - Beslan - FL300",
+   "units": [
+    {
+     "type": "F-15C",
+     "count": 2
+    }
+   ],
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "position": {
+    "x": -175000,
+    "y": 790000
+   },
+   "route": [
+    {
+     "x": -175000.0,
+     "y": 864080.0,
+     "altitude_ft": 30000
+    }
+   ],
+   "altitude_ft": 30000,
+   "speed_kt": 420,
+   "cap": {
+    "menu_name": "CAP F-15C - Beslan - FL300",
+    "briefing": "Paire de F-15C armés Fox 3 : opposition pour les joueurs rouges. Hippodrome au FL300 centré sur BULLSEYE 097/88.",
+    "default": false,
+    "activated": true
+   },
+   "pylons": {
+    "1": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    }
+   }
+  }
+ }
+]

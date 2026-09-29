@@ -1,0 +1,323 @@
+# Plan radio de la mission VEAF Open Training Caucasus (moderne).
+# L'ATC DCS est coupé (silence_atc_on_all_airbases) : les fréquences de base sont des fréquences de
+# trafic propres à la mission. Même fréquence partout : groupe DCS, preset, texte ASSETS, briefing.
+# Généré par tools/gen_12_radio_meteo.py.
+channel_lists:
+  blue:
+    primary_1: # première radio V/UHF (20 canaux au plus)
+      01: { title: Guard/UHF, channel: Guard }
+      02: Magic-1
+      03: Overlord-1
+      04: Arco-1
+      05: Texaco-1
+      06: Shell-1
+      07: Shell-2
+      08: Stennis
+      09: Tarawa
+      10: Darkstar-1
+      11: Base-Sochi
+      12: Base-Gudauta
+      13: Base-Batumi
+      14: Base-Kobuleti
+      15: Base-Kutaisi
+      16: Base-Nalchik
+      17: Base-Tbilisi
+      18: Base-Vaziani
+      19: Base-Beslan
+      20: Archer
+    primary_2: # deuxième radio V/UHF (VHF) ; seule radio des warbirds
+      01: { title: Guard/VHF, channel: Guard }
+      02: Base-Sochi
+      03: Base-Gudauta
+      04: Base-Batumi
+      05: Base-Kobuleti
+      06: Base-Kutaisi
+      07: Base-Nalchik
+      08: Base-Tbilisi
+      09: Base-Vaziani
+      10: Base-Beslan
+      11: Reaper-1
+      12: Reaper-2
+      13: Archer
+      14: Arctic
+      15: Ninja
+      16: Pinder
+      17: Bengal
+      18: Blade
+    fm_supplement: # FM en plus de deux radios V/UHF (A-10C, hélicoptères) ; 31-34 = balises du Mountain hike
+      01: 30
+      02: 31
+      03: 32
+      04: 33
+      05: 34
+      06: 35
+      07: 36
+      08: 37
+      09: 38
+      10: 39
+      11: 40
+      12: 41
+      13: 42
+      14: 43
+      15: 44
+      16: 45
+      17: 46
+      18: 47
+      19: 48
+      20: 49
+      21: 50
+      22: 51
+      23: 52
+      24: 53
+      25: 54
+      26: 55
+      27: 56
+      28: 57
+      29: 58
+      30: 59
+  red:
+    primary_1: # première radio V/UHF
+      01: { title: Guard/UHF, channel: Guard }
+      02: AWACS-Rouge
+      03: Tanker-Rouge
+      04: AWACS-Arene-Rouge
+      05: Base-Maykop
+      06: Base-Krasnodar
+      07: Base-MinVody
+      08: Base-Mozdok
+      09: Rouge-1
+      10: Rouge-2
+      11: Rouge-3
+      12: Rouge-4
+    primary_2: # deuxième radio V/UHF (VHF)
+      01: { title: Guard/VHF, channel: Guard }
+      02: Base-Maykop
+      03: Base-Krasnodar
+      04: Base-MinVody
+      05: Base-Mozdok
+      06: Rouge-1
+      07: Rouge-2
+      08: Rouge-3
+      09: Rouge-4
+    fm_supplement: # FM en plus de deux radios V/UHF (A-10C, hélicoptères) ; 31-34 = balises du Mountain hike
+      01: 30
+      02: 31
+      03: 32
+      04: 33
+      05: 34
+      06: 35
+      07: 36
+      08: 37
+      09: 38
+      10: 39
+      11: 40
+      12: 41
+      13: 42
+      14: 43
+      15: 44
+      16: 45
+      17: 46
+      18: 47
+      19: 48
+      20: 49
+      21: 50
+      22: 51
+      23: 52
+      24: 53
+      25: 54
+      26: 55
+      27: 56
+      28: 57
+      29: 58
+      30: 59
+
+presets_assignments: # surcharge manuelle : une affectation explicite l'emporte sur channel_lists
+  blue:
+    helicopter:
+      Mi-8MT: none # pas d'injection : on garde les radios du groupe source
+      CH-47Fbl1: modern_blue_fm_uhf # garde la disposition FM/UHF à deux radios du CH-47
+
+radios_collection: # définitions de radios (format historique, utilisé par presets_assignments)
+  blue_radios:
+    radio_uhf_30:
+      title: UHF
+      type: uhf
+      channels:
+        01: { title: Guard/UHF, channel: Guard }
+        02: Magic-1
+        03: Overlord-1
+        04: Arco-1
+        05: Texaco-1
+        06: Shell-1
+        07: Shell-2
+        08: Stennis
+        09: Base-Sochi
+        10: Base-Gudauta
+        11: Base-Batumi
+        12: Base-Kobuleti
+        13: Base-Kutaisi
+        14: Base-Nalchik
+        15: Base-Tbilisi
+        16: Base-Vaziani
+        17: Base-Beslan
+    radio_fm_30:
+      title: FM
+      type: fm
+      channels:
+        01: 30
+        02: 31
+        03: 32
+        04: 33
+        05: 34
+        06: 35
+        07: 36
+        08: 37
+        09: 38
+        10: 39
+        11: 40
+        12: 41
+        13: 42
+        14: 43
+        15: 44
+        16: 45
+        17: 46
+        18: 47
+        19: 48
+        20: 49
+        21: 50
+        22: 51
+        23: 52
+        24: 53
+        25: 54
+        26: 55
+        27: 56
+        28: 57
+        29: 58
+        30: 59
+
+presets_collection:
+  blue_presets:
+    modern_blue_fm_uhf:
+      title: Blue coalition - FM/UHF (CH-47)
+      radios:
+        radio_1: radio_fm_30
+        radio_2: radio_uhf_30
+
+channels_collection: # toutes les fréquences de la mission
+  tactical:
+    Guard:
+      title: Guard
+      freqs: { uhf: 243, vhf: 121.5 }
+    Magic-1:
+      title: Magic 1 (AWACS)
+      freqs: { uhf: 265.0 }
+    Overlord-1:
+      title: Overlord 1 (AWACS)
+      freqs: { uhf: 266.0 }
+    Arco-1:
+      title: Arco 1 / perche / 51Y
+      freqs: { uhf: 251.0 }
+    Texaco-1:
+      title: Texaco 1 / panier / 52Y
+      freqs: { uhf: 252.0 }
+    Shell-1:
+      title: Shell 1 / panier / 53Y
+      freqs: { uhf: 253.0 }
+    Shell-2:
+      title: Shell 2 / perche / 54Y
+      freqs: { uhf: 254.0 }
+    Stennis:
+      title: CVN-74 Stennis / 10X
+      freqs: { uhf: 225.0 }
+    Tarawa:
+      title: LHA-1 Tarawa / 11X
+      freqs: { uhf: 226.0 }
+    Darkstar-1:
+      title: Darkstar 1 (AWACS arene)
+      freqs: { uhf: 280.0 }
+    AWACS-Rouge:
+      title: AWACS Rouge (A-50)
+      freqs: { uhf: 260.0 }
+    Tanker-Rouge:
+      title: Tanker Rouge (Il-78M)
+      freqs: { uhf: 261.0 }
+    AWACS-Arene-Rouge:
+      title: AWACS Arene Rouge (A-50)
+      freqs: { uhf: 281.0 }
+    Reaper-1:
+      title: Reaper 1 (drone laser 1688)
+      freqs: { vhf: 118.8 }
+    Reaper-2:
+      title: Reaper 2 (drone laser 1687)
+      freqs: { vhf: 118.9 }
+  bases:
+    Base-Sochi:
+      title: Sochi
+      freqs: { uhf: 270.1, vhf: 130.1 }
+    Base-Gudauta:
+      title: Gudauta
+      freqs: { uhf: 270.2, vhf: 130.2 }
+    Base-Batumi:
+      title: Batumi
+      freqs: { uhf: 270.3, vhf: 130.3 }
+    Base-Kobuleti:
+      title: Kobuleti
+      freqs: { uhf: 270.4, vhf: 130.4 }
+    Base-Kutaisi:
+      title: Kutaisi
+      freqs: { uhf: 270.5, vhf: 130.5 }
+    Base-Nalchik:
+      title: Nalchik
+      freqs: { uhf: 270.6, vhf: 130.6 }
+    Base-Tbilisi:
+      title: Tbilisi
+      freqs: { uhf: 270.7, vhf: 130.7 }
+    Base-Vaziani:
+      title: Vaziani
+      freqs: { uhf: 270.8, vhf: 130.8 }
+    Base-Beslan:
+      title: Beslan
+      freqs: { uhf: 270.9, vhf: 130.9 }
+    Base-Maykop:
+      title: Maykop
+      freqs: { uhf: 275.1, vhf: 131.1 }
+    Base-Krasnodar:
+      title: Krasnodar
+      freqs: { uhf: 275.2, vhf: 131.2 }
+    Base-MinVody:
+      title: MinVody
+      freqs: { uhf: 275.3, vhf: 131.3 }
+    Base-Mozdok:
+      title: Mozdok
+      freqs: { uhf: 275.4, vhf: 131.4 }
+  flights:
+    Archer:
+      title: Archer
+      freqs: { vhf: 120.0, uhf: 360.0 }
+    Arctic:
+      title: Arctic
+      freqs: { vhf: 120.1, uhf: 360.1 }
+    Ninja:
+      title: Ninja
+      freqs: { vhf: 120.2, uhf: 360.2 }
+    Pinder:
+      title: Pinder
+      freqs: { vhf: 120.3, uhf: 360.3 }
+    Bengal:
+      title: Bengal
+      freqs: { vhf: 120.4, uhf: 360.4 }
+    Blade:
+      title: Blade
+      freqs: { vhf: 120.5, uhf: 360.5 }
+    Rouge-1:
+      title: Rouge-1
+      freqs: { vhf: 124.0, uhf: 380.0 }
+    Rouge-2:
+      title: Rouge-2
+      freqs: { vhf: 124.1, uhf: 380.1 }
+    Rouge-3:
+      title: Rouge-3
+      freqs: { vhf: 124.2, uhf: 380.2 }
+    Rouge-4:
+      title: Rouge-4
+      freqs: { vhf: 124.3, uhf: 380.3 }

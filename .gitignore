@@ -1,0 +1,26 @@
+# VEAF Mission Creation Tools — generated/downloaded files (never commit these)
+
+# Executables (downloaded by the updater / le serveur de mission)
+/veaf*.exe
+/dcs-client.exe
+/dcs-serve.exe
+
+# Published VEAF scripts (downloaded by the build pipeline)
+/published/
+
+# Build output — generated .miz files and weather variants
+# (the mission is built from src/; force-add a base .miz with `git add -f` if you commit one)
+*.miz
+/missions/
+*.miz.bak
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Sauvegardes des actions MCP et copies de travail (hors dépôt, comme sur GermanyCW-v6)
+.veaf-backups/
+
+# Python
+__pycache__/
+*.pyc

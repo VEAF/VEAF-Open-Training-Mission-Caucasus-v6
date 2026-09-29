@@ -1,0 +1,238 @@
+[
+ {
+  "name": "add_sound",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "sound_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus/backup_v5/src/mission/l10n/DEFAULT/MH01.ogg"
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Balise MH01",
+   "position": {
+    "x": -191120,
+    "y": 605261
+   },
+   "units": [
+    {
+     "type": "Hummer",
+     "name": "Balise MH01"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise MH01",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_frequency",
+   "task_params": {
+    "frequency_mhz": 31.0,
+    "modulation": "FM"
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise MH01",
+   "operation": "add_task",
+   "index": 1,
+   "task": "transmit_message",
+   "task_params": {
+    "sound": "MH01.ogg",
+    "loop": true,
+    "duration_s": 5,
+    "subtitle": "MH01"
+   }
+  }
+ },
+ {
+  "name": "add_sound",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "sound_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus/backup_v5/src/mission/l10n/DEFAULT/MH02.ogg"
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Balise MH02",
+   "position": {
+    "x": -185003,
+    "y": 622302
+   },
+   "units": [
+    {
+     "type": "Hummer",
+     "name": "Balise MH02"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise MH02",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_frequency",
+   "task_params": {
+    "frequency_mhz": 32.0,
+    "modulation": "FM"
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise MH02",
+   "operation": "add_task",
+   "index": 1,
+   "task": "transmit_message",
+   "task_params": {
+    "sound": "MH02.ogg",
+    "loop": true,
+    "duration_s": 5,
+    "subtitle": "MH02"
+   }
+  }
+ },
+ {
+  "name": "add_sound",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "sound_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus/backup_v5/src/mission/l10n/DEFAULT/MH03.ogg"
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Balise MH03",
+   "position": {
+    "x": -178350,
+    "y": 630677
+   },
+   "units": [
+    {
+     "type": "Hummer",
+     "name": "Balise MH03"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise MH03",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_frequency",
+   "task_params": {
+    "frequency_mhz": 33.0,
+    "modulation": "FM"
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise MH03",
+   "operation": "add_task",
+   "index": 1,
+   "task": "transmit_message",
+   "task_params": {
+    "sound": "MH03.ogg",
+    "loop": true,
+    "duration_s": 5,
+    "subtitle": "MH03"
+   }
+  }
+ },
+ {
+  "name": "add_sound",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "sound_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus/backup_v5/src/mission/l10n/DEFAULT/SOS.ogg"
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "Balise SOS",
+   "position": {
+    "x": -167987,
+    "y": 629362
+   },
+   "units": [
+    {
+     "type": "Hummer",
+     "name": "Balise SOS"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise SOS",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_frequency",
+   "task_params": {
+    "frequency_mhz": 34.0,
+    "modulation": "FM"
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Balise SOS",
+   "operation": "add_task",
+   "index": 1,
+   "task": "transmit_message",
+   "task_params": {
+    "sound": "SOS.ogg",
+    "loop": true,
+    "duration_s": 5,
+    "subtitle": "SOS - équipage du Mi-8"
+   }
+  }
+ }
+]

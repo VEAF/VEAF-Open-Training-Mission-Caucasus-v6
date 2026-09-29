@@ -1,0 +1,4233 @@
+{
+"combatZone_BattleOfBeslan-US-mainforce #001": {
+"side": "blue",
+"cat": "vehicle",
+"x": -120694,
+"y": 853690,
+"units": [
+[
+"M-1 Abrams",
+-120694,
+853690,
+"#command=\"_spawn armorgroup, size 7, armor 5, defense 0\" #spawnradius=500 #001"
+]
+],
+"route": [
+[
+-120694,
+853690,
+"EchelonL"
+],
+[
+-117734,
+853070,
+"EchelonL"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-afac": {
+"side": "blue",
+"cat": "vehicle",
+"x": -125534,
+"y": 847713,
+"units": [
+[
+"Hummer",
+-125534,
+847713,
+"#command=\"-afac, laser 1681\""
+]
+],
+"route": [
+[
+-125534,
+847713,
+"Off Road"
+]
+]
+},
+"combatZone_EasyPickingsTerek-USforces": {
+"side": "blue",
+"cat": "vehicle",
+"x": -119563,
+"y": 819992,
+"units": [
+[
+"M-1 Abrams",
+-119563,
+819992,
+"#command=\"_spawn armorgroup, country usa, side blue, size 15, hdg 0\" #001"
+]
+],
+"route": [
+[
+-119563,
+819992,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-mainforce #002": {
+"side": "blue",
+"cat": "vehicle",
+"x": -120394,
+"y": 848935,
+"units": [
+[
+"M-1 Abrams",
+-120394,
+848935,
+"#command=\"_spawn armorgroup, size 7, armor 5, defense 0\" #spawnradius=500 #002"
+]
+],
+"route": [
+[
+-120394,
+848935,
+"EchelonL"
+],
+[
+-117293,
+848928,
+"EchelonL"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-mainforce #003": {
+"side": "blue",
+"cat": "vehicle",
+"x": -119455,
+"y": 842813,
+"units": [
+[
+"M-1 Abrams",
+-119455,
+842813,
+"#command=\"_spawn armorgroup, size 7, armor 5, defense 0\" #spawnradius=500 #003"
+]
+],
+"route": [
+[
+-119455,
+842813,
+"EchelonL"
+],
+[
+-116784,
+842967,
+"EchelonL"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-staticairdefense #001": {
+"side": "blue",
+"cat": "vehicle",
+"x": -121017,
+"y": 850382,
+"units": [
+[
+"Roland ADS",
+-121017,
+850382,
+"#command=\"_spawn samgroup, size 1, defense 4\" #001"
+]
+],
+"route": [
+[
+-121017,
+850382,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-manpad #001": {
+"side": "blue",
+"cat": "vehicle",
+"x": -123734,
+"y": 853197,
+"units": [
+[
+"Soldier stinger",
+-123734,
+853197,
+"#spawnGroup=\"US-manpad\",#spawnCount=2,#spawnChance=25"
+],
+[
+"Soldier stinger",
+-123788,
+853091,
+"Unit #061"
+],
+[
+"Stinger comm",
+-123862,
+853882,
+"Unit #078"
+],
+[
+"Stinger comm",
+-123314,
+852869,
+"Unit #079"
+],
+[
+"Stinger comm",
+-124123,
+852641,
+"Unit #080"
+]
+],
+"route": [
+[
+-123734,
+853197,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-manpad #002": {
+"side": "blue",
+"cat": "vehicle",
+"x": -120281,
+"y": 837329,
+"units": [
+[
+"Soldier stinger",
+-120281,
+837329,
+"#spawnGroup=\"US-manpad\",#spawnCount=2,#spawnChance=25 #001"
+],
+[
+"Soldier stinger",
+-120228,
+837288,
+"Unit #088"
+],
+[
+"Stinger comm",
+-120401,
+837592,
+"Unit #089"
+],
+[
+"Stinger comm",
+-119991,
+837495,
+"Unit #090"
+],
+[
+"Stinger comm",
+-120430,
+836846,
+"Unit #138"
+]
+],
+"route": [
+[
+-120281,
+837329,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-manpad #003": {
+"side": "blue",
+"cat": "vehicle",
+"x": -121798,
+"y": 847467,
+"units": [
+[
+"Soldier stinger",
+-121798,
+847467,
+"#spawnGroup=\"US-manpad\",#spawnCount=2,#spawnChance=25 #002"
+],
+[
+"Soldier stinger",
+-121745,
+847425,
+"Unit #149"
+],
+[
+"Stinger comm",
+-121335,
+847825,
+"Unit #150"
+],
+[
+"Stinger comm",
+-121329,
+847437,
+"Unit #151"
+],
+[
+"Stinger comm",
+-122006,
+847676,
+"Unit #152"
+]
+],
+"route": [
+[
+-121798,
+847467,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-manpad #004": {
+"side": "blue",
+"cat": "vehicle",
+"x": -120347,
+"y": 855830,
+"units": [
+[
+"Soldier stinger",
+-120347,
+855830,
+"#spawnGroup=\"US-manpad\",#spawnCount=2,#spawnChance=25 #003"
+],
+[
+"Soldier stinger",
+-120294,
+855788,
+"Unit #159"
+],
+[
+"Stinger comm",
+-120739,
+855898,
+"Unit #160"
+],
+[
+"Stinger comm",
+-120102,
+855929,
+"Unit #161"
+],
+[
+"Stinger comm",
+-120360,
+855623,
+"Unit #162"
+]
+],
+"route": [
+[
+-120347,
+855830,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-US-jtac": {
+"side": "blue",
+"cat": "vehicle",
+"x": -117611,
+"y": 847272,
+"units": [
+[
+"Hummer",
+-117611,
+847272,
+"#command=\"-jtac\" "
+]
+],
+"route": [
+[
+-117611,
+847272,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-SA-6": {
+"side": "red",
+"cat": "vehicle",
+"x": -75579,
+"y": 524089,
+"units": [
+[
+"Kub 1S91 str",
+-75579,
+524089,
+"#command=\"_spawn group, name sa6\" #spawnRadius=25"
+]
+],
+"route": [
+[
+-75579,
+524089,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-SA-19": {
+"side": "red",
+"cat": "vehicle",
+"x": -75232,
+"y": 525332,
+"units": [
+[
+"2S6 Tunguska",
+-75232,
+525332,
+"#spawnRadius=200 #spawnChance=50"
+]
+],
+"route": [
+[
+-75232,
+525332,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-SA-15": {
+"side": "red",
+"cat": "vehicle",
+"x": -75963,
+"y": 525192,
+"units": [
+[
+"Tor 9A331",
+-75963,
+525192,
+"#spawnRadius=600 #spawnChance=50"
+]
+],
+"route": [
+[
+-75963,
+525192,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -75678,
+"y": 524756,
+"units": [
+[
+"ZU-23 Emplacement Closed",
+-75678,
+524756,
+"Unit #062"
+]
+],
+"route": [
+[
+-75678,
+524756,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -75406,
+"y": 524637,
+"units": [
+[
+"Smerch",
+-75406,
+524637,
+"Unit #063"
+]
+],
+"route": [
+[
+-75406,
+524637,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -75456,
+"y": 524668,
+"units": [
+[
+"T-90",
+-75456,
+524668,
+"Unit #064"
+]
+],
+"route": [
+[
+-75456,
+524668,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #004": {
+"side": "red",
+"cat": "vehicle",
+"x": -75440,
+"y": 524648,
+"units": [
+[
+"T-90",
+-75440,
+524648,
+"Unit #065"
+]
+],
+"route": [
+[
+-75440,
+524648,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #005": {
+"side": "red",
+"cat": "vehicle",
+"x": -75361,
+"y": 524680,
+"units": [
+[
+"T-90",
+-75361,
+524680,
+"Unit #066"
+]
+],
+"route": [
+[
+-75361,
+524680,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #006": {
+"side": "red",
+"cat": "vehicle",
+"x": -75345,
+"y": 524698,
+"units": [
+[
+"T-90",
+-75345,
+524698,
+"Unit #067"
+]
+],
+"route": [
+[
+-75345,
+524698,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #007": {
+"side": "red",
+"cat": "vehicle",
+"x": -75374,
+"y": 524663,
+"units": [
+[
+"BMP-3",
+-75374,
+524663,
+"Unit #068"
+]
+],
+"route": [
+[
+-75374,
+524663,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #008": {
+"side": "red",
+"cat": "vehicle",
+"x": -75427,
+"y": 524636,
+"units": [
+[
+"BMP-3",
+-75427,
+524636,
+"Unit #069"
+]
+],
+"route": [
+[
+-75427,
+524636,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #009": {
+"side": "red",
+"cat": "vehicle",
+"x": -75389,
+"y": 524647,
+"units": [
+[
+"SKP-11",
+-75389,
+524647,
+"Unit #075"
+]
+],
+"route": [
+[
+-75389,
+524647,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #010": {
+"side": "red",
+"cat": "vehicle",
+"x": -75383,
+"y": 524623,
+"units": [
+[
+"Infantry AK",
+-75383,
+524623,
+"Unit #083"
+]
+],
+"route": [
+[
+-75383,
+524623,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #011": {
+"side": "red",
+"cat": "vehicle",
+"x": -75397,
+"y": 524604,
+"units": [
+[
+"Infantry AK",
+-75397,
+524604,
+"Unit #084"
+]
+],
+"route": [
+[
+-75397,
+524604,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #012": {
+"side": "red",
+"cat": "vehicle",
+"x": -75402,
+"y": 524610,
+"units": [
+[
+"Infantry AK",
+-75402,
+524610,
+"Unit #087"
+]
+],
+"route": [
+[
+-75402,
+524610,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #013": {
+"side": "red",
+"cat": "vehicle",
+"x": -75389,
+"y": 524612,
+"units": [
+[
+"Infantry AK",
+-75389,
+524612,
+"Unit #091"
+]
+],
+"route": [
+[
+-75389,
+524612,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #014": {
+"side": "red",
+"cat": "vehicle",
+"x": -75400,
+"y": 524617,
+"units": [
+[
+"Infantry AK",
+-75400,
+524617,
+"Unit #092"
+]
+],
+"route": [
+[
+-75400,
+524617,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #015": {
+"side": "red",
+"cat": "vehicle",
+"x": -75395,
+"y": 524589,
+"units": [
+[
+"Infantry AK",
+-75395,
+524589,
+"Unit #095"
+]
+],
+"route": [
+[
+-75395,
+524589,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #016": {
+"side": "red",
+"cat": "vehicle",
+"x": -75394,
+"y": 524633,
+"units": [
+[
+"Infantry AK",
+-75394,
+524633,
+"Unit #096"
+]
+],
+"route": [
+[
+-75394,
+524633,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #017": {
+"side": "red",
+"cat": "vehicle",
+"x": -75373,
+"y": 524636,
+"units": [
+[
+"Infantry AK",
+-75373,
+524636,
+"Unit #137"
+]
+],
+"route": [
+[
+-75373,
+524636,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #018": {
+"side": "red",
+"cat": "vehicle",
+"x": -75383,
+"y": 524632,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-75383,
+524632,
+"Unit #140"
+]
+],
+"route": [
+[
+-75383,
+524632,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #019": {
+"side": "red",
+"cat": "vehicle",
+"x": -75403,
+"y": 524595,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-75403,
+524595,
+"Unit #141"
+]
+],
+"route": [
+[
+-75403,
+524595,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #020": {
+"side": "red",
+"cat": "vehicle",
+"x": -75370,
+"y": 524622,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-75370,
+524622,
+"Unit #142"
+]
+],
+"route": [
+[
+-75370,
+524622,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #021": {
+"side": "red",
+"cat": "vehicle",
+"x": -75422,
+"y": 524655,
+"units": [
+[
+"Ural-375 ZU-23",
+-75422,
+524655,
+"Unit #143"
+]
+],
+"route": [
+[
+-75422,
+524655,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #022": {
+"side": "red",
+"cat": "vehicle",
+"x": -75399,
+"y": 524667,
+"units": [
+[
+"Ural-375 ZU-23",
+-75399,
+524667,
+"Unit #144"
+]
+],
+"route": [
+[
+-75399,
+524667,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #023": {
+"side": "red",
+"cat": "vehicle",
+"x": -75914,
+"y": 525117,
+"units": [
+[
+"BTR-80",
+-75914,
+525117,
+"#command=\"_spawn armorgroup, size 15\" #spawnRadius=600 #spawnChance=50"
+]
+],
+"route": [
+[
+-75914,
+525117,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Defense #024": {
+"side": "red",
+"cat": "vehicle",
+"x": -75004,
+"y": 525268,
+"units": [
+[
+"Infantry AK",
+-75004,
+525268,
+"#command=\"_spawn infantrygroup, defense 5, size 15\" #spawnRadius=250 #spawnChance=25"
+]
+],
+"route": [
+[
+-75004,
+525268,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-mainforce #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -114639,
+"y": 854186,
+"units": [
+[
+"BTR-80",
+-114639,
+854186,
+"#command=\"_spawn armorgroup, size 7, armor 5, defense 0\" #spawnradius=500"
+]
+],
+"route": [
+[
+-114639,
+854186,
+"EchelonL"
+],
+[
+-117418,
+852933,
+"EchelonL"
+]
+]
+},
+"combatZone_EasyPickingsTerek-targets": {
+"side": "red",
+"cat": "vehicle",
+"x": -112803,
+"y": 814629,
+"units": [
+[
+"Ural-375 PBU",
+-112803,
+814629,
+"#command=\"_spawn transportgroup, size 25, defense 1\" #spawnRadius=2500"
+]
+],
+"route": [
+[
+-112803,
+814629,
+"Off Road"
+]
+]
+},
+"combatZone_EasyPickingsTerek-defense": {
+"side": "red",
+"cat": "vehicle",
+"x": -114019,
+"y": 816611,
+"units": [
+[
+"SA-18 Igla manpad",
+-114019,
+816611,
+"#command=\"_spawn infantrygroup, size 25, armor 1, defense 2\" #spawnChance=50"
+]
+],
+"route": [
+[
+-114019,
+816611,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-SA-19 #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -75885,
+"y": 524700,
+"units": [
+[
+"2S6 Tunguska",
+-75885,
+524700,
+"#spawnRadius=200 #001"
+]
+],
+"route": [
+[
+-75885,
+524700,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-mainforce #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -113911,
+"y": 848529,
+"units": [
+[
+"BTR-80",
+-113911,
+848529,
+"#command=\"_spawn armorgroup, size 7, armor 5, defense 0\" #004"
+]
+],
+"route": [
+[
+-113911,
+848529,
+"EchelonL"
+],
+[
+-117281,
+848421,
+"EchelonL"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-mainforce #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -113591,
+"y": 843053,
+"units": [
+[
+"BTR-80",
+-113591,
+843053,
+"#command=\"_spawn armorgroup, size 7, armor 5, defense 0\" #spawnradius=500 #005"
+]
+],
+"route": [
+[
+-113591,
+843053,
+"EchelonL"
+],
+[
+-116470,
+842921,
+"EchelonL"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-manpad #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -111069,
+"y": 837727,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-111069,
+837727,
+"#spawnGroup=\"RU-manpad\",#spawnCount=2,#spawnChance=25"
+],
+[
+"SA-18 Igla-S manpad",
+-111112,
+837705,
+"Unit #017"
+],
+[
+"SA-18 Igla-S comm",
+-111645,
+837662,
+"Unit #020"
+],
+[
+"SA-18 Igla-S comm",
+-111127,
+836473,
+"Unit #022"
+],
+[
+"SA-18 Igla-S comm",
+-110311,
+837506,
+"Unit #024"
+]
+],
+"route": [
+[
+-111069,
+837727,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-manpad #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -111188,
+"y": 841826,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-111188,
+841826,
+"#spawnGroup=\"RU-manpad\",#spawnCount=2,#spawnChance=25 #001"
+],
+[
+"SA-18 Igla-S manpad",
+-111135,
+841776,
+"Unit #029"
+],
+[
+"SA-18 Igla-S comm",
+-111419,
+842224,
+"Unit #040"
+],
+[
+"SA-18 Igla-S comm",
+-111221,
+841323,
+"Unit #041"
+],
+[
+"SA-18 Igla-S comm",
+-110521,
+842077,
+"Unit #048"
+]
+],
+"route": [
+[
+-111188,
+841826,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-manpad #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -112946,
+"y": 848074,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-112946,
+848074,
+"#spawnGroup=\"RU-manpad\",#spawnCount=2,#spawnChance=25 #002"
+],
+[
+"SA-18 Igla-S manpad",
+-112893,
+848033,
+"Unit #049"
+],
+[
+"SA-18 Igla-S comm",
+-113264,
+848796,
+"Unit #054"
+],
+[
+"SA-18 Igla-S comm",
+-112825,
+847643,
+"Unit #055"
+],
+[
+"SA-18 Igla-S comm",
+-112275,
+848075,
+"Unit #056"
+]
+],
+"route": [
+[
+-112946,
+848074,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-manpad #004": {
+"side": "red",
+"cat": "vehicle",
+"x": -116252,
+"y": 855142,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-116252,
+855142,
+"#spawnGroup=\"RU-manpad\",#spawnCount=2,#spawnChance=25 #003"
+],
+[
+"SA-18 Igla-S manpad",
+-116199,
+855100,
+"Unit #057"
+],
+[
+"SA-18 Igla-S comm",
+-116851,
+855253,
+"Unit #058"
+],
+[
+"SA-18 Igla-S comm",
+-116261,
+854854,
+"Unit #059"
+],
+[
+"SA-18 Igla-S comm",
+-115765,
+855158,
+"Unit #060"
+]
+],
+"route": [
+[
+-116252,
+855142,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-convoy #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -113132,
+"y": 823730,
+"units": [
+[
+"BTR-80",
+-113132,
+823730,
+"#command=\"-convoy, size 10, armor 2, defense 1, dest SETTSHERIPOVA\""
+]
+],
+"route": [
+[
+-113132,
+823730,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-staticairdefense #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -113415,
+"y": 842303,
+"units": [
+[
+"Osa 9A33 ln",
+-113415,
+842303,
+"#command=\"_spawn samgroup, size 1, defense 4\",#spawnGroup=\"RU-staticairdefense\",spawnCount=1,spawnChance=50"
+]
+],
+"route": [
+[
+-113415,
+842303,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-staticairdefense #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -110805,
+"y": 848994,
+"units": [
+[
+"Osa 9A33 ln",
+-110805,
+848994,
+"#command=\"_spawn samgroup, size 1, defense 4\",#spawnGroup=\"RU-staticairdefense\",spawnCount=1,spawnChance=50 #001"
+]
+],
+"route": [
+[
+-110805,
+848994,
+"Off Road"
+]
+]
+},
+"combatZone_BattleOfBeslan-RU-staticairdefense #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -110901,
+"y": 845270,
+"units": [
+[
+"Osa 9A33 ln",
+-110901,
+845270,
+"#command=\"_spawn samgroup, size 1, defense 5\",#spawnGroup=\"RU-staticairdefense\",spawnCount=1,spawnChance=50 #002"
+]
+],
+"route": [
+[
+-110901,
+845270,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-manpads #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -93758,
+"y": 788334,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-93758,
+788334,
+"#spawnGroup=\"Prohladniy-manpads\",#spawnCount=2,#spawnChance=25"
+],
+[
+"SA-18 Igla-S manpad",
+-93981,
+788622,
+"Unit #001"
+],
+[
+"SA-18 Igla-S comm",
+-94450,
+788280,
+"Unit #002"
+],
+[
+"SA-18 Igla-S comm",
+-94102,
+786877,
+"Unit #003"
+],
+[
+"SA-18 Igla-S comm",
+-93128,
+788441,
+"Unit #004"
+]
+],
+"route": [
+[
+-93758,
+788334,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-manpads #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -94768,
+"y": 791300,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-94768,
+791300,
+"#spawnGroup=\"Prohladniy-manpads\",#spawnCount=2,#spawnChance=25 #001"
+],
+[
+"SA-18 Igla-S manpad",
+-95053,
+791563,
+"Unit #005"
+],
+[
+"SA-18 Igla-S comm",
+-95890,
+791253,
+"Unit #006"
+],
+[
+"SA-18 Igla-S comm",
+-95391,
+790152,
+"Unit #007"
+],
+[
+"SA-18 Igla-S comm",
+-94228,
+792242,
+"Unit #008"
+]
+],
+"route": [
+[
+-94768,
+791300,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-manpads #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -93199,
+"y": 784828,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-93199,
+784828,
+"#spawnGroup=\"Prohladniy-manpads\",#spawnCount=2,#spawnChance=25 #002"
+],
+[
+"SA-18 Igla-S manpad",
+-93518,
+784841,
+"Unit #009"
+],
+[
+"SA-18 Igla-S comm",
+-94278,
+784741,
+"Unit #016"
+],
+[
+"SA-18 Igla-S comm",
+-93580,
+783507,
+"Unit #025"
+],
+[
+"SA-18 Igla-S comm",
+-92483,
+784540,
+"Unit #026"
+]
+],
+"route": [
+[
+-93199,
+784828,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-manpads #004": {
+"side": "red",
+"cat": "vehicle",
+"x": -93391,
+"y": 791259,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-93391,
+791259,
+"#spawnGroup=\"Prohladniy-manpads\",#spawnCount=2,#spawnChance=25 #003"
+],
+[
+"SA-18 Igla-S manpad",
+-93435,
+791548,
+"Unit #027"
+],
+[
+"SA-18 Igla-S comm",
+-93605,
+791672,
+"Unit #030"
+],
+[
+"SA-18 Igla-S comm",
+-93577,
+790800,
+"Unit #031"
+],
+[
+"SA-18 Igla-S comm",
+-93044,
+791244,
+"Unit #037"
+]
+],
+"route": [
+[
+-93391,
+791259,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-manpads #005": {
+"side": "red",
+"cat": "vehicle",
+"x": -93236,
+"y": 786655,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-93236,
+786655,
+"#spawnGroup=\"Prohladniy-manpads\",#spawnCount=2,#spawnChance=25 #004"
+],
+[
+"SA-18 Igla-S manpad",
+-93415,
+786783,
+"Unit #038"
+],
+[
+"SA-18 Igla-S comm",
+-94117,
+786543,
+"Unit #039"
+],
+[
+"SA-18 Igla-S comm",
+-93712,
+785805,
+"Unit #070"
+],
+[
+"SA-18 Igla-S comm",
+-92679,
+786744,
+"Unit #071"
+]
+],
+"route": [
+[
+-93236,
+786655,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-manpads #006": {
+"side": "red",
+"cat": "vehicle",
+"x": -92240,
+"y": 785391,
+"units": [
+[
+"SA-18 Igla-S manpad",
+-92240,
+785391,
+"#spawnGroup=\"Prohladniy-manpads\",#spawnCount=2,#spawnChance=25 #005"
+],
+[
+"SA-18 Igla-S manpad",
+-92481,
+784891,
+"Unit #072"
+],
+[
+"SA-18 Igla-S comm",
+-92444,
+786335,
+"Unit #076"
+],
+[
+"SA-18 Igla-S comm",
+-91951,
+784684,
+"Unit #077"
+],
+[
+"SA-18 Igla-S comm",
+-91945,
+785708,
+"Unit #097"
+]
+],
+"route": [
+[
+-92240,
+785391,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -95045,
+"y": 793457,
+"units": [
+[
+"Strela-1 9P31",
+-95045,
+793457,
+"#command=\"-samsr\",#spawnGroup=\"Prohladniy-defense\",#spawnCount=1,#spawnChance=25 #006"
+]
+],
+"route": [
+[
+-95045,
+793457,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -92240,
+"y": 788843,
+"units": [
+[
+"Strela-1 9P31",
+-92240,
+788843,
+"#command=\"-samsr\",#spawnGroup=\"Prohladniy-defense\",#spawnCount=1,#spawnChance=25 #001"
+]
+],
+"route": [
+[
+-92240,
+788843,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -95629,
+"y": 788182,
+"units": [
+[
+"Strela-1 9P31",
+-95629,
+788182,
+"#command=\"-samsr\",#spawnGroup=\"Prohladniy-defense\",#spawnCount=1,#spawnChance=25 #002"
+]
+],
+"route": [
+[
+-95629,
+788182,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense #004": {
+"side": "red",
+"cat": "vehicle",
+"x": -92708,
+"y": 782809,
+"units": [
+[
+"Strela-1 9P31",
+-92708,
+782809,
+"#command=\"-samsr\",#spawnGroup=\"Prohladniy-defense\",#spawnCount=1,#spawnChance=25 #003"
+]
+],
+"route": [
+[
+-92708,
+782809,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -112011,
+"y": 835610,
+"units": [
+[
+"BTR-80",
+-112011,
+835610,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #001"
+]
+],
+"route": [
+[
+-112011,
+835610,
+"Diamond"
+],
+[
+-123178,
+822787,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -110142,
+"y": 831369,
+"units": [
+[
+"BTR-80",
+-110142,
+831369,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #002"
+]
+],
+"route": [
+[
+-110142,
+831369,
+"Diamond"
+],
+[
+-116645,
+829981,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -118890,
+"y": 831831,
+"units": [
+[
+"BTR-80",
+-118890,
+831831,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #003"
+]
+],
+"route": [
+[
+-118890,
+831831,
+"Diamond"
+],
+[
+-107383,
+806991,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #004": {
+"side": "red",
+"cat": "vehicle",
+"x": -98466,
+"y": 830047,
+"units": [
+[
+"BTR-80",
+-98466,
+830047,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #004"
+]
+],
+"route": [
+[
+-98466,
+830047,
+"Diamond"
+],
+[
+-116334,
+828726,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #005": {
+"side": "red",
+"cat": "vehicle",
+"x": -126702,
+"y": 824655,
+"units": [
+[
+"BTR-80",
+-126702,
+824655,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #005"
+]
+],
+"route": [
+[
+-126702,
+824655,
+"Diamond"
+],
+[
+-110809,
+829463,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #006": {
+"side": "red",
+"cat": "vehicle",
+"x": -101481,
+"y": 826056,
+"units": [
+[
+"BTR-80",
+-101481,
+826056,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #006"
+]
+],
+"route": [
+[
+-101481,
+826056,
+"Diamond"
+],
+[
+-116288,
+825227,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #007": {
+"side": "red",
+"cat": "vehicle",
+"x": -125683,
+"y": 819899,
+"units": [
+[
+"BTR-80",
+-125683,
+819899,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #007"
+]
+],
+"route": [
+[
+-125683,
+819899,
+"Diamond"
+],
+[
+-111660,
+825457,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #008": {
+"side": "red",
+"cat": "vehicle",
+"x": -101778,
+"y": 835270,
+"units": [
+[
+"BTR-80",
+-101778,
+835270,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #008"
+]
+],
+"route": [
+[
+-101778,
+835270,
+"Diamond"
+],
+[
+-115698,
+820870,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #009": {
+"side": "red",
+"cat": "vehicle",
+"x": -116560,
+"y": 810252,
+"units": [
+[
+"BTR-80",
+-116560,
+810252,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #009"
+]
+],
+"route": [
+[
+-116560,
+810252,
+"Diamond"
+],
+[
+-105309,
+816281,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #010": {
+"side": "red",
+"cat": "vehicle",
+"x": -102850,
+"y": 811076,
+"units": [
+[
+"BTR-80",
+-102850,
+811076,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #010"
+]
+],
+"route": [
+[
+-102850,
+811076,
+"Diamond"
+],
+[
+-112065,
+809930,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #011": {
+"side": "red",
+"cat": "vehicle",
+"x": -90564,
+"y": 819167,
+"units": [
+[
+"BTR-80",
+-90564,
+819167,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #012"
+]
+],
+"route": [
+[
+-90564,
+819167,
+"Diamond"
+],
+[
+-91613,
+810776,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #012": {
+"side": "red",
+"cat": "vehicle",
+"x": -93411,
+"y": 810401,
+"units": [
+[
+"BTR-80",
+-93411,
+810401,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #013"
+]
+],
+"route": [
+[
+-93411,
+810401,
+"Diamond"
+],
+[
+-96333,
+815196,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #013": {
+"side": "red",
+"cat": "vehicle",
+"x": -131714,
+"y": 793377,
+"units": [
+[
+"BTR-80",
+-131714,
+793377,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #014"
+]
+],
+"route": [
+[
+-131714,
+793377,
+"Diamond"
+],
+[
+-121270,
+785233,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #014": {
+"side": "red",
+"cat": "vehicle",
+"x": -92811,
+"y": 801443,
+"units": [
+[
+"BTR-80",
+-92811,
+801443,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #015"
+]
+],
+"route": [
+[
+-92811,
+801443,
+"Diamond"
+],
+[
+-94101,
+796142,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #015": {
+"side": "red",
+"cat": "vehicle",
+"x": -98971,
+"y": 787686,
+"units": [
+[
+"BTR-80",
+-98971,
+787686,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #016"
+]
+],
+"route": [
+[
+-98971,
+787686,
+"Diamond"
+],
+[
+-98050,
+795245,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-reliefConvoy": {
+"side": "red",
+"cat": "vehicle",
+"x": -87598,
+"y": 834912,
+"units": [
+[
+"T-80UD",
+-87598,
+834912,
+"#command=\"-armor, armor 5, defense 2, size 15\""
+]
+],
+"route": [
+[
+-87598,
+834912,
+"On Road"
+],
+[
+-94325,
+790607,
+"On Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #016": {
+"side": "red",
+"cat": "vehicle",
+"x": -120716,
+"y": 803849,
+"units": [
+[
+"BTR-80",
+-120716,
+803849,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #011"
+]
+],
+"route": [
+[
+-120716,
+803849,
+"Diamond"
+],
+[
+-105444,
+812092,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #017": {
+"side": "red",
+"cat": "vehicle",
+"x": -98373,
+"y": 804074,
+"units": [
+[
+"BTR-80",
+-98373,
+804074,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #017"
+]
+],
+"route": [
+[
+-98373,
+804074,
+"Diamond"
+],
+[
+-116087,
+798669,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #018": {
+"side": "red",
+"cat": "vehicle",
+"x": -137785,
+"y": 815186,
+"units": [
+[
+"BTR-80",
+-137785,
+815186,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #018"
+]
+],
+"route": [
+[
+-137785,
+815186,
+"Diamond"
+],
+[
+-118191,
+818488,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #019": {
+"side": "red",
+"cat": "vehicle",
+"x": -101255,
+"y": 806101,
+"units": [
+[
+"BTR-80",
+-101255,
+806101,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #019"
+]
+],
+"route": [
+[
+-101255,
+806101,
+"Diamond"
+],
+[
+-116172,
+804996,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #020": {
+"side": "red",
+"cat": "vehicle",
+"x": -113455,
+"y": 803977,
+"units": [
+[
+"BTR-80",
+-113455,
+803977,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #020"
+]
+],
+"route": [
+[
+-113455,
+803977,
+"Diamond"
+],
+[
+-99544,
+802003,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #021": {
+"side": "red",
+"cat": "vehicle",
+"x": -94008,
+"y": 803858,
+"units": [
+[
+"BTR-80",
+-94008,
+803858,
+"#command=\"-armor, armor 1-4, defense 0-2, size 1-4\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #021"
+]
+],
+"route": [
+[
+-94008,
+803858,
+"On Road"
+],
+[
+-103063,
+791054,
+"On Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #022": {
+"side": "red",
+"cat": "vehicle",
+"x": -134388,
+"y": 805335,
+"units": [
+[
+"BTR-80",
+-134388,
+805335,
+"#command=\"-armor, armor 2, defense 0, size 2\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #022"
+]
+],
+"route": [
+[
+-134388,
+805335,
+"Diamond"
+],
+[
+-114794,
+808637,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #023": {
+"side": "red",
+"cat": "vehicle",
+"x": -120157,
+"y": 797941,
+"units": [
+[
+"BTR-80",
+-120157,
+797941,
+"#command=\"-armor, armor 2, defense 0, size 2\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #023"
+]
+],
+"route": [
+[
+-120157,
+797941,
+"Diamond"
+],
+[
+-104487,
+799285,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #024": {
+"side": "red",
+"cat": "vehicle",
+"x": -134048,
+"y": 811917,
+"units": [
+[
+"BTR-80",
+-134048,
+811917,
+"#command=\"-armor, armor 2, defense 0, size 2\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #024"
+]
+],
+"route": [
+[
+-134048,
+811917,
+"Diamond"
+],
+[
+-121480,
+801896,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #025": {
+"side": "red",
+"cat": "vehicle",
+"x": -95324,
+"y": 842064,
+"units": [
+[
+"BTR-80",
+-95324,
+842064,
+"#command=\"-armor, armor 2, defense 0, size 2\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #025"
+]
+],
+"route": [
+[
+-95324,
+842064,
+"Diamond"
+],
+[
+-113192,
+840743,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #026": {
+"side": "red",
+"cat": "vehicle",
+"x": -97490,
+"y": 837775,
+"units": [
+[
+"BTR-80",
+-97490,
+837775,
+"#command=\"-armor, armor 2, defense 0, size 2\",#spawnGroup=\"Prohladniy-armor\",#spawnCount=8,#spawnChance=10 #026"
+]
+],
+"route": [
+[
+-97490,
+837775,
+"Diamond"
+],
+[
+-107680,
+821640,
+"Diamond"
+]
+]
+},
+"combatZone_roadBlock-mobileTransport #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -346258,
+"y": 694690,
+"units": [
+[
+"GAZ-3307",
+-346258,
+694690,
+"#command=\"-transport, size 4, defense 0, armor 0\" #005"
+]
+],
+"route": [
+[
+-346258,
+694690,
+"Off Road"
+],
+[
+-344990,
+694830,
+"Off Road"
+],
+[
+-344875,
+693520,
+"Off Road"
+],
+[
+-346175,
+693411,
+"Off Road"
+]
+]
+},
+"combatZone_roadBlock-convoy #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -339344,
+"y": 714422,
+"units": [
+[
+"GAZ-3307",
+-339344,
+714422,
+"#command=\"-transport, size 8, defense 0, armor 1\" #001"
+]
+],
+"route": [
+[
+-339344,
+714422,
+"Off Road"
+],
+[
+-339193,
+714256,
+"On Road"
+],
+[
+-338287,
+703985,
+"On Road"
+],
+[
+-344616,
+694362,
+"On Road"
+]
+]
+},
+"combatZone_roadBlock-unit #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -344585,
+"y": 693830,
+"units": [
+[
+"Tigr_233036",
+-344585,
+693830,
+"combatZone_roadBlock-unit #001-4"
+],
+[
+"Tigr_233036",
+-344585,
+693837,
+"combatZone_roadBlock-unit #001-1"
+],
+[
+"BRDM-2",
+-344584,
+693818,
+"combatZone_roadBlock-unit #001-2"
+],
+[
+"BRDM-2",
+-344563,
+693854,
+"combatZone_roadBlock-unit #001-3"
+]
+],
+"route": [
+[
+-344585,
+693830,
+"Off Road"
+]
+]
+},
+"combatZone_roadBlock-unit #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -344705,
+"y": 695252,
+"units": [
+[
+"Tigr_233036",
+-344705,
+695252,
+"combatZone_roadBlock-unit #002-1"
+],
+[
+"Tigr_233036",
+-344706,
+695259,
+"combatZone_roadBlock-unit001"
+],
+[
+"BRDM-2",
+-344706,
+695277,
+"combatZone_roadBlock-unit002"
+],
+[
+"BRDM-2",
+-344686,
+695287,
+"combatZone_roadBlock-unit003"
+]
+],
+"route": [
+[
+-344705,
+695252,
+"Off Road"
+]
+]
+},
+"combatZone_roadBlock-mobileTransport #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -344709,
+"y": 694540,
+"units": [
+[
+"Infantry AK",
+-344709,
+694540,
+"combatZone_roadBlock-mobileTransport #001-6"
+],
+[
+"Infantry AK",
+-344719,
+694541,
+"combatZone_roadBlock-mobileTransport #001-1"
+],
+[
+"Infantry AK",
+-344727,
+694543,
+"combatZone_roadBlock-mobileTransport #001-2"
+],
+[
+"Infantry AK",
+-344735,
+694544,
+"combatZone_roadBlock-mobileTransport #001-3"
+],
+[
+"Paratrooper RPG-16",
+-344743,
+694544,
+"combatZone_roadBlock-mobileTransport #001-4"
+],
+[
+"Paratrooper RPG-16",
+-344750,
+694545,
+"combatZone_roadBlock-mobileTransport #001-5"
+]
+],
+"route": [
+[
+-344709,
+694540,
+"Off Road"
+],
+[
+-344685,
+693908,
+"Off Road"
+]
+]
+},
+"combatZone_MaykopDefenses_MainForces_Armor": {
+"side": "red",
+"cat": "vehicle",
+"x": -23148,
+"y": 457522,
+"units": [
+[
+"BMP-2",
+-23148,
+457522,
+"#command=\"-armor, armor 3, size 6, defense 0, radius 2500\" #001"
+]
+],
+"route": [
+[
+-23148,
+457522,
+"Off Road"
+]
+]
+},
+"combatZone_MaykopDefenses_MainForces_Logistic": {
+"side": "red",
+"cat": "vehicle",
+"x": -22848,
+"y": 455755,
+"units": [
+[
+"GAZ-3307",
+-22848,
+455755,
+"#command=\"-transport, defense 0, size 5, radius 2500\" #001"
+]
+],
+"route": [
+[
+-22848,
+455755,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense-lr #001": {
+"side": "red",
+"cat": "vehicle",
+"x": -96602,
+"y": 784950,
+"units": [
+[
+"Osa 9A33 ln",
+-96602,
+784950,
+"#command=\"-samlr, radius 500\",#spawnGroup=\"Prohladniy-defense-lr\",#spawnCount=1,#spawnChance=25 #001"
+]
+],
+"route": [
+[
+-96602,
+784950,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense-lr #002": {
+"side": "red",
+"cat": "vehicle",
+"x": -89740,
+"y": 782133,
+"units": [
+[
+"Osa 9A33 ln",
+-89740,
+782133,
+"#command=\"-samlr, radius 500\",#spawnGroup=\"Prohladniy-defense-lr\",#spawnCount=1,#spawnChance=25 #002"
+]
+],
+"route": [
+[
+-89740,
+782133,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense-lr #003": {
+"side": "red",
+"cat": "vehicle",
+"x": -90223,
+"y": 790785,
+"units": [
+[
+"Osa 9A33 ln",
+-90223,
+790785,
+"#command=\"-samlr, radius 500\",#spawnGroup=\"Prohladniy-defense-lr\",#spawnCount=1,#spawnChance=25 #003"
+]
+],
+"route": [
+[
+-90223,
+790785,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-defense-lr #004": {
+"side": "red",
+"cat": "vehicle",
+"x": -98735,
+"y": 793985,
+"units": [
+[
+"Osa 9A33 ln",
+-98735,
+793985,
+"#command=\"-samlr, radius 500\",#spawnGroup=\"Prohladniy-defense-lr\",#spawnCount=1,#spawnChance=25 #004"
+]
+],
+"route": [
+[
+-98735,
+793985,
+"Off Road"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #027": {
+"side": "red",
+"cat": "vehicle",
+"x": -138926,
+"y": 799898,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-138926,
+799898,
+"#spawnGroup=\"Prohladniy-SW-patrols\",#spawnCount=2,#spawnChance=25 #001"
+],
+[
+"ZSU-23-4 Shilka",
+-138892,
+799920,
+"combatZone_SaveTheHostages-Prohladniy-armor #027-1"
+],
+[
+"ZSU-23-4 Shilka",
+-138859,
+799942,
+"combatZone_SaveTheHostages-Prohladniy-armor #027-2"
+],
+[
+"Strela-1 9P31",
+-138826,
+799964,
+"combatZone_SaveTheHostages-Prohladniy-armor #027-3"
+],
+[
+"Strela-1 9P31",
+-138793,
+799987,
+"-"
+]
+],
+"route": [
+[
+-138926,
+799898,
+"Diamond"
+],
+[
+-153990,
+789153,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #028": {
+"side": "red",
+"cat": "vehicle",
+"x": -147455,
+"y": 780624,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-147455,
+780624,
+"#spawnGroup=\"Prohladniy-SW-patrols\",#spawnCount=2,#spawnChance=25 #004"
+],
+[
+"ZSU-23-4 Shilka",
+-147422,
+780646,
+"combatZone_SaveTheHostages-Prohladniy-armor001"
+],
+[
+"ZSU-23-4 Shilka",
+-147388,
+780669,
+"combatZone_SaveTheHostages-Prohladniy-armor002"
+],
+[
+"Strela-1 9P31",
+-147355,
+780691,
+"combatZone_SaveTheHostages-Prohladniy-armor003"
+],
+[
+"Strela-1 9P31",
+-147322,
+780713,
+"combatZone_SaveTheHostages-Prohladniy-armor #028-1"
+]
+],
+"route": [
+[
+-147455,
+780624,
+"Diamond"
+],
+[
+-132501,
+789486,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #029": {
+"side": "red",
+"cat": "vehicle",
+"x": -130508,
+"y": 781012,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-130508,
+781012,
+"#spawnGroup=\"Prohladniy-SW-patrols\",#spawnCount=2,#spawnChance=25 #005"
+],
+[
+"ZSU-23-4 Shilka",
+-130474,
+781034,
+"combatZone_SaveTheHostages-Prohladniy-armor004"
+],
+[
+"ZSU-23-4 Shilka",
+-130441,
+781056,
+"combatZone_SaveTheHostages-Prohladniy-armor005"
+],
+[
+"Strela-1 9P31",
+-130408,
+781079,
+"combatZone_SaveTheHostages-Prohladniy-armor006"
+],
+[
+"Strela-1 9P31",
+-130375,
+781101,
+"combatZone_SaveTheHostages-Prohladniy-armor #029-1"
+]
+],
+"route": [
+[
+-130508,
+781012,
+"Diamond"
+],
+[
+-142581,
+801393,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #030": {
+"side": "red",
+"cat": "vehicle",
+"x": -157978,
+"y": 793307,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-157978,
+793307,
+"#spawnGroup=\"Prohladniy-SW-patrols\",#spawnCount=2,#spawnChance=25 #002"
+],
+[
+"ZSU-23-4 Shilka",
+-157944,
+793329,
+"combatZone_SaveTheHostages-Prohladniy-armor007"
+],
+[
+"ZSU-23-4 Shilka",
+-157911,
+793351,
+"combatZone_SaveTheHostages-Prohladniy-armor008"
+],
+[
+"Strela-1 9P31",
+-157878,
+793374,
+"combatZone_SaveTheHostages-Prohladniy-armor009"
+],
+[
+"Strela-1 9P31",
+-157845,
+793396,
+"combatZone_SaveTheHostages-Prohladniy-armor #030-1"
+]
+],
+"route": [
+[
+-157978,
+793307,
+"Diamond"
+],
+[
+-139369,
+791147,
+"Diamond"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-armor #031": {
+"side": "red",
+"cat": "vehicle",
+"x": -156358,
+"y": 781933,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-156358,
+781933,
+"#spawnGroup=\"Prohladniy-SW-patrols\",#spawnCount=2,#spawnChance=25 #003"
+],
+[
+"ZSU-23-4 Shilka",
+-156324,
+781956,
+"combatZone_SaveTheHostages-Prohladniy-armor #031-1"
+],
+[
+"ZSU-23-4 Shilka",
+-156291,
+781978,
+"combatZone_SaveTheHostages-Prohladniy-armor #031-2"
+],
+[
+"Strela-1 9P31",
+-156258,
+782000,
+"combatZone_SaveTheHostages-Prohladniy-armor #031-3"
+],
+[
+"Strela-1 9P31",
+-156225,
+782022,
+"combatZone_SaveTheHostages-Prohladniy-armor010"
+]
+],
+"route": [
+[
+-156358,
+781933,
+"Diamond"
+],
+[
+-161877,
+801113,
+"Diamond"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopSA10 #-1": {
+"side": "red",
+"cat": "vehicle",
+"x": -23147,
+"y": 456539,
+"units": [
+[
+"S-300PS 40B6MD sr_19J6",
+-23147,
+456539,
+"#spawnGroup=\"MaykopSA10\",#spawnCount=1 #-1"
+],
+[
+"S-300PS 40B6M tr",
+-23296,
+456610,
+"-1-2"
+],
+[
+"S-300PS 40B6MD sr",
+-22983,
+456611,
+"-1-3"
+],
+[
+"S-300PS 54K6 cp",
+-23152,
+456690,
+"-1-4"
+],
+[
+"S-300PS 5P85C ln",
+-23268,
+456488,
+"-1-5"
+],
+[
+"S-300PS 5P85D ln",
+-23036,
+456741,
+"-1-6"
+],
+[
+"S-300PS 5P85D ln",
+-23155,
+456435,
+"-1-7"
+],
+[
+"S-300PS 5P85C ln",
+-23034,
+456486,
+"-1-8"
+],
+[
+"S-300PS 5P85D ln",
+-23154,
+456774,
+"-1-9"
+],
+[
+"S-300PS 5P85D ln",
+-23272,
+456714,
+"-1-10"
+],
+[
+"Ural-4320T",
+-23149,
+456613,
+"-1-11"
+]
+],
+"route": [
+[
+-23147,
+456539,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopSA15 #-1": {
+"side": "red",
+"cat": "vehicle",
+"x": -22215,
+"y": 455430,
+"units": [
+[
+"Tor 9A331",
+-22215,
+455430,
+"#spawnGroup=\"MaykopSA15\",#spawnCount=2,#spawnChance=25 #-1"
+],
+[
+"Ural-375",
+-22237,
+455408,
+"-1-12"
+]
+],
+"route": [
+[
+-22215,
+455430,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopSA15 #-2": {
+"side": "red",
+"cat": "vehicle",
+"x": -22207,
+"y": 457839,
+"units": [
+[
+"Tor 9A331",
+-22207,
+457839,
+"#spawnGroup=\"MaykopSA15\",#spawnCount=2,#spawnChance=25 #-2"
+],
+[
+"Ural-375",
+-22228,
+457817,
+"CombatZone_MaykopDefenses - MaykopSA15 #-2-2"
+]
+],
+"route": [
+[
+-22207,
+457839,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopSA15 #-3": {
+"side": "red",
+"cat": "vehicle",
+"x": -24095,
+"y": 455612,
+"units": [
+[
+"Tor 9A331",
+-24095,
+455612,
+"#spawnGroup=\"MaykopSA15\",#spawnCount=2,#spawnChance=25 #-3"
+],
+[
+"Ural-375",
+-24117,
+455590,
+"CombatZone_MaykopDefenses - MaykopSA15 #-3-2"
+]
+],
+"route": [
+[
+-24095,
+455612,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopSA15 #-4": {
+"side": "red",
+"cat": "vehicle",
+"x": -24076,
+"y": 457619,
+"units": [
+[
+"Tor 9A331",
+-24076,
+457619,
+"#spawnGroup=\"MaykopSA15\",#spawnCount=2,#spawnChance=25 #-4"
+],
+[
+"Ural-375",
+-24110,
+457595,
+"CombatZone_MaykopDefenses - MaykopSA15 #-4-2"
+]
+],
+"route": [
+[
+-24076,
+457619,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-1": {
+"side": "red",
+"cat": "vehicle",
+"x": -22232,
+"y": 455423,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-22232,
+455423,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-1"
+]
+],
+"route": [
+[
+-22232,
+455423,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-2": {
+"side": "red",
+"cat": "vehicle",
+"x": -22226,
+"y": 455450,
+"units": [
+[
+"Ural-375 ZU-23",
+-22226,
+455450,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-2"
+]
+],
+"route": [
+[
+-22226,
+455450,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-3": {
+"side": "red",
+"cat": "vehicle",
+"x": -24041,
+"y": 457639,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-24041,
+457639,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-3"
+]
+],
+"route": [
+[
+-24041,
+457639,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-4": {
+"side": "red",
+"cat": "vehicle",
+"x": -22234,
+"y": 457858,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-22234,
+457858,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-4"
+]
+],
+"route": [
+[
+-22234,
+457858,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-5": {
+"side": "red",
+"cat": "vehicle",
+"x": -24092,
+"y": 455587,
+"units": [
+[
+"ZSU-23-4 Shilka",
+-24092,
+455587,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-5"
+]
+],
+"route": [
+[
+-24092,
+455587,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-6": {
+"side": "red",
+"cat": "vehicle",
+"x": -24056,
+"y": 457582,
+"units": [
+[
+"Ural-375 ZU-23",
+-24056,
+457582,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-6"
+]
+],
+"route": [
+[
+-24056,
+457582,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-7": {
+"side": "red",
+"cat": "vehicle",
+"x": -22207,
+"y": 457802,
+"units": [
+[
+"Ural-375 ZU-23",
+-22207,
+457802,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-7"
+]
+],
+"route": [
+[
+-22207,
+457802,
+"Off Road"
+]
+]
+},
+"CombatZone_MaykopDefenses - MaykopAAA #-8": {
+"side": "red",
+"cat": "vehicle",
+"x": -24117,
+"y": 455627,
+"units": [
+[
+"Ural-375 ZU-23",
+-24117,
+455627,
+"#spawnGroup=\"MaykopAAA\",#spawnCount=4,#spawnChance=25 #-8"
+]
+],
+"route": [
+[
+-24117,
+455627,
+"Off Road"
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #001": {
+"side": "red",
+"cat": "static",
+"x": -75685,
+"y": 524933,
+"units": [
+[
+"outpost_road",
+-75685,
+524933,
+"combatZone_Psebay_Factory-Factory #001"
+]
+],
+"route": [
+[
+-75685,
+524933,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #002": {
+"side": "red",
+"cat": "static",
+"x": -75595,
+"y": 524900,
+"units": [
+[
+"Fuel tank",
+-75595,
+524900,
+"combatZone_Psebay_Factory-Factory #002"
+]
+],
+"route": [
+[
+-75595,
+524900,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #003": {
+"side": "red",
+"cat": "static",
+"x": -75612,
+"y": 524925,
+"units": [
+[
+"Fuel tank",
+-75612,
+524925,
+"combatZone_Psebay_Factory-Factory #003"
+]
+],
+"route": [
+[
+-75612,
+524925,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #004": {
+"side": "red",
+"cat": "static",
+"x": -75603,
+"y": 524913,
+"units": [
+[
+"Fuel tank",
+-75603,
+524913,
+"combatZone_Psebay_Factory-Factory #004"
+]
+],
+"route": [
+[
+-75603,
+524913,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #005": {
+"side": "red",
+"cat": "static",
+"x": -75620,
+"y": 524939,
+"units": [
+[
+"Fuel tank",
+-75620,
+524939,
+"combatZone_Psebay_Factory-Factory #005"
+]
+],
+"route": [
+[
+-75620,
+524939,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #006": {
+"side": "red",
+"cat": "static",
+"x": -75635,
+"y": 524949,
+"units": [
+[
+"FARP Fuel Depot",
+-75635,
+524949,
+"combatZone_Psebay_Factory-Factory #006"
+]
+],
+"route": [
+[
+-75635,
+524949,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #007": {
+"side": "red",
+"cat": "static",
+"x": -75630,
+"y": 524952,
+"units": [
+[
+"FARP Fuel Depot",
+-75630,
+524952,
+"combatZone_Psebay_Factory-Factory #007"
+]
+],
+"route": [
+[
+-75630,
+524952,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #008": {
+"side": "red",
+"cat": "static",
+"x": -75624,
+"y": 524955,
+"units": [
+[
+"FARP Fuel Depot",
+-75624,
+524955,
+"combatZone_Psebay_Factory-Factory #008"
+]
+],
+"route": [
+[
+-75624,
+524955,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #009": {
+"side": "red",
+"cat": "static",
+"x": -75636,
+"y": 524963,
+"units": [
+[
+"FARP Ammo Dump Coating",
+-75636,
+524963,
+"combatZone_Psebay_Factory-Factory #009"
+]
+],
+"route": [
+[
+-75636,
+524963,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #010": {
+"side": "red",
+"cat": "static",
+"x": -75500,
+"y": 524863,
+"units": [
+[
+"Barracks 2",
+-75500,
+524863,
+"combatZone_Psebay_Factory-Factory #010"
+]
+],
+"route": [
+[
+-75500,
+524863,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #011": {
+"side": "red",
+"cat": "static",
+"x": -75509,
+"y": 524880,
+"units": [
+[
+"Barracks 2",
+-75509,
+524880,
+"combatZone_Psebay_Factory-Factory #011"
+]
+],
+"route": [
+[
+-75509,
+524880,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #012": {
+"side": "red",
+"cat": "static",
+"x": -75543,
+"y": 524850,
+"units": [
+[
+"house1arm",
+-75543,
+524850,
+"combatZone_Psebay_Factory-Factory #012"
+]
+],
+"route": [
+[
+-75543,
+524850,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #013": {
+"side": "red",
+"cat": "static",
+"x": -75377,
+"y": 524605,
+"units": [
+[
+"Sandbox",
+-75377,
+524605,
+"combatZone_Psebay_Factory-Factory #013"
+]
+],
+"route": [
+[
+-75377,
+524605,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #014": {
+"side": "red",
+"cat": "static",
+"x": -75551,
+"y": 524963,
+"units": [
+[
+".Command Center",
+-75551,
+524963,
+"combatZone_Psebay_Factory-Factory #014"
+]
+],
+"route": [
+[
+-75551,
+524963,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #015": {
+"side": "red",
+"cat": "static",
+"x": -75442,
+"y": 525027,
+"units": [
+[
+"Comms tower M",
+-75442,
+525027,
+"combatZone_Psebay_Factory-Factory #015"
+]
+],
+"route": [
+[
+-75442,
+525027,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #016": {
+"side": "red",
+"cat": "static",
+"x": -75417,
+"y": 524783,
+"units": [
+[
+"Tech combine",
+-75417,
+524783,
+"combatZone_Psebay_Factory-Factory #016"
+]
+],
+"route": [
+[
+-75417,
+524783,
+""
+]
+]
+},
+"combatZone_Psebay_Factory-Factory #017": {
+"side": "red",
+"cat": "static",
+"x": -75386,
+"y": 524733,
+"units": [
+[
+"Tech combine",
+-75386,
+524733,
+"combatZone_Psebay_Factory-Factory #017"
+]
+],
+"route": [
+[
+-75386,
+524733,
+""
+]
+]
+},
+"combatZone_SaveTheHostages-building-charlie": {
+"side": "red",
+"cat": "static",
+"x": -94373,
+"y": 790912,
+"units": [
+[
+"houseA_arm",
+-94373,
+790912,
+"combatZone_SaveTheHostages-building-charlie"
+]
+],
+"route": [
+[
+-94373,
+790912,
+""
+]
+]
+},
+"combatZone_SaveTheHostages-barracks": {
+"side": "red",
+"cat": "static",
+"x": -94296,
+"y": 790626,
+"units": [
+[
+"house1arm",
+-94296,
+790626,
+"combatZone_SaveTheHostages-barracks"
+]
+],
+"route": [
+[
+-94296,
+790626,
+""
+]
+]
+},
+"combatZone_roadBlock-block #001": {
+"side": "red",
+"cat": "static",
+"x": -344698,
+"y": 695286,
+"units": [
+[
+"outpost_road",
+-344698,
+695286,
+"combatZone_roadBlock-block #001"
+]
+],
+"route": [
+[
+-344698,
+695286,
+""
+]
+]
+},
+"combatZone_roadBlock-block #002": {
+"side": "red",
+"cat": "static",
+"x": -344572,
+"y": 693826,
+"units": [
+[
+"outpost_road",
+-344572,
+693826,
+"combatZone_roadBlock-block #002"
+]
+],
+"route": [
+[
+-344572,
+693826,
+""
+]
+]
+},
+"combatZone_roadBlock-bunker #001": {
+"side": "red",
+"cat": "static",
+"x": -344424,
+"y": 693756,
+"units": [
+[
+"Sandbox",
+-344424,
+693756,
+"combatZone_roadBlock-bunker #001"
+]
+],
+"route": [
+[
+-344424,
+693756,
+""
+]
+]
+},
+"combatZone_roadBlock-bunker #002": {
+"side": "red",
+"cat": "static",
+"x": -344421,
+"y": 693580,
+"units": [
+[
+"Sandbox",
+-344421,
+693580,
+"combatZone_roadBlock-bunker #002"
+]
+],
+"route": [
+[
+-344421,
+693580,
+""
+]
+]
+},
+"combatZone_roadBlock-bunker #003": {
+"side": "red",
+"cat": "static",
+"x": -344565,
+"y": 695114,
+"units": [
+[
+"Sandbox",
+-344565,
+695114,
+"combatZone_roadBlock-bunker #003"
+]
+],
+"route": [
+[
+-344565,
+695114,
+""
+]
+]
+},
+"combatZone_roadBlock-bunker #004": {
+"side": "red",
+"cat": "static",
+"x": -344842,
+"y": 695028,
+"units": [
+[
+"Sandbox",
+-344842,
+695028,
+"combatZone_roadBlock-bunker #004"
+]
+],
+"route": [
+[
+-344842,
+695028,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #001": {
+"side": "red",
+"cat": "static",
+"x": -344519,
+"y": 694455,
+"units": [
+[
+".Command Center",
+-344519,
+694455,
+"combatZone_roadBlock-statics #001"
+]
+],
+"route": [
+[
+-344519,
+694455,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #002": {
+"side": "red",
+"cat": "static",
+"x": -344525,
+"y": 694401,
+"units": [
+[
+"BTR-80",
+-344525,
+694401,
+"combatZone_roadBlock-statics #002"
+]
+],
+"route": [
+[
+-344525,
+694401,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #003": {
+"side": "red",
+"cat": "static",
+"x": -344527,
+"y": 694396,
+"units": [
+[
+"BTR-80",
+-344527,
+694396,
+"combatZone_roadBlock-statics #003"
+]
+],
+"route": [
+[
+-344527,
+694396,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #004": {
+"side": "red",
+"cat": "static",
+"x": -344529,
+"y": 694391,
+"units": [
+[
+"BTR-80",
+-344529,
+694391,
+"combatZone_roadBlock-statics #004"
+]
+],
+"route": [
+[
+-344529,
+694391,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #005": {
+"side": "red",
+"cat": "static",
+"x": -344532,
+"y": 694385,
+"units": [
+[
+"BTR-80",
+-344532,
+694385,
+"combatZone_roadBlock-statics #005"
+]
+],
+"route": [
+[
+-344532,
+694385,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #006": {
+"side": "red",
+"cat": "static",
+"x": -344534,
+"y": 694379,
+"units": [
+[
+"BTR-80",
+-344534,
+694379,
+"combatZone_roadBlock-statics #006"
+]
+],
+"route": [
+[
+-344534,
+694379,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #007": {
+"side": "red",
+"cat": "static",
+"x": -344530,
+"y": 694415,
+"units": [
+[
+"FARP Ammo Dump Coating",
+-344530,
+694415,
+"combatZone_roadBlock-statics #007"
+]
+],
+"route": [
+[
+-344530,
+694415,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #008": {
+"side": "red",
+"cat": "static",
+"x": -344547,
+"y": 694400,
+"units": [
+[
+"FARP Fuel Depot",
+-344547,
+694400,
+"combatZone_roadBlock-statics #008"
+]
+],
+"route": [
+[
+-344547,
+694400,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #009": {
+"side": "red",
+"cat": "static",
+"x": -344531,
+"y": 694493,
+"units": [
+[
+"T-72B",
+-344531,
+694493,
+"combatZone_roadBlock-statics #009"
+]
+],
+"route": [
+[
+-344531,
+694493,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #010": {
+"side": "red",
+"cat": "static",
+"x": -344525,
+"y": 694493,
+"units": [
+[
+"T-72B",
+-344525,
+694493,
+"combatZone_roadBlock-statics #010"
+]
+],
+"route": [
+[
+-344525,
+694493,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #011": {
+"side": "red",
+"cat": "static",
+"x": -344520,
+"y": 694493,
+"units": [
+[
+"T-72B",
+-344520,
+694493,
+"combatZone_roadBlock-statics #011"
+]
+],
+"route": [
+[
+-344520,
+694493,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #012": {
+"side": "red",
+"cat": "static",
+"x": -344515,
+"y": 694493,
+"units": [
+[
+"T-72B",
+-344515,
+694493,
+"combatZone_roadBlock-statics #012"
+]
+],
+"route": [
+[
+-344515,
+694493,
+""
+]
+]
+},
+"combatZone_roadBlock-statics #013": {
+"side": "red",
+"cat": "static",
+"x": -344509,
+"y": 694493,
+"units": [
+[
+"T-72B",
+-344509,
+694493,
+"combatZone_roadBlock-statics #013"
+]
+],
+"route": [
+[
+-344509,
+694493,
+""
+]
+]
+},
+"combatZone_Antiship-Training-Easy-Cargos": {
+"side": "red",
+"cat": "ship",
+"x": -294895,
+"y": 193189,
+"units": [
+[
+"Dry-cargo ship-1",
+-294895,
+193189,
+"#command=\"_spawn group, name cargoships\" #spawnradius=50000"
+]
+],
+"route": [
+[
+-294895,
+193189,
+"Turning Point"
+],
+[
+-292573,
+230144,
+"Turning Point"
+],
+[
+-331659,
+230707,
+"Turning Point"
+],
+[
+-333346,
+191339,
+"Turning Point"
+],
+[
+-294682,
+191901,
+"Turning Point"
+]
+]
+},
+"combatZone_Antiship-Training-Hard-EscortedCargos": {
+"side": "red",
+"cat": "ship",
+"x": -283512,
+"y": 192376,
+"units": [
+[
+"ALBATROS",
+-283512,
+192376,
+"#command=\"_spawn group, name cargoships-escorted\""
+]
+],
+"route": [
+[
+-283512,
+192376,
+"Turning Point"
+],
+[
+-282069,
+229994,
+"Turning Point"
+],
+[
+-322828,
+230988,
+"Turning Point"
+],
+[
+-324067,
+191901,
+"Turning Point"
+],
+[
+-283434,
+192182,
+"Turning Point"
+]
+]
+},
+"combatZone_SaveTheHostages-Prohladniy-CAS-helo": {
+"side": "red",
+"cat": "helicopter",
+"x": -71527,
+"y": 795640,
+"units": [
+[
+"Ka-50",
+-71527,
+795640,
+"Pilot #111"
+],
+[
+"Ka-50",
+-71567,
+795680,
+"Pilot #112"
+]
+],
+"route": [
+[
+-71527,
+795640,
+"Turning Point"
+],
+[
+-100685,
+774740,
+"Turning Point"
+],
+[
+-117609,
+800941,
+"Turning Point"
+],
+[
+-85393,
+823880,
+"Turning Point"
+]
+]
+}
+}

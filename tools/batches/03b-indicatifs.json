@@ -1,0 +1,86 @@
+[
+ {
+  "name": "set_unit_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1",
+   "unit_name": "Arco 1-1",
+   "callsign": {
+    "family": 2,
+    "flight": 1,
+    "number": 1,
+    "name": "Arco11"
+   }
+  }
+ },
+ {
+  "name": "set_unit_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1",
+   "unit_name": "Texaco 1-1",
+   "callsign": {
+    "family": 1,
+    "flight": 1,
+    "number": 1,
+    "name": "Texaco11"
+   }
+  }
+ },
+ {
+  "name": "set_unit_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1",
+   "unit_name": "Shell 1-1",
+   "callsign": {
+    "family": 3,
+    "flight": 1,
+    "number": 1,
+    "name": "Shell11"
+   }
+  }
+ },
+ {
+  "name": "set_unit_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2",
+   "unit_name": "Shell 2-1",
+   "callsign": {
+    "family": 3,
+    "flight": 2,
+    "number": 1,
+    "name": "Shell21"
+   }
+  }
+ },
+ {
+  "name": "set_unit_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1",
+   "unit_name": "Magic 1-1",
+   "callsign": {
+    "family": 2,
+    "flight": 1,
+    "number": 1,
+    "name": "Magic11"
+   }
+  }
+ },
+ {
+  "name": "set_unit_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1",
+   "unit_name": "Overlord 1-1",
+   "callsign": {
+    "family": 1,
+    "flight": 1,
+    "number": 1,
+    "name": "Overlord11"
+   }
+  }
+ }
+]

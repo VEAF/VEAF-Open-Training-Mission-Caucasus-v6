@@ -1,0 +1,9 @@
+[
+ {
+  "name": "remove_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "combatZone_Kobuleti_Easy-cible-07"
+  }
+ }
+]

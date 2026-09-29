@@ -1,0 +1,842 @@
+[
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Sochi-SR",
+   "position": {
+    "x": -164102.6677382998,
+    "y": 461962.21694942
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Sochi-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Sochi-MR",
+   "position": {
+    "x": -165939.7850453872,
+    "y": 463799.3342565074
+   },
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, country usa\"] #Sochi-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Sochi-LR",
+   "position": {
+    "x": -160333.69877863428,
+    "y": 459607.46155212756
+   },
+   "units": [
+    {
+     "type": "Patriot ln",
+     "name": "#veafInterpreter[\"-patriot, country usa\"] #Sochi-LR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Gudauta-SR",
+   "position": {
+    "x": -194501.4837599532,
+    "y": 516862.976100485
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Gudauta-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Gudauta-MR",
+   "position": {
+    "x": -196171.49495763247,
+    "y": 518853.21794499183
+   },
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, country usa\"] #Gudauta-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Batumi-SR",
+   "position": {
+    "x": -356437.14174901135,
+    "y": 619710.8939855065
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Batumi-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Batumi-MR",
+   "position": {
+    "x": -359035.21796036465,
+    "y": 619710.8939855065
+   },
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, country usa\"] #Batumi-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Kobuleti-SR",
+   "position": {
+    "x": -317604.94018829986,
+    "y": 638204.217757126
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Kobuleti-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Kobuleti-MR",
+   "position": {
+    "x": -320203.01639965316,
+    "y": 638204.217757126
+   },
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, country usa\"] #Kobuleti-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Kutaisi-SR",
+   "position": {
+    "x": -283082.7997534191,
+    "y": 685029.7345754248
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Kutaisi-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Kutaisi-MR",
+   "position": {
+    "x": -283082.7997534191,
+    "y": 687627.8107867781
+   },
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, country usa\"] #Kutaisi-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Kutaisi-LR",
+   "position": {
+    "x": -282082.7997534191,
+    "y": 680699.6075565026
+   },
+   "units": [
+    {
+     "type": "Patriot ln",
+     "name": "#veafInterpreter[\"-patriot, country usa\"] #Kutaisi-LR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Tbilisi-SR",
+   "position": {
+    "x": -313426.22095467243,
+    "y": 895724.5820187323
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Tbilisi-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Tbilisi-MR",
+   "position": {
+    "x": -313426.22095467243,
+    "y": 898322.6582300856
+   },
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, country usa\"] #Tbilisi-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Vaziani-SR",
+   "position": {
+    "x": -316691.670253261,
+    "y": 902332.3812002988
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Vaziani-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Vaziani-MR",
+   "position": {
+    "x": -316691.670253261,
+    "y": 904930.4574116521
+   },
+   "units": [
+    {
+     "type": "NASAMS_LN_C",
+     "name": "#veafInterpreter[\"-nasams, country usa\"] #Vaziani-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Vaziani-LR",
+   "position": {
+    "x": -315691.670253261,
+    "y": 898002.2541813765
+   },
+   "units": [
+    {
+     "type": "Patriot ln",
+     "name": "#veafInterpreter[\"-patriot, country usa\"] #Vaziani-LR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Nalchik-SR",
+   "position": {
+    "x": -126987.60720565636,
+    "y": 759560.3867449051
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Nalchik-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Nalchik-MR",
+   "position": {
+    "x": -126987.60720565636,
+    "y": 756962.3105335518
+   },
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, country usa\"] #Nalchik-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Beslan-SR",
+   "position": {
+    "x": -149972.36646029446,
+    "y": 842252.2253107942
+   },
+   "units": [
+    {
+     "type": "M1097 Avenger",
+     "name": "#veafInterpreter[\"-avenger_squad, country usa\"] #Beslan-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-Beslan-MR",
+   "position": {
+    "x": -149972.36646029446,
+    "y": 839654.1490994409
+   },
+   "units": [
+    {
+     "type": "Hawk ln",
+     "name": "#veafInterpreter[\"-hawk, country usa\"] #Beslan-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Maykop-SR",
+   "position": {
+    "x": -26125.974387860857,
+    "y": 457047.6635806483
+   },
+   "units": [
+    {
+     "type": "2S6 Tunguska",
+     "name": "#veafInterpreter[\"-sa19, country russia\"] #Maykop-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Maykop-MR",
+   "position": {
+    "x": -29375.974387860857,
+    "y": 460078.75249389384
+   },
+   "units": [
+    {
+     "type": "SA-11 Buk LN 9A310M1",
+     "name": "#veafInterpreter[\"-sa11, country russia\"] #Maykop-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Krasnodar-SR",
+   "position": {
+    "x": 10206.860211336985,
+    "y": 388985.72789460997
+   },
+   "units": [
+    {
+     "type": "2S6 Tunguska",
+     "name": "#veafInterpreter[\"-sa19, country russia\"] #Krasnodar-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Krasnodar-MR",
+   "position": {
+    "x": 6956.860211336986,
+    "y": 392016.8168078555
+   },
+   "units": [
+    {
+     "type": "SA-11 Buk LN 9A310M1",
+     "name": "#veafInterpreter[\"-sa11, country russia\"] #Krasnodar-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Mineralnye-SR",
+   "position": {
+    "x": -50589.51305304468,
+    "y": 707418.2369877042
+   },
+   "units": [
+    {
+     "type": "2S6 Tunguska",
+     "name": "#veafInterpreter[\"-sa19, country russia\"] #Mineralnye-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Mineralnye-MR",
+   "position": {
+    "x": -53839.51305304468,
+    "y": 710449.3259009498
+   },
+   "units": [
+    {
+     "type": "SA-11 Buk LN 9A310M1",
+     "name": "#veafInterpreter[\"-sa11, country russia\"] #Mineralnye-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Mozdok-SR",
+   "position": {
+    "x": -81829.78521708492,
+    "y": 835635.0990874539
+   },
+   "units": [
+    {
+     "type": "2S6 Tunguska",
+     "name": "#veafInterpreter[\"-sa19, country russia\"] #Mozdok-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Mozdok-MR",
+   "position": {
+    "x": -85079.78521708492,
+    "y": 838666.1880006995
+   },
+   "units": [
+    {
+     "type": "SA-11 Buk LN 9A310M1",
+     "name": "#veafInterpreter[\"-sa11, country russia\"] #Mozdok-MR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Krasnodar-LR",
+   "position": {
+    "x": 11706.860211336985,
+    "y": 394181.8803173166
+   },
+   "units": [
+    {
+     "type": "S-300PS 5P85C ln",
+     "name": "#veafInterpreter[\"-sa10, country russia\"] #Krasnodar-LR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Stavropol-LR",
+   "position": {
+    "x": 27998.0,
+    "y": 607332.0
+   },
+   "units": [
+    {
+     "type": "S-300PS 5P85C ln",
+     "name": "#veafInterpreter[\"-sa10, country russia\"] #Stavropol-LR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-Stavropol-SR",
+   "position": {
+    "x": 27998.0,
+    "y": 608832.0
+   },
+   "units": [
+    {
+     "type": "Tor 9A331",
+     "name": "#veafInterpreter[\"-sa15, country russia\"] #Stavropol-SR"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-EWR-SE",
+   "position": {
+    "x": -289609,
+    "y": 911190
+   },
+   "units": [
+    {
+     "type": "1L13 EWR",
+     "name": "AD-EWR-SE"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-EWR-SW",
+   "position": {
+    "x": -348761,
+    "y": 633431
+   },
+   "units": [
+    {
+     "type": "1L13 EWR",
+     "name": "AD-EWR-SW"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-EWR-NE",
+   "position": {
+    "x": -136829,
+    "y": 854741
+   },
+   "units": [
+    {
+     "type": "1L13 EWR",
+     "name": "AD-EWR-NE"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "AD-EWR-NW",
+   "position": {
+    "x": -153549,
+    "y": 478873
+   },
+   "units": [
+    {
+     "type": "1L13 EWR",
+     "name": "AD-EWR-NW"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-EWR-Rouge-NW",
+   "position": {
+    "x": 15298,
+    "y": 393732
+   },
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "AD-EWR-Rouge-NW"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-EWR-Rouge-S",
+   "position": {
+    "x": -92108,
+    "y": 550781
+   },
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "AD-EWR-Rouge-S"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-EWR-Rouge-NE",
+   "position": {
+    "x": -48675,
+    "y": 706658
+   },
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "AD-EWR-Rouge-NE"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "AD-EWR-Rouge-E",
+   "position": {
+    "x": -116098,
+    "y": 873169
+   },
+   "units": [
+    {
+     "type": "55G6 EWR",
+     "name": "AD-EWR-Rouge-E"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,53 @@
+[
+ {
+  "name": "add_trigger_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Gudauta-Tour",
+   "position": {
+    "x": -196855,
+    "y": 515806
+   },
+   "radius": 20
+  }
+ },
+ {
+  "name": "add_trigger_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Gudauta-Carburant",
+   "position": {
+    "x": -197922,
+    "y": 516800
+   },
+   "radius": 25
+  }
+ },
+ {
+  "name": "add_trigger_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Gudauta-Mess",
+   "position": {
+    "x": -197959,
+    "y": 516771
+   },
+   "radius": 20
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "OnDemand-Intercept-Transport-Krasnodar-Mineral-Transport",
+   "operation": "add",
+   "position": {
+    "x": -51500,
+    "y": 707000
+   },
+   "altitude_ft": 15000,
+   "speed_kt": 250,
+   "name": "Mineralnye Vody"
+  }
+ }
+]

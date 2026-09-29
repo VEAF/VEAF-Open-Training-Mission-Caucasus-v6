@@ -1,0 +1,1309 @@
+[
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arco 1",
+   "unit_type": "KC-135",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -300000,
+    "y": 500000
+   },
+   "altitude_ft": 18000,
+   "speed_kt": 420,
+   "frequency_mhz": 251.0,
+   "task": "Refueling",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1",
+   "operation": "add",
+   "position": {
+    "x": -315000,
+    "y": 550000
+   },
+   "altitude_ft": 18000,
+   "speed_kt": 420
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "activate_beacon",
+   "task_params": {
+    "channel": 51,
+    "mode": "Y",
+    "callsign": "AR1",
+    "bearing": true,
+    "aa": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "tanker",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 18000,
+    "speed_kt": 420
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Arco 1 escort",
+   "unit_type": "F-15C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": -302000,
+    "y": 498000
+   },
+   "altitude_ft": 18000,
+   "speed_kt": 420,
+   "frequency_mhz": 251.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Arco 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "Arco 1",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Texaco 1",
+   "unit_type": "KC135MPRS",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -235000,
+    "y": 560000
+   },
+   "altitude_ft": 22000,
+   "speed_kt": 420,
+   "frequency_mhz": 252.0,
+   "task": "Refueling",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1",
+   "operation": "add",
+   "position": {
+    "x": -255000,
+    "y": 610000
+   },
+   "altitude_ft": 22000,
+   "speed_kt": 420
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "activate_beacon",
+   "task_params": {
+    "channel": 52,
+    "mode": "Y",
+    "callsign": "TX1",
+    "bearing": true,
+    "aa": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "tanker",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 22000,
+    "speed_kt": 420
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Texaco 1 escort",
+   "unit_type": "F-15C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": -237000,
+    "y": 558000
+   },
+   "altitude_ft": 22000,
+   "speed_kt": 420,
+   "frequency_mhz": 252.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Texaco 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "Texaco 1",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Shell 1",
+   "unit_type": "KC135MPRS",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -285000,
+    "y": 760000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 420,
+   "frequency_mhz": 253.0,
+   "task": "Refueling",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1",
+   "operation": "add",
+   "position": {
+    "x": -295000,
+    "y": 815000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 420
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "activate_beacon",
+   "task_params": {
+    "channel": 53,
+    "mode": "Y",
+    "callsign": "SH1",
+    "bearing": true,
+    "aa": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "tanker",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 20000,
+    "speed_kt": 420
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Shell 1 escort",
+   "unit_type": "F-15C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": -287000,
+    "y": 758000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 420,
+   "frequency_mhz": 253.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "Shell 1",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Shell 2",
+   "unit_type": "KC-135",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -320000,
+    "y": 840000
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 420,
+   "frequency_mhz": 254.0,
+   "task": "Refueling",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2",
+   "operation": "add",
+   "position": {
+    "x": -330000,
+    "y": 895000
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 420
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2",
+   "operation": "add_task",
+   "index": 1,
+   "task": "activate_beacon",
+   "task_params": {
+    "channel": 54,
+    "mode": "Y",
+    "callsign": "SH2",
+    "bearing": true,
+    "aa": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2",
+   "operation": "add_task",
+   "index": 1,
+   "task": "tanker",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 24000,
+    "speed_kt": 420
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Shell 2 escort",
+   "unit_type": "F-15C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": -322000,
+    "y": 838000
+   },
+   "altitude_ft": 24000,
+   "speed_kt": 420,
+   "frequency_mhz": 254.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Shell 2 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "Shell 2",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Magic 1",
+   "unit_type": "E-3A",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -275000,
+    "y": 450000
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360,
+   "frequency_mhz": 265.0,
+   "task": "AWACS",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1",
+   "operation": "add",
+   "position": {
+    "x": -290000,
+    "y": 510000
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "awacs",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "eplrs",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 30000,
+    "speed_kt": 360
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Magic 1 escort",
+   "unit_type": "F-15C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": -277000,
+    "y": 448000
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360,
+   "frequency_mhz": 265.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Magic 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "Magic 1",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Overlord 1",
+   "unit_type": "E-3A",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -305000,
+    "y": 700000
+   },
+   "altitude_ft": 31000,
+   "speed_kt": 360,
+   "frequency_mhz": 266.0,
+   "task": "AWACS",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1",
+   "operation": "add",
+   "position": {
+    "x": -315000,
+    "y": 760000
+   },
+   "altitude_ft": 31000,
+   "speed_kt": 360
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "awacs",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "eplrs",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 31000,
+    "speed_kt": 360
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Overlord 1 escort",
+   "unit_type": "F-15C",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": -307000,
+    "y": 698000
+   },
+   "altitude_ft": 31000,
+   "speed_kt": 360,
+   "frequency_mhz": 266.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    },
+    "3": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "4": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "5": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "7": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "8": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "9": {
+     "CLSID": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}"
+    },
+    "11": {
+     "CLSID": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Overlord 1 escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "Overlord 1",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Tanker Rouge",
+   "unit_type": "IL-78M",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": 20000,
+    "y": 470000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 420,
+   "frequency_mhz": 261.0,
+   "task": "Refueling",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Tanker Rouge",
+   "operation": "add",
+   "position": {
+    "x": 30000,
+    "y": 530000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 420
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Tanker Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Tanker Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "tanker",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Tanker Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 20000,
+    "speed_kt": 420
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "Tanker Rouge escort",
+   "unit_type": "Su-27",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 18000,
+    "y": 468000
+   },
+   "altitude_ft": 20000,
+   "speed_kt": 420,
+   "frequency_mhz": 261.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}"
+    },
+    "2": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "5": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "6": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "8": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "9": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "10": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Tanker Rouge escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Tanker Rouge escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "Tanker Rouge",
+    "engagement_distance_nm": 30
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "AWACS Rouge",
+   "unit_type": "A-50",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": 30000,
+    "y": 620000
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360,
+   "frequency_mhz": 260.0,
+   "task": "AWACS",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Rouge",
+   "operation": "add",
+   "position": {
+    "x": 40000,
+    "y": 690000
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "awacs",
+   "task_params": {}
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "eplrs",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Rouge",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Race-Track",
+    "altitude_ft": 30000,
+    "speed_kt": 360
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "name": "AWACS Rouge escort",
+   "unit_type": "Su-27",
+   "count": 2,
+   "start": "air",
+   "position": {
+    "x": 28000,
+    "y": 618000
+   },
+   "altitude_ft": 30000,
+   "speed_kt": 360,
+   "frequency_mhz": 260.0,
+   "task": "Escort",
+   "skill": "High",
+   "pylons": {
+    "1": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82F}"
+    },
+    "2": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "3": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "5": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "6": {
+     "CLSID": "{E8069896-8435-4B90-95C0-01A03AE6E400}"
+    },
+    "8": {
+     "CLSID": "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}"
+    },
+    "9": {
+     "CLSID": "{FBC29BFE-3D24-4C64-B81D-941239D12249}"
+    },
+    "10": {
+     "CLSID": "{44EE8698-89F9-48EE-AF36-5FD31896A82A}"
+    }
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Rouge escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "AWACS Rouge escort",
+   "operation": "add_task",
+   "index": 1,
+   "task": "escort",
+   "task_params": {
+    "group_name": "AWACS Rouge",
+    "engagement_distance_nm": 30
+   }
+  }
+ }
+]

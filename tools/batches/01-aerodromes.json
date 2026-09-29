@@ -1,0 +1,191 @@
+[
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Sochi-Adler",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Gudauta",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Batumi",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Kobuleti",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Kutaisi",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Nalchik",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Tbilisi-Lochini",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Vaziani",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Beslan",
+   "coalition": "blue",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Sukhumi-Babushara",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Senaki-Kolkhi",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Soganlug",
+   "coalition": "blue",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Maykop-Khanskaya",
+   "coalition": "red",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Krasnodar-Pashkovsky",
+   "coalition": "red",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Mineralnye Vody",
+   "coalition": "red",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Mozdok",
+   "coalition": "red",
+   "dynamic_spawn": true
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Anapa-Vityazevo",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Krasnodar-Center",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Krymsk",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Novorossiysk",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ },
+ {
+  "name": "set_airbase_coalition",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "Gelendzhik",
+   "coalition": "red",
+   "dynamic_spawn": false
+  }
+ }
+]

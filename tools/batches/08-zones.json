@@ -1,0 +1,2789 @@
+[
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Beslan",
+   "position": {
+    "x": -117500,
+    "y": 848000
+   },
+   "radius": 8000,
+   "groups": [
+    {
+     "name": "assaut-1",
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 4
+      }
+     ],
+     "position": {
+      "x": -114639,
+      "y": 854186
+     },
+     "route": [
+      {
+       "x": -114639,
+       "y": 854186
+      },
+      {
+       "x": -117418,
+       "y": 852933
+      }
+     ]
+    },
+    {
+     "name": "assaut-2",
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 4
+      }
+     ],
+     "position": {
+      "x": -113911,
+      "y": 848529
+     },
+     "route": [
+      {
+       "x": -113911,
+       "y": 848529
+      },
+      {
+       "x": -117281,
+       "y": 848421
+      }
+     ]
+    },
+    {
+     "name": "assaut-3",
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 4
+      }
+     ],
+     "position": {
+      "x": -113591,
+      "y": 843053
+     },
+     "route": [
+      {
+       "x": -113591,
+       "y": 843053
+      },
+      {
+       "x": -116470,
+       "y": 842921
+      }
+     ]
+    },
+    {
+     "name": "renforts-1",
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, size 7, armor 5, defense 0\" #spawnradius=500 Bes-r1"
+      }
+     ],
+     "position": {
+      "x": -115750.0,
+      "y": 851031.0889132456
+     }
+    },
+    {
+     "name": "renforts-2",
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, size 7, armor 5, defense 0\" #spawnradius=500 Bes-r2"
+      }
+     ],
+     "position": {
+      "x": -118107.76862183426,
+      "y": 851446.8271355428
+     }
+    },
+    {
+     "name": "osa-1",
+     "units": [
+      {
+       "type": "Osa 9A33 ln",
+       "name": "#command=\"-sa8\" #spawngroup=\"osa\" #spawncount=1 Bes-o1"
+      }
+     ],
+     "position": {
+      "x": -117500.0,
+      "y": 850500.0
+     }
+    },
+    {
+     "name": "osa-2",
+     "units": [
+      {
+       "type": "Osa 9A33 ln",
+       "name": "#command=\"-sa8\" #spawngroup=\"osa\" #spawncount=1 Bes-o2"
+      }
+     ],
+     "position": {
+      "x": -120000.0,
+      "y": 848000.0
+     }
+    },
+    {
+     "name": "manpads",
+     "units": [
+      {
+       "type": "SA-18 Igla-S manpad",
+       "name": "#command=\"-sa18s\" Bes-m1"
+      }
+     ],
+     "position": {
+      "x": -116000.0,
+      "y": 848000.0
+     }
+    },
+    {
+     "name": "aaa",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" Bes-a1"
+      }
+     ],
+     "position": {
+      "x": -119000.0,
+      "y": 848000.0
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Bataille de Beslan",
+    "radio_group_name": "Front",
+    "training": false,
+    "briefing": "Bataille blindée au nord de Beslan : trois compagnies de BTR-80 rouges montent à l'assaut des Abrams bleus, deux groupes blindés en renfort. Détruisez les blindés rouges ; ne tirez pas sur les Abrams. Défense : SA-8 (un des deux sites), MANPADS, Shilka. Drone Reaper 1 au-dessus (laser 1688). BULLSEYE 078/101. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 99 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Beslan",
+   "keep_position": true,
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "combatZone_Beslan-allies-1",
+   "position": {
+    "x": -120694,
+    "y": 853690
+   },
+   "units": [
+    {
+     "type": "M-1 Abrams",
+     "count": 3
+    }
+   ],
+   "route": [
+    {
+     "x": -120694,
+     "y": 853690
+    },
+    {
+     "x": -117734,
+     "y": 853070
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Beslan",
+   "keep_position": true,
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "combatZone_Beslan-allies-2",
+   "position": {
+    "x": -120394,
+    "y": 848935
+   },
+   "units": [
+    {
+     "type": "M-1 Abrams",
+     "count": 3
+    }
+   ],
+   "route": [
+    {
+     "x": -120394,
+     "y": 848935
+    },
+    {
+     "x": -117293,
+     "y": 848928
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Beslan",
+   "keep_position": true,
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "vehicle",
+   "name": "combatZone_Beslan-allies-3",
+   "position": {
+    "x": -119455,
+    "y": 842813
+   },
+   "units": [
+    {
+     "type": "M-1 Abrams",
+     "count": 3
+    }
+   ],
+   "route": [
+    {
+     "x": -119455,
+     "y": 842813
+    },
+    {
+     "x": -116784,
+     "y": 842967
+    }
+   ]
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Terek",
+   "position": {
+    "x": -114217,
+    "y": 816657
+   },
+   "radius": 7620,
+   "groups": [
+    {
+     "name": "logistique",
+     "units": [
+      {
+       "type": "Ural-375",
+       "name": "#command=\"-transport, size 25, defense 1\" #spawnradius=2500 Ter-1"
+      }
+     ],
+     "position": {
+      "x": -114217,
+      "y": 816657
+     }
+    },
+    {
+     "name": "infanterie",
+     "units": [
+      {
+       "type": "BTR-80",
+       "name": "#command=\"-infantry, size 25, armor 1, defense 2\" #spawnchance=50 Ter-2"
+      }
+     ],
+     "position": {
+      "x": -114217.0,
+      "y": 818157.0
+     }
+    },
+    {
+     "name": "manpads",
+     "units": [
+      {
+       "type": "SA-18 Igla-S manpad",
+       "name": "#command=\"-sa18s\" Ter-3"
+      }
+     ],
+     "position": {
+      "x": -114217.0,
+      "y": 815657.0
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Parc logistique de Terek",
+    "radio_group_name": "Front",
+    "training": false,
+    "briefing": "Le parc logistique de Terek ravitaille l'offensive rouge sur Beslan. Détruisez les camions. Défense légère : DCA de convoi, une chance sur deux d'infanterie mécanisée, MANPADS. BULLSEYE 075/84. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 96 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Lazarevskoye",
+   "position": {
+    "x": -114558.67965644036,
+    "y": 411050.32034355967
+   },
+   "radius": 5000,
+   "groups": [
+    {
+     "name": "blindes-1",
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, size 6, armor 3, defense 0\" Laz-1"
+      }
+     ],
+     "position": {
+      "x": -113058.67965644036,
+      "y": 411050.32034355967
+     }
+    },
+    {
+     "name": "blindes-2",
+     "units": [
+      {
+       "type": "T-72B",
+       "name": "#command=\"-armor, size 6, armor 3, defense 0\" Laz-2"
+      }
+     ],
+     "position": {
+      "x": -115308.67965644036,
+      "y": 412349.3584492363
+     }
+    },
+    {
+     "name": "artillerie",
+     "units": [
+      {
+       "type": "Grad-URAL",
+       "count": 3
+      }
+     ],
+     "position": {
+      "x": -115558.67965644036,
+      "y": 409318.2695359908
+     }
+    },
+    {
+     "name": "sa13",
+     "units": [
+      {
+       "type": "Strela-10M3",
+       "name": "#command=\"-sa13_squad\" Laz-3"
+      }
+     ],
+     "position": {
+      "x": -114158.67965644036,
+      "y": 411743.1406665872
+     }
+    },
+    {
+     "name": "aaa",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" Laz-4"
+      }
+     ],
+     "position": {
+      "x": -115310.43375306908,
+      "y": 410776.70422889915
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Front côtier de Lazarevskoye",
+    "radio_group_name": "Front",
+    "training": false,
+    "briefing": "Le front de la côte, au nord-ouest de Sochi : deux groupes blindés et une batterie de lance-roquettes BM-21 en appui. Détruisez les blindés et les BM-21. Défense : SA-13, Shilka. BULLSEYE 279/139. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 117 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Psebay_SAM",
+   "position": {
+    "x": -76800,
+    "y": 520400
+   },
+   "radius": 3000,
+   "groups": [
+    {
+     "name": "sa6",
+     "units": [
+      {
+       "type": "Kub 2P25 ln",
+       "name": "#command=\"-sa6\" PsS-1"
+      }
+     ],
+     "position": {
+      "x": -76809,
+      "y": 520561
+     }
+    },
+    {
+     "name": "sa2",
+     "units": [
+      {
+       "type": "S_75M_Volhov",
+       "name": "#command=\"-sa2\" PsS-2"
+      }
+     ],
+     "position": {
+      "x": -77268,
+      "y": 520408
+     }
+    },
+    {
+     "name": "sa15-n",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" #spawngroup=\"sa15\" #spawncount=1 PsS-3"
+      }
+     ],
+     "position": {
+      "x": -75894,
+      "y": 520488
+     }
+    },
+    {
+     "name": "sa15-s",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" #spawngroup=\"sa15\" #spawncount=1 PsS-4"
+      }
+     ],
+     "position": {
+      "x": -76848,
+      "y": 519736
+     }
+    },
+    {
+     "name": "aaa",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" PsS-5"
+      }
+     ],
+     "position": {
+      "x": -76350.0,
+      "y": 519620.577136594
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Sites SAM de Psebay",
+    "radio_group_name": "SEAD",
+    "training": false,
+    "briefing": "Les sites SAM qui couvrent l'usine de Psebay : un SA-2, un SA-6, et un SA-15 (un des deux sites), plus de la DCA. Neutralisez les radars avant la frappe de l'usine. BULLSEYE 298/89. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 97 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Mozdok_SA11",
+   "position": {
+    "x": -77140.0,
+    "y": 839198.0
+   },
+   "radius": 3000,
+   "groups": [
+    {
+     "name": "sa11",
+     "units": [
+      {
+       "type": "SA-11 Buk LN 9A310M1",
+       "name": "#command=\"-sa11\" MzS-1"
+      }
+     ],
+     "position": {
+      "x": -77140.0,
+      "y": 839198.0
+     }
+    },
+    {
+     "name": "sa15",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" MzS-2"
+      }
+     ],
+     "position": {
+      "x": -77140.0,
+      "y": 840698.0
+     }
+    },
+    {
+     "name": "aaa",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" MzS-3"
+      }
+     ],
+     "position": {
+      "x": -77140.0,
+      "y": 838198.0
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Site SA-11 au nord de Mozdok",
+    "radio_group_name": "SEAD",
+    "training": false,
+    "briefing": "Une batterie SA-11 isolée au nord de Mozdok, protégée par un SA-15 et de la DCA. Détruisez le radar et les lanceurs du SA-11. BULLSEYE 066/103. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 118 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_RoadBlock_KM91",
+   "position": {
+    "x": -349034,
+    "y": 703649
+   },
+   "radius": 15240,
+   "groups": [
+    {
+     "name": "convoi",
+     "units": [
+      {
+       "type": "GAZ-3307",
+       "count": 5
+      },
+      {
+       "type": "ZSU-23-4 Shilka"
+      }
+     ],
+     "position": {
+      "x": -339344,
+      "y": 714422
+     },
+     "route": [
+      {
+       "x": -339344,
+       "y": 714422
+      },
+      {
+       "x": -339193,
+       "y": 714256
+      },
+      {
+       "x": -338287,
+       "y": 703985
+      },
+      {
+       "x": -344616,
+       "y": 694362
+      }
+     ]
+    },
+    {
+     "name": "infanterie",
+     "units": [
+      {
+       "type": "Infantry AK",
+       "count": 4
+      },
+      {
+       "type": "Paratrooper RPG-16",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -344709,
+      "y": 694540
+     }
+    },
+    {
+     "name": "manpads",
+     "units": [
+      {
+       "type": "SA-18 Igla-S manpad",
+       "name": "#command=\"-sa18s\" KM-1"
+      }
+     ],
+     "position": {
+      "x": -348234.0,
+      "y": 703649.0
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Barrage routier KM91",
+    "radio_group_name": "Convois",
+    "training": false,
+    "briefing": "Les Russes tiennent un barrage sur la route Batumi - Tbilissi, et un convoi arrive de l'est pour le renforcer. Détruisez les bunkers, les blindés du poste et le convoi. Défense : la Shilka du convoi, MANPADS. BULLSEYE 169/107. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 55 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-01",
+   "position": {
+    "x": -344698,
+    "y": 695286
+   },
+   "units": [
+    {
+     "type": "outpost_road",
+     "name": "combatZone_RoadBlock_KM91-poste-01"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-02",
+   "position": {
+    "x": -344572,
+    "y": 693826
+   },
+   "units": [
+    {
+     "type": "outpost_road",
+     "name": "combatZone_RoadBlock_KM91-poste-02"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-03",
+   "position": {
+    "x": -344424,
+    "y": 693756
+   },
+   "units": [
+    {
+     "type": "Sandbox",
+     "name": "combatZone_RoadBlock_KM91-poste-03"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-04",
+   "position": {
+    "x": -344421,
+    "y": 693580
+   },
+   "units": [
+    {
+     "type": "Sandbox",
+     "name": "combatZone_RoadBlock_KM91-poste-04"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-05",
+   "position": {
+    "x": -344565,
+    "y": 695114
+   },
+   "units": [
+    {
+     "type": "Sandbox",
+     "name": "combatZone_RoadBlock_KM91-poste-05"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-06",
+   "position": {
+    "x": -344842,
+    "y": 695028
+   },
+   "units": [
+    {
+     "type": "Sandbox",
+     "name": "combatZone_RoadBlock_KM91-poste-06"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-07",
+   "position": {
+    "x": -344519,
+    "y": 694455
+   },
+   "units": [
+    {
+     "type": ".Command Center",
+     "name": "combatZone_RoadBlock_KM91-poste-07"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-08",
+   "position": {
+    "x": -344525,
+    "y": 694401
+   },
+   "units": [
+    {
+     "type": "BTR-80",
+     "name": "combatZone_RoadBlock_KM91-poste-08"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-09",
+   "position": {
+    "x": -344527,
+    "y": 694396
+   },
+   "units": [
+    {
+     "type": "BTR-80",
+     "name": "combatZone_RoadBlock_KM91-poste-09"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-10",
+   "position": {
+    "x": -344529,
+    "y": 694391
+   },
+   "units": [
+    {
+     "type": "BTR-80",
+     "name": "combatZone_RoadBlock_KM91-poste-10"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-11",
+   "position": {
+    "x": -344532,
+    "y": 694385
+   },
+   "units": [
+    {
+     "type": "BTR-80",
+     "name": "combatZone_RoadBlock_KM91-poste-11"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-12",
+   "position": {
+    "x": -344534,
+    "y": 694379
+   },
+   "units": [
+    {
+     "type": "BTR-80",
+     "name": "combatZone_RoadBlock_KM91-poste-12"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-13",
+   "position": {
+    "x": -344530,
+    "y": 694415
+   },
+   "units": [
+    {
+     "type": ".Ammunition depot",
+     "name": "combatZone_RoadBlock_KM91-poste-13"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-14",
+   "position": {
+    "x": -344547,
+    "y": 694400
+   },
+   "units": [
+    {
+     "type": "FARP Fuel Depot",
+     "name": "combatZone_RoadBlock_KM91-poste-14"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-15",
+   "position": {
+    "x": -344531,
+    "y": 694493
+   },
+   "units": [
+    {
+     "type": "T-72B",
+     "name": "combatZone_RoadBlock_KM91-poste-15"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-16",
+   "position": {
+    "x": -344525,
+    "y": 694493
+   },
+   "units": [
+    {
+     "type": "T-72B",
+     "name": "combatZone_RoadBlock_KM91-poste-16"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-17",
+   "position": {
+    "x": -344520,
+    "y": 694493
+   },
+   "units": [
+    {
+     "type": "T-72B",
+     "name": "combatZone_RoadBlock_KM91-poste-17"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-18",
+   "position": {
+    "x": -344515,
+    "y": 694493
+   },
+   "units": [
+    {
+     "type": "T-72B",
+     "name": "combatZone_RoadBlock_KM91-poste-18"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_RoadBlock_KM91",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_RoadBlock_KM91-poste-19",
+   "position": {
+    "x": -344509,
+    "y": 694493
+   },
+   "units": [
+    {
+     "type": "T-72B",
+     "name": "combatZone_RoadBlock_KM91-poste-19"
+    }
+   ]
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Convoi_Prokhladny",
+   "position": {
+    "x": -87598,
+    "y": 834912
+   },
+   "radius": 5000,
+   "groups": [
+    {
+     "name": "convoi",
+     "units": [
+      {
+       "type": "T-72B",
+       "count": 2
+      },
+      {
+       "type": "BTR-80",
+       "count": 2
+      },
+      {
+       "type": "Ural-375",
+       "count": 4
+      },
+      {
+       "type": "ZSU-23-4 Shilka"
+      },
+      {
+       "type": "Strela-10M3"
+      }
+     ],
+     "position": {
+      "x": -87598,
+      "y": 834912
+     },
+     "route": [
+      {
+       "x": -87598,
+       "y": 834912
+      },
+      {
+       "x": -94325,
+       "y": 790607
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Convoi de secours vers Prokhladny",
+    "radio_group_name": "Convois",
+    "training": false,
+    "briefing": "Un convoi blindé part de Mozdok pour secourir la garnison de Prokhladny, par la route. Arrêtez-le avant qu'il arrive. Défense dans la colonne : Shilka et SA-13. BULLSEYE 068/98. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 112 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Convoi_MinVody",
+   "position": {
+    "x": -52627,
+    "y": 710268
+   },
+   "radius": 4000,
+   "groups": [
+    {
+     "name": "convoi",
+     "units": [
+      {
+       "type": "Ural-375",
+       "count": 6
+      },
+      {
+       "type": "BMP-2",
+       "count": 2
+      },
+      {
+       "type": "ZSU-23-4 Shilka"
+      }
+     ],
+     "position": {
+      "x": -52627,
+      "y": 710268
+     },
+     "route": [
+      {
+       "x": -52627,
+       "y": 710268
+      },
+      {
+       "x": -107316,
+       "y": 749774
+      }
+     ]
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Convoi Mineralnye Vody - Baksan",
+    "radio_group_name": "Convois",
+    "training": false,
+    "briefing": "Un convoi de ravitaillement quitte Mineralnye Vody par la route vers Baksan, derrière le front de Nalchik. Détruisez les camions. Défense : BMP-2 et Shilka dans la colonne. BULLSEYE 024/60. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 124 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Psebay_Usine",
+   "position": {
+    "x": -75523,
+    "y": 525018
+   },
+   "radius": 1500,
+   "groups": [
+    {
+     "name": "blindes",
+     "units": [
+      {
+       "type": "T-90",
+       "count": 2
+      },
+      {
+       "type": "BMP-3",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -75523.0,
+      "y": 525418.0
+     }
+    },
+    {
+     "name": "sa15",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" #spawnchance=50 PsF-1"
+      }
+     ],
+     "position": {
+      "x": -74923.0,
+      "y": 525018.0
+     }
+    },
+    {
+     "name": "aaa-1",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=2 PsF-2"
+      }
+     ],
+     "position": {
+      "x": -75773.0,
+      "y": 525451.0127018922
+     }
+    },
+    {
+     "name": "aaa-2",
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23\" #spawngroup=\"aaa\" #spawncount=2 PsF-3"
+      }
+     ],
+     "position": {
+      "x": -75773.0,
+      "y": 524584.9872981078
+     }
+    },
+    {
+     "name": "aaa-3",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=2 PsF-4"
+      }
+     ],
+     "position": {
+      "x": -75173.0,
+      "y": 524411.7822173509
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Usine d'armes chimiques de Psebay",
+    "radio_group_name": "Frappe",
+    "training": false,
+    "briefing": "Cette usine fabrique des armes chimiques pour un groupe terroriste. Détruisez les deux bâtiments de l'usine et le bunker des scientifiques ; le reste est secondaire. Défense : DCA, une chance sur deux d'un SA-15, et les sites SAM voisins (zone « Sites SAM de Psebay »). BULLSEYE 299/87. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 97 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-01",
+   "position": {
+    "x": -75685,
+    "y": 524933
+   },
+   "units": [
+    {
+     "type": "outpost_road",
+     "name": "combatZone_Psebay_Usine-batiment-01"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-02",
+   "position": {
+    "x": -75595,
+    "y": 524900
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Psebay_Usine-batiment-02"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-03",
+   "position": {
+    "x": -75612,
+    "y": 524925
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Psebay_Usine-batiment-03"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-04",
+   "position": {
+    "x": -75603,
+    "y": 524913
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Psebay_Usine-batiment-04"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-05",
+   "position": {
+    "x": -75620,
+    "y": 524939
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Psebay_Usine-batiment-05"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-06",
+   "position": {
+    "x": -75635,
+    "y": 524949
+   },
+   "units": [
+    {
+     "type": "FARP Fuel Depot",
+     "name": "combatZone_Psebay_Usine-batiment-06"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-07",
+   "position": {
+    "x": -75630,
+    "y": 524952
+   },
+   "units": [
+    {
+     "type": "FARP Fuel Depot",
+     "name": "combatZone_Psebay_Usine-batiment-07"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-08",
+   "position": {
+    "x": -75624,
+    "y": 524955
+   },
+   "units": [
+    {
+     "type": "FARP Fuel Depot",
+     "name": "combatZone_Psebay_Usine-batiment-08"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-09",
+   "position": {
+    "x": -75636,
+    "y": 524963
+   },
+   "units": [
+    {
+     "type": ".Ammunition depot",
+     "name": "combatZone_Psebay_Usine-batiment-09"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-10",
+   "position": {
+    "x": -75500,
+    "y": 524863
+   },
+   "units": [
+    {
+     "type": "Barracks 2",
+     "name": "combatZone_Psebay_Usine-batiment-10"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-11",
+   "position": {
+    "x": -75509,
+    "y": 524880
+   },
+   "units": [
+    {
+     "type": "Barracks 2",
+     "name": "combatZone_Psebay_Usine-batiment-11"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-12",
+   "position": {
+    "x": -75543,
+    "y": 524850
+   },
+   "units": [
+    {
+     "type": "house1arm",
+     "name": "combatZone_Psebay_Usine-batiment-12"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-13",
+   "position": {
+    "x": -75377,
+    "y": 524605
+   },
+   "units": [
+    {
+     "type": "Sandbox",
+     "name": "combatZone_Psebay_Usine-batiment-13"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-14",
+   "position": {
+    "x": -75551,
+    "y": 524963
+   },
+   "units": [
+    {
+     "type": ".Command Center",
+     "name": "combatZone_Psebay_Usine-batiment-14"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-15",
+   "position": {
+    "x": -75442,
+    "y": 525027
+   },
+   "units": [
+    {
+     "type": "Comms tower M",
+     "name": "combatZone_Psebay_Usine-batiment-15"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-16",
+   "position": {
+    "x": -75417,
+    "y": 524783
+   },
+   "units": [
+    {
+     "type": "Tech combine",
+     "name": "combatZone_Psebay_Usine-batiment-16"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Psebay_Usine",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Psebay_Usine-batiment-17",
+   "position": {
+    "x": -75386,
+    "y": 524733
+   },
+   "units": [
+    {
+     "type": "Tech combine",
+     "name": "combatZone_Psebay_Usine-batiment-17"
+    }
+   ]
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Prokhladny_Otages",
+   "position": {
+    "x": -94373,
+    "y": 790912
+   },
+   "radius": 13000,
+   "groups": [
+    {
+     "name": "patrouille-14",
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -92811,
+      "y": 801443
+     },
+     "route": [
+      {
+       "x": -92811,
+       "y": 801443
+      },
+      {
+       "x": -94101,
+       "y": 796142
+      }
+     ],
+     "patrol": true
+    },
+    {
+     "name": "patrouille-15",
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -98971,
+      "y": 787686
+     },
+     "route": [
+      {
+       "x": -98971,
+       "y": 787686
+      },
+      {
+       "x": -98050,
+       "y": 795245
+      }
+     ],
+     "patrol": true
+    },
+    {
+     "name": "patrouille-21",
+     "units": [
+      {
+       "type": "BTR-80",
+       "count": 2
+      }
+     ],
+     "position": {
+      "x": -94008,
+      "y": 803858
+     },
+     "route": [
+      {
+       "x": -94008,
+       "y": 803858
+      },
+      {
+       "x": -103063,
+       "y": 791054
+      }
+     ],
+     "patrol": true
+    },
+    {
+     "name": "aaa-1",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=2 Prk-a1"
+      }
+     ],
+     "position": {
+      "x": -94823.0,
+      "y": 791691.422863406
+     }
+    },
+    {
+     "name": "aaa-2",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=2 Prk-a2"
+      }
+     ],
+     "position": {
+      "x": -94823.0,
+      "y": 790132.577136594
+     }
+    },
+    {
+     "name": "aaa-3",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=2 Prk-a3"
+      }
+     ],
+     "position": {
+      "x": -93473.0,
+      "y": 790912.0
+     }
+    },
+    {
+     "name": "sa9-1",
+     "units": [
+      {
+       "type": "Strela-1 9P31",
+       "name": "#command=\"-sa9_squad\" #spawngroup=\"sa9\" #spawncount=1 Prk-s1"
+      }
+     ],
+     "position": {
+      "x": -95123.0,
+      "y": 789612.9618943234
+     }
+    },
+    {
+     "name": "sa9-2",
+     "units": [
+      {
+       "type": "Strela-1 9P31",
+       "name": "#command=\"-sa9_squad\" #spawngroup=\"sa9\" #spawncount=1 Prk-s2"
+      }
+     ],
+     "position": {
+      "x": -93623.0,
+      "y": 792211.0381056766
+     }
+    },
+    {
+     "name": "sa8",
+     "units": [
+      {
+       "type": "Osa 9A33 ln",
+       "name": "#command=\"-sa8\" #spawnchance=50 Prk-o1"
+      }
+     ],
+     "position": {
+      "x": -96722.23155196477,
+      "y": 790056.9496416858
+     }
+    },
+    {
+     "name": "manpads",
+     "units": [
+      {
+       "type": "SA-18 Igla-S manpad",
+       "name": "#command=\"-sa18s\" Prk-m1"
+      }
+     ],
+     "position": {
+      "x": -94026.58983848622,
+      "y": 791112.0
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Otages à Prokhladny",
+    "radio_group_name": "Frappe",
+    "training": false,
+    "briefing": "Des otages sont retenus dans un hôtel fortifié de Prokhladny. Détruisez la caserne et les patrouilles de BTR-80 ; l'hôtel doit rester debout pour l'équipe au sol. Défense : Shilka, SA-9, une chance sur deux d'un SA-8, MANPADS. BULLSEYE 064/75. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 106 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Prokhladny_Otages",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Prokhladny_Otages-hotel",
+   "position": {
+    "x": -94373,
+    "y": 790912
+   },
+   "units": [
+    {
+     "type": "houseA_arm",
+     "name": "combatZone_Prokhladny_Otages-hotel"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Prokhladny_Otages",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Prokhladny_Otages-caserne",
+   "position": {
+    "x": -94296,
+    "y": 790626
+   },
+   "units": [
+    {
+     "type": "house1arm",
+     "name": "combatZone_Prokhladny_Otages-caserne"
+    }
+   ]
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Georgievsk_SCUD",
+   "position": {
+    "x": -56173.0,
+    "y": 732276.0
+   },
+   "radius": 3000,
+   "groups": [
+    {
+     "name": "scud",
+     "units": [
+      {
+       "type": "Scud_B",
+       "count": 4
+      }
+     ],
+     "position": {
+      "x": -56173.0,
+      "y": 732276.0
+     }
+    },
+    {
+     "name": "soutien",
+     "units": [
+      {
+       "type": "Ural-375",
+       "count": 3
+      },
+      {
+       "type": "ZIL-131 KUNG"
+      }
+     ],
+     "position": {
+      "x": -56173.0,
+      "y": 732776.0
+     }
+    },
+    {
+     "name": "sa15",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" Scd-1"
+      }
+     ],
+     "position": {
+      "x": -54973.0,
+      "y": 732276.0
+     }
+    },
+    {
+     "name": "aaa",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" Scd-2"
+      }
+     ],
+     "position": {
+      "x": -56924.75409662873,
+      "y": 732002.3838853395
+     }
+    },
+    {
+     "name": "manpads",
+     "units": [
+      {
+       "type": "SA-18 Igla-S manpad",
+       "name": "#command=\"-sa18s\" Scd-3"
+      }
+     ],
+     "position": {
+      "x": -55873.0,
+      "y": 731756.3847577294
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Site SCUD de Georgievsk",
+    "radio_group_name": "Frappe",
+    "training": false,
+    "briefing": "Quatre lanceurs SCUD en position de tir à l'ouest de Georgievsk. Détruisez les lanceurs. Défense : SA-15, Shilka, MANPADS. BULLSEYE 034/64. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 129 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Nevinnomyssk_Depot",
+   "position": {
+    "x": -17773.0,
+    "y": 613312.0
+   },
+   "radius": 2000,
+   "groups": [
+    {
+     "name": "sa19",
+     "units": [
+      {
+       "type": "2S6 Tunguska",
+       "name": "#command=\"-sa19\" Nev-1"
+      }
+     ],
+     "position": {
+      "x": -16873.0,
+      "y": 613312.0
+     }
+    },
+    {
+     "name": "aaa-1",
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23\" #spawngroup=\"aaa\" #spawncount=1 Nev-2"
+      }
+     ],
+     "position": {
+      "x": -18379.217782649106,
+      "y": 613662.0
+     }
+    },
+    {
+     "name": "aaa-2",
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23\" #spawngroup=\"aaa\" #spawncount=1 Nev-3"
+      }
+     ],
+     "position": {
+      "x": -17773.0,
+      "y": 612612.0
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Dépôt logistique de Nevinnomyssk",
+    "radio_group_name": "Frappe",
+    "training": false,
+    "briefing": "Le grand dépôt de carburant et de munitions qui alimente le front. Détruisez les réservoirs et les entrepôts. Défense locale : SA-19 et DCA ; attention, le dépôt est sous la couverture permanente du SA-10 de Stavropol. BULLSEYE 339/79. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 124 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-01",
+   "position": {
+    "x": -17523.0,
+    "y": 613312.0
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Nevinnomyssk_Depot-01"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-02",
+   "position": {
+    "x": -17558.507555926688,
+    "y": 613491.9805307123
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Nevinnomyssk_Depot-02"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-03",
+   "position": {
+    "x": -17719.16906492325,
+    "y": 613617.2904034338
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Nevinnomyssk_Depot-03"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-04",
+   "position": {
+    "x": -17943.0,
+    "y": 613606.4486372867
+   },
+   "units": [
+    {
+     "type": "Fuel tank",
+     "name": "combatZone_Nevinnomyssk_Depot-04"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-05",
+   "position": {
+    "x": -18120.686269690785,
+    "y": 613438.5474530305
+   },
+   "units": [
+    {
+     "type": ".Ammunition depot",
+     "name": "combatZone_Nevinnomyssk_Depot-05"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-06",
+   "position": {
+    "x": -18148.877048314363,
+    "y": 613175.1919426697
+   },
+   "units": [
+    {
+     "type": ".Ammunition depot",
+     "name": "combatZone_Nevinnomyssk_Depot-06"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-07",
+   "position": {
+    "x": -17988.0,
+    "y": 612939.6090763727
+   },
+   "units": [
+    {
+     "type": "Warehouse",
+     "name": "combatZone_Nevinnomyssk_Depot-07"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-08",
+   "position": {
+    "x": -17693.12183827321,
+    "y": 612858.9884336144
+   },
+   "units": [
+    {
+     "type": "Warehouse",
+     "name": "combatZone_Nevinnomyssk_Depot-08"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Nevinnomyssk_Depot",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Nevinnomyssk_Depot-09",
+   "position": {
+    "x": -17397.6382228717,
+    "y": 612997.0340712536
+   },
+   "units": [
+    {
+     "type": "Tech combine",
+     "name": "combatZone_Nevinnomyssk_Depot-09"
+    }
+   ]
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Maykop_Defenses",
+   "position": {
+    "x": -23149,
+    "y": 456611
+   },
+   "radius": 3048,
+   "groups": [
+    {
+     "name": "sa10",
+     "units": [
+      {
+       "type": "S-300PS 5P85C ln",
+       "name": "#command=\"-sa10\" Mk-1"
+      }
+     ],
+     "position": {
+      "x": -23147,
+      "y": 456539
+     }
+    },
+    {
+     "name": "sa15-1",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" #spawngroup=\"sa15\" #spawncount=2 Mk-s1"
+      }
+     ],
+     "position": {
+      "x": -22215,
+      "y": 455430
+     }
+    },
+    {
+     "name": "sa15-2",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" #spawngroup=\"sa15\" #spawncount=2 Mk-s2"
+      }
+     ],
+     "position": {
+      "x": -22207,
+      "y": 457839
+     }
+    },
+    {
+     "name": "sa15-3",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" #spawngroup=\"sa15\" #spawncount=2 Mk-s3"
+      }
+     ],
+     "position": {
+      "x": -24095,
+      "y": 455612
+     }
+    },
+    {
+     "name": "sa15-4",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" #spawngroup=\"sa15\" #spawncount=2 Mk-s4"
+      }
+     ],
+     "position": {
+      "x": -24076,
+      "y": 457619
+     }
+    },
+    {
+     "name": "aaa-1",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=4 Mk-a1"
+      }
+     ],
+     "position": {
+      "x": -22232,
+      "y": 455423
+     }
+    },
+    {
+     "name": "aaa-2",
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23\" #spawngroup=\"aaa\" #spawncount=4 Mk-a2"
+      }
+     ],
+     "position": {
+      "x": -22226,
+      "y": 455450
+     }
+    },
+    {
+     "name": "aaa-3",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=4 Mk-a3"
+      }
+     ],
+     "position": {
+      "x": -24041,
+      "y": 457639
+     }
+    },
+    {
+     "name": "aaa-4",
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23\" #spawngroup=\"aaa\" #spawncount=4 Mk-a4"
+      }
+     ],
+     "position": {
+      "x": -22234,
+      "y": 457858
+     }
+    },
+    {
+     "name": "aaa-5",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=4 Mk-a5"
+      }
+     ],
+     "position": {
+      "x": -24092,
+      "y": 455587
+     }
+    },
+    {
+     "name": "aaa-6",
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23\" #spawngroup=\"aaa\" #spawncount=4 Mk-a6"
+      }
+     ],
+     "position": {
+      "x": -24056,
+      "y": 457582
+     }
+    },
+    {
+     "name": "aaa-7",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" #spawngroup=\"aaa\" #spawncount=4 Mk-a7"
+      }
+     ],
+     "position": {
+      "x": -22207,
+      "y": 457802
+     }
+    },
+    {
+     "name": "aaa-8",
+     "units": [
+      {
+       "type": "Ural-375 ZU-23",
+       "name": "#command=\"-zu23\" #spawngroup=\"aaa\" #spawncount=4 Mk-a8"
+      }
+     ],
+     "position": {
+      "x": -24117,
+      "y": 455627
+     }
+    },
+    {
+     "name": "blindes",
+     "units": [
+      {
+       "type": "BMP-2",
+       "name": "#command=\"-armor, armor 3, size 6, defense 0\" #spawnradius=2500 Mk-b1"
+      }
+     ],
+     "position": {
+      "x": -23148,
+      "y": 457522
+     }
+    },
+    {
+     "name": "logistique",
+     "units": [
+      {
+       "type": "GAZ-3307",
+       "name": "#command=\"-transport, defense 0, size 5\" #spawnradius=2500 Mk-t1"
+      }
+     ],
+     "position": {
+      "x": -22848,
+      "y": 455755
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Défenses de la base de Maykop",
+    "radio_group_name": "OCA",
+    "training": false,
+    "briefing": "La base de Maykop est défendue par un bataillon SA-10, deux SA-15 tirés parmi quatre sites, quatre pièces de DCA tirées parmi huit, et des blindés. Neutralisez les défenses pour préparer l'assaut. BULLSEYE 302/133. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 138 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Mozdok_OCA",
+   "position": {
+    "x": -83886,
+    "y": 835223
+   },
+   "radius": 2500,
+   "groups": [
+    {
+     "name": "sa15",
+     "units": [
+      {
+       "type": "Tor 9A331",
+       "name": "#command=\"-sa15\" Mz-1"
+      }
+     ],
+     "position": {
+      "x": -83037.47186257615,
+      "y": 836071.5281374239
+     }
+    },
+    {
+     "name": "aaa-1",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" Mz-2"
+      }
+     ],
+     "position": {
+      "x": -84380.97474683059,
+      "y": 835717.9747468305
+     }
+    },
+    {
+     "name": "aaa-2",
+     "units": [
+      {
+       "type": "ZSU-23-4 Shilka",
+       "name": "#command=\"-shilka\" Mz-3"
+      }
+     ],
+     "position": {
+      "x": -83391.02525316941,
+      "y": 834728.0252531695
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "combat_zone": {
+    "friendly_name": "Avions au sol de Mozdok",
+    "radio_group_name": "OCA",
+    "training": false,
+    "briefing": "Des bombardiers Tu-22M3, des Su-24M, des Su-25 et un Il-76 sont stationnés sur la base de Mozdok. Détruisez-les au sol. Défense de zone : SA-15, Shilka ; défense permanente de la base : SA-11 et SA-19. BULLSEYE 067/99. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 114 nm."
+   }
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Mozdok_OCA",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Mozdok_OCA-avion-1",
+   "position": {
+    "x": -83760.5703125,
+    "y": 835549.6875
+   },
+   "units": [
+    {
+     "type": "Tu-22M3",
+     "name": "combatZone_Mozdok_OCA-avion-1"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Mozdok_OCA",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Mozdok_OCA-avion-2",
+   "position": {
+    "x": -83717.0,
+    "y": 835330.4375
+   },
+   "units": [
+    {
+     "type": "Su-24M",
+     "name": "combatZone_Mozdok_OCA-avion-2"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Mozdok_OCA",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Mozdok_OCA-avion-3",
+   "position": {
+    "x": -83886.328125,
+    "y": 835222.6875
+   },
+   "units": [
+    {
+     "type": "Su-24M",
+     "name": "combatZone_Mozdok_OCA-avion-3"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Mozdok_OCA",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Mozdok_OCA-avion-4",
+   "position": {
+    "x": -83899.8359375,
+    "y": 835118.5625
+   },
+   "units": [
+    {
+     "type": "Su-25",
+     "name": "combatZone_Mozdok_OCA-avion-4"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Mozdok_OCA",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Mozdok_OCA-avion-5",
+   "position": {
+    "x": -83913.234375,
+    "y": 835014.375
+   },
+   "units": [
+    {
+     "type": "Su-25",
+     "name": "combatZone_Mozdok_OCA-avion-5"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "for_combat_zone": "combatZone_Mozdok_OCA",
+   "keep_position": true,
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "name": "combatZone_Mozdok_OCA-avion-6",
+   "position": {
+    "x": -83926.640625,
+    "y": 834910.25
+   },
+   "units": [
+    {
+     "type": "IL-76MD",
+     "name": "combatZone_Mozdok_OCA-avion-6"
+    }
+   ]
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Antinavire_Cargos",
+   "position": {
+    "x": -295214,
+    "y": 193436
+   },
+   "radius": 15240,
+   "groups": [
+    {
+     "name": "cargos",
+     "units": [
+      {
+       "type": "Dry-cargo ship-1",
+       "name": "#command=\"_spawn group, name cargoships\" #spawnradius=20000 An-1"
+      }
+     ],
+     "position": {
+      "x": -295214,
+      "y": 193436
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "ship",
+   "combat_zone": {
+    "friendly_name": "Cargos isolés",
+    "radio_group_name": "Antinavire",
+    "training": false,
+    "briefing": "Des cargos sans escorte ravitaillent l'ennemi par la mer. Coulez-les. BULLSEYE 253/266. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 179 nm."
+   }
+  }
+ },
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Antinavire_Escorte",
+   "position": {
+    "x": -283948,
+    "y": 192285
+   },
+   "radius": 15240,
+   "groups": [
+    {
+     "name": "convoi",
+     "units": [
+      {
+       "type": "ALBATROS",
+       "name": "#command=\"_spawn group, name cargoships-escorted\" An-2"
+      }
+     ],
+     "position": {
+      "x": -283948,
+      "y": 192285
+     }
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "ship",
+   "combat_zone": {
+    "friendly_name": "Convoi naval escorté",
+    "radio_group_name": "Antinavire",
+    "training": false,
+    "briefing": "Des cargos escortés par des bâtiments de guerre ; une frégate Neustrashimy peut les accompagner. Coulez les cargos. BULLSEYE 255/265. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 180 nm."
+   }
+  }
+ }
+]

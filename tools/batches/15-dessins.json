@@ -1,0 +1,753 @@
+[
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Common",
+   "shape": "line",
+   "name": "Ligne de front (approx.)",
+   "points": [
+    {
+     "x": -116680,
+     "y": 408929
+    },
+    {
+     "x": -96394.65114897024,
+     "y": 458974.61017914425
+    },
+    {
+     "x": -88788.56012935052,
+     "y": 733489.3118663046
+    },
+    {
+     "x": -115901.07583868969,
+     "y": 838943.662199124
+    },
+    {
+     "x": -140000,
+     "y": 900000
+    }
+   ],
+   "color": "0xa4221aff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Sanctuaire bleu",
+   "points": [
+    {
+     "x": -159436,
+     "y": 455547
+    },
+    {
+     "x": -185871,
+     "y": 431769
+    },
+    {
+     "x": -272309,
+     "y": 397430
+    },
+    {
+     "x": -377828,
+     "y": 370703
+    },
+    {
+     "x": -425874,
+     "y": 406991
+    },
+    {
+     "x": -417210,
+     "y": 559062
+    },
+    {
+     "x": -396147,
+     "y": 784591
+    },
+    {
+     "x": -366268,
+     "y": 923124
+    },
+    {
+     "x": -339406,
+     "y": 948476
+    },
+    {
+     "x": -299009,
+     "y": 932116
+    },
+    {
+     "x": -264103,
+     "y": 888195
+    },
+    {
+     "x": -238748,
+     "y": 844699
+    },
+    {
+     "x": -259665,
+     "y": 806300
+    },
+    {
+     "x": -267447,
+     "y": 757293
+    },
+    {
+     "x": -272074,
+     "y": 710180
+    },
+    {
+     "x": -267237,
+     "y": 692512
+    },
+    {
+     "x": -242628,
+     "y": 659280
+    },
+    {
+     "x": -232009,
+     "y": 623870
+    },
+    {
+     "x": -206250,
+     "y": 570189
+    },
+    {
+     "x": -183637,
+     "y": 517491
+    },
+    {
+     "x": -160058,
+     "y": 474790
+    },
+    {
+     "x": -158077,
+     "y": 459163
+    }
+   ],
+   "closed": true,
+   "color": "0x1f5fbfff",
+   "thickness": 6
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Hippodrome Arco 1",
+   "points": [
+    {
+     "x": -300000,
+     "y": 500000
+    },
+    {
+     "x": -315000.0,
+     "y": 550000.0
+    }
+   ],
+   "color": "0x0b86a8ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Étiquette Arco 1",
+   "position": {
+    "x": -315000.0,
+    "y": 550000.0
+   },
+   "text": "Arco 1",
+   "color": "0x0b86a8ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Hippodrome Texaco 1",
+   "points": [
+    {
+     "x": -235000,
+     "y": 560000
+    },
+    {
+     "x": -255000.0,
+     "y": 610000.0
+    }
+   ],
+   "color": "0x0b86a8ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Étiquette Texaco 1",
+   "position": {
+    "x": -255000.0,
+    "y": 610000.0
+   },
+   "text": "Texaco 1",
+   "color": "0x0b86a8ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Hippodrome Shell 1",
+   "points": [
+    {
+     "x": -285000,
+     "y": 760000
+    },
+    {
+     "x": -295000.0,
+     "y": 815000.0
+    }
+   ],
+   "color": "0x0b86a8ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Étiquette Shell 1",
+   "position": {
+    "x": -295000.0,
+    "y": 815000.0
+   },
+   "text": "Shell 1",
+   "color": "0x0b86a8ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Hippodrome Shell 2",
+   "points": [
+    {
+     "x": -320000,
+     "y": 840000
+    },
+    {
+     "x": -330000.0,
+     "y": 895000.0
+    }
+   ],
+   "color": "0x0b86a8ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Étiquette Shell 2",
+   "position": {
+    "x": -330000.0,
+    "y": 895000.0
+   },
+   "text": "Shell 2",
+   "color": "0x0b86a8ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Hippodrome Magic 1",
+   "points": [
+    {
+     "x": -275000,
+     "y": 450000
+    },
+    {
+     "x": -290000.0,
+     "y": 510000.0
+    }
+   ],
+   "color": "0x0b86a8ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Étiquette Magic 1",
+   "position": {
+    "x": -290000.0,
+    "y": 510000.0
+   },
+   "text": "Magic 1",
+   "color": "0x0b86a8ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "line",
+   "name": "Hippodrome Overlord 1",
+   "points": [
+    {
+     "x": -305000,
+     "y": 700000
+    },
+    {
+     "x": -315000.0,
+     "y": 760000.0
+    }
+   ],
+   "color": "0x0b86a8ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Étiquette Overlord 1",
+   "position": {
+    "x": -315000.0,
+    "y": 760000.0
+   },
+   "text": "Overlord 1",
+   "color": "0x0b86a8ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Red",
+   "shape": "line",
+   "name": "Hippodrome Tanker Rouge",
+   "points": [
+    {
+     "x": 20000,
+     "y": 470000
+    },
+    {
+     "x": 30000.0,
+     "y": 530000.0
+    }
+   ],
+   "color": "0xc96a10ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Red",
+   "shape": "textbox",
+   "name": "Étiquette Tanker Rouge",
+   "position": {
+    "x": 30000.0,
+    "y": 530000.0
+   },
+   "text": "Tanker Rouge",
+   "color": "0xc96a10ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Red",
+   "shape": "line",
+   "name": "Hippodrome AWACS Rouge",
+   "points": [
+    {
+     "x": 30000,
+     "y": 620000
+    },
+    {
+     "x": 40000.0,
+     "y": 690000.0
+    }
+   ],
+   "color": "0xc96a10ff",
+   "thickness": 8
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Red",
+   "shape": "textbox",
+   "name": "Étiquette AWACS Rouge",
+   "position": {
+    "x": 40000.0,
+    "y": 690000.0
+   },
+   "text": "AWACS Rouge",
+   "color": "0xc96a10ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Entraînement combatZone_Kobuleti_Easy",
+   "position": {
+    "x": -328279,
+    "y": 631220
+   },
+   "text": "Kobuleti (entraînement)",
+   "color": "0x2e7f38ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Entraînement combatZone_Akhalkalaki_Easy",
+   "position": {
+    "x": -360693.0,
+    "y": 782466.0
+   },
+   "text": "Akhalkalaki (entraînement)",
+   "color": "0x2e7f38ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Entraînement combatZone_Taman_Easy",
+   "position": {
+    "x": 20000,
+    "y": 215000
+   },
+   "text": "Taman (entraînement)",
+   "color": "0x2e7f38ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Entraînement combatZone_MountainHike",
+   "position": {
+    "x": -172591,
+    "y": 634578
+   },
+   "text": "Mountain hike (entraînement)",
+   "color": "0x2e7f38ff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 1",
+   "position": {
+    "x": -117500,
+    "y": 848000
+   },
+   "text": "1 - Bataille de Beslan",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 2",
+   "position": {
+    "x": -114217,
+    "y": 816657
+   },
+   "text": "2 - Parc logistique de Terek",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 3",
+   "position": {
+    "x": -114558.67965644036,
+    "y": 411050.32034355967
+   },
+   "text": "3 - Front côtier de Lazarevskoye",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 4",
+   "position": {
+    "x": -76800,
+    "y": 520400
+   },
+   "text": "4 - Sites SAM de Psebay",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 5",
+   "position": {
+    "x": -77140.0,
+    "y": 839198.0
+   },
+   "text": "5 - Site SA-11 au nord de Mozdok",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 6",
+   "position": {
+    "x": -349034,
+    "y": 703649
+   },
+   "text": "6 - Barrage routier KM91",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 7",
+   "position": {
+    "x": -87598,
+    "y": 834912
+   },
+   "text": "7 - Convoi de secours vers Prokhladny",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 8",
+   "position": {
+    "x": -52627,
+    "y": 710268
+   },
+   "text": "8 - Convoi Mineralnye Vody - Baksan",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 9",
+   "position": {
+    "x": -75523,
+    "y": 525018
+   },
+   "text": "9 - Usine d'armes chimiques de Psebay",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 10",
+   "position": {
+    "x": -94373,
+    "y": 790912
+   },
+   "text": "10 - Otages à Prokhladny",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 11",
+   "position": {
+    "x": -56173.0,
+    "y": 732276.0
+   },
+   "text": "11 - Site SCUD de Georgievsk",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 12",
+   "position": {
+    "x": -17773.0,
+    "y": 613312.0
+   },
+   "text": "12 - Dépôt logistique de Nevinnomyssk",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 13",
+   "position": {
+    "x": -23149,
+    "y": 456611
+   },
+   "text": "13 - Défenses de la base de Maykop",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 14",
+   "position": {
+    "x": -83886,
+    "y": 835223
+   },
+   "text": "14 - Avions au sol de Mozdok",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 15",
+   "position": {
+    "x": -295214,
+    "y": 193436
+   },
+   "text": "15 - Cargos isolés",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Blue",
+   "shape": "textbox",
+   "name": "Zone 16",
+   "position": {
+    "x": -283948,
+    "y": 192285
+   },
+   "text": "16 - Convoi naval escorté",
+   "color": "0xa4221aff",
+   "font_size": 12
+  }
+ }
+]

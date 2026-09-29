@@ -1,0 +1,236 @@
+# Points de navigation injectés dans les appareils joueurs (slots dynamiques) — Caucasus.
+# Le BULLSEYE vient de la mission (set_bullseye, mont Elbrouz) et est ajouté par le build.
+# x vers le nord, y vers l'est, en mètres ; alt en mètres ; speed en m/s. Généré par tools/gen_12_radio_meteo.py.
+
+waypoints:
+  ARCO_1:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 5486
+    alt_type: "BARO"
+    speed: 200
+    speed_type: "TAS"
+    x: -300000
+    y: 500000
+    name: "ARCO_1"
+  TEXACO_1:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 6706
+    alt_type: "BARO"
+    speed: 200
+    speed_type: "TAS"
+    x: -235000
+    y: 560000
+    name: "TEXACO_1"
+  SHELL_1:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 6096
+    alt_type: "BARO"
+    speed: 200
+    speed_type: "TAS"
+    x: -285000
+    y: 760000
+    name: "SHELL_1"
+  SHELL_2:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 7315
+    alt_type: "BARO"
+    speed: 200
+    speed_type: "TAS"
+    x: -320000
+    y: 840000
+    name: "SHELL_2"
+  TANKER_ROUGE:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 6096
+    alt_type: "BARO"
+    speed: 200
+    speed_type: "TAS"
+    x: 20000
+    y: 470000
+    name: "TANKER_ROUGE"
+  FARP_KASPI:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -291157
+    y: 847594
+    name: "FARP_KASPI"
+  FARP_JAVA:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -247483
+    y: 799954
+    name: "FARP_JAVA"
+  FARP_RITSA:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -151582
+    y: 518375
+    name: "FARP_RITSA"
+  FARP_LENTEHI:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -214299
+    y: 695511
+    name: "FARP_LENTEHI"
+  FARP_AIBGHA:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -146610
+    y: 486256
+    name: "FARP_AIBGHA"
+  FARP_BESLAN_NORD:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -131141
+    y: 847396
+    name: "FARP_BESLAN_NORD"
+  FARP_KRASNAYA:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -139098
+    y: 478312
+    name: "FARP_KRASNAYA"
+  FARP_KODORI:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -199368
+    y: 586501
+    name: "FARP_KODORI"
+  FARP_DZHVARI:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -230777
+    y: 641049
+    name: "FARP_DZHVARI"
+  FARP_CASIMIR:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -326935
+    y: 661463
+    name: "FARP_CASIMIR"
+  MAYKOP:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -27626
+    y: 457048
+    name: "MAYKOP"
+  KRASNODAR:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: 8707
+    y: 388986
+    name: "KRASNODAR"
+  MINVODY:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -52090
+    y: 707418
+    name: "MINVODY"
+  MOZDOK:
+    type: "Turning Point"
+    action: "Turning Point"
+    alt: 300
+    alt_type: "BARO"
+    speed: 50
+    speed_type: "TAS"
+    x: -83330
+    y: 835635
+    name: "MOZDOK"
+
+settings:
+  bleu_avions:
+    category: "plane"
+    coalition: "blue"
+    waypoints:
+      ARCO_1: "ARCO_1"
+      TEXACO_1: "TEXACO_1"
+      SHELL_1: "SHELL_1"
+      SHELL_2: "SHELL_2"
+  bleu_helicopteres:
+    category: "helicopter"
+    coalition: "blue"
+    waypoints:
+      FARP_KASPI: "FARP_KASPI"
+      FARP_JAVA: "FARP_JAVA"
+      FARP_RITSA: "FARP_RITSA"
+      FARP_LENTEHI: "FARP_LENTEHI"
+      FARP_AIBGHA: "FARP_AIBGHA"
+      FARP_BESLAN_NORD: "FARP_BESLAN_NORD"
+      FARP_KRASNAYA: "FARP_KRASNAYA"
+      FARP_KODORI: "FARP_KODORI"
+      FARP_DZHVARI: "FARP_DZHVARI"
+      FARP_CASIMIR: "FARP_CASIMIR"
+  rouge_avions:
+    category: "plane"
+    coalition: "red"
+    waypoints:
+      TANKER_ROUGE: "TANKER_ROUGE"
+      MAYKOP: "MAYKOP"
+      KRASNODAR: "KRASNODAR"
+      MINVODY: "MINVODY"
+      MOZDOK: "MOZDOK"
+  rouge_helicopteres:
+    category: "helicopter"
+    coalition: "red"
+    waypoints:
+      MAYKOP: "MAYKOP"
+      KRASNODAR: "KRASNODAR"
+      MINVODY: "MINVODY"
+      MOZDOK: "MOZDOK"

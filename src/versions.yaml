@@ -1,0 +1,125 @@
+# Variantes météo et heure — VEAF Open Training Caucasus (moderne). Généré par tools/gen_12_radio_meteo.py.
+#
+# 5 heures (nuit, aube, matin, jour, soir) x 4 ciels (réel, dégagé, épars, pluie) = 20 .miz.
+# - réel   : METAR de Tbilisi (UGTB) récupéré au build ; sur le serveur, RealWeather le remplace au
+#            lancement grâce au _ICAO_UGTB du nom de la mission ;
+# - dégagé : météo manuelle, ciel clair (températures : estimation d'une fin juin à Tbilissi, non sourcée) ;
+# - épars / pluie : METAR fixe (le bloc weather: ne sait pas décrire la pluie).
+
+position:
+  latitude: 41.637736     # Vaziani, base mère
+  longitude: 45.019091
+  timezone: "Asia/Tbilisi"
+
+base_date: "2022-06-29"
+
+versions:
+  - name: nuit-reel
+    time: "02:00"
+    airport_icao: UGTB
+
+  - name: nuit-degage
+    time: "02:00"
+    weather:
+      temperature: 18.0
+      wind_speed: 3.0
+      wind_direction: 90.0
+      visibility: 40000
+      cloud_type: "clear"
+      fog_enabled: false
+
+  - name: nuit-epars
+    time: "02:00"
+    metar: "METAR UGTB 291200Z 09008KT 9999 SCT040 SCT090 18/12 Q1013"
+
+  - name: nuit-pluie
+    time: "02:00"
+    metar: "METAR UGTB 291200Z 27014G24KT 5000 RA BKN012 OVC030 12/11 Q1006"
+
+  - name: aube-reel
+    time: "sunrise"
+    airport_icao: UGTB
+
+  - name: aube-degage
+    time: "sunrise"
+    weather:
+      temperature: 17.0
+      wind_speed: 3.0
+      wind_direction: 90.0
+      visibility: 40000
+      cloud_type: "clear"
+      fog_enabled: false
+
+  - name: aube-epars
+    time: "sunrise"
+    metar: "METAR UGTB 291200Z 09008KT 9999 SCT040 SCT090 17/12 Q1013"
+
+  - name: aube-pluie
+    time: "sunrise"
+    metar: "METAR UGTB 291200Z 27014G24KT 5000 RA BKN012 OVC030 11/10 Q1006"
+
+  - name: matin-reel
+    time: "09:00"
+    airport_icao: UGTB
+
+  - name: matin-degage
+    time: "09:00"
+    weather:
+      temperature: 23.0
+      wind_speed: 3.0
+      wind_direction: 90.0
+      visibility: 40000
+      cloud_type: "clear"
+      fog_enabled: false
+
+  - name: matin-epars
+    time: "09:00"
+    metar: "METAR UGTB 291200Z 09008KT 9999 SCT040 SCT090 23/12 Q1013"
+
+  - name: matin-pluie
+    time: "09:00"
+    metar: "METAR UGTB 291200Z 27014G24KT 5000 RA BKN012 OVC030 17/16 Q1006"
+
+  - name: jour-reel
+    time: "14:00"
+    airport_icao: UGTB
+
+  - name: jour-degage
+    time: "14:00"
+    weather:
+      temperature: 31.0
+      wind_speed: 3.0
+      wind_direction: 90.0
+      visibility: 40000
+      cloud_type: "clear"
+      fog_enabled: false
+
+  - name: jour-epars
+    time: "14:00"
+    metar: "METAR UGTB 291200Z 09008KT 9999 SCT040 SCT090 31/12 Q1013"
+
+  - name: jour-pluie
+    time: "14:00"
+    metar: "METAR UGTB 291200Z 27014G24KT 5000 RA BKN012 OVC030 25/24 Q1006"
+
+  - name: soir-reel
+    time: "sunset-45*60"
+    airport_icao: UGTB
+
+  - name: soir-degage
+    time: "sunset-45*60"
+    weather:
+      temperature: 27.0
+      wind_speed: 3.0
+      wind_direction: 90.0
+      visibility: 40000
+      cloud_type: "clear"
+      fog_enabled: false
+
+  - name: soir-epars
+    time: "sunset-45*60"
+    metar: "METAR UGTB 291200Z 09008KT 9999 SCT040 SCT090 27/12 Q1013"
+
+  - name: soir-pluie
+    time: "sunset-45*60"
+    metar: "METAR UGTB 291200Z 27014G24KT 5000 RA BKN012 OVC030 21/20 Q1006"

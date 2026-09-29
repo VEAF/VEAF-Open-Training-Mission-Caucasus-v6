@@ -1,0 +1,379 @@
+[
+ {
+  "name": "add_carrier_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "CSG-74 Stennis",
+   "carrier_name": "CVN-74 Stennis",
+   "carrier_type": "Stennis",
+   "position": {
+    "x": -347934,
+    "y": 511479
+   },
+   "heading_deg": 270,
+   "speed_kt": 15,
+   "escorts": [
+    "TICONDEROG",
+    "TICONDEROG",
+    "PERRY"
+   ],
+   "tower_mhz": 225.0,
+   "tacan_channel": 10,
+   "tacan_callsign": "STS",
+   "icls_channel": 10,
+   "link4_mhz": 225.0,
+   "recovery_tanker": true,
+   "tanker_tacan_channel": 75,
+   "tanker_tacan_callsign": "T74",
+   "tanker_frequency_mhz": 290.9,
+   "rescue_helicopter": true
+  }
+ },
+ {
+  "name": "add_carrier_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "CSG-01 Tarawa",
+   "carrier_name": "LHA-1 Tarawa",
+   "carrier_type": "LHA_Tarawa",
+   "position": {
+    "x": -340061,
+    "y": 468500
+   },
+   "heading_deg": 270,
+   "speed_kt": 12,
+   "escorts": [
+    "PERRY",
+    "PERRY"
+   ],
+   "tower_mhz": 226.0,
+   "tacan_channel": 11,
+   "tacan_callsign": "TAA",
+   "icls_channel": 11,
+   "link4_mhz": null,
+   "recovery_tanker": false,
+   "rescue_helicopter": true
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "F/A-18C Stennis 1",
+   "unit_type": "FA-18C_hornet",
+   "count": 4,
+   "start": "deck-cold",
+   "carrier": "CVN-74 Stennis",
+   "skill": "Client",
+   "frequency_mhz": 225.0,
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "F/A-18C Stennis HOT 1",
+   "unit_type": "FA-18C_hornet",
+   "count": 4,
+   "start": "deck-hot",
+   "carrier": "CVN-74 Stennis",
+   "skill": "Client",
+   "frequency_mhz": 225.0,
+   "task": "CAP"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "F-14B Stennis 1",
+   "unit_type": "F-14B",
+   "count": 1,
+   "start": "deck-cold",
+   "carrier": "CVN-74 Stennis",
+   "skill": "Client",
+   "frequency_mhz": 225.0,
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    },
+    "2": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "3": {
+     "CLSID": "{F14-300gal}"
+    },
+    "4": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "5": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "6": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "7": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "8": {
+     "CLSID": "{F14-300gal}"
+    },
+    "9": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "10": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "F-14B Stennis 2",
+   "unit_type": "F-14B",
+   "count": 1,
+   "start": "deck-cold",
+   "carrier": "CVN-74 Stennis",
+   "skill": "Client",
+   "frequency_mhz": 225.0,
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    },
+    "2": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "3": {
+     "CLSID": "{F14-300gal}"
+    },
+    "4": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "5": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "6": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "7": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "8": {
+     "CLSID": "{F14-300gal}"
+    },
+    "9": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "10": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "F-14B Stennis HOT 1",
+   "unit_type": "F-14B",
+   "count": 1,
+   "start": "deck-hot",
+   "carrier": "CVN-74 Stennis",
+   "skill": "Client",
+   "frequency_mhz": 225.0,
+   "task": "CAP",
+   "pylons": {
+    "1": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    },
+    "2": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "3": {
+     "CLSID": "{F14-300gal}"
+    },
+    "4": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "5": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "6": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "7": {
+     "CLSID": "{AIM_54C_Mk47}"
+    },
+    "8": {
+     "CLSID": "{F14-300gal}"
+    },
+    "9": {
+     "CLSID": "{SHOULDER AIM-7MH}"
+    },
+    "10": {
+     "CLSID": "{LAU-138 wtip - AIM-9M}"
+    }
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "AV-8B Tarawa 1",
+   "unit_type": "AV8BNA",
+   "count": 2,
+   "start": "deck-cold",
+   "carrier": "LHA-1 Tarawa",
+   "skill": "Client",
+   "frequency_mhz": 226.0,
+   "task": "CAS"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "AV-8B Tarawa HOT 1",
+   "unit_type": "AV8BNA",
+   "count": 2,
+   "start": "deck-hot",
+   "carrier": "LHA-1 Tarawa",
+   "skill": "Client",
+   "frequency_mhz": 226.0,
+   "task": "CAS"
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Reaper 1",
+   "unit_type": "MQ-9 Reaper",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -131000,
+    "y": 830000
+   },
+   "altitude_ft": 15000,
+   "speed_kt": 160,
+   "frequency_mhz": 118.8,
+   "task": "AFAC",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Reaper 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Reaper 1",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Circle",
+    "altitude_ft": 15000,
+    "speed_kt": 160
+   }
+  }
+ },
+ {
+  "name": "add_air_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "name": "Reaper 2",
+   "unit_type": "MQ-9 Reaper",
+   "count": 1,
+   "start": "air",
+   "position": {
+    "x": -75500,
+    "y": 525000
+   },
+   "altitude_ft": 15000,
+   "speed_kt": 160,
+   "frequency_mhz": 118.9,
+   "task": "AFAC",
+   "skill": "High"
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Reaper 2",
+   "operation": "add_task",
+   "index": 1,
+   "task": "set_unlimited_fuel",
+   "task_params": {
+    "value": true
+   }
+  }
+ },
+ {
+  "name": "edit_route",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "Reaper 2",
+   "operation": "add_task",
+   "index": 1,
+   "task": "orbit",
+   "task_params": {
+    "pattern": "Circle",
+    "altitude_ft": 15000,
+    "speed_kt": 160
+   }
+  }
+ }
+]

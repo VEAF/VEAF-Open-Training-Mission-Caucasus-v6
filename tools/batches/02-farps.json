@@ -1,0 +1,402 @@
+[
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Kaspi",
+   "position": {
+    "x": -291157,
+    "y": 847594
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "FARP",
+   "frequency_mhz": 125.0,
+   "modulation": "AM",
+   "callsign_id": 1
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Kaspi - munitions",
+   "position": {
+    "x": -291077,
+    "y": 847674
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Kaspi - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Java",
+   "position": {
+    "x": -247483,
+    "y": 799954
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "FARP",
+   "frequency_mhz": 125.25,
+   "modulation": "AM",
+   "callsign_id": 2
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Java - munitions",
+   "position": {
+    "x": -247403,
+    "y": 800034
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Java - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Ritsa",
+   "position": {
+    "x": -151582,
+    "y": 518375
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "FARP",
+   "frequency_mhz": 125.5,
+   "modulation": "AM",
+   "callsign_id": 3
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Ritsa - munitions",
+   "position": {
+    "x": -151502,
+    "y": 518455
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Ritsa - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Lentehi",
+   "position": {
+    "x": -214299,
+    "y": 695511
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "FARP",
+   "frequency_mhz": 125.75,
+   "modulation": "AM",
+   "callsign_id": 4
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Lentehi - munitions",
+   "position": {
+    "x": -214219,
+    "y": 695591
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Lentehi - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Aibgha",
+   "position": {
+    "x": -146610,
+    "y": 486256
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "FARP",
+   "frequency_mhz": 126.0,
+   "modulation": "AM",
+   "callsign_id": 5
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Aibgha - munitions",
+   "position": {
+    "x": -146530,
+    "y": 486336
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Aibgha - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Beslan North",
+   "position": {
+    "x": -131141,
+    "y": 847396
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "FARP",
+   "frequency_mhz": 126.25,
+   "modulation": "AM",
+   "callsign_id": 6
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Beslan North - munitions",
+   "position": {
+    "x": -131061,
+    "y": 847476
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Beslan North - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Krasnaya",
+   "position": {
+    "x": -139098,
+    "y": 478312
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "SINGLE_HELIPAD",
+   "frequency_mhz": 126.5,
+   "modulation": "AM",
+   "callsign_id": 7
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Krasnaya - munitions",
+   "position": {
+    "x": -139018,
+    "y": 478392
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Krasnaya - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Kodori",
+   "position": {
+    "x": -199368,
+    "y": 586501
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "Invisible FARP",
+   "frequency_mhz": 126.75,
+   "modulation": "AM",
+   "callsign_id": 8
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Kodori - munitions",
+   "position": {
+    "x": -199288,
+    "y": 586581
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Kodori - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Dzhvari",
+   "position": {
+    "x": -230777,
+    "y": 641049
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "Invisible FARP",
+   "frequency_mhz": 127.0,
+   "modulation": "AM",
+   "callsign_id": 9
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Dzhvari - munitions",
+   "position": {
+    "x": -230697,
+    "y": 641129
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Dzhvari - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ },
+ {
+  "name": "add_farp",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "name": "FARP Casimir",
+   "position": {
+    "x": -326935,
+    "y": 661463
+   },
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "farp_type": "Invisible FARP",
+   "frequency_mhz": 127.25,
+   "modulation": "AM",
+   "callsign_id": 10
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "blue",
+   "country_id": 2,
+   "country_name": "USA",
+   "category": "static",
+   "name": "FARP Casimir - munitions",
+   "position": {
+    "x": -326855,
+    "y": 661543
+   },
+   "units": [
+    {
+     "type": "FARP Ammo Dump Coating",
+     "name": "FARP Casimir - munitions"
+    }
+   ],
+   "keep_position": true
+  }
+ }
+]

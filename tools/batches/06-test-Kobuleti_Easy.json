@@ -1,0 +1,461 @@
+[
+ {
+  "name": "create_combat_zone",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "zone_name": "combatZone_Kobuleti_Easy",
+   "position": {
+    "x": -328279,
+    "y": 631220
+   },
+   "radius": 3000,
+   "groups": [
+    {
+     "name": "cible-01",
+     "units": [
+      {
+       "type": "Ka-27",
+       "name": "combatZone_Kobuleti_Easy-cible-01"
+      }
+     ],
+     "position": {
+      "x": -328068,
+      "y": 631390
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-02",
+     "units": [
+      {
+       "type": "Electric power box",
+       "name": "combatZone_Kobuleti_Easy-cible-02"
+      }
+     ],
+     "position": {
+      "x": -328037,
+      "y": 631321
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-03",
+     "units": [
+      {
+       "type": "Container red 3",
+       "name": "combatZone_Kobuleti_Easy-cible-03"
+      }
+     ],
+     "position": {
+      "x": -328159,
+      "y": 631357
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-04",
+     "units": [
+      {
+       "type": "Container white",
+       "name": "combatZone_Kobuleti_Easy-cible-04"
+      }
+     ],
+     "position": {
+      "x": -328221,
+      "y": 631328
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-05",
+     "units": [
+      {
+       "type": "Small werehouse 2",
+       "name": "combatZone_Kobuleti_Easy-cible-05"
+      }
+     ],
+     "position": {
+      "x": -328698,
+      "y": 630968
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-06",
+     "units": [
+      {
+       "type": "Windsock",
+       "name": "combatZone_Kobuleti_Easy-cible-06"
+      }
+     ],
+     "position": {
+      "x": -328446,
+      "y": 631199
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-07",
+     "units": [
+      {
+       "type": "Coach a platform",
+       "name": "combatZone_Kobuleti_Easy-cible-07"
+      }
+     ],
+     "position": {
+      "x": -328594,
+      "y": 631031
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-08",
+     "units": [
+      {
+       "type": "FARP Tent",
+       "name": "combatZone_Kobuleti_Easy-cible-08"
+      }
+     ],
+     "position": {
+      "x": -328490,
+      "y": 631094
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-09",
+     "units": [
+      {
+       "type": "house2arm",
+       "name": "combatZone_Kobuleti_Easy-cible-09"
+      }
+     ],
+     "position": {
+      "x": -328381,
+      "y": 631165
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-10",
+     "units": [
+      {
+       "type": "GAZ-3307",
+       "name": "combatZone_Kobuleti_Easy-cible-10"
+      }
+     ],
+     "position": {
+      "x": -327902,
+      "y": 631099
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-11",
+     "units": [
+      {
+       "type": "IKARUS Bus",
+       "name": "combatZone_Kobuleti_Easy-cible-11"
+      }
+     ],
+     "position": {
+      "x": -328000,
+      "y": 631135
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-12",
+     "units": [
+      {
+       "type": "LAZ Bus",
+       "name": "combatZone_Kobuleti_Easy-cible-12"
+      }
+     ],
+     "position": {
+      "x": -328098,
+      "y": 631160
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-13",
+     "units": [
+      {
+       "type": "MAZ-6303",
+       "name": "combatZone_Kobuleti_Easy-cible-13"
+      }
+     ],
+     "position": {
+      "x": -328192,
+      "y": 631190
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-14",
+     "units": [
+      {
+       "type": "Tigr_233036",
+       "name": "combatZone_Kobuleti_Easy-cible-14"
+      }
+     ],
+     "position": {
+      "x": -328275,
+      "y": 631116
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-15",
+     "units": [
+      {
+       "type": "Trolley bus",
+       "name": "combatZone_Kobuleti_Easy-cible-15"
+      }
+     ],
+     "position": {
+      "x": -328355,
+      "y": 631243
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-16",
+     "units": [
+      {
+       "type": "VAZ Car",
+       "name": "combatZone_Kobuleti_Easy-cible-16"
+      }
+     ],
+     "position": {
+      "x": -328450,
+      "y": 631274
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-17",
+     "units": [
+      {
+       "type": "ZIL-4331",
+       "name": "combatZone_Kobuleti_Easy-cible-17"
+      }
+     ],
+     "position": {
+      "x": -328534,
+      "y": 631297
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-18",
+     "units": [
+      {
+       "type": "MTLB",
+       "name": "combatZone_Kobuleti_Easy-cible-18"
+      }
+     ],
+     "position": {
+      "x": -328626,
+      "y": 631326
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-19",
+     "units": [
+      {
+       "type": "KAMAZ Truck",
+       "name": "combatZone_Kobuleti_Easy-cible-19"
+      }
+     ],
+     "position": {
+      "x": -328715,
+      "y": 631355
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-20",
+     "units": [
+      {
+       "type": "BTR_D",
+       "name": "combatZone_Kobuleti_Easy-cible-20"
+      }
+     ],
+     "position": {
+      "x": -328806,
+      "y": 631383
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-21",
+     "units": [
+      {
+       "type": "A-50",
+       "name": "combatZone_Kobuleti_Easy-cible-21"
+      }
+     ],
+     "position": {
+      "x": -327938,
+      "y": 631432
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-22",
+     "units": [
+      {
+       "type": "T-90",
+       "name": "combatZone_Kobuleti_Easy-cible-22"
+      }
+     ],
+     "position": {
+      "x": -328170,
+      "y": 631423
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-23",
+     "units": [
+      {
+       "type": "T-90",
+       "name": "combatZone_Kobuleti_Easy-cible-23"
+      }
+     ],
+     "position": {
+      "x": -328111,
+      "y": 631435
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-24",
+     "units": [
+      {
+       "type": "T-90",
+       "name": "combatZone_Kobuleti_Easy-cible-24"
+      }
+     ],
+     "position": {
+      "x": -328152,
+      "y": 631413
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-25",
+     "units": [
+      {
+       "type": "T-90",
+       "name": "combatZone_Kobuleti_Easy-cible-25"
+      }
+     ],
+     "position": {
+      "x": -328119,
+      "y": 631417
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-26",
+     "units": [
+      {
+       "type": "T-90",
+       "name": "combatZone_Kobuleti_Easy-cible-26"
+      }
+     ],
+     "position": {
+      "x": -328133,
+      "y": 631411
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-27",
+     "units": [
+      {
+       "type": "Scud_B",
+       "name": "combatZone_Kobuleti_Easy-cible-27"
+      }
+     ],
+     "position": {
+      "x": -328168,
+      "y": 631293
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-28",
+     "units": [
+      {
+       "type": "Scud_B",
+       "name": "combatZone_Kobuleti_Easy-cible-28"
+      }
+     ],
+     "position": {
+      "x": -328199,
+      "y": 631275
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-29",
+     "units": [
+      {
+       "type": "Scud_B",
+       "name": "combatZone_Kobuleti_Easy-cible-29"
+      }
+     ],
+     "position": {
+      "x": -328226,
+      "y": 631258
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-30",
+     "units": [
+      {
+       "type": "Scud_B",
+       "name": "combatZone_Kobuleti_Easy-cible-30"
+      }
+     ],
+     "position": {
+      "x": -328256,
+      "y": 631238
+     },
+     "keep_position": true
+    },
+    {
+     "name": "cible-31",
+     "units": [
+      {
+       "type": "Mi-24V",
+       "name": "combatZone_Kobuleti_Easy-cible-31"
+      }
+     ],
+     "position": {
+      "x": -328019,
+      "y": 631416
+     },
+     "keep_position": true
+    }
+   ],
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "static",
+   "combat_zone": {
+    "friendly_name": "Kobuleti - hélicoptères - facile",
+    "radio_group_name": "Entraînement hélicoptères",
+    "training": true,
+    "briefing": "Range de Kobuleti, 6 nm au sud-ouest de la base. Cibles inertes (statiques) : blindés, camions, missiles SCUD, bâtiments. Aucune défense. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 51 nm.",
+    "completable": true
+   }
+  }
+ }
+]

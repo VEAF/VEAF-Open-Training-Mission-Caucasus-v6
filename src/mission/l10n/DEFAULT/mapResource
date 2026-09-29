@@ -1,0 +1,8 @@
+mapResource = 
+{
+  MCP_Sound_MH01 = "MH01.ogg",
+  MCP_Sound_MH02 = "MH02.ogg",
+  MCP_Sound_MH03 = "MH03.ogg",
+  MCP_Sound_SOS = "SOS.ogg",
+  ResKey_ImageBriefing_carte = "carte.jpg",
+}
