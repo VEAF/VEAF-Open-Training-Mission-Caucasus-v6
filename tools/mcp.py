@@ -6,11 +6,12 @@ python mcp.py run <action> '<json params>' [--full]
 python mcp.py batch file.json [--full]
 """
 import json, sys, subprocess
-VMCT = r"D:/dev/_VEAF/VMCT-develop"
+
+from paths import VMCT  # noqa: E402  (met aussi le code VMCT sur sys.path)
+
 br = subprocess.run(["git", "-C", VMCT, "branch", "--show-current"], capture_output=True, text=True).stdout.strip()
 if br != "develop":
     sys.exit(f"VMCT checkout is on '{br}', not develop: refusing")
-sys.path.insert(0, VMCT + "/src/python/veaf-tools")
 from veaf_mission_mcp.actions import register_default_actions
 from veaf_mission_mcp.catalog import ActionCatalog
 cat = ActionCatalog(); register_default_actions(cat)

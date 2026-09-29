@@ -5,11 +5,9 @@ DCS refuse certaines statiques sans shape_name (mesuré sur GermanyCW-v6 : un .C
 l'ont pas. Valeur prise dans les données de VMCT (veaf_libs.dcs_units_data.get_unit_shape_name), comme
 l'action. Idempotent.
 """
-import sys
 from pathlib import Path
 
-VMCT = Path("D:/dev/_VEAF/VMCT-develop")
-sys.path.insert(0, str(VMCT / "src/python/veaf-tools"))
+import paths  # noqa: F401  (met le code VMCT sur sys.path)
 from veaf_libs.dcs_units_data import get_unit_shape_name  # noqa: E402
 from veaf_mission_mcp.mission_folder import load_folder_mission, save_folder_mission  # noqa: E402
 

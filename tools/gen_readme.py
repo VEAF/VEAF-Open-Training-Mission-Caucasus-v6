@@ -8,14 +8,27 @@ import re
 import sys
 from pathlib import Path
 
-VMCT = Path("D:/dev/_VEAF/VMCT-develop")
-sys.path.insert(0, str(VMCT / "src/python/veaf-tools"))
 sys.path.insert(0, str(Path(__file__).parent))
+from paths import VMCT  # noqa: E402  (met aussi le code VMCT sur sys.path)
 import yaml  # noqa: E402
 from mission_tools.miz_tools import read_mission_folder  # noqa: E402
 from veaf_libs.coordinates import xy_to_latlon  # noqa: E402
 
+from gen_map import ZOOMS  # noqa: E402  (la liste des zooms, telle que gen_map.py les dessine)
 from lib import AIRFIELDS, BULLSEYE, ROOT, TANKERS, bullseye, nearest_tanker  # noqa: E402
+
+ZOOM = {slug: (f"docs/cartes/carte_{i:02d}_{slug}.jpg", title) for i, (slug, title, _refs) in enumerate(ZOOMS, 1)}
+
+
+def zooms(*slugs):
+    """Les cartes zoomées d'une section, deux par ligne, chacune s'ouvrant en grand au clic."""
+    if len(slugs) == 1:
+        f, t = ZOOM[slugs[0]]
+        return [f"[![{t}]({f})]({f})", ""]
+    cells = [f'<td width="50%"><a href="{ZOOM[s][0]}"><img src="{ZOOM[s][0]}" alt="{ZOOM[s][1]}"></a><br>'
+             f'<sub>{ZOOM[s][1]}</sub></td>' for s in slugs]
+    rows = ["<tr>" + "".join(cells[k:k + 2]) + "</tr>" for k in range(0, len(cells), 2)]
+    return ["<table>" + "".join(rows) + "</table>", ""]
 
 Y = yaml.safe_load((ROOT / "mission.yaml").read_text(encoding="utf-8"))
 MOD = Y["modules"]
@@ -82,11 +95,15 @@ o = [f"# VEAF Open Training — Caucase (moderne)", "",
      "Pastilles rouges : zones de combat, numérotées comme la liste plus bas. Grands tirets bleus : sanctuaire. "
      "L'arène est hors du cadre, à l'ouest (flèche). La même image est dans le briefing DCS, et la carte F10 porte "
      "les mêmes dessins, chaque camp ne voyant que les siens. Générée par `tools/gen_map.py`.", "",
+     "Le panneau de briefing de DCS ajuste chaque image à sa taille : la carte du théâtre y sert de vue d'ensemble, "
+     "et ce sont les zooms qui se lisent (flèches sous l'image). Ils sont repris ci-dessous dans les sections "
+     "qu'ils illustrent : " + " · ".join(f"[{t.split(' : ')[0].split(' — ')[0]}]({f})" for f, t in ZOOM.values()) + ".", "",
      "## Situation", "",
      "La Géorgie, soutenue par l'OTAN, tient une ligne avancée en Russie — Sochi, Nalchik, Beslan — face aux forces russes. "
      "Le front court de la mer Noire (Sochi / Maykop) à l'Ossétie du Nord (Beslan / Mozdok), sur environ 207 nm. Le secteur "
      "Ouest (péninsule de Taman et la mer au large) sert de terrain d'entraînement, hors QRA.", "",
-     "## Bases", "", "| Base | Camp | Slots | Position | Bullseye | UHF | VHF | Défense permanente |", "|---|---|---|---|---|---|---|---|"]
+     "## Bases", ""] + zooms("georgie_ouest", "abkhazie") + [
+     "| Base | Camp | Slots | Position | Bullseye | UHF | VHF | Défense permanente |", "|---|---|---|---|---|---|---|---|"]
 for side in ("blue", "red"):
     for n, slots in sorted(bases[side], key=lambda t: (not t[1], t[0])):
         s = SHORT.get(n, n.split("-")[0])
@@ -111,12 +128,12 @@ for a in MOD["ASSETS"]["assets"]:
     o.append(f"| {a['name']} | {a['description']} | {a['information'].replace(chr(10), ' — ')} |")
 o += ["", "Les ravitailleurs et AWACS sont escortés. Les drones Reaper désignent au laser (menu *ASSETS*).", "",
       "## Entraînement", "", "Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau contient le précédent. "
-      "Jouez un seul niveau à la fois.", ""]
+      "Jouez un seul niveau à la fois.", ""] + zooms("taman")
 cz = MOD["COMBATZONE"]["combat_zones"]
 for training, title in ((True, None), (False, "## Zones de combat")):
     if title:
         o += ["", title, "", "Menus F10 par type. Les défenses citées sont celles de la zone ; certaines sont tirées au hasard à "
-              "chaque activation.", ""]
+              "chaque activation.", ""] + zooms("front_est", "kouban", "nord_stavropol", "mer_noire")
     fam, num = None, 0
     for z in cz:
         if bool(z.get("training")) != training:
@@ -140,7 +157,7 @@ for q in MOD["QRA"]["definitions"]:
 o += ["", "Décollage une minute après l'entrée du premier intrus ; les QRA ne réagissent pas aux hélicoptères.", "",
       "## CAP à la demande", ""]
 o += [f"- **{c['menu_name']}** — {c['briefing']}" for c in Y.get("cap_missions") or []]
-o += ["", "## Combat entre joueurs", "",
+o += ["", "## Combat entre joueurs", ""] + zooms("arene") + [
       "- **Arène AirQuake**, loin à l'ouest sur la mer : slots en vol pour les deux camps, par type de missile (Fox 1, Fox 3), "
       "un AWACS par camp (Darkstar 1 et AWACS Arène Rouge).",
       "- Entre les bases avec slots des deux camps.",
@@ -187,7 +204,11 @@ o += ["", "FM 30 à 59 en supplément (hélicoptères, A-10C) ; balises du Mount
       "| `src/dynamic-slot-templates.yaml` | Appareils proposés en slots dynamiques |",
       "| `src/scripts/*.lua` | Configuration des scripts VEAF embarqués (`veaf-config.lua`, CTLD, script de mission) |",
       "| `src/mission/l10n/DEFAULT/*.ogg` | Sons des balises de la zone de sauvetage (MH01 à MH03, SOS), déclarés dans `mapResource` |",
-      "| `docs/carte.jpg` | La carte de ce briefing ; la même image est dans `src/mission/l10n/DEFAULT/carte.jpg` pour le briefing DCS |",
+      "| `docs/carte.jpg`, `docs/cartes/` | La carte du théâtre et les huit zooms ; les mêmes images sont dans "
+      "`src/mission/l10n/DEFAULT/` pour le briefing DCS, où `tools/gen_map.py` écrit lui-même `mapResource` et les "
+      "listes `pictureFileName*` (côté bleu et neutre seulement : DCS affiche la liste rouge puis la bleue à un joueur "
+      "dont il ignore le camp, et une image présente dans les deux s’afficherait deux fois) |",
+      "| `tools/paths.py` | Où trouver le code Python de VMCT ; se règle par la variable d’environnement `VMCT_PY` |",
       "| `tools/` | Les générateurs qui ont construit la mission (`gen_*.py`), les lots rejouables (`tools/batches/`), les contrôles (`check_portees.py`, `verify.py`) et `retours-vmct.md` (ce que les outils n'ont pas su faire) |", "",
       "Hors dépôt (voir `.gitignore`) : les exécutables téléchargés (`veaf-tools`, `dcs-serve`, `dcs-client`), "
       "les scripts VEAF de `published/`, les `.miz` construits et `missions/`, les sauvegardes `.veaf-backups/`.", "",
@@ -195,7 +216,7 @@ o += ["", "FM 30 à 59 en supplément (hélicoptères, A-10C) ; balises du Mount
       "Ce README est **généré depuis la mission** : aucune valeur n'y est tapée à la main. Après tout "
       "changement dans `src/` ou `mission.yaml` :", "",
       "```powershell",
-      "python tools\\gen_map.py     # la carte docs/carte.jpg",
+      "python tools\\gen_map.py     # la carte du théâtre, les zooms, et les images du briefing DCS",
       "python tools\\gen_readme.py  # ce fichier",
       "```", "",
       "### Limites connues", "",

@@ -5,11 +5,9 @@ ajoute la clé ResKey_ImageBriefing_carte à mapResource, la référence dans pi
 réécrit via save_folder_mission (qui sauvegarde avant d'écrire). Idempotent. Même mécanisme que
 GermanyCW-v6.
 """
-import sys
 from pathlib import Path
 
-VMCT = Path("D:/dev/_VEAF/VMCT-develop")
-sys.path.insert(0, str(VMCT / "src/python/veaf-tools"))
+import paths  # noqa: F401  (met le code VMCT sur sys.path)
 from veaf_mission_mcp.mission_folder import load_folder_mission, save_folder_mission  # noqa: E402
 
 M = Path(__file__).resolve().parents[1]

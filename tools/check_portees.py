@@ -6,8 +6,7 @@ Usage : python tools/check_portees.py   (lit src/mission/, mission.yaml et src/w
 """
 import json, math, re, sys
 from pathlib import Path
-VMCT = Path("D:/dev/_VEAF/VMCT-develop")
-sys.path.insert(0, str(VMCT / "src/python/veaf-tools"))
+from paths import VMCT  # noqa: F401  (met le code VMCT sur sys.path)
 from mission_tools.miz_tools import read_mission_folder  # noqa: E402
 import yaml  # noqa: E402
 M = Path(__file__).resolve().parents[1]

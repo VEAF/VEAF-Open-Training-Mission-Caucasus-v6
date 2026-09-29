@@ -16,11 +16,15 @@ Tout se pilote par le menu radio F10 : zones de combat, missions et CAP, soutien
 
 Carrés : bases avec slots. Traits pleins : hippodromes des ravitailleurs et AWACS ; tirets fins : CAP à la demande. Cercles : QRA. Pastilles vertes : entraînement (H hélicoptères, A attaque, S SEAD, R recherche). Pastilles rouges : zones de combat, numérotées comme la liste plus bas. Grands tirets bleus : sanctuaire. L'arène est hors du cadre, à l'ouest (flèche). La même image est dans le briefing DCS, et la carte F10 porte les mêmes dessins, chaque camp ne voyant que les siens. Générée par `tools/gen_map.py`.
 
+Le panneau de briefing de DCS ajuste chaque image à sa taille : la carte du théâtre y sert de vue d'ensemble, et ce sont les zooms qui se lisent (flèches sous l'image). Ils sont repris ci-dessous dans les sections qu'ils illustrent : [Géorgie de l'ouest](docs/cartes/carte_01_georgie_ouest.jpg) · [Abkhazie et côte](docs/cartes/carte_02_abkhazie.jpg) · [Front est](docs/cartes/carte_03_front_est.jpg) · [Nord](docs/cartes/carte_04_nord_stavropol.jpg) · [Kouban](docs/cartes/carte_05_kouban.jpg) · [Secteur Ouest](docs/cartes/carte_06_taman.jpg) · [Mer Noire](docs/cartes/carte_07_mer_noire.jpg) · [Arène AirQuake (ouest, sur la mer)](docs/cartes/carte_08_arene.jpg).
+
 ## Situation
 
 La Géorgie, soutenue par l'OTAN, tient une ligne avancée en Russie — Sochi, Nalchik, Beslan — face aux forces russes. Le front court de la mer Noire (Sochi / Maykop) à l'Ossétie du Nord (Beslan / Mozdok), sur environ 207 nm. Le secteur Ouest (péninsule de Taman et la mer au large) sert de terrain d'entraînement, hors QRA.
 
 ## Bases
+
+<table><tr><td width="50%"><a href="docs/cartes/carte_01_georgie_ouest.jpg"><img src="docs/cartes/carte_01_georgie_ouest.jpg" alt="Géorgie de l'ouest : Batumi, Kobuleti, Kutaisi, entraînement hélicoptères et attaque"></a><br><sub>Géorgie de l'ouest : Batumi, Kobuleti, Kutaisi, entraînement hélicoptères et attaque</sub></td><td width="50%"><a href="docs/cartes/carte_02_abkhazie.jpg"><img src="docs/cartes/carte_02_abkhazie.jpg" alt="Abkhazie et côte : Gudauta, Sochi, FARP Kodori, recherche et sauvetage"></a><br><sub>Abkhazie et côte : Gudauta, Sochi, FARP Kodori, recherche et sauvetage</sub></td></tr></table>
 
 | Base | Camp | Slots | Position | Bullseye | UHF | VHF | Défense permanente |
 |---|---|---|---|---|---|---|---|
@@ -101,6 +105,8 @@ Les ravitailleurs et AWACS sont escortés. Les drones Reaper désignent au laser
 
 Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau contient le précédent. Jouez un seul niveau à la fois.
 
+[![Secteur Ouest — péninsule de Taman : entraînement SEAD, hors QRA](docs/cartes/carte_06_taman.jpg)](docs/cartes/carte_06_taman.jpg)
+
 
 ### Entraînement hélicoptères
 
@@ -127,6 +133,8 @@ Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau
 ## Zones de combat
 
 Menus F10 par type. Les défenses citées sont celles de la zone ; certaines sont tirées au hasard à chaque activation.
+
+<table><tr><td width="50%"><a href="docs/cartes/carte_03_front_est.jpg"><img src="docs/cartes/carte_03_front_est.jpg" alt="Front est — Ossétie : Beslan, Nalchik, Mozdok, Prokhladny"></a><br><sub>Front est — Ossétie : Beslan, Nalchik, Mozdok, Prokhladny</sub></td><td width="50%"><a href="docs/cartes/carte_05_kouban.jpg"><img src="docs/cartes/carte_05_kouban.jpg" alt="Kouban — Krasnodar, Maykop, Psebay"></a><br><sub>Kouban — Krasnodar, Maykop, Psebay</sub></td></tr><tr><td width="50%"><a href="docs/cartes/carte_04_nord_stavropol.jpg"><img src="docs/cartes/carte_04_nord_stavropol.jpg" alt="Nord — Mineralnye Vody, Georgievsk, Nevinnomyssk"></a><br><sub>Nord — Mineralnye Vody, Georgievsk, Nevinnomyssk</sub></td><td width="50%"><a href="docs/cartes/carte_07_mer_noire.jpg"><img src="docs/cartes/carte_07_mer_noire.jpg" alt="Mer Noire : porte-avions et zones antinavire"></a><br><sub>Mer Noire : porte-avions et zones antinavire</sub></td></tr></table>
 
 
 ### Front
@@ -190,6 +198,8 @@ Décollage une minute après l'entrée du premier intrus ; les QRA ne réagissen
 - **CAP F-15C - Beslan - FL300** — Paire de F-15C armés Fox 3 : opposition pour les joueurs rouges. Hippodrome au FL300 centré sur BULLSEYE 097/88.
 
 ## Combat entre joueurs
+
+[![Arène AirQuake (ouest, sur la mer)](docs/cartes/carte_08_arene.jpg)](docs/cartes/carte_08_arene.jpg)
 
 - **Arène AirQuake**, loin à l'ouest sur la mer : slots en vol pour les deux camps, par type de missile (Fox 1, Fox 3), un AWACS par camp (Darkstar 1 et AWACS Arène Rouge).
 - Entre les bases avec slots des deux camps.
@@ -283,7 +293,8 @@ Construite de zéro le 28/09/2026 avec VEAF Mission Creation Tools (`veaf-tools`
 | `src/dynamic-slot-templates.yaml` | Appareils proposés en slots dynamiques |
 | `src/scripts/*.lua` | Configuration des scripts VEAF embarqués (`veaf-config.lua`, CTLD, script de mission) |
 | `src/mission/l10n/DEFAULT/*.ogg` | Sons des balises de la zone de sauvetage (MH01 à MH03, SOS), déclarés dans `mapResource` |
-| `docs/carte.jpg` | La carte de ce briefing ; la même image est dans `src/mission/l10n/DEFAULT/carte.jpg` pour le briefing DCS |
+| `docs/carte.jpg`, `docs/cartes/` | La carte du théâtre et les huit zooms ; les mêmes images sont dans `src/mission/l10n/DEFAULT/` pour le briefing DCS, où `tools/gen_map.py` écrit lui-même `mapResource` et les listes `pictureFileName*` (côté bleu et neutre seulement : DCS affiche la liste rouge puis la bleue à un joueur dont il ignore le camp, et une image présente dans les deux s’afficherait deux fois) |
+| `tools/paths.py` | Où trouver le code Python de VMCT ; se règle par la variable d’environnement `VMCT_PY` |
 | `tools/` | Les générateurs qui ont construit la mission (`gen_*.py`), les lots rejouables (`tools/batches/`), les contrôles (`check_portees.py`, `verify.py`) et `retours-vmct.md` (ce que les outils n'ont pas su faire) |
 
 Hors dépôt (voir `.gitignore`) : les exécutables téléchargés (`veaf-tools`, `dcs-serve`, `dcs-client`), les scripts VEAF de `published/`, les `.miz` construits et `missions/`, les sauvegardes `.veaf-backups/`.
@@ -293,7 +304,7 @@ Hors dépôt (voir `.gitignore`) : les exécutables téléchargés (`veaf-tools`
 Ce README est **généré depuis la mission** : aucune valeur n'y est tapée à la main. Après tout changement dans `src/` ou `mission.yaml` :
 
 ```powershell
-python tools\gen_map.py     # la carte docs/carte.jpg
+python tools\gen_map.py     # la carte du théâtre, les zooms, et les images du briefing DCS
 python tools\gen_readme.py  # ce fichier
 ```
 
