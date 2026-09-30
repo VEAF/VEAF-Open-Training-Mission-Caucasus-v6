@@ -472,7 +472,7 @@ FL150 au-dessus de la zone"
         delay_before_activating: 60
         react_on_helicopters: false
 module_settings:
-  veaf.Diagnostics: true
+  veaf.Diagnostics: false
 
 # ── Pipeline de build ─────────────────────────────────────────────────────────
 # Contrôle les étapes d'injection optionnelles après le build de base.
