@@ -265,7 +265,7 @@
   "params": {
    "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
    "layer": "Blue",
-   "name": "Entraînement combatZone_Lanchkhuti_Easy",
+   "name": "Entraînement combatZone_Gori_Easy",
    "remove": true
   }
  },
@@ -274,7 +274,7 @@
   "params": {
    "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
    "layer": "Blue",
-   "name": "Étiquette entraînement combatZone_Lanchkhuti_Easy",
+   "name": "Étiquette entraînement combatZone_Gori_Easy",
    "remove": true
   }
  },
@@ -1057,8 +1057,8 @@
    "shape": "textbox",
    "name": "Étiquette QRA MinVody",
    "position": {
-    "x": -52089.51305304468,
-    "y": 781498.2369877042
+    "x": 21990.486946955323,
+    "y": 707418.2369877042
    },
    "text": "QRA MinVody",
    "color": "0xa4221aff",
@@ -1091,8 +1091,8 @@
    "shape": "textbox",
    "name": "Étiquette QRA Krasnodar",
    "position": {
-    "x": 8706.860211336985,
-    "y": 490845.72789460997
+    "x": 110566.86021133699,
+    "y": 388985.72789460997
    },
    "text": "QRA Krasnodar",
    "color": "0xa4221aff",
@@ -1125,8 +1125,8 @@
    "shape": "textbox",
    "name": "Étiquette QRA Kutaisi",
    "position": {
-    "x": -284582.7997534191,
-    "y": 790593.7345754248
+    "x": -179018.79975341912,
+    "y": 685029.7345754248
    },
    "text": "QRA Kutaisi",
    "color": "0x1f5fbfff",
@@ -1159,8 +1159,8 @@
    "shape": "textbox",
    "name": "Étiquette QRA Gudauta",
    "position": {
-    "x": -195650.55042463169,
-    "y": 589978.7946859552
+    "x": -121570.55042463169,
+    "y": 515898.7946859552
    },
    "text": "QRA Gudauta",
    "color": "0x1f5fbfff",

@@ -27039,7 +27039,7 @@ mission =
                 units = {
                   [1] = {
                     unitId = 180,
-                    name = "combatZone_Taman_Hard-ewr",
+                    name = "combatZone_Gori_Hard-ewr",
                     type = "55G6 EWR",
                     skill = "Average",
                     coldAtStart = false,
@@ -31451,9 +31451,9 @@ Tarawa : TACAN 11X, ICLS 11, tour 226.0.\
 AWACS : Magic 1 (ouest) 265.0, Overlord 1 (est) 266.0.\
 Drones laser : Reaper 1 (Beslan, code 1688, 118.8 AM), Reaper 2 (Psebay, code 1687, 118.9 AM).\
 \
-ZONES : menu F10 > VEAF > zones de combat. Entraînement hélicoptères (Kobuleti), attaque (Akhalkalaki), SEAD (Taman, secteur Ouest), recherche (Mountain hike), puis 16 vraies zones : front, SEAD, convois, frappe, OCA, antinavire.\
+ZONES : menu F10 > VEAF > zones de combat. Entraînement hélicoptères (Kobuleti), attaque (Akhalkalaki), SEAD (Gori), recherche (Mountain hike), puis 16 vraies zones : front, SEAD, convois, frappe, OCA, antinavire.\
 \
-QRA : rouges sur Mineralnye Vody (40 nm) et Krasnodar (55 nm) ; bleues sur Kutaisi (57 nm) et Gudauta (40 nm). Elles décollent une minute après l'entrée du premier intrus et ne réagissent pas aux hélicoptères. Le secteur Ouest (Taman, mer) est hors QRA.\
+QRA : rouges sur Mineralnye Vody (40 nm) et Krasnodar (55 nm) ; bleues sur Kutaisi (57 nm) et Gudauta (40 nm). Elles décollent une minute après l'entrée du premier intrus et ne réagissent pas aux hélicoptères. Le secteur Ouest (mer, au large de Taman) est hors QRA.\
 \
 COMBAT ENTRE JOUEURS : seulement dans l'arène AirQuake (slots en vol, loin à l'ouest) et entre les bases avec slots des deux camps. Le sud de la Géorgie est un sanctuaire bleu : un avion rouge qui y entre est détruit au bout de 60 secondes.\
 \
@@ -31566,8 +31566,8 @@ METAR : ${METAR}",
             font = "DejaVuLGCSansCondensed.ttf",
             fontSize = 14,
             layerName = "Red",
-            mapX = -52089.51305304468,
-            mapY = 781498.2369877042,
+            mapX = 21990.486946955323,
+            mapY = 707418.2369877042,
             primitiveType = "TextBox",
             text = "QRA MinVody",
             visible = true,
@@ -31595,8 +31595,8 @@ METAR : ${METAR}",
             font = "DejaVuLGCSansCondensed.ttf",
             fontSize = 14,
             layerName = "Red",
-            mapX = 8706.860211336985,
-            mapY = 490845.72789460997,
+            mapX = 110566.86021133699,
+            mapY = 388985.72789460997,
             primitiveType = "TextBox",
             text = "QRA Krasnodar",
             visible = true,
@@ -31968,8 +31968,8 @@ METAR : ${METAR}",
             font = "DejaVuLGCSansCondensed.ttf",
             fontSize = 14,
             layerName = "Blue",
-            mapX = -284582.7997534191,
-            mapY = 790593.7345754248,
+            mapX = -179018.79975341912,
+            mapY = 685029.7345754248,
             primitiveType = "TextBox",
             text = "QRA Kutaisi",
             visible = true,
@@ -31997,8 +31997,8 @@ METAR : ${METAR}",
             font = "DejaVuLGCSansCondensed.ttf",
             fontSize = 14,
             layerName = "Blue",
-            mapX = -195650.55042463169,
-            mapY = 589978.7946859552,
+            mapX = -121570.55042463169,
+            mapY = 515898.7946859552,
             primitiveType = "TextBox",
             text = "QRA Gudauta",
             visible = true,

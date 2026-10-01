@@ -31,9 +31,9 @@ Tarawa : TACAN 11X, ICLS 11, tour 226.0.
 AWACS : Magic 1 (ouest) 265.0, Overlord 1 (est) 266.0.
 Drones laser : Reaper 1 (Beslan, code 1688, 118.8 AM), Reaper 2 (Psebay, code 1687, 118.9 AM).
 
-ZONES : menu F10 > VEAF > zones de combat. Entraînement hélicoptères (Kobuleti), attaque (Akhalkalaki), SEAD (Taman, secteur Ouest), recherche (Mountain hike), puis 16 vraies zones : front, SEAD, convois, frappe, OCA, antinavire.
+ZONES : menu F10 > VEAF > zones de combat. Entraînement hélicoptères (Kobuleti), attaque (Akhalkalaki), SEAD (Gori), recherche (Mountain hike), puis 16 vraies zones : front, SEAD, convois, frappe, OCA, antinavire.
 
-QRA : rouges sur Mineralnye Vody (40 nm) et Krasnodar (55 nm) ; bleues sur Kutaisi (57 nm) et Gudauta (40 nm). Elles décollent une minute après l'entrée du premier intrus et ne réagissent pas aux hélicoptères. Le secteur Ouest (Taman, mer) est hors QRA.
+QRA : rouges sur Mineralnye Vody (40 nm) et Krasnodar (55 nm) ; bleues sur Kutaisi (57 nm) et Gudauta (40 nm). Elles décollent une minute après l'entrée du premier intrus et ne réagissent pas aux hélicoptères. Le secteur Ouest (mer, au large de Taman) est hors QRA.
 
 COMBAT ENTRE JOUEURS : seulement dans l'arène AirQuake (slots en vol, loin à l'ouest) et entre les bases avec slots des deux camps. Le sud de la Géorgie est un sanctuaire bleu : un avion rouge qui y entre est détruit au bout de 60 secondes.
 

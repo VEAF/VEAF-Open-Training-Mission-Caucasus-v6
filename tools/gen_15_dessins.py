@@ -74,7 +74,9 @@ for q in G.Y["modules"]["QRA"]["definitions"]:
     red = q["coalition"] == "RED"
     layer, col, fill = ("Red", RED_C, RED_FILL) if red else ("Blue", BLUE_C, BLUE_FILL)
     circle(layer, f"QRA {q['name']}", (z["x"], z["y"]), z["radius"], col, fill)
-    label(layer, f"Étiquette {q['name']}", (z["x"], z["y"] + z["radius"]), q["name"], col)
+    # au NORD du cercle : dans le repère DCS x est le nord et y l'est, et une étiquette posée à
+    # l'est partait de 40 à 57 nm de côté, jusque sur une autre zone (relu le 01/10/2026)
+    label(layer, f"Étiquette {q['name']}", (z["x"] + z["radius"], z["y"]), q["name"], col)
 
 # ── zones : cercle + étiquette, entraînement en vert, combat en rouge numéroté ───────────────────
 num = 0

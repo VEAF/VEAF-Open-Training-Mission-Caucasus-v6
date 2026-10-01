@@ -20,7 +20,7 @@ Le panneau de briefing de DCS ajuste chaque image à sa taille : la carte du th�
 
 ## Situation
 
-La Géorgie, soutenue par l'OTAN, tient une ligne avancée en Russie — Sochi, Nalchik, Beslan — face aux forces russes. Le front court de la mer Noire (Sochi / Maykop) à l'Ossétie du Nord (Beslan / Mozdok), sur environ 207 nm. Le secteur Ouest (péninsule de Taman et la mer au large) sert de terrain d'entraînement, hors QRA.
+La Géorgie, soutenue par l'OTAN, tient une ligne avancée en Russie — Sochi, Nalchik, Beslan — face aux forces russes. Le front court de la mer Noire (Sochi / Maykop) à l'Ossétie du Nord (Beslan / Mozdok), sur environ 207 nm. Le secteur Ouest, au large de la péninsule de Taman, accueille l'arène ; il reste hors QRA.
 
 ## Bases
 

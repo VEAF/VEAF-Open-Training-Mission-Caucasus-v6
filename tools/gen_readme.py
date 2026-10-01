@@ -101,7 +101,7 @@ o = [f"# VEAF Open Training — Caucase (moderne)", "",
      "## Situation", "",
      "La Géorgie, soutenue par l'OTAN, tient une ligne avancée en Russie — Sochi, Nalchik, Beslan — face aux forces russes. "
      "Le front court de la mer Noire (Sochi / Maykop) à l'Ossétie du Nord (Beslan / Mozdok), sur environ 207 nm. Le secteur "
-     "Ouest (péninsule de Taman et la mer au large) sert de terrain d'entraînement, hors QRA.", "",
+     "Ouest, au large de la péninsule de Taman, accueille l'arène ; il reste hors QRA.", "",
      "## Bases", ""] + zooms("georgie_ouest", "abkhazie") + [
      "| Base | Camp | Slots | Position | Bullseye | UHF | VHF | Défense permanente |", "|---|---|---|---|---|---|---|---|"]
 for side in ("blue", "red"):
