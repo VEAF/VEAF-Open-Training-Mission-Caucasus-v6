@@ -38,16 +38,20 @@ l'écart au ravitailleur n'avait pas été mesuré à ce moment-là. **Deux issu
 pas la même mission** : rapprocher la zone (elle perd le « hors QRA » qui justifiait Taman), ou
 poser un ravitailleur dans le secteur Ouest. À trancher avant de coder.
 
-## Côté serveurs, avant la prochaine session
+## Côté serveurs
 
-**Le hook `VEAF-Server-hook.lua` doit être redéployé.** Mesuré le 01/10/2026 sur les six instances
-(`foothold1/2`, `private1/2`, `public1/2`) : toutes tournent avec le hook du **10/08/2026**, sans
-`onGameEvent` ni l'envoi du niveau au changement de slot. Or c'est par là que passe la moitié du
-correctif du lot VMCT `FIX-SECU-VERB-AND-LOG-NOISE` (ticket 01) : sans lui, un pilote listé ne
-retrouve son niveau qu'à sa première commande de chat, pas en prenant son slot. Le hook n'est pas
-livré dans `published/` — il se prend dans le dépôt VMCT, `src/scripts/hooks/`.
+**Hook `VEAF-Server-hook.lua` installé le 01/10/2026** sur les six instances (`foothold1/2`,
+`private1/2`, `public1/2`) : v2.7.1, 33 814 o, celui du commit VMCT `cf9958e9`. Elles tournaient
+toutes celui du 10/08, sans `onGameEvent` ni l'envoi du niveau au changement de slot — c'est par là
+que passe la moitié du correctif du lot `FIX-SECU-VERB-AND-LOG-NOISE` (ticket 01). Les anciens sont
+gardés dans `Saved Games\_hook-backup-20261001-091118\`.
 
-C'est aussi la condition de la vérification en jeu ci-dessous.
+**Reste à faire : redémarrer chaque instance.** DCS lit ses hooks au démarrage ; jusque-là les
+serveurs tournent encore sur l'ancien, et un pilote listé ne retrouve son niveau qu'à sa première
+commande de chat, pas en prenant son slot.
+
+Le hook n'est pas livré dans `published/` : il se prend dans le dépôt VMCT, `src/scripts/Hooks/`
+(majuscule à `Hooks`).
 
 ## Vérifications en jeu encore dues
 
