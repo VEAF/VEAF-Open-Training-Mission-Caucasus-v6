@@ -241,7 +241,7 @@ CARRIERS = [("CSG-74 Stennis", "Stennis"), ("CSG-01 Tarawa", "Tarawa")]
 FRONT_PTS = [((AIRFIELDS[a][0] + AIRFIELDS[b][0]) / 2, (AIRFIELDS[a][1] + AIRFIELDS[b][1]) / 2)
              for a, b in (("Sochi-Adler", "Maykop-Khanskaya"), ("Gudauta", "Maykop-Khanskaya"), ("Nalchik", "Mineralnye Vody"), ("Beslan", "Mozdok"))]
 FRONT_PTS = [(-116680, 408929)] + FRONT_PTS[:1] + FRONT_PTS[2:] + [(-140000, 900000)]  # de la côte à l'est de Beslan
-LETTERS = {"Kobuleti": "H", "Akhalkalaki": "A", "Taman": "S", "MountainHike": "R"}
+LETTERS = {"Kobuleti": "H", "Akhalkalaki": "A", "Gori": "S", "MountainHike": "R"}
 SANCTUARY = [GROUPS[f"Sanctuaire bleu-{i:02d}"][2] for i in range(1, 23)]
 # l'arène n'a pas de zone de déclenchement : ses slots en vol et les deux AWACS qui la couvrent la bornent
 ARENA = [GROUPS[n][2] for n in ("Arène - F-14B - FOX1 - bleu", "Arène - F-14B - FOX1 - rouge", "Darkstar 1", "AWACS Arène Rouge")]
@@ -472,8 +472,8 @@ ZOOMS = [
     ("kouban", "Kouban — Krasnodar, Maykop, Psebay",
      ["base:Krasnodar", "base:Maykop", "qra:QRA Krasnodar", "zone:combatZone_Psebay_SAM",
       "zone:combatZone_Psebay_Usine", "zone:combatZone_Maykop_Defenses"]),
-    ("taman", "Secteur Ouest — péninsule de Taman : entraînement SEAD, hors QRA",
-     ["zone:combatZone_Taman_Hard@22"]),
+    ("gori", "Plaine de Gori : entraînement SEAD, vallée du Kura",
+     ["zone:combatZone_Gori_Hard@18", "base:Tbilisi"]),
     ("mer_noire", "Mer Noire : porte-avions et zones antinavire",
      ["carrier:CSG-74 Stennis", "carrier:CSG-01 Tarawa", "zone:combatZone_Antinavire_Cargos",
       "zone:combatZone_Antinavire_Escorte"]),
@@ -489,7 +489,7 @@ def extents(ref):
     """Points (x, y, rayon en m) qu'un zoom doit contenir, pour une référence.
 
     Un suffixe `@<nm>` impose un rayon minimal autour de l'objet, pour garder du contexte autour
-    d'une zone étroite (la péninsule autour du SA-6 de Taman).
+    d'une zone étroite (la plaine autour du SA-6 de Gori).
     """
     ref, _, wide = ref.partition("@")
     around = float(wide) * NM if wide else 0

@@ -101,7 +101,7 @@ o = [f"# VEAF Open Training — Caucase (moderne)", "",
      "## Situation", "",
      "La Géorgie, soutenue par l'OTAN, tient une ligne avancée en Russie — Sochi, Nalchik, Beslan — face aux forces russes. "
      "Le front court de la mer Noire (Sochi / Maykop) à l'Ossétie du Nord (Beslan / Mozdok), sur environ 207 nm. Le secteur "
-     "Ouest (péninsule de Taman et la mer au large) sert de terrain d'entraînement, hors QRA.", "",
+     "Ouest, au large de la péninsule de Taman, accueille l'arène ; il reste hors QRA.", "",
      "## Bases", ""] + zooms("georgie_ouest", "abkhazie") + [
      "| Base | Camp | Slots | Position | Bullseye | UHF | VHF | Défense permanente |", "|---|---|---|---|---|---|---|---|"]
 for side in ("blue", "red"):
@@ -128,7 +128,7 @@ for a in MOD["ASSETS"]["assets"]:
     o.append(f"| {a['name']} | {a['description']} | {a['information'].replace(chr(10), ' — ')} |")
 o += ["", "Les ravitailleurs et AWACS sont escortés. Les drones Reaper désignent au laser (menu *ASSETS*).", "",
       "## Entraînement", "", "Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau contient le précédent. "
-      "Jouez un seul niveau à la fois.", ""] + zooms("taman")
+      "Jouez un seul niveau à la fois.", ""] + zooms("gori")
 cz = MOD["COMBATZONE"]["combat_zones"]
 for training, title in ((True, None), (False, "## Zones de combat")):
     if title:
