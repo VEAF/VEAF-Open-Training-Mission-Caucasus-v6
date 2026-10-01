@@ -18,10 +18,10 @@ BULLSEYE = (-154706, 665527)
 
 # Ravitailleurs : milieu de l'hippodrome, altitude (FL), TACAN, fréquence — voir gen_03_soutien.py.
 TANKERS = {
-    "Arco 1": ((-307500, 525000), 180, "51Y", 251.0),
-    "Texaco 1": ((-245000, 585000), 220, "52Y", 252.0),
-    "Shell 1": ((-290000, 787500), 200, "53Y", 253.0),
-    "Shell 2": ((-325000, 867500), 240, "54Y", 254.0),
+    "Arco 1": ((-307500, 525000), 180, "51Y", 291.0),
+    "Texaco 1": ((-245000, 585000), 220, "52Y", 292.0),
+    "Shell 1": ((-290000, 787500), 200, "53Y", 293.0),
+    "Shell 2": ((-325000, 867500), 240, "54Y", 294.0),
 }
 
 _af = json.loads((ROOT / "tools/airfields.json").read_text(encoding="utf-8").split(": ", 1)[1])["airfields"]

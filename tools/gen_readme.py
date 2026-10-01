@@ -73,8 +73,6 @@ for aid, w in wh_air.items():
     if side in bases:
         bases[side].append((n, n not in excl[side]))
 freq = lambda key: PR["bases"].get(key, {}).get("freqs", {})  # noqa: E731
-SHORT = {"Sochi-Adler": "Sochi", "Tbilisi-Lochini": "Tbilisi", "Maykop-Khanskaya": "Maykop", "Krasnodar-Pashkovsky": "Krasnodar",
-         "Mineralnye Vody": "MinVody"}
 
 o = [f"# VEAF Open Training — Caucase (moderne)", "",
      "Mission d'entraînement ouverte des serveurs VEAF, sur la carte **Caucasus** de DCS, dans un scénario moderne "
@@ -103,15 +101,15 @@ o = [f"# VEAF Open Training — Caucase (moderne)", "",
      "Le front court de la mer Noire (Sochi / Maykop) à l'Ossétie du Nord (Beslan / Mozdok), sur environ 207 nm. Le secteur "
      "Ouest, au large de la péninsule de Taman, accueille l'arène ; il reste hors QRA.", "",
      "## Bases", ""] + zooms("georgie_ouest", "abkhazie") + [
-     "| Base | Camp | Slots | Position | Bullseye | UHF | VHF | Défense permanente |", "|---|---|---|---|---|---|---|---|"]
+     "| Base | Camp | Slots | Position | Bullseye | UHF | VHF | FM | Défense permanente |",
+     "|---|---|---|---|---|---|---|---|---|"]
 for side in ("blue", "red"):
     for n, slots in sorted(bases[side], key=lambda t: (not t[1], t[0])):
-        s = SHORT.get(n, n.split("-")[0])
-        f = freq(f"Base-{s}") if slots else {}
+        f = freq(f"Base-{n}") if slots else {}
         ad_tag = n.split("-")[0].split(" ")[0]  # même découpe que tools/gen_05_defense.py
         ad = ", ".join(AD.get(ad_tag, [])) if slots else ""
         o.append(f"| {n} | {'bleu' if side == 'blue' else 'rouge'} | {'oui' if slots else 'non'} | {ll(AIRFIELDS[n])} | {bullseye(AIRFIELDS[n])} "
-                 f"| {f.get('uhf', '—')} | {f.get('vhf', '—')} | {ad or '—'} |")
+                 f"| {f.get('uhf', '—')} | {f.get('vhf', '—')} | {f.get('fm', '—')} | {ad or '—'} |")
 o += ["", "FARP bleus (dépôt de munitions et chargement de troupes CTLD) :", ""]
 for side, cat, g in groups():
     if cat == "static" and g["name"].startswith("FARP ") and "munitions" not in g["name"]:

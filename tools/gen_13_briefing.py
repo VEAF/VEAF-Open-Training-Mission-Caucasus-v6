@@ -28,7 +28,7 @@ RAVITAILLEURS
 Porte-avions Stennis au large de Batumi : TACAN 10X, ICLS 10, Link 4 et tour 225.0 ; S-3B TACAN 75Y, 290.9.
 Tarawa : TACAN 11X, ICLS 11, tour 226.0.
 
-AWACS : Magic 1 (ouest) 265.0, Overlord 1 (est) 266.0.
+AWACS : Magic 1 (ouest) 285.0, Overlord 1 (est) 286.0.
 Drones laser : Reaper 1 (Beslan, code 1688, 118.8 AM), Reaper 2 (Psebay, code 1687, 118.9 AM).
 
 ZONES : menu F10 > VEAF > zones de combat. Entraînement hélicoptères (Kobuleti), attaque (Akhalkalaki), SEAD (Gori), recherche (Mountain hike), puis 16 vraies zones : front, SEAD, convois, frappe, OCA, antinavire.

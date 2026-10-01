@@ -161,7 +161,7 @@ mission =
                 task = "Refueling",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 251.0,
+                frequency = 291.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -490,7 +490,7 @@ mission =
                 task = "Refueling",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 252.0,
+                frequency = 292.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -819,7 +819,7 @@ mission =
                 task = "Refueling",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 253.0,
+                frequency = 293.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -1148,7 +1148,7 @@ mission =
                 task = "Refueling",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 254.0,
+                frequency = 294.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -1477,7 +1477,7 @@ mission =
                 task = "AWACS",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 265.0,
+                frequency = 285.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -1799,7 +1799,7 @@ mission =
                 task = "AWACS",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 266.0,
+                frequency = 286.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -10288,7 +10288,7 @@ mission =
                 task = "Refueling",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 261.0,
+                frequency = 297.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -10580,7 +10580,7 @@ mission =
                 task = "AWACS",
                 communication = true,
                 dynSpawnTemplate = false,
-                frequency = 260.0,
+                frequency = 296.0,
                 hidden = false,
                 lateActivation = false,
                 modulation = 0,
@@ -31441,14 +31441,14 @@ BASES BLEUES (slots) : Sochi, Gudauta, Batumi, Kobuleti, Kutaisi, Nalchik, Tbili
 BASES ROUGES (slots) : Maykop, Krasnodar-Pashkovsky, Mineralnye Vody, Mozdok.\
 \
 RAVITAILLEURS\
-- Arco 1 : TACAN 51Y, 251.0 MHz, FL180\
-- Texaco 1 : TACAN 52Y, 252.0 MHz, FL220\
-- Shell 1 : TACAN 53Y, 253.0 MHz, FL200\
-- Shell 2 : TACAN 54Y, 254.0 MHz, FL240\
+- Arco 1 : TACAN 51Y, 291.0 MHz, FL180\
+- Texaco 1 : TACAN 52Y, 292.0 MHz, FL220\
+- Shell 1 : TACAN 53Y, 293.0 MHz, FL200\
+- Shell 2 : TACAN 54Y, 294.0 MHz, FL240\
 Porte-avions Stennis au large de Batumi : TACAN 10X, ICLS 10, Link 4 et tour 225.0 ; S-3B TACAN 75Y, 290.9.\
 Tarawa : TACAN 11X, ICLS 11, tour 226.0.\
 \
-AWACS : Magic 1 (ouest) 265.0, Overlord 1 (est) 266.0.\
+AWACS : Magic 1 (ouest) 285.0, Overlord 1 (est) 286.0.\
 Drones laser : Reaper 1 (Beslan, code 1688, 118.8 AM), Reaper 2 (Psebay, code 1687, 118.9 AM).\
 \
 ZONES : menu F10 > VEAF > zones de combat. Entraînement hélicoptères (Kobuleti), attaque (Akhalkalaki), SEAD (Gori), recherche (Mountain hike), puis 16 vraies zones : front, SEAD, convois, frappe, OCA, antinavire.\
