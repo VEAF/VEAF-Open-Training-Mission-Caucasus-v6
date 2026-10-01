@@ -10,8 +10,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from lib import AIRFIELDS as AF, ROOT  # noqa: E402
 
-BLUE_BASES = ["Sochi", "Gudauta", "Batumi", "Kobuleti", "Kutaisi", "Nalchik", "Tbilisi", "Vaziani", "Beslan"]
-RED_BASES = ["Maykop", "Krasnodar", "MinVody", "Mozdok"]
+# Noms DCS des aérodromes, pas des diminutifs : les canaux de base sont écrits par
+# `veaf-tools content airfield-channels`, qui apparie sur le nom DCS. « Base-Krasnodar » était en
+# plus ambigu (Krasnodar-Pashkovsky et Krasnodar-Center existent), et « Base-MinVody » n'appariait rien.
+BLUE_BASES = ["Sochi-Adler", "Gudauta", "Batumi", "Kobuleti", "Kutaisi", "Nalchik", "Tbilisi-Lochini",
+              "Vaziani", "Beslan"]
+RED_BASES = ["Maykop-Khanskaya", "Krasnodar-Pashkovsky", "Mineralnye Vody", "Mozdok"]
 FLIGHTS = ["Archer", "Arctic", "Ninja", "Pinder", "Bengal", "Blade"]
 TACT = [("Magic-1", "Magic 1 (AWACS)", 265.0), ("Overlord-1", "Overlord 1 (AWACS)", 266.0),
         ("Arco-1", "Arco 1 / perche / 51Y", 251.0), ("Texaco-1", "Texaco 1 / panier / 52Y", 252.0),
@@ -53,11 +57,12 @@ L += ["channels_collection: # toutes les fréquences de la mission", "  tactical
 for c, t, f in TACT + RED_TACT:
     L += [f"    {c}:", f"      title: {t}", f"      freqs: {{ uhf: {f} }}"]
 L += ["    Reaper-1:", "      title: Reaper 1 (drone laser 1688)", "      freqs: { vhf: 118.8 }",
-      "    Reaper-2:", "      title: Reaper 2 (drone laser 1687)", "      freqs: { vhf: 118.9 }", "  bases:"]
-for i, b in enumerate(BLUE_BASES, 1):
-    L += [f"    Base-{b}:", f"      title: {b}", f"      freqs: {{ uhf: 270.{i}, vhf: 130.{i} }}"]
-for i, b in enumerate(RED_BASES, 1):
-    L += [f"    Base-{b}:", f"      title: {b}", f"      freqs: {{ uhf: 275.{i}, vhf: 131.{i} }}"]
+      "    Reaper-2:", "      title: Reaper 2 (drone laser 1687)", "      freqs: { vhf: 118.9 }"]
+# La collection « bases » n'est PAS écrite ici. Une fréquence d'aérodrome appartient à DCS et se lit
+# sur la vue F10 : la série inventée 270.x / 275.x, en place jusqu'au 01/10/2026, n'y correspondait
+# pas, et un pilote qui choisissait le canal « Batumi » ne parlait pas à Batumi. Elles sont écrites
+# par `veaf-tools content airfield-channels --apply "<nom DCS>" …`, depuis le référentiel capturé
+# dans DCS. Ne tape aucune fréquence d'aérodrome à la main.
 L += ["  flights:"]
 for i, f in enumerate(FLIGHTS):
     L += [f"    {f}:", f"      title: {f}", f"      freqs: {{ vhf: {120.0 + i / 10:.1f}, uhf: {360.0 + i / 10:.1f} }}"]

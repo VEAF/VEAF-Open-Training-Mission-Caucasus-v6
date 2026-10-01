@@ -15,25 +15,25 @@ channel_lists:
       08: Stennis
       09: Tarawa
       10: Darkstar-1
-      11: Base-Sochi
+      11: Base-Sochi-Adler
       12: Base-Gudauta
       13: Base-Batumi
       14: Base-Kobuleti
       15: Base-Kutaisi
       16: Base-Nalchik
-      17: Base-Tbilisi
+      17: Base-Tbilisi-Lochini
       18: Base-Vaziani
       19: Base-Beslan
       20: Archer
     primary_2: # deuxième radio V/UHF (VHF) ; seule radio des warbirds
       01: { title: Guard/VHF, channel: Guard }
-      02: Base-Sochi
+      02: Base-Sochi-Adler
       03: Base-Gudauta
       04: Base-Batumi
       05: Base-Kobuleti
       06: Base-Kutaisi
       07: Base-Nalchik
-      08: Base-Tbilisi
+      08: Base-Tbilisi-Lochini
       09: Base-Vaziani
       10: Base-Beslan
       11: Reaper-1
@@ -81,9 +81,9 @@ channel_lists:
       02: AWACS-Rouge
       03: Tanker-Rouge
       04: AWACS-Arene-Rouge
-      05: Base-Maykop
-      06: Base-Krasnodar
-      07: Base-MinVody
+      05: Base-Maykop-Khanskaya
+      06: Base-Krasnodar-Pashkovsky
+      07: Base-Mineralnye Vody
       08: Base-Mozdok
       09: Rouge-1
       10: Rouge-2
@@ -91,9 +91,9 @@ channel_lists:
       12: Rouge-4
     primary_2: # deuxième radio V/UHF (VHF)
       01: { title: Guard/VHF, channel: Guard }
-      02: Base-Maykop
-      03: Base-Krasnodar
-      04: Base-MinVody
+      02: Base-Maykop-Khanskaya
+      03: Base-Krasnodar-Pashkovsky
+      04: Base-Mineralnye Vody
       05: Base-Mozdok
       06: Rouge-1
       07: Rouge-2
@@ -151,13 +151,13 @@ radios_collection: # définitions de radios (format historique, utilisé par pre
         06: Shell-1
         07: Shell-2
         08: Stennis
-        09: Base-Sochi
+        09: Base-Sochi-Adler
         10: Base-Gudauta
         11: Base-Batumi
         12: Base-Kobuleti
         13: Base-Kutaisi
         14: Base-Nalchik
-        15: Base-Tbilisi
+        15: Base-Tbilisi-Lochini
         16: Base-Vaziani
         17: Base-Beslan
     radio_fm_30:
@@ -250,46 +250,6 @@ channels_collection: # toutes les fréquences de la mission
     Reaper-2:
       title: Reaper 2 (drone laser 1687)
       freqs: { vhf: 118.9 }
-  bases:
-    Base-Sochi:
-      title: Sochi
-      freqs: { uhf: 270.1, vhf: 130.1 }
-    Base-Gudauta:
-      title: Gudauta
-      freqs: { uhf: 270.2, vhf: 130.2 }
-    Base-Batumi:
-      title: Batumi
-      freqs: { uhf: 270.3, vhf: 130.3 }
-    Base-Kobuleti:
-      title: Kobuleti
-      freqs: { uhf: 270.4, vhf: 130.4 }
-    Base-Kutaisi:
-      title: Kutaisi
-      freqs: { uhf: 270.5, vhf: 130.5 }
-    Base-Nalchik:
-      title: Nalchik
-      freqs: { uhf: 270.6, vhf: 130.6 }
-    Base-Tbilisi:
-      title: Tbilisi
-      freqs: { uhf: 270.7, vhf: 130.7 }
-    Base-Vaziani:
-      title: Vaziani
-      freqs: { uhf: 270.8, vhf: 130.8 }
-    Base-Beslan:
-      title: Beslan
-      freqs: { uhf: 270.9, vhf: 130.9 }
-    Base-Maykop:
-      title: Maykop
-      freqs: { uhf: 275.1, vhf: 131.1 }
-    Base-Krasnodar:
-      title: Krasnodar
-      freqs: { uhf: 275.2, vhf: 131.2 }
-    Base-MinVody:
-      title: MinVody
-      freqs: { uhf: 275.3, vhf: 131.3 }
-    Base-Mozdok:
-      title: Mozdok
-      freqs: { uhf: 275.4, vhf: 131.4 }
   flights:
     Archer:
       title: Archer
@@ -321,3 +281,43 @@ channels_collection: # toutes les fréquences de la mission
     Rouge-4:
       title: Rouge-4
       freqs: { vhf: 124.3, uhf: 380.3 }
+  bases:
+    Base-Sochi-Adler:
+      title: Sochi-Adler
+      freqs: { uhf: 256.0, vhf: 127.0, fm: 39.6 }
+    Base-Gudauta:
+      title: Gudauta
+      freqs: { uhf: 259.0, vhf: 130.0, fm: 40.2 }
+    Base-Batumi:
+      title: Batumi / 16X
+      freqs: { uhf: 260.0, vhf: 131.0, fm: 40.4 }
+    Base-Kobuleti:
+      title: Kobuleti / 67X
+      freqs: { uhf: 262.0, vhf: 133.0, fm: 40.8 }
+    Base-Kutaisi:
+      title: Kutaisi / 44X
+      freqs: { uhf: 263.0, vhf: 134.0, fm: 41.0 }
+    Base-Nalchik:
+      title: Nalchik
+      freqs: { uhf: 265.0, vhf: 136.0, fm: 41.4 }
+    Base-Tbilisi-Lochini:
+      title: Tbilisi-Lochini / 25X
+      freqs: { uhf: 267.0, vhf: 138.0, fm: 41.8 }
+    Base-Vaziani:
+      title: Vaziani / 22X
+      freqs: { uhf: 269.0, vhf: 140.0, fm: 42.2 }
+    Base-Beslan:
+      title: Beslan
+      freqs: { uhf: 270.0, vhf: 141.0, fm: 42.4 }
+    Base-Maykop-Khanskaya:
+      title: Maykop-Khanskaya
+      freqs: { uhf: 254.0, vhf: 125.0, fm: 39.2 }
+    Base-Krasnodar-Pashkovsky:
+      title: Krasnodar-Pashkovsky
+      freqs: { uhf: 257.0, vhf: 128.0, fm: 39.8 }
+    Base-Mineralnye Vody:
+      title: Mineralnye Vody
+      freqs: { uhf: 264.0, vhf: 135.0, fm: 41.2 }
+    Base-Mozdok:
+      title: Mozdok
+      freqs: { uhf: 266.0, vhf: 137.0, fm: 41.6 }

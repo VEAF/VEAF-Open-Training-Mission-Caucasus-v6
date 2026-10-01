@@ -26,29 +26,29 @@ La Géorgie, soutenue par l'OTAN, tient une ligne avancée en Russie — Sochi, 
 
 <table><tr><td width="50%"><a href="docs/cartes/carte_01_georgie_ouest.jpg"><img src="docs/cartes/carte_01_georgie_ouest.jpg" alt="Géorgie de l'ouest : Batumi, Kobuleti, Kutaisi, entraînement hélicoptères et attaque"></a><br><sub>Géorgie de l'ouest : Batumi, Kobuleti, Kutaisi, entraînement hélicoptères et attaque</sub></td><td width="50%"><a href="docs/cartes/carte_02_abkhazie.jpg"><img src="docs/cartes/carte_02_abkhazie.jpg" alt="Abkhazie et côte : Gudauta, Sochi, FARP Kodori, recherche et sauvetage"></a><br><sub>Abkhazie et côte : Gudauta, Sochi, FARP Kodori, recherche et sauvetage</sub></td></tr></table>
 
-| Base | Camp | Slots | Position | Bullseye | UHF | VHF | Défense permanente |
-|---|---|---|---|---|---|---|---|
-| Batumi | bleu | oui | `N41°36.197' E041°36.557'` | BULLSEYE 193/112 | 270.3 | 130.3 | Avenger, NASAMS |
-| Beslan | bleu | oui | `N43°12.510' E044°35.335'` | BULLSEYE 088/95 | 270.9 | 130.9 | Avenger, Hawk |
-| Gudauta | bleu | oui | `N43°07.454' E040°33.851'` | BULLSEYE 255/84 | 270.2 | 130.2 | Avenger, NASAMS |
-| Kobuleti | bleu | oui | `N41°55.926' E041°52.589'` | BULLSEYE 190/89 | 270.4 | 130.4 | Avenger, NASAMS |
-| Kutaisi | bleu | oui | `N42°10.749' E042°29.741'` | BULLSEYE 171/71 | 270.5 | 130.5 | Avenger, NASAMS, Patriot |
-| Nalchik | bleu | oui | `N43°30.604' E043°37.507'` | BULLSEYE 073/53 | 270.6 | 130.6 | Avenger, Hawk |
-| Sochi-Adler | bleu | oui | `N43°26.363' E039°55.454'` | BULLSEYE 267/111 | 270.1 | 130.1 | Avenger, NASAMS, Patriot |
-| Tbilisi-Lochini | bleu | oui | `N41°40.483' E044°56.812'` | BULLSEYE 125/151 | 270.7 | 130.7 | Avenger, NASAMS |
-| Vaziani | bleu | oui | `N41°38.264' E045°01.145'` | BULLSEYE 125/155 | 270.8 | 130.8 | Avenger, NASAMS, Patriot |
-| Senaki-Kolkhi | bleu | non | `N42°14.324' E042°03.661'` | BULLSEYE 188/69 | — | — | — |
-| Soganlug | bleu | non | `N41°38.470' E044°56.831'` | BULLSEYE 125/153 | — | — | — |
-| Sukhumi-Babushara | bleu | non | `N42°51.164' E041°08.547'` | BULLSEYE 236/65 | — | — | — |
-| Krasnodar-Pashkovsky | rouge | oui | `N45°02.766' E039°12.184'` | BULLSEYE 301/173 | 275.2 | 131.2 | SA-19, SA-11, SA-10 |
-| Maykop-Khanskaya | rouge | oui | `N44°40.286' E040°01.286'` | BULLSEYE 301/132 | 275.1 | 131.1 | SA-19, SA-11 |
-| Mineralnye Vody | rouge | oui | `N44°13.119' E043°06.041'` | BULLSEYE 022/60 | 275.3 | 131.3 | SA-19, SA-11 |
-| Mozdok | rouge | oui | `N43°47.478' E044°37.220'` | BULLSEYE 067/100 | 275.4 | 131.4 | SA-19, SA-11 |
-| Anapa-Vityazevo | rouge | non | `N45°00.790' E037°21.587'` | BULLSEYE 290/242 | — | — | — |
-| Gelendzhik | rouge | non | `N44°34.060' E038°00.249'` | BULLSEYE 286/206 | — | — | — |
-| Krasnodar-Center | rouge | non | `N45°05.246' E038°55.512'` | BULLSEYE 299/185 | — | — | — |
-| Krymsk | rouge | non | `N44°57.683' E037°59.153'` | BULLSEYE 292/216 | — | — | — |
-| Novorossiysk | rouge | non | `N44°40.400' E037°47.174'` | BULLSEYE 287/217 | — | — | — |
+| Base | Camp | Slots | Position | Bullseye | UHF | VHF | FM | Défense permanente |
+|---|---|---|---|---|---|---|---|---|
+| Batumi | bleu | oui | `N41°36.197' E041°36.557'` | BULLSEYE 193/112 | 260.0 | 131.0 | 40.4 | Avenger, NASAMS |
+| Beslan | bleu | oui | `N43°12.510' E044°35.335'` | BULLSEYE 088/95 | 270.0 | 141.0 | 42.4 | Avenger, Hawk |
+| Gudauta | bleu | oui | `N43°07.454' E040°33.851'` | BULLSEYE 255/84 | 259.0 | 130.0 | 40.2 | Avenger, NASAMS |
+| Kobuleti | bleu | oui | `N41°55.926' E041°52.589'` | BULLSEYE 190/89 | 262.0 | 133.0 | 40.8 | Avenger, NASAMS |
+| Kutaisi | bleu | oui | `N42°10.749' E042°29.741'` | BULLSEYE 171/71 | 263.0 | 134.0 | 41.0 | Avenger, NASAMS, Patriot |
+| Nalchik | bleu | oui | `N43°30.604' E043°37.507'` | BULLSEYE 073/53 | 265.0 | 136.0 | 41.4 | Avenger, Hawk |
+| Sochi-Adler | bleu | oui | `N43°26.363' E039°55.454'` | BULLSEYE 267/111 | 256.0 | 127.0 | 39.6 | Avenger, NASAMS, Patriot |
+| Tbilisi-Lochini | bleu | oui | `N41°40.483' E044°56.812'` | BULLSEYE 125/151 | 267.0 | 138.0 | 41.8 | Avenger, NASAMS |
+| Vaziani | bleu | oui | `N41°38.264' E045°01.145'` | BULLSEYE 125/155 | 269.0 | 140.0 | 42.2 | Avenger, NASAMS, Patriot |
+| Senaki-Kolkhi | bleu | non | `N42°14.324' E042°03.661'` | BULLSEYE 188/69 | — | — | — | — |
+| Soganlug | bleu | non | `N41°38.470' E044°56.831'` | BULLSEYE 125/153 | — | — | — | — |
+| Sukhumi-Babushara | bleu | non | `N42°51.164' E041°08.547'` | BULLSEYE 236/65 | — | — | — | — |
+| Krasnodar-Pashkovsky | rouge | oui | `N45°02.766' E039°12.184'` | BULLSEYE 301/173 | 257.0 | 128.0 | 39.8 | SA-19, SA-11, SA-10 |
+| Maykop-Khanskaya | rouge | oui | `N44°40.286' E040°01.286'` | BULLSEYE 301/132 | 254.0 | 125.0 | 39.2 | SA-19, SA-11 |
+| Mineralnye Vody | rouge | oui | `N44°13.119' E043°06.041'` | BULLSEYE 022/60 | 264.0 | 135.0 | 41.2 | SA-19, SA-11 |
+| Mozdok | rouge | oui | `N43°47.478' E044°37.220'` | BULLSEYE 067/100 | 266.0 | 137.0 | 41.6 | SA-19, SA-11 |
+| Anapa-Vityazevo | rouge | non | `N45°00.790' E037°21.587'` | BULLSEYE 290/242 | — | — | — | — |
+| Gelendzhik | rouge | non | `N44°34.060' E038°00.249'` | BULLSEYE 286/206 | — | — | — | — |
+| Krasnodar-Center | rouge | non | `N45°05.246' E038°55.512'` | BULLSEYE 299/185 | — | — | — | — |
+| Krymsk | rouge | non | `N44°57.683' E037°59.153'` | BULLSEYE 292/216 | — | — | — | — |
+| Novorossiysk | rouge | non | `N44°40.400' E037°47.174'` | BULLSEYE 287/217 | — | — | — | — |
 
 FARP bleus (dépôt de munitions et chargement de troupes CTLD) :
 
@@ -224,19 +224,19 @@ Décollage une minute après l'entrée du premier intrus ; les QRA ne réagissen
 | AWACS Arene Rouge (A-50) | 281.0 | — |
 | Reaper 1 (drone laser 1688) | — | 118.8 |
 | Reaper 2 (drone laser 1687) | — | 118.9 |
-| Sochi | 270.1 | 130.1 |
-| Gudauta | 270.2 | 130.2 |
-| Batumi | 270.3 | 130.3 |
-| Kobuleti | 270.4 | 130.4 |
-| Kutaisi | 270.5 | 130.5 |
-| Nalchik | 270.6 | 130.6 |
-| Tbilisi | 270.7 | 130.7 |
-| Vaziani | 270.8 | 130.8 |
-| Beslan | 270.9 | 130.9 |
-| Maykop | 275.1 | 131.1 |
-| Krasnodar | 275.2 | 131.2 |
-| MinVody | 275.3 | 131.3 |
-| Mozdok | 275.4 | 131.4 |
+| Sochi-Adler | 256.0 | 127.0 |
+| Gudauta | 259.0 | 130.0 |
+| Batumi / 16X | 260.0 | 131.0 |
+| Kobuleti / 67X | 262.0 | 133.0 |
+| Kutaisi / 44X | 263.0 | 134.0 |
+| Nalchik | 265.0 | 136.0 |
+| Tbilisi-Lochini / 25X | 267.0 | 138.0 |
+| Vaziani / 22X | 269.0 | 140.0 |
+| Beslan | 270.0 | 141.0 |
+| Maykop-Khanskaya | 254.0 | 125.0 |
+| Krasnodar-Pashkovsky | 257.0 | 128.0 |
+| Mineralnye Vody | 264.0 | 135.0 |
+| Mozdok | 266.0 | 137.0 |
 | Archer | 360.0 | 120.0 |
 | Arctic | 360.1 | 120.1 |
 | Ninja | 360.2 | 120.2 |
