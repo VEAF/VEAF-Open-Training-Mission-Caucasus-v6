@@ -1,8 +1,8 @@
 # Rapport de validation des fréquences radio
 
-Généré le : 2026-09-29  
+Généré le : 2026-10-01  
 Fichier presets : `D:\dev\_VEAF\VEAF-Open-Training-Mission-Caucasus-v6\src\presets.yaml`  
-Mission : `D:\dev\_VEAF\VEAF-Open-Training-Mission-Caucasus-v6\VEAF_OpenTraining_Caucasus_ICAO_UGTB_20260929.miz`
+Mission : `D:\dev\_VEAF\VEAF-Open-Training-Mission-Caucasus-v6\VEAF_OpenTraining_Caucasus_ICAO_UGTB_20261001.miz`
 
 ## ℹ️ Hors plage — retirées de la radio injectée (DCS les stockerait mais les ignorerait)
 

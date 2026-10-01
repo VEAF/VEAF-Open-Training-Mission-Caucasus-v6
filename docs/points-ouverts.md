@@ -38,6 +38,17 @@ l'écart au ravitailleur n'avait pas été mesuré à ce moment-là. **Deux issu
 pas la même mission** : rapprocher la zone (elle perd le « hors QRA » qui justifiait Taman), ou
 poser un ravitailleur dans le secteur Ouest. À trancher avant de coder.
 
+## Côté serveurs, avant la prochaine session
+
+**Le hook `VEAF-Server-hook.lua` doit être redéployé.** Mesuré le 01/10/2026 sur les six instances
+(`foothold1/2`, `private1/2`, `public1/2`) : toutes tournent avec le hook du **10/08/2026**, sans
+`onGameEvent` ni l'envoi du niveau au changement de slot. Or c'est par là que passe la moitié du
+correctif du lot VMCT `FIX-SECU-VERB-AND-LOG-NOISE` (ticket 01) : sans lui, un pilote listé ne
+retrouve son niveau qu'à sa première commande de chat, pas en prenant son slot. Le hook n'est pas
+livré dans `published/` — il se prend dans le dépôt VMCT, `src/scripts/hooks/`.
+
+C'est aussi la condition de la vérification en jeu ci-dessous.
+
 ## Vérifications en jeu encore dues
 
 - Le panneau d'une zone de combat annonce-t-il enfin ses cibles **statiques** (Kobuleti et
@@ -46,6 +57,9 @@ poser un ravitailleur dans le secteur Ouest. À trancher avant de coder.
   chacun ? Vérifié dans le `.miz` et dans le Lua de DCS, jamais à l'écran.
 - Les balises MH01-03 et SOS, relevables au radiogoniomètre (il faut un hélicoptère sur la zone de
   sauvetage).
+- Un pilote listé dans `veaf-pilots.txt`, resté connecté pendant un rechargement de mission, clique
+  une commande `+` **sans taper aucun verbe** (lot VMCT `FIX-SECU-VERB-AND-LOG-NOISE`, ticket 01).
+  Demande le hook redéployé.
 
 ## Parti chez VMCT
 

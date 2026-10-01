@@ -19,7 +19,7 @@ veaf.SecurityDisabled = false
 veaf.ForcedLogLevel = "info"
 
 -- ── Module settings ──────────────────────────────────────────────────────────
-veaf.Diagnostics = true
+veaf.Diagnostics = false
 
 -- ── CTLD 2 ───────────────────────────────────────────────────────────────────
 -- Configuration lives in ctld-config.yaml (edit it with ctld-tools); this only starts it.
