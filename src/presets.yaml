@@ -210,22 +210,22 @@ channels_collection: # toutes les fréquences de la mission
       freqs: { uhf: 243, vhf: 121.5 }
     Magic-1:
       title: Magic 1 (AWACS)
-      freqs: { uhf: 265.0 }
+      freqs: { uhf: 285.0 }
     Overlord-1:
       title: Overlord 1 (AWACS)
-      freqs: { uhf: 266.0 }
+      freqs: { uhf: 286.0 }
     Arco-1:
       title: Arco 1 / perche / 51Y
-      freqs: { uhf: 251.0 }
+      freqs: { uhf: 291.0 }
     Texaco-1:
       title: Texaco 1 / panier / 52Y
-      freqs: { uhf: 252.0 }
+      freqs: { uhf: 292.0 }
     Shell-1:
       title: Shell 1 / panier / 53Y
-      freqs: { uhf: 253.0 }
+      freqs: { uhf: 293.0 }
     Shell-2:
       title: Shell 2 / perche / 54Y
-      freqs: { uhf: 254.0 }
+      freqs: { uhf: 294.0 }
     Stennis:
       title: CVN-74 Stennis / 10X
       freqs: { uhf: 225.0 }
@@ -237,10 +237,10 @@ channels_collection: # toutes les fréquences de la mission
       freqs: { uhf: 280.0 }
     AWACS-Rouge:
       title: AWACS Rouge (A-50)
-      freqs: { uhf: 260.0 }
+      freqs: { uhf: 296.0 }
     Tanker-Rouge:
       title: Tanker Rouge (Il-78M)
-      freqs: { uhf: 261.0 }
+      freqs: { uhf: 297.0 }
     AWACS-Arene-Rouge:
       title: AWACS Arene Rouge (A-50)
       freqs: { uhf: 281.0 }

@@ -110,21 +110,21 @@ Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau
 
 ### Entraînement hélicoptères
 
-- **Kobuleti - hélicoptères - facile** — `N41°50.531' E041°47.878'` — Range de Kobuleti, 6 nm au sud-ouest de la base. Cibles inertes (statiques) : blindés, camions, missiles SCUD, bâtiments. Aucune défense. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 51 nm.
-- **Kobuleti - hélicoptères - moyen** — `N41°50.531' E041°47.878'` — Range de Kobuleti, cibles du niveau facile plus DCA légère : deux pièces tirées parmi quatre (ZU-23, Shilka). BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 51 nm.
-- **Kobuleti - hélicoptères - difficile** — `N41°50.531' E041°47.878'` — Range de Kobuleti, niveau moyen plus une défense courte portée à guidage infrarouge : trois systèmes tirés parmi SA-13, SA-9 et MANPADS. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 51 nm.
+- **Kobuleti - hélicoptères - facile** — `N41°50.531' E041°47.878'` — Range de Kobuleti, 6 nm au sud-ouest de la base. Cibles inertes (statiques) : blindés, camions, missiles SCUD, bâtiments. Aucune défense. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
+- **Kobuleti - hélicoptères - moyen** — `N41°50.531' E041°47.878'` — Range de Kobuleti, cibles du niveau facile plus DCA légère : deux pièces tirées parmi quatre (ZU-23, Shilka). BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
+- **Kobuleti - hélicoptères - difficile** — `N41°50.531' E041°47.878'` — Range de Kobuleti, niveau moyen plus une défense courte portée à guidage infrarouge : trois systèmes tirés parmi SA-13, SA-9 et MANPADS. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
 
 ### Entraînement attaque
 
-- **Akhalkalaki - attaque - facile** — `N41°24.141' E043°32.654'` — Plateau d'Akhalkalaki, sud de la Géorgie. Colonne blindée à l'arrêt, cibles inertes (statiques). Aucune défense. BULLSEYE 150/128. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 38 nm.
-- **Akhalkalaki - attaque - moyen** — `N41°24.141' E043°32.654'` — Plateau d'Akhalkalaki, cibles du niveau facile plus deux compagnies blindées vivantes et une DCA légère (deux pièces tirées parmi quatre). BULLSEYE 150/128. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 38 nm.
-- **Akhalkalaki - attaque - difficile** — `N41°24.141' E043°32.654'` — Plateau d'Akhalkalaki, niveau moyen plus un bataillon blindé et une défense courte portée réaliste : deux systèmes tirés parmi SA-8, SA-15, SA-13 et SA-19, plus des MANPADS. BULLSEYE 150/128. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 38 nm.
+- **Akhalkalaki - attaque - facile** — `N41°24.141' E043°32.654'` — Plateau d'Akhalkalaki, sud de la Géorgie. Colonne blindée à l'arrêt, cibles inertes (statiques). Aucune défense. BULLSEYE 150/128. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 38 nm.
+- **Akhalkalaki - attaque - moyen** — `N41°24.141' E043°32.654'` — Plateau d'Akhalkalaki, cibles du niveau facile plus deux compagnies blindées vivantes et une DCA légère (deux pièces tirées parmi quatre). BULLSEYE 150/128. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 38 nm.
+- **Akhalkalaki - attaque - difficile** — `N41°24.141' E043°32.654'` — Plateau d'Akhalkalaki, niveau moyen plus un bataillon blindé et une défense courte portée réaliste : deux systèmes tirés parmi SA-8, SA-15, SA-13 et SA-19, plus des MANPADS. BULLSEYE 150/128. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 38 nm.
 
 ### Entraînement SEAD
 
-- **Gori - SEAD - facile** — `N42°03.734' E044°13.650'` — Plaine de Gori, vallée du Kura. Une batterie SA-6 seule, sans radar d'alerte. BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 24 nm.
-- **Gori - SEAD - moyen** — `N42°03.734' E044°13.650'` — Plaine de Gori, le SA-6 du niveau facile protégé par une défense courte portée (SA-15, SA-8, Shilka). BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 24 nm.
-- **Gori - SEAD - difficile** — `N42°03.734' E044°13.650'` — Plaine de Gori, réseau intégré sous Skynet : SA-11, le SA-6 et la courte portée des niveaux inférieurs, et un radar d'alerte 55G6. Pas de SA-10 ici : une zone d'entraînement ne doit couvrir ni une base amie ni une autre zone, et la carte en a ailleurs. BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 24 nm.
+- **Gori - SEAD - facile** — `N42°03.734' E044°13.650'` — Plaine de Gori, vallée du Kura. Une batterie SA-6 seule, sans radar d'alerte. BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 24 nm.
+- **Gori - SEAD - moyen** — `N42°03.734' E044°13.650'` — Plaine de Gori, le SA-6 du niveau facile protégé par une défense courte portée (SA-15, SA-8, Shilka). BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 24 nm.
+- **Gori - SEAD - difficile** — `N42°03.734' E044°13.650'` — Plaine de Gori, réseau intégré sous Skynet : SA-11, le SA-6 et la courte portée des niveaux inférieurs, et un radar d'alerte 55G6. Pas de SA-10 ici : une zone d'entraînement ne doit couvrir ni une base amie ni une autre zone, et la carte en a ailleurs. BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 24 nm.
 
 ### Entraînement recherche
 
@@ -139,37 +139,37 @@ Menus F10 par type. Les défenses citées sont celles de la zone ; certaines son
 
 ### Front
 
-- **1. Bataille de Beslan** — `N43°28.468' E044°42.680'` — Bataille blindée au nord de Beslan : trois compagnies de BTR-80 rouges montent à l'assaut des Abrams bleus, deux groupes blindés en renfort. Détruisez les blindés rouges ; ne tirez pas sur les Abrams. Défense : SA-8 (un des deux sites), MANPADS, Shilka. Drone Reaper 1 au-dessus (laser 1688). BULLSEYE 078/101. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 99 nm.
-- **2. Parc logistique de Terek** — `N43°32.535' E044°20.220'` — Le parc logistique de Terek ravitaille l'offensive rouge sur Beslan. Détruisez les camions. Défense légère : DCA de convoi, une chance sur deux d'infanterie mécanisée, MANPADS. BULLSEYE 075/84. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 96 nm.
-- **3. Front côtier de Lazarevskoye** — `N43°55.669' E039°21.602'` — Le front de la côte, au nord-ouest de Sochi : deux groupes blindés et une batterie de lance-roquettes BM-21 en appui. Détruisez les blindés et les BM-21. Défense : SA-13, Shilka. BULLSEYE 279/139. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 117 nm.
+- **1. Bataille de Beslan** — `N43°28.468' E044°42.680'` — Bataille blindée au nord de Beslan : trois compagnies de BTR-80 rouges montent à l'assaut des Abrams bleus, deux groupes blindés en renfort. Détruisez les blindés rouges ; ne tirez pas sur les Abrams. Défense : SA-8 (un des deux sites), MANPADS, Shilka. Drone Reaper 1 au-dessus (laser 1688). BULLSEYE 078/101. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 99 nm.
+- **2. Parc logistique de Terek** — `N43°32.535' E044°20.220'` — Le parc logistique de Terek ravitaille l'offensive rouge sur Beslan. Détruisez les camions. Défense légère : DCA de convoi, une chance sur deux d'infanterie mécanisée, MANPADS. BULLSEYE 075/84. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 96 nm.
+- **3. Front côtier de Lazarevskoye** — `N43°55.669' E039°21.602'` — Le front de la côte, au nord-ouest de Sochi : deux groupes blindés et une batterie de lance-roquettes BM-21 en appui. Détruisez les blindés et les BM-21. Défense : SA-13, Shilka. BULLSEYE 279/139. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 117 nm.
 
 ### SEAD
 
-- **4. Sites SAM de Psebay** — `N44°10.865' E040°45.306'` — Les sites SAM qui couvrent l'usine de Psebay : un SA-2, un SA-6, et un SA-15 (un des deux sites), plus de la DCA. Neutralisez les radars avant la frappe de l'usine. BULLSEYE 298/89. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 97 nm.
-- **5. Site SA-11 au nord de Mozdok** — `N43°50.484' E044°40.468'` — Une batterie SA-11 isolée au nord de Mozdok, protégée par un SA-15 et de la DCA. Détruisez le radar et les lanceurs du SA-11. BULLSEYE 066/103. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 118 nm.
+- **4. Sites SAM de Psebay** — `N44°10.865' E040°45.306'` — Les sites SAM qui couvrent l'usine de Psebay : un SA-2, un SA-6, et un SA-15 (un des deux sites), plus de la DCA. Neutralisez les radars avant la frappe de l'usine. BULLSEYE 298/89. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 97 nm.
+- **5. Site SA-11 au nord de Mozdok** — `N43°50.484' E044°40.468'` — Une batterie SA-11 isolée au nord de Mozdok, protégée par un SA-15 et de la DCA. Détruisez le radar et les lanceurs du SA-11. BULLSEYE 066/103. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 118 nm.
 
 ### Convois
 
-- **6. Barrage routier KM91** — `N41°35.288' E042°37.849'` — Les Russes tiennent un barrage sur la route Batumi - Tbilissi, et un convoi arrive de l'est pour le renforcer. Détruisez les bunkers, les blindés du poste et le convoi. Défense : la Shilka du convoi, MANPADS. BULLSEYE 169/107. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 55 nm.
-- **7. Convoi de secours vers Prokhladny** — `N43°45.274' E044°36.248'` — Un convoi blindé part de Mozdok pour secourir la garnison de Prokhladny, par la route. Arrêtez-le avant qu'il arrive. Défense dans la colonne : Shilka et SA-13. BULLSEYE 068/98. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 112 nm.
-- **8. Convoi Mineralnye Vody - Baksan** — `N44°12.644' E043°08.098'` — Un convoi de ravitaillement quitte Mineralnye Vody par la route vers Baksan, derrière le front de Nalchik. Détruisez les camions. Défense : BMP-2 et Shilka dans la colonne. BULLSEYE 024/60. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 124 nm.
+- **6. Barrage routier KM91** — `N41°35.288' E042°37.849'` — Les Russes tiennent un barrage sur la route Batumi - Tbilissi, et un convoi arrive de l'est pour le renforcer. Détruisez les bunkers, les blindés du poste et le convoi. Défense : la Shilka du convoi, MANPADS. BULLSEYE 169/107. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 55 nm.
+- **7. Convoi de secours vers Prokhladny** — `N43°45.274' E044°36.248'` — Un convoi blindé part de Mozdok pour secourir la garnison de Prokhladny, par la route. Arrêtez-le avant qu'il arrive. Défense dans la colonne : Shilka et SA-13. BULLSEYE 068/98. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 112 nm.
+- **8. Convoi Mineralnye Vody - Baksan** — `N44°12.644' E043°08.098'` — Un convoi de ravitaillement quitte Mineralnye Vody par la route vers Baksan, derrière le front de Nalchik. Détruisez les camions. Défense : BMP-2 et Shilka dans la colonne. BULLSEYE 024/60. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 124 nm.
 
 ### Frappe
 
-- **9. Usine d'armes chimiques de Psebay** — `N44°11.313' E040°48.832'` — Cette usine fabrique des armes chimiques pour un groupe terroriste. Détruisez les deux bâtiments de l'usine et le bunker des scientifiques ; le reste est secondaire. Défense : DCA, une chance sur deux d'un SA-15, et les sites SAM voisins (zone « Sites SAM de Psebay »). BULLSEYE 299/87. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 97 nm.
-- **10. Otages à Prokhladny** — `N43°44.915' E044°03.411'` — Des otages sont retenus dans un hôtel fortifié de Prokhladny. Détruisez la caserne et les patrouilles de BTR-80 ; l'hôtel doit rester debout pour l'équipe au sol. Défense : Shilka, SA-9, une chance sur deux d'un SA-8, MANPADS. BULLSEYE 064/75. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 106 nm.
-- **11. Site SCUD de Georgievsk** — `N44°09.283' E043°24.024'` — Quatre lanceurs SCUD en position de tir à l'ouest de Georgievsk. Détruisez les lanceurs. Défense : SA-15, Shilka, MANPADS. BULLSEYE 034/64. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 129 nm.
-- **12. Dépôt logistique de Nevinnomyssk** — `N44°37.297' E041°59.097'` — Le grand dépôt de carburant et de munitions qui alimente le front. Détruisez les réservoirs et les entrepôts. Défense locale : SA-19 et DCA ; attention, le dépôt est sous la couverture permanente du SA-10 de Stavropol. BULLSEYE 339/79. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 124 nm.
+- **9. Usine d'armes chimiques de Psebay** — `N44°11.313' E040°48.832'` — Cette usine fabrique des armes chimiques pour un groupe terroriste. Détruisez les deux bâtiments de l'usine et le bunker des scientifiques ; le reste est secondaire. Défense : DCA, une chance sur deux d'un SA-15, et les sites SAM voisins (zone « Sites SAM de Psebay »). BULLSEYE 299/87. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 97 nm.
+- **10. Otages à Prokhladny** — `N43°44.915' E044°03.411'` — Des otages sont retenus dans un hôtel fortifié de Prokhladny. Détruisez la caserne et les patrouilles de BTR-80 ; l'hôtel doit rester debout pour l'équipe au sol. Défense : Shilka, SA-9, une chance sur deux d'un SA-8, MANPADS. BULLSEYE 064/75. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 106 nm.
+- **11. Site SCUD de Georgievsk** — `N44°09.283' E043°24.024'` — Quatre lanceurs SCUD en position de tir à l'ouest de Georgievsk. Détruisez les lanceurs. Défense : SA-15, Shilka, MANPADS. BULLSEYE 034/64. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 129 nm.
+- **12. Dépôt logistique de Nevinnomyssk** — `N44°37.297' E041°59.097'` — Le grand dépôt de carburant et de munitions qui alimente le front. Détruisez les réservoirs et les entrepôts. Défense locale : SA-19 et DCA ; attention, le dépôt est sous la couverture permanente du SA-10 de Stavropol. BULLSEYE 339/79. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 124 nm.
 
 ### OCA
 
-- **13. Défenses de la base de Maykop** — `N44°42.707' E040°01.249'` — La base de Maykop est défendue par un bataillon SA-10, deux SA-15 tirés parmi quatre sites, quatre pièces de DCA tirées parmi huit, et des blindés. Neutralisez les défenses pour préparer l'assaut. BULLSEYE 302/133. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 252.0 MHz, FL220) à 138 nm.
-- **14. Avions au sol de Mozdok** — `N43°47.215' E044°36.861'` — Des bombardiers Tu-22M3, des Su-24M, des Su-25 et un Il-76 sont stationnés sur la base de Mozdok. Détruisez-les au sol. Défense de zone : SA-15, Shilka ; défense permanente de la base : SA-11 et SA-19. BULLSEYE 067/99. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 114 nm.
+- **13. Défenses de la base de Maykop** — `N44°42.707' E040°01.249'` — La base de Maykop est défendue par un bataillon SA-10, deux SA-15 tirés parmi quatre sites, quatre pièces de DCA tirées parmi huit, et des blindés. Neutralisez les défenses pour préparer l'assaut. BULLSEYE 302/133. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 138 nm.
+- **14. Avions au sol de Mozdok** — `N43°47.215' E044°36.861'` — Des bombardiers Tu-22M3, des Su-24M, des Su-25 et un Il-76 sont stationnés sur la base de Mozdok. Détruisez-les au sol. Défense de zone : SA-15, Shilka ; défense permanente de la base : SA-11 et SA-19. BULLSEYE 067/99. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 293.0 MHz, FL200) à 114 nm.
 
 ### Antinavire
 
-- **15. Cargos isolés** — `N42°25.387' E036°33.648'` — Des cargos sans escorte ravitaillent l'ennemi par la mer. Coulez-les. BULLSEYE 253/266. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 179 nm.
-- **16. Convoi naval escorté** — `N42°31.489' E036°33.154'` — Des cargos escortés par des bâtiments de guerre ; une frégate Neustrashimy peut les accompagner. Coulez les cargos. BULLSEYE 255/265. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 180 nm.
+- **15. Cargos isolés** — `N42°25.387' E036°33.648'` — Des cargos sans escorte ravitaillent l'ennemi par la mer. Coulez-les. BULLSEYE 253/266. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 291.0 MHz, FL180) à 179 nm.
+- **16. Convoi naval escorté** — `N42°31.489' E036°33.154'` — Des cargos escortés par des bâtiments de guerre ; une frégate Neustrashimy peut les accompagner. Coulez les cargos. BULLSEYE 255/265. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 291.0 MHz, FL180) à 180 nm.
 
 ## Missions scénarisées
 
@@ -210,17 +210,17 @@ Décollage une minute après l'entrée du premier intrus ; les QRA ne réagissen
 | Canal | UHF | VHF |
 |---|---|---|
 | Guard | 243 | 121.5 |
-| Magic 1 (AWACS) | 265.0 | — |
-| Overlord 1 (AWACS) | 266.0 | — |
-| Arco 1 / perche / 51Y | 251.0 | — |
-| Texaco 1 / panier / 52Y | 252.0 | — |
-| Shell 1 / panier / 53Y | 253.0 | — |
-| Shell 2 / perche / 54Y | 254.0 | — |
+| Magic 1 (AWACS) | 285.0 | — |
+| Overlord 1 (AWACS) | 286.0 | — |
+| Arco 1 / perche / 51Y | 291.0 | — |
+| Texaco 1 / panier / 52Y | 292.0 | — |
+| Shell 1 / panier / 53Y | 293.0 | — |
+| Shell 2 / perche / 54Y | 294.0 | — |
 | CVN-74 Stennis / 10X | 225.0 | — |
 | LHA-1 Tarawa / 11X | 226.0 | — |
 | Darkstar 1 (AWACS arene) | 280.0 | — |
-| AWACS Rouge (A-50) | 260.0 | — |
-| Tanker Rouge (Il-78M) | 261.0 | — |
+| AWACS Rouge (A-50) | 296.0 | — |
+| Tanker Rouge (Il-78M) | 297.0 | — |
 | AWACS Arene Rouge (A-50) | 281.0 | — |
 | Reaper 1 (drone laser 1688) | — | 118.8 |
 | Reaper 2 (drone laser 1687) | — | 118.9 |

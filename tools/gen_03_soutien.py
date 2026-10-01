@@ -9,14 +9,14 @@ BLUE = dict(coalition="blue", country_id=2, country_name="USA")
 RED = dict(coalition="red", country_id=0, country_name="Russia")
 # name, type, side, a, b, FL, kt, MHz, task, beacon (channel, callsign) or None, escort type/source
 SUPPORT = [
-    ("Arco 1", "KC-135", BLUE, (-300000, 500000), (-315000, 550000), 180, 420, 251.0, "Refueling", (51, "AR1"), "Shell 1 escort"),
-    ("Texaco 1", "KC135MPRS", BLUE, (-235000, 560000), (-255000, 610000), 220, 420, 252.0, "Refueling", (52, "TX1"), "Shell 1 escort"),
-    ("Shell 1", "KC135MPRS", BLUE, (-285000, 760000), (-295000, 815000), 200, 420, 253.0, "Refueling", (53, "SH1"), "Shell 1 escort"),
-    ("Shell 2", "KC-135", BLUE, (-320000, 840000), (-330000, 895000), 240, 420, 254.0, "Refueling", (54, "SH2"), "Shell 1 escort"),
-    ("Magic 1", "E-3A", BLUE, (-275000, 450000), (-290000, 510000), 300, 360, 265.0, "AWACS", None, "Magic 1 escort"),
-    ("Overlord 1", "E-3A", BLUE, (-305000, 700000), (-315000, 760000), 310, 360, 266.0, "AWACS", None, "Overlord 1 escort"),
-    ("Tanker Rouge", "IL-78M", RED, (20000, 470000), (30000, 530000), 200, 420, 261.0, "Refueling", None, "Tanker Rouge escort"),
-    ("AWACS Rouge", "A-50", RED, (30000, 620000), (40000, 690000), 300, 360, 260.0, "AWACS", None, "AWACS Rouge escort"),
+    ("Arco 1", "KC-135", BLUE, (-300000, 500000), (-315000, 550000), 180, 420, 291.0, "Refueling", (51, "AR1"), "Shell 1 escort"),
+    ("Texaco 1", "KC135MPRS", BLUE, (-235000, 560000), (-255000, 610000), 220, 420, 292.0, "Refueling", (52, "TX1"), "Shell 1 escort"),
+    ("Shell 1", "KC135MPRS", BLUE, (-285000, 760000), (-295000, 815000), 200, 420, 293.0, "Refueling", (53, "SH1"), "Shell 1 escort"),
+    ("Shell 2", "KC-135", BLUE, (-320000, 840000), (-330000, 895000), 240, 420, 294.0, "Refueling", (54, "SH2"), "Shell 1 escort"),
+    ("Magic 1", "E-3A", BLUE, (-275000, 450000), (-290000, 510000), 300, 360, 285.0, "AWACS", None, "Magic 1 escort"),
+    ("Overlord 1", "E-3A", BLUE, (-305000, 700000), (-315000, 760000), 310, 360, 286.0, "AWACS", None, "Overlord 1 escort"),
+    ("Tanker Rouge", "IL-78M", RED, (20000, 470000), (30000, 530000), 200, 420, 297.0, "Refueling", None, "Tanker Rouge escort"),
+    ("AWACS Rouge", "A-50", RED, (30000, 620000), (40000, 690000), 300, 360, 296.0, "AWACS", None, "AWACS Rouge escort"),
 ]
 b = []
 def act(action, **p):

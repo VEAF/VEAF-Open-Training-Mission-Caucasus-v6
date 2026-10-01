@@ -31,12 +31,12 @@ Plages valides : 38.0–156.0 MHz (AM/FM), 100.0–200.0 MHz (AM/FM)
 | Canal | Titre | Fréquence (MHz) | Collection | Radio |
 |---------|-------|-----------------|------------|-------|
 | 1 | Guard | 243.0 |  | radio_2 |
-| 2 | Magic 1 (AWACS) | 265.0 |  | radio_2 |
-| 3 | Overlord 1 (AWACS) | 266.0 |  | radio_2 |
-| 4 | Arco 1 / perche / 51Y | 251.0 |  | radio_2 |
-| 5 | Texaco 1 / panier / 52Y | 252.0 |  | radio_2 |
-| 6 | Shell 1 / panier / 53Y | 253.0 |  | radio_2 |
-| 7 | Shell 2 / perche / 54Y | 254.0 |  | radio_2 |
+| 2 | Magic 1 (AWACS) | 285.0 |  | radio_2 |
+| 3 | Overlord 1 (AWACS) | 286.0 |  | radio_2 |
+| 4 | Arco 1 / perche / 51Y | 291.0 |  | radio_2 |
+| 5 | Texaco 1 / panier / 52Y | 292.0 |  | radio_2 |
+| 6 | Shell 1 / panier / 53Y | 293.0 |  | radio_2 |
+| 7 | Shell 2 / perche / 54Y | 294.0 |  | radio_2 |
 | 8 | CVN-74 Stennis / 10X | 225.0 |  | radio_2 |
 | 9 | LHA-1 Tarawa / 11X | 226.0 |  | radio_2 |
 | 10 | Darkstar 1 (AWACS arene) | 280.0 |  | radio_2 |
@@ -50,8 +50,8 @@ Plages valides : 38.0–156.0 MHz (AM/FM), 100.0–200.0 MHz (AM/FM)
 | 18 | Vaziani / 22X | 269.0 |  | radio_2 |
 | 19 | Beslan | 270.0 |  | radio_2 |
 | 20 | Archer | 360.0 |  | radio_2 |
-| 2 | AWACS Rouge (A-50) | 260.0 |  | radio_2 |
-| 3 | Tanker Rouge (Il-78M) | 261.0 |  | radio_2 |
+| 2 | AWACS Rouge (A-50) | 296.0 |  | radio_2 |
+| 3 | Tanker Rouge (Il-78M) | 297.0 |  | radio_2 |
 | 4 | AWACS Arene Rouge (A-50) | 281.0 |  | radio_2 |
 | 5 | Maykop-Khanskaya | 254.0 |  | radio_2 |
 | 6 | Krasnodar-Pashkovsky | 257.0 |  | radio_2 |
