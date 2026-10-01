@@ -10,7 +10,7 @@ mapResource =
   ResKey_ImageBriefing_carte_03_front_est = "carte_03_front_est.jpg",
   ResKey_ImageBriefing_carte_04_nord_stavropol = "carte_04_nord_stavropol.jpg",
   ResKey_ImageBriefing_carte_05_kouban = "carte_05_kouban.jpg",
-  ResKey_ImageBriefing_carte_06_taman = "carte_06_taman.jpg",
+  ResKey_ImageBriefing_carte_06_gori = "carte_06_gori.jpg",
   ResKey_ImageBriefing_carte_07_mer_noire = "carte_07_mer_noire.jpg",
   ResKey_ImageBriefing_carte_08_arene = "carte_08_arene.jpg",
 }

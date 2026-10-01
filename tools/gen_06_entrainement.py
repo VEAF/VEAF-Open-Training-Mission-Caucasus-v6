@@ -89,27 +89,34 @@ zone("combatZone_Akhalkalaki_Hard", A, 3000,
      "deux systèmes tirés parmi SA-8, SA-15, SA-13 et SA-19, plus des MANPADS. " + where(A),
      includes="combatZone_Akhalkalaki_Medium")
 
-# ── 3. SEAD / DEAD : secteur Ouest, péninsule de Taman (loin de tout ce qui est bleu) ──────────
-T = (20000, 215000)
-zone("combatZone_Taman_Easy", T, 6000,
-     [{"name": "sa6", "units": [cmd_unit("-sa6", "Kub 2P25 ln", "TamE-1")], "position": xy(T)}],
-     "vehicle", "Taman - SEAD - facile", "Entraînement SEAD",
-     "Péninsule de Taman, secteur Ouest. Une batterie SA-6 seule, sans radar d'alerte. " + where(T))
-zone("combatZone_Taman_Medium", T, 6000,
-     [{"name": "sa15", "units": [cmd_unit("-sa15", "Tor 9A331", "TamM-1")], "position": xy(off(T, 45, 1500))},
-      {"name": "sa8", "units": [cmd_unit("-sa8", "Osa 9A33 ln", "TamM-2")], "position": xy(off(T, 225, 1500))},
-      {"name": "aaa", "units": [cmd_unit("-shilka", "ZSU-23-4 Shilka", "TamM-3")], "position": xy(off(T, 135, 800))}],
-     "vehicle", "Taman - SEAD - moyen", "Entraînement SEAD",
-     "Péninsule de Taman, le SA-6 du niveau facile protégé par une défense courte portée (SA-15, SA-8, "
-     "Shilka). " + where(T), includes="combatZone_Taman_Easy")
-zone("combatZone_Taman_Hard", T, 6000,
-     [{"name": "sa10", "units": [cmd_unit("-sa10", "S-300PS 5P85C ln", "TamH-1")], "position": xy(off(T, 0, 4000))},
-      {"name": "sa11", "units": [cmd_unit("-sa11", "SA-11 Buk LN 9A310M1", "TamH-2")], "position": xy(off(T, 270, 3500))},
-      {"name": "ewr", "units": [{"type": "55G6 EWR", "name": "combatZone_Taman_Hard-ewr"}], "position": xy(off(T, 180, 3000))}],
-     "vehicle", "Taman - SEAD - difficile", "Entraînement SEAD",
-     "Péninsule de Taman, réseau intégré complet sous Skynet : SA-10 longue portée, SA-11, le SA-6 et la "
-     "courte portée des niveaux inférieurs, et un radar d'alerte 55G6. " + where(T),
-     includes="combatZone_Taman_Medium")
+# ── 3. SEAD / DEAD : plaine de Gori, vallée du Kura ──────────────────────────────────────────
+# Était en péninsule de Taman jusqu'au 01/10/2026 : 24 minutes de vol depuis la base bleue la plus
+# proche, à refaire chaque fois qu'un SAM vous descend. C'est le SA-10 du niveau difficile qui
+# imposait cet éloignement : il porte à 65 nm, et §4.7 interdit qu'un SAM de zone atteigne une base
+# amie, une piste de ravitailleur ou une zone d'entraînement. Décision de David (01/10/2026) : une
+# zone d'entraînement moins violente, sans SA-10 — la carte n'en manque pas ailleurs pour qui veut
+# s'y frotter. Le SA-11 devient la plus grosse menace (18,9 nm), ce qui permet de poser la zone à
+# 40 nm de Tbilissi : 6 minutes de vol, comme Akhalkalaki et Mountain hike.
+T = (-280000, 830000)
+zone("combatZone_Gori_Easy", T, 6000,
+     [{"name": "sa6", "units": [cmd_unit("-sa6", "Kub 2P25 ln", "GorE-1")], "position": xy(T)}],
+     "vehicle", "Gori - SEAD - facile", "Entraînement SEAD",
+     "Plaine de Gori, vallée du Kura. Une batterie SA-6 seule, sans radar d'alerte. " + where(T))
+zone("combatZone_Gori_Medium", T, 6000,
+     [{"name": "sa15", "units": [cmd_unit("-sa15", "Tor 9A331", "GorM-1")], "position": xy(off(T, 45, 1500))},
+      {"name": "sa8", "units": [cmd_unit("-sa8", "Osa 9A33 ln", "GorM-2")], "position": xy(off(T, 225, 1500))},
+      {"name": "aaa", "units": [cmd_unit("-shilka", "ZSU-23-4 Shilka", "GorM-3")], "position": xy(off(T, 135, 800))}],
+     "vehicle", "Gori - SEAD - moyen", "Entraînement SEAD",
+     "Plaine de Gori, le SA-6 du niveau facile protégé par une défense courte portée (SA-15, SA-8, "
+     "Shilka). " + where(T), includes="combatZone_Gori_Easy")
+zone("combatZone_Gori_Hard", T, 6000,
+     [{"name": "sa11", "units": [cmd_unit("-sa11", "SA-11 Buk LN 9A310M1", "GorH-2")], "position": xy(off(T, 270, 3500))},
+      {"name": "ewr", "units": [{"type": "55G6 EWR", "name": "combatZone_Gori_Hard-ewr"}], "position": xy(off(T, 180, 3000))}],
+     "vehicle", "Gori - SEAD - difficile", "Entraînement SEAD",
+     "Plaine de Gori, réseau intégré sous Skynet : SA-11, le SA-6 et la courte portée des niveaux "
+     "inférieurs, et un radar d'alerte 55G6. Pas de SA-10 ici : une zone d'entraînement ne doit "
+     "couvrir ni une base amie ni une autre zone, et la carte en a ailleurs. " + where(T),
+     includes="combatZone_Gori_Medium")
 
 # ── Mountain hike (v5) : recherche d'un équipage d'hélicoptère abattu ──────────────────────────
 CRASH = (-167998, 629239)

@@ -16,7 +16,7 @@ Tout se pilote par le menu radio F10 : zones de combat, missions et CAP, soutien
 
 Carrés : bases avec slots. Traits pleins : hippodromes des ravitailleurs et AWACS ; tirets fins : CAP à la demande. Cercles : QRA. Pastilles vertes : entraînement (H hélicoptères, A attaque, S SEAD, R recherche). Pastilles rouges : zones de combat, numérotées comme la liste plus bas. Grands tirets bleus : sanctuaire. L'arène est hors du cadre, à l'ouest (flèche). La même image est dans le briefing DCS, et la carte F10 porte les mêmes dessins, chaque camp ne voyant que les siens. Générée par `tools/gen_map.py`.
 
-Le panneau de briefing de DCS ajuste chaque image à sa taille : la carte du théâtre y sert de vue d'ensemble, et ce sont les zooms qui se lisent (flèches sous l'image). Ils sont repris ci-dessous dans les sections qu'ils illustrent : [Géorgie de l'ouest](docs/cartes/carte_01_georgie_ouest.jpg) · [Abkhazie et côte](docs/cartes/carte_02_abkhazie.jpg) · [Front est](docs/cartes/carte_03_front_est.jpg) · [Nord](docs/cartes/carte_04_nord_stavropol.jpg) · [Kouban](docs/cartes/carte_05_kouban.jpg) · [Secteur Ouest](docs/cartes/carte_06_taman.jpg) · [Mer Noire](docs/cartes/carte_07_mer_noire.jpg) · [Arène AirQuake (ouest, sur la mer)](docs/cartes/carte_08_arene.jpg).
+Le panneau de briefing de DCS ajuste chaque image à sa taille : la carte du théâtre y sert de vue d'ensemble, et ce sont les zooms qui se lisent (flèches sous l'image). Ils sont repris ci-dessous dans les sections qu'ils illustrent : [Géorgie de l'ouest](docs/cartes/carte_01_georgie_ouest.jpg) · [Abkhazie et côte](docs/cartes/carte_02_abkhazie.jpg) · [Front est](docs/cartes/carte_03_front_est.jpg) · [Nord](docs/cartes/carte_04_nord_stavropol.jpg) · [Kouban](docs/cartes/carte_05_kouban.jpg) · [Plaine de Gori](docs/cartes/carte_06_gori.jpg) · [Mer Noire](docs/cartes/carte_07_mer_noire.jpg) · [Arène AirQuake (ouest, sur la mer)](docs/cartes/carte_08_arene.jpg).
 
 ## Situation
 
@@ -105,7 +105,7 @@ Les ravitailleurs et AWACS sont escortés. Les drones Reaper désignent au laser
 
 Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau contient le précédent. Jouez un seul niveau à la fois.
 
-[![Secteur Ouest — péninsule de Taman : entraînement SEAD, hors QRA](docs/cartes/carte_06_taman.jpg)](docs/cartes/carte_06_taman.jpg)
+[![Plaine de Gori : entraînement SEAD, vallée du Kura](docs/cartes/carte_06_gori.jpg)](docs/cartes/carte_06_gori.jpg)
 
 
 ### Entraînement hélicoptères
@@ -122,9 +122,9 @@ Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau
 
 ### Entraînement SEAD
 
-- **Taman - SEAD - facile** — `N45°14.770' E037°00.467'` — Péninsule de Taman, secteur Ouest. Une batterie SA-6 seule, sans radar d'alerte. BULLSEYE 291/261. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 243 nm.
-- **Taman - SEAD - moyen** — `N45°14.770' E037°00.467'` — Péninsule de Taman, le SA-6 du niveau facile protégé par une défense courte portée (SA-15, SA-8, Shilka). BULLSEYE 291/261. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 243 nm.
-- **Taman - SEAD - difficile** — `N45°14.770' E037°00.467'` — Péninsule de Taman, réseau intégré complet sous Skynet : SA-10 longue portée, SA-11, le SA-6 et la courte portée des niveaux inférieurs, et un radar d'alerte 55G6. BULLSEYE 291/261. Ravitailleur le plus proche : Arco 1 (TACAN 51Y, 251.0 MHz, FL180) à 243 nm.
+- **Gori - SEAD - facile** — `N42°03.734' E044°13.650'` — Plaine de Gori, vallée du Kura. Une batterie SA-6 seule, sans radar d'alerte. BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 24 nm.
+- **Gori - SEAD - moyen** — `N42°03.734' E044°13.650'` — Plaine de Gori, le SA-6 du niveau facile protégé par une défense courte portée (SA-15, SA-8, Shilka). BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 24 nm.
+- **Gori - SEAD - difficile** — `N42°03.734' E044°13.650'` — Plaine de Gori, réseau intégré sous Skynet : SA-11, le SA-6 et la courte portée des niveaux inférieurs, et un radar d'alerte 55G6. Pas de SA-10 ici : une zone d'entraînement ne doit couvrir ni une base amie ni une autre zone, et la carte en a ailleurs. BULLSEYE 127/112. Ravitailleur le plus proche : Shell 1 (TACAN 53Y, 253.0 MHz, FL200) à 24 nm.
 
 ### Entraînement recherche
 

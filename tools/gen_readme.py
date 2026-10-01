@@ -128,7 +128,7 @@ for a in MOD["ASSETS"]["assets"]:
     o.append(f"| {a['name']} | {a['description']} | {a['information'].replace(chr(10), ' — ')} |")
 o += ["", "Les ravitailleurs et AWACS sont escortés. Les drones Reaper désignent au laser (menu *ASSETS*).", "",
       "## Entraînement", "", "Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau contient le précédent. "
-      "Jouez un seul niveau à la fois.", ""] + zooms("taman")
+      "Jouez un seul niveau à la fois.", ""] + zooms("gori")
 cz = MOD["COMBATZONE"]["combat_zones"]
 for training, title in ((True, None), (False, "## Zones de combat")):
     if title:

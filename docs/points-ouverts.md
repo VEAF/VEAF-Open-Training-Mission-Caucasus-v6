@@ -7,36 +7,47 @@ concernent les **outils** et non la mission partent dans le backlog de VMCT et s
 
 Session live, six pilotes, sur la mission construite le jour même. Aucun n'est corrigé.
 
-### 1. Les étiquettes des dessins tactiques sont illisibles sur la carte F10
+### 1. Étiquettes des dessins tactiques illisibles sur la carte F10 — corrigé le 01/10/2026
 
-Les couleurs viennent de `tools/gen_15_dessins.py`. 28 des 38 dessins sont des `textbox`, donc
-c'est le gros du sujet. Reste à instruire : couleur du texte, couleur de fond, taille.
+Les étiquettes sortaient sans `fill_color`, donc avec le fond par défaut de l'action —
+`0x00000080`, noir à 50 % — sous un texte de la couleur du camp, toutes sombres. Fond blanc à 90 %
+et taille 14 désormais (`tools/gen_15_dessins.py`).
 
-### 2. Les zones de combat ne sont pas dessinées
+### 2. Zones de combat et QRA sans contour — corrigé le 01/10/2026
 
-Mesuré : nos 38 dessins F10 sont 10 `line` + 28 `textbox`, **aucun polygone**. Les zones de combat
-*et* les cercles de QRA ne sont que des étiquettes posées au centre, sans contour — alors que la
-carte du briefing, elle, les dessine. GermanyCW-v6 a **12 `primitiveType = "Polygon"`** dans ses
-dessins ; reste à voir quels objets y sont cerclés.
+Les 38 dessins étaient 10 lignes et 28 étiquettes, aucun polygone : les zones n'étaient que des
+noms posés au centre. Chacune porte maintenant son cercle au rayon réel — 16 zones de combat,
+4 zones d'entraînement, 4 QRA — sur la couche de son camp.
 
-Les points 1 et 2 touchent le même fichier et se corrigent ensemble.
+### 3. Fréquences des préréglages — passé chez VMCT
 
-### 3. Les fréquences des préréglages ne correspondent pas toujours à celle que DCS affiche (vue F10)
+Le plan de la mission invente une série 270.x là où les tours DCS sont ailleurs (Batumi 260.0,
+Krasnodar 251.0) : 10 bases sur 13 fausses. Mesuré sur 56 `presets.yaml` du poste, les missions
+Foothold et l'Open Training v5 sont justes — c'est un défaut d'autorité de la méthode v6. Traité
+dans le lot VMCT `FEAT-AIRFIELD-CHANNELS-FROM-DCS` : les collections de canaux seront générées
+depuis le référentiel, et un outil choisira les bases d'une mission qui méritent un canal. **Cette
+mission devra ensuite reprendre les vraies fréquences.**
 
-Non instruit. Sources à regarder : `src/presets.yaml`, l'injecteur de préréglages de VMCT, et la
-fréquence que DCS montre pour l'appareil. À ne pas confondre avec `presets-validation-report.md`,
-qui signale autre chose (le TF-51D n'a pas de radio UHF, ses canaux UHF sont donc retirés).
+Huit canaux tactiques VEAF tombent par ailleurs sur de vraies tours du Caucase (Arco 1 sur
+Krasnodar, Magic 1 sur Nalchik) ; noté dans le PRD du lot, pas encore arbitré.
 
-### 4. La zone d'entraînement SEAD est trop à l'écart
+### 4. Zone d'entraînement SEAD trop à l'écart — corrigé le 01/10/2026
 
-Taman est à `BULLSEYE 291/261` et à **243 nm** du ravitailleur le plus proche (Arco 1). À comparer
-aux deux autres familles : Kobuleti est à 51 nm d'un ravitailleur, Akhalkalaki à 38 nm — Taman est
-cinq fois plus loin.
+Taman était à 24 minutes de vol de la base bleue la plus proche, et son ravitailleur à 243 nm. Ce
+n'était pas une négligence : le SA-10 du niveau difficile porte à 65 nm, et §4.7 interdit qu'un SAM
+de zone atteigne une base amie, une piste de ravitailleur ou une autre zone d'entraînement — d'où
+« loin de tout ce qui est bleu ». En Géorgie, aucun terrain plat ne satisfait les deux.
 
-Le placement « SEAD en secteur Ouest (Taman) » avait été retenu le 28/09 pour le mettre hors QRA ;
-l'écart au ravitailleur n'avait pas été mesuré à ce moment-là. **Deux issues, et elles ne donnent
-pas la même mission** : rapprocher la zone (elle perd le « hors QRA » qui justifiait Taman), ou
-poser un ravitailleur dans le secteur Ouest. À trancher avant de coder.
+Décision de David : une zone d'entraînement **moins violente, sans SA-10**, la carte en gardant
+trois ailleurs (défenses de Krasnodar et de Stavropol, zone de combat 13 sur Maykop). Le SA-11
+devient la plus grosse menace (18,9 nm), ce qui permet la **plaine de Gori**, vallée du Kura :
+40 nm de Tbilissi, **6 minutes de vol**, ravitailleur Shell 1 à 24 nm. `check_portees.py` repasse
+à OK §4.7.
+
+**Reste à vérifier en jeu** : le terrain des six groupes déplacés. L'action le dit elle-même —
+*« the destination's surface was not checked: DCS terrain is not available design-time »* — et le
+catalogue de terrain dégagé ne couvre que les abords des aérodromes. Le fond OSM montre une plaine
+agricole sans relief ni eau, mais ce n'est pas une mesure.
 
 ## Côté serveurs
 
