@@ -49,6 +49,18 @@ devient la plus grosse menace (18,9 nm), ce qui permet la **plaine de Gori**, va
 catalogue de terrain dégagé ne couvre que les abords des aérodromes. Le fond OSM montre une plaine
 agricole sans relief ni eau, mais ce n'est pas une mesure.
 
+## Recompilation en 6.29.0, le 10/10/2026
+
+Chargée en solo, sans erreur de script dans `dcs.log`.
+
+- **Rôles sans avion** : la v6 était née avec 0 slot Game Master, commandant tactique, JTAC et observateur, là où la v5 en avait 5 par rôle et par camp, avec `isPilotControlVehicles = true`. Remis comme en v5 dans `src/mission/mission`. GermanyCW-v6 a le même trou, venu du scaffold de VMCT.
+- **Menu F10 du Game Master** : vide, et c'est attendu. Il n'a pas de groupe, et avec la sécurité active les commandes sécurisées ne sont posées que groupe par groupe (VMCT #128, fermé en `wontfix`).
+- **CTLD** : `ctld-config.yaml` passe au catalogue 2.2.0 avec ses trois nouveaux réglages, aux valeurs par défaut (`enableParachuteDrop`, `crateDropExtraDistance`, `crateSpawnGap`). Le message « 3 réglage(s) absent(s) » a disparu, rien ne change en jeu.
+- **Arène AirQuake** : son cercle est maintenant tracé sur la carte F10 (couche commune), le même que sur la carte du briefing.
+- **Reste ouvert** : le S-3B ravitailleur du Stennis (290.9 MHz) n'est sur aucun préréglage, d'après `presets-validation-report.md`.
+
+**Mesure du menu radio (lot VMCT `FEAT-RADIO-MENU-WATCH`, ticket 03)** : l'option `modules.RADIO.menu_stats` se pose pour le build seulement, jamais committée. Le `.miz` instrumenté du 10/10 est gardé hors dépôt dans `.veaf-backups/instrumente-menu-stats-20261010/`.
+
 ## Côté serveurs
 
 **Hook `VEAF-Server-hook.lua` installé le 01/10/2026** sur les six instances (`foothold1/2`,

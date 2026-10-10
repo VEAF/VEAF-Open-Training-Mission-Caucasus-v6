@@ -1172,6 +1172,40 @@
   "name": "add_map_drawing",
   "params": {
    "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Arène AirQuake",
+   "position": {
+    "x": -64224.25,
+    "y": -233786.0
+   },
+   "radius": 187499.36117633566,
+   "color": "0x6a2c91ff",
+   "fill_color": "0x6a2c911a",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Étiquette Arène AirQuake",
+   "position": {
+    "x": 123275.11117633566,
+    "y": -233786.0
+   },
+   "text": "Arène AirQuake (JcJ)",
+   "color": "0x6a2c91ff",
+   "fill_color": "0xffffffe6",
+   "font_size": 14
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
    "layer": "Blue",
    "shape": "circle",
    "name": "Entraînement combatZone_Kobuleti_Easy",

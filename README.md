@@ -201,7 +201,7 @@ Décollage une minute après l'entrée du premier intrus ; les QRA ne réagissen
 
 [![Arène AirQuake (ouest, sur la mer)](docs/cartes/carte_08_arene.jpg)](docs/cartes/carte_08_arene.jpg)
 
-- **Arène AirQuake**, loin à l'ouest sur la mer : slots en vol pour les deux camps, par type de missile (Fox 1, Fox 3), un AWACS par camp (Darkstar 1 et AWACS Arène Rouge).
+- **Arène AirQuake**, loin à l'ouest sur la mer : slots en vol pour les deux camps, par type de missile (Fox 1, Fox 3), un AWACS par camp (Darkstar 1 et AWACS Arène Rouge). Son cercle est tracé sur la carte F10.
 - Entre les bases avec slots des deux camps.
 - **Sanctuaire bleu** : le sud de la Géorgie. Un avion rouge qui y entre est détruit au bout de 60 secondes, et les missiles tirés sur un avion bleu à l'intérieur sont détruits.
 
@@ -258,9 +258,11 @@ FM 30 à 59 en supplément (hélicoptères, A-10C) ; balises du Mountain hike su
 
 Un marqueur sur la carte F10, avec une commande dans son texte : `-sa6`, `-armor`, `-convoy, dest <point>`, `-jtac, laser 1688`, `-point <nom>`. Options : `side`, `size`, `defense 0-5`, `armor 0-5`, `dest`, `patrol`.
 
+Rôles sans avion : 5 slots par camp pour chaque rôle (Game Master, commandant tactique, JTAC, observateur), et un pilote peut prendre la main sur les véhicules au sol, comme en v5. Le menu F10 VEAF reste vide pour un Game Master : il n'a pas de groupe, et les commandes sécurisées ne sont posées que groupe par groupe (VMCT #128, limite de DCS).
+
 ## Pour les créateurs de mission
 
-Construite de zéro le 28/09/2026 avec VEAF Mission Creation Tools (`veaf-tools`, 6.26.0) et le serveur MCP `veaf-mission-mcp`, à partir du prompt `new-open-training-mission.fr.md` de VMCT, en s'inspirant de la v5 (`VEAF-Open-Training-Mission-Caucasus`, dossier `backup_v5/`) sans la recopier. Trois ensembles en sont repris : l'arène « Air Quake », le groupe aéronaval du Stennis et la zone hélicoptère « Mountain Hike ».
+Construite de zéro le 28/09/2026 avec VEAF Mission Creation Tools et le serveur MCP `veaf-mission-mcp`, à partir du prompt `new-open-training-mission.fr.md` de VMCT, en s'inspirant de la v5 (`VEAF-Open-Training-Mission-Caucasus`, dossier `backup_v5/`) sans la recopier. Trois ensembles en sont repris : l'arène « Air Quake », le groupe aéronaval du Stennis et la zone hélicoptère « Mountain Hike ». Compilée avec `veaf-tools` 6.29.0.
 
 ### Construire
 

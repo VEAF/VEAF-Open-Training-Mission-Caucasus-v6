@@ -7,8 +7,10 @@ import json
 import math
 from pathlib import Path
 
-M = "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6"
-ROOT = Path(M)
+# le dossier de mission est celui qui contient tools/ : écrit en dur, il faisait écrire les lots
+# d'un worktree dans le checkout principal (relevé le 10/10/2026)
+ROOT = Path(__file__).resolve().parent.parent
+M = ROOT.as_posix()
 
 BLUE = dict(coalition="blue", country_id=2, country_name="USA")
 RED = dict(coalition="red", country_id=0, country_name="Russia")
