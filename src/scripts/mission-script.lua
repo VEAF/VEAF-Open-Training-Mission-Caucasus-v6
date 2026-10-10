@@ -20,6 +20,15 @@
 -- Écrites ici et non dans `combat_missions:` de mission.yaml, qui ne porte ni objectifs ni niveau
 -- des pilotes. Reprises de la v5 (groupes transportés par tools/port_v5_scenarios.py).
 if veafCombatMission then
+  -- Contournement, à retirer quand VMCT livrera le correctif de FIX-COMBATMISSION-MENU-MISSING.
+  -- Depuis la 6.29, veaf-config.lua a déjà construit le menu MISSIONS quand ce fichier s'exécute.
+  -- Une mission déclarée ici appelle alors updateRadioMenu sans avoir encore son sous-menu, et ses
+  -- commandes tombent à la racine du menu VEAF (vu en multijoueur le 10/10/2026 : 25 « Activer la
+  -- mission » à la racine). Le menu du module est donc masqué pendant les déclarations, puis
+  -- reconstruit une fois, avec ces missions à leur place.
+  local menuRoot = veafCombatMission.rootPath
+  veafCombatMission.rootPath = nil
+  local declared, declareError = pcall(function()
   -- Attaque rouge sur Gudauta : SEAD (Su-25T) puis bombardiers (Su-24M) ; ratée si la tour, le
   -- dépôt de carburant ou le mess de la base sont détruits. Identifiants de décor repris de la v5.
   veafCombatMission.AddMission(
@@ -147,5 +156,11 @@ Il est escorté par une patrouille de chasse. Abattez le transport.]])
       )
       :initialize()
   )
+  end)
+  veafCombatMission.rootPath = menuRoot
+  veafCombatMission.buildRadioMenu()
+  if not declared then
+    error(declareError)
+  end
 end
 
