@@ -27,6 +27,8 @@ RED_C, BLUE_C, TKB_C, TKR_C, GREEN_C = "0xa4221aff", "0x1f5fbfff", "0x0b86a8ff",
 LABEL_BG = "0xffffffe6"
 # remplissage des cercles : la couleur du camp, très transparente — le contour porte l'information
 RED_FILL, BLUE_FILL, GREEN_FILL = "0xa4221a26", "0x1f5fbf26", "0x2e7f3826"
+# arène JcJ : ni bleue ni rouge, un violet qui ne se confond avec aucun camp
+ARENA_C, ARENA_FILL = "0x6a2c91ff", "0x6a2c911a"
 FONT = 14
 
 
@@ -77,6 +79,13 @@ for q in G.Y["modules"]["QRA"]["definitions"]:
     # au NORD du cercle : dans le repère DCS x est le nord et y l'est, et une étiquette posée à
     # l'est partait de 40 à 57 nm de côté, jusque sur une autre zone (relu le 01/10/2026)
     label(layer, f"Étiquette {q['name']}", (z["x"] + z["radius"], z["y"]), q["name"], col)
+
+# ── arène AirQuake : le cercle de la carte du briefing, sur la couche commune (les deux camps y
+# volent) ; plein et non en pointillés, l'action ne sachant pas tracer de pointillés ────────────
+ac = G.arena_centre()
+ar = G.arena_radius()
+circle("Common", "Arène AirQuake", ac, ar, ARENA_C, ARENA_FILL)
+label("Common", "Étiquette Arène AirQuake", (ac[0] + ar, ac[1]), "Arène AirQuake (JcJ)", ARENA_C)
 
 # ── zones : cercle + étiquette, entraînement en vert, combat en rouge numéroté ───────────────────
 num = 0

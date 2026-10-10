@@ -2,7 +2,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "Hippodrome Tanker Rouge",
    "remove": true
@@ -11,7 +11,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "Étiquette Tanker Rouge",
    "remove": true
@@ -20,7 +20,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "Hippodrome AWACS Rouge",
    "remove": true
@@ -29,7 +29,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "Étiquette AWACS Rouge",
    "remove": true
@@ -38,7 +38,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "QRA QRA MinVody",
    "remove": true
@@ -47,7 +47,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "Étiquette QRA MinVody",
    "remove": true
@@ -56,7 +56,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "QRA QRA Krasnodar",
    "remove": true
@@ -65,7 +65,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "name": "Étiquette QRA Krasnodar",
    "remove": true
@@ -74,7 +74,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Sanctuaire bleu",
    "remove": true
@@ -83,7 +83,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Hippodrome Arco 1",
    "remove": true
@@ -92,7 +92,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette Arco 1",
    "remove": true
@@ -101,7 +101,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Hippodrome Texaco 1",
    "remove": true
@@ -110,7 +110,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette Texaco 1",
    "remove": true
@@ -119,7 +119,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Hippodrome Shell 1",
    "remove": true
@@ -128,7 +128,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette Shell 1",
    "remove": true
@@ -137,7 +137,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Hippodrome Shell 2",
    "remove": true
@@ -146,7 +146,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette Shell 2",
    "remove": true
@@ -155,7 +155,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Hippodrome Magic 1",
    "remove": true
@@ -164,7 +164,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette Magic 1",
    "remove": true
@@ -173,7 +173,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Hippodrome Overlord 1",
    "remove": true
@@ -182,7 +182,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette Overlord 1",
    "remove": true
@@ -191,7 +191,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "QRA QRA Kutaisi",
    "remove": true
@@ -200,7 +200,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette QRA Kutaisi",
    "remove": true
@@ -209,7 +209,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "QRA QRA Gudauta",
    "remove": true
@@ -218,7 +218,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette QRA Gudauta",
    "remove": true
@@ -227,7 +227,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Entraînement combatZone_Kobuleti_Easy",
    "remove": true
@@ -236,7 +236,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette entraînement combatZone_Kobuleti_Easy",
    "remove": true
@@ -245,7 +245,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Entraînement combatZone_Akhalkalaki_Easy",
    "remove": true
@@ -254,7 +254,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette entraînement combatZone_Akhalkalaki_Easy",
    "remove": true
@@ -263,7 +263,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Entraînement combatZone_Gori_Easy",
    "remove": true
@@ -272,7 +272,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette entraînement combatZone_Gori_Easy",
    "remove": true
@@ -281,7 +281,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Entraînement combatZone_MountainHike",
    "remove": true
@@ -290,7 +290,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette entraînement combatZone_MountainHike",
    "remove": true
@@ -299,7 +299,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 1",
    "remove": true
@@ -308,7 +308,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 1",
    "remove": true
@@ -317,7 +317,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 2",
    "remove": true
@@ -326,7 +326,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 2",
    "remove": true
@@ -335,7 +335,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 3",
    "remove": true
@@ -344,7 +344,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 3",
    "remove": true
@@ -353,7 +353,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 4",
    "remove": true
@@ -362,7 +362,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 4",
    "remove": true
@@ -371,7 +371,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 5",
    "remove": true
@@ -380,7 +380,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 5",
    "remove": true
@@ -389,7 +389,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 6",
    "remove": true
@@ -398,7 +398,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 6",
    "remove": true
@@ -407,7 +407,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 7",
    "remove": true
@@ -416,7 +416,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 7",
    "remove": true
@@ -425,7 +425,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 8",
    "remove": true
@@ -434,7 +434,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 8",
    "remove": true
@@ -443,7 +443,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 9",
    "remove": true
@@ -452,7 +452,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 9",
    "remove": true
@@ -461,7 +461,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 10",
    "remove": true
@@ -470,7 +470,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 10",
    "remove": true
@@ -479,7 +479,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 11",
    "remove": true
@@ -488,7 +488,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 11",
    "remove": true
@@ -497,7 +497,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 12",
    "remove": true
@@ -506,7 +506,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 12",
    "remove": true
@@ -515,7 +515,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 13",
    "remove": true
@@ -524,7 +524,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 13",
    "remove": true
@@ -533,7 +533,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 14",
    "remove": true
@@ -542,7 +542,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 14",
    "remove": true
@@ -551,7 +551,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 15",
    "remove": true
@@ -560,7 +560,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 15",
    "remove": true
@@ -569,7 +569,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Zone 16",
    "remove": true
@@ -578,7 +578,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "name": "Étiquette zone 16",
    "remove": true
@@ -587,7 +587,7 @@
  {
   "name": "edit_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Common",
    "name": "Ligne de front (approx.)",
    "remove": true
@@ -596,7 +596,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Common",
    "shape": "line",
    "name": "Ligne de front (approx.)",
@@ -629,7 +629,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "line",
    "name": "Sanctuaire bleu",
@@ -731,7 +731,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "line",
    "name": "Hippodrome Arco 1",
@@ -752,7 +752,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette Arco 1",
@@ -769,7 +769,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "line",
    "name": "Hippodrome Texaco 1",
@@ -790,7 +790,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette Texaco 1",
@@ -807,7 +807,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "line",
    "name": "Hippodrome Shell 1",
@@ -828,7 +828,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette Shell 1",
@@ -845,7 +845,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "line",
    "name": "Hippodrome Shell 2",
@@ -866,7 +866,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette Shell 2",
@@ -883,7 +883,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "line",
    "name": "Hippodrome Magic 1",
@@ -904,7 +904,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette Magic 1",
@@ -921,7 +921,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "line",
    "name": "Hippodrome Overlord 1",
@@ -942,7 +942,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette Overlord 1",
@@ -959,7 +959,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "line",
    "name": "Hippodrome Tanker Rouge",
@@ -980,7 +980,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "textbox",
    "name": "Étiquette Tanker Rouge",
@@ -997,7 +997,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "line",
    "name": "Hippodrome AWACS Rouge",
@@ -1018,7 +1018,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "textbox",
    "name": "Étiquette AWACS Rouge",
@@ -1035,7 +1035,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "circle",
    "name": "QRA QRA MinVody",
@@ -1052,7 +1052,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "textbox",
    "name": "Étiquette QRA MinVody",
@@ -1069,7 +1069,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "circle",
    "name": "QRA QRA Krasnodar",
@@ -1086,7 +1086,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Red",
    "shape": "textbox",
    "name": "Étiquette QRA Krasnodar",
@@ -1103,7 +1103,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "QRA QRA Kutaisi",
@@ -1120,7 +1120,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette QRA Kutaisi",
@@ -1137,7 +1137,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "QRA QRA Gudauta",
@@ -1154,7 +1154,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette QRA Gudauta",
@@ -1171,7 +1171,41 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
+   "layer": "Common",
+   "shape": "circle",
+   "name": "Arène AirQuake",
+   "position": {
+    "x": -64224.25,
+    "y": -233786.0
+   },
+   "radius": 187499.36117633566,
+   "color": "0x6a2c91ff",
+   "fill_color": "0x6a2c911a",
+   "thickness": 4
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
+   "layer": "Common",
+   "shape": "textbox",
+   "name": "Étiquette Arène AirQuake",
+   "position": {
+    "x": 123275.11117633566,
+    "y": -233786.0
+   },
+   "text": "Arène AirQuake (JcJ)",
+   "color": "0x6a2c91ff",
+   "fill_color": "0xffffffe6",
+   "font_size": 14
+  }
+ },
+ {
+  "name": "add_map_drawing",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Entraînement combatZone_Kobuleti_Easy",
@@ -1188,7 +1222,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette entraînement combatZone_Kobuleti_Easy",
@@ -1205,7 +1239,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Entraînement combatZone_Akhalkalaki_Easy",
@@ -1222,7 +1256,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette entraînement combatZone_Akhalkalaki_Easy",
@@ -1239,7 +1273,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Entraînement combatZone_Gori_Easy",
@@ -1256,7 +1290,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette entraînement combatZone_Gori_Easy",
@@ -1273,7 +1307,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Entraînement combatZone_MountainHike",
@@ -1290,7 +1324,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette entraînement combatZone_MountainHike",
@@ -1307,7 +1341,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 1",
@@ -1324,7 +1358,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 1",
@@ -1341,7 +1375,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 2",
@@ -1358,7 +1392,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 2",
@@ -1375,7 +1409,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 3",
@@ -1392,7 +1426,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 3",
@@ -1409,7 +1443,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 4",
@@ -1426,7 +1460,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 4",
@@ -1443,7 +1477,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 5",
@@ -1460,7 +1494,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 5",
@@ -1477,7 +1511,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 6",
@@ -1494,7 +1528,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 6",
@@ -1511,7 +1545,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 7",
@@ -1528,7 +1562,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 7",
@@ -1545,7 +1579,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 8",
@@ -1562,7 +1596,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 8",
@@ -1579,7 +1613,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 9",
@@ -1596,7 +1630,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 9",
@@ -1613,7 +1647,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 10",
@@ -1630,7 +1664,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 10",
@@ -1647,7 +1681,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 11",
@@ -1664,7 +1698,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 11",
@@ -1681,7 +1715,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 12",
@@ -1698,7 +1732,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 12",
@@ -1715,7 +1749,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 13",
@@ -1732,7 +1766,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 13",
@@ -1749,7 +1783,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 14",
@@ -1766,7 +1800,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 14",
@@ -1783,7 +1817,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 15",
@@ -1800,7 +1834,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 15",
@@ -1817,7 +1851,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "circle",
    "name": "Zone 16",
@@ -1834,7 +1868,7 @@
  {
   "name": "add_map_drawing",
   "params": {
-   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6/.claude/worktrees/lot-recompile-radio-instrumentation-8f8dc0",
    "layer": "Blue",
    "shape": "textbox",
    "name": "Étiquette zone 16",
