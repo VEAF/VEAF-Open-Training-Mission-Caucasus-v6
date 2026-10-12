@@ -489,7 +489,7 @@ module_settings:
 #   weather: true                 # src/versions.yaml
 
 pipeline:
-  weather: true
+  weather: false                # pas de variantes météo : le serveur VEAF fixe météo et heure (David, 12/10/2026)
 
 profiles:
   LOCAL_TEST:
