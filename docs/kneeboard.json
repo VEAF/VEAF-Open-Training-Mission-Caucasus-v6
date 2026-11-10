@@ -1,0 +1,182 @@
+{
+  "title": "VEAF Open Training — Caucase (moderne)",
+  "kneeboard_only": true,
+  "sheets": [
+    {
+      "title": "Mission",
+      "paragraphs": [
+        "Open Training : mission d'entraînement ouverte des serveurs VEAF, scénario moderne fictif. Tout se pilote par le menu F10 › VEAF ; le README est le briefing complet.",
+        "Bases bleues avec slots : Batumi, Beslan, Gudauta, Kobuleti, Kutaisi, Nalchik, Sochi-Adler, Tbilisi-Lochini, Vaziani, et 10 FARP. Bases rouges avec slots : Krasnodar-Pashkovsky, Maykop-Khanskaya, Mineralnye Vody, Mozdok.",
+        "Ravitailleurs ouest : Arco 1 (KC-135, perche) TACAN 51Y, U251.0, FL180 · Texaco 1 (KC-135MPRS, panier) TACAN 52Y, U252.0, FL220.",
+        "Ravitailleurs est : Shell 1 (KC-135MPRS, panier) TACAN 53Y, U253.0, FL200 · Shell 2 (KC-135, perche) TACAN 54Y, U254.0, FL240.",
+        "AWACS : Magic 1 (ouest) U265.0, FL300 · Overlord 1 (est) U266.0, FL310.",
+        "Porte-avions au large de Batumi : CVN-74 Stennis TACAN 10X, ICLS 10, tour 225.0, S-3B ravitailleur TACAN 75Y U290.9 · LHA-1 Tarawa TACAN 11X, ICLS 11, tour 226.0.",
+        "Arène AirQuake, loin à l'ouest sur la mer : slots en vol pour les deux camps, AWACS Darkstar 1 (U280.0) et AWACS Arène Rouge (U281.0).",
+        "Sanctuaire bleu : le sud de la Géorgie.",
+        "Bullseye (bleu et rouge) : mont Elbrouz, N43°21.145' E042°26.271'. ATC coupé sur tous les aérodromes."
+      ]
+    },
+    {
+      "title": "Conduite",
+      "paragraphs": [
+        "Décollez de la piste, jamais d'un taxiway.",
+        "L'ATC de DCS est coupé : annoncez-vous sur la VHF de l'aérodrome au roulage, au décollage et en tour de piste (fréquences dans le README et le plan radio).",
+        "Ne vous alignez pas derrière un avion qui décolle ; dégagez la piste dès l'atterrissage.",
+        "Une zone de combat activée par un autre pilote est la sienne : demandez avant de la désactiver ou de la nettoyer.",
+        "Nettoyez VOS zones de combat en les désactivant avant de partir."
+      ]
+    },
+    {
+      "title": "Commandes",
+      "paragraphs": [
+        "Marqueur : carte F10, clic droit, « Ajouter un marqueur », tapez la commande, validez.",
+        "Paliers : [ouvert] tout le monde · [pilote VEAF] pilote que le serveur connaît · [confiance] membre de confiance. Un pilote que le serveur ne connaît pas ajoute « , password <mot de passe du palier> » à son marqueur.",
+        "-cas : une zone d'appui aérien rapproché, des groupes dispersés autour du marqueur, terminée par le menu F10 [pilote VEAF]",
+        "-shilka, -manpads, -sa6, -sa11, -sa15, -samSR, -samLR : une défense aérienne à neutraliser ou à éviter [pilote VEAF]",
+        "-armor, -infantry : une cible au sol [pilote VEAF]",
+        "-convoy, dest <point> : une cible mobile [pilote VEAF]",
+        "-cap <type> (ex. -cap Su-27) : une cible aérienne [pilote VEAF]",
+        "-tankerlow, -tankerhigh : le ravitailleur le plus proche au FL120 / FL220 [pilote VEAF]",
+        "-farp <nom>, -fob : une base avancée [pilote VEAF]",
+        "-jtac (laser 1688), -smoke (option color), -tacan : désignation, marque visuelle, balise [ouvert]",
+        "-point <nom> : nommer un point (la destination d'un convoi) [ouvert]",
+        "-destroy : retire ce qui est à moins de 100 m du marqueur [confiance]",
+        "_spawn unit, name <type DCS>, multiplier 4 : un type précis, là où -armor tire au hasard [pilote VEAF]",
+        "Options : side red/blue, defense 0-5, armor 0-5, size.",
+        "Le reste passe par le menu F10 › VEAF : ZONES DE COMBAT, MOYENS, OPS PORTE-AVIONS."
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "zone": "combatZone_Kobuleti_Easy",
+      "title": "Kobuleti - hélicoptères - facile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement hélicoptères › Kobuleti - hélicoptères - facile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Kobuleti_Medium",
+      "title": "Kobuleti - hélicoptères - moyen",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement hélicoptères › Kobuleti - hélicoptères - moyen › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Kobuleti_Hard",
+      "title": "Kobuleti - hélicoptères - difficile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement hélicoptères › Kobuleti - hélicoptères - difficile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Akhalkalaki_Easy",
+      "title": "Akhalkalaki - attaque - facile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement attaque › Akhalkalaki - attaque - facile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Akhalkalaki_Medium",
+      "title": "Akhalkalaki - attaque - moyen",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement attaque › Akhalkalaki - attaque - moyen › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Akhalkalaki_Hard",
+      "title": "Akhalkalaki - attaque - difficile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement attaque › Akhalkalaki - attaque - difficile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Gori_Easy",
+      "title": "Gori - SEAD - facile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement SEAD › Gori - SEAD - facile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Gori_Medium",
+      "title": "Gori - SEAD - moyen",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement SEAD › Gori - SEAD - moyen › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Gori_Hard",
+      "title": "Gori - SEAD - difficile",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement SEAD › Gori - SEAD - difficile › Activer la zone"
+    },
+    {
+      "zone": "combatZone_MountainHike",
+      "title": "Mountain hike - équipage abattu",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Entraînement recherche › Mountain hike - équipage abattu › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Beslan",
+      "title": "Bataille de Beslan",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Front › Bataille de Beslan › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Terek",
+      "title": "Parc logistique de Terek",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Front › Parc logistique de Terek › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Lazarevskoye",
+      "title": "Front côtier de Lazarevskoye",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Front › Front côtier de Lazarevskoye › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Psebay_SAM",
+      "title": "Sites SAM de Psebay",
+      "task": "F10 › VEAF › ZONES DE COMBAT › SEAD › Sites SAM de Psebay › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Mozdok_SA11",
+      "title": "Site SA-11 au nord de Mozdok",
+      "task": "F10 › VEAF › ZONES DE COMBAT › SEAD › Site SA-11 au nord de Mozdok › Activer la zone"
+    },
+    {
+      "zone": "combatZone_RoadBlock_KM91",
+      "title": "Barrage routier KM91",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Convois › Barrage routier KM91 › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Convoi_Prokhladny",
+      "title": "Convoi de secours vers Prokhladny",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Convois › Convoi de secours vers Prokhladny › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Convoi_MinVody",
+      "title": "Convoi Mineralnye Vody - Baksan",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Convois › Convoi Mineralnye Vody - Baksan › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Psebay_Usine",
+      "title": "Usine d'armes chimiques de Psebay",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappe › Usine d'armes chimiques de Psebay › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Prokhladny_Otages",
+      "title": "Otages à Prokhladny",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappe › Otages à Prokhladny › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Georgievsk_SCUD",
+      "title": "Site SCUD de Georgievsk",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappe › Site SCUD de Georgievsk › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Nevinnomyssk_Depot",
+      "title": "Dépôt logistique de Nevinnomyssk",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Frappe › Dépôt logistique de Nevinnomyssk › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Maykop_Defenses",
+      "title": "Défenses de la base de Maykop",
+      "task": "F10 › VEAF › ZONES DE COMBAT › OCA › Défenses de la base de Maykop › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Mozdok_OCA",
+      "title": "Avions au sol de Mozdok",
+      "task": "F10 › VEAF › ZONES DE COMBAT › OCA › Avions au sol de Mozdok › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Antinavire_Cargos",
+      "title": "Cargos isolés",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Antinavire › Cargos isolés › Activer la zone"
+    },
+    {
+      "zone": "combatZone_Antinavire_Escorte",
+      "title": "Convoi naval escorté",
+      "task": "F10 › VEAF › ZONES DE COMBAT › Antinavire › Convoi naval escorté › Activer la zone"
+    }
+  ]
+}
