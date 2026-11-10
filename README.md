@@ -248,7 +248,7 @@ Décollage une minute après l'entrée du premier intrus ; les QRA ne réagissen
 | Rouge-3 | 380.2 | 124.2 |
 | Rouge-4 | 380.3 | 124.3 |
 
-FM 30 à 59 en supplément (hélicoptères, A-10C) ; balises du Mountain hike sur 31.0 à 34.0 FM.
+FM 30 à 49 en supplément (hélicoptères, A-10C ; 30 à 59 sur le CH-47) ; balises du Mountain hike sur 31.0 à 34.0 FM.
 
 ## Météo et heures
 

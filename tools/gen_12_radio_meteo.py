@@ -44,7 +44,7 @@ L += ["    primary_2: # deuxième radio V/UHF (VHF) ; seule radio des warbirds",
 blue_vhf = [f"Base-{b}" for b in BLUE_BASES] + ["Reaper-1", "Reaper-2"] + FLIGHTS
 L += [f"      {i:02d}: {c}" for i, c in enumerate(blue_vhf, 2)]
 FM = ["    fm_supplement: # FM en plus de deux radios V/UHF (A-10C, hélicoptères) ; 31-34 = balises du Mountain hike"]
-FM += [f"      {i:02d}: {30 + i - 1}" for i in range(1, 31)]
+FM += [f"      {i:02d}: {30 + i - 1}" for i in range(1, 21)]  # 20 au plus : la FM du Kiowa (OH58D) plante au-delà de 21 slots
 L += FM
 L += ["  red:", "    primary_1: # première radio V/UHF", "      01: { title: Guard/UHF, channel: Guard }"]
 red_uhf = [c for c, _, _ in RED_TACT] + [f"Base-{b}" for b in RED_BASES] + ["Rouge-1", "Rouge-2", "Rouge-3", "Rouge-4"]

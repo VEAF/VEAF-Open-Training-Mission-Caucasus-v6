@@ -165,7 +165,7 @@ o += ["", "## Combat entre joueurs", ""] + zooms("arene") + [
 for grp in ("tactical", "bases", "flights"):
     for k, v in PR[grp].items():
         o.append(f"| {v['title']} | {v['freqs'].get('uhf', '—')} | {v['freqs'].get('vhf', '—')} |")
-o += ["", "FM 30 à 59 en supplément (hélicoptères, A-10C) ; balises du Mountain hike sur 31.0 à 34.0 FM.", "",
+o += ["", "FM 30 à 49 en supplément (hélicoptères, A-10C ; 30 à 59 sur le CH-47) ; balises du Mountain hike sur 31.0 à 34.0 FM.", "",
       "## Météo et heures", "",
       f"{len(VER['versions'])} variantes : nuit, aube, matin, jour, soir × réel (METAR de Tbilissi), dégagé, épars, pluie. "
       f"Fuseau {VER['position']['timezone']}, date {VER['base_date']}.", "",
