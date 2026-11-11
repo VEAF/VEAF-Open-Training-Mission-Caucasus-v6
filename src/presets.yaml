@@ -5,45 +5,30 @@
 channel_lists:
   blue:
     primary_1: # première radio V/UHF (20 canaux au plus)
-      01: { title: Guard/UHF, channel: Guard }
-      02: Magic-1
-      03: Overlord-1
-      04: Arco-1
-      05: Texaco-1
-      06: Shell-1
-      07: Shell-2
-      08: Stennis
-      09: Tarawa
-      10: Darkstar-1
-      11: Base-Sochi-Adler
-      12: Base-Gudauta
-      13: Base-Batumi
-      14: Base-Kobuleti
-      15: Base-Kutaisi
-      16: Base-Nalchik
-      17: Base-Tbilisi-Lochini
-      18: Base-Vaziani
-      19: Base-Beslan
-      20: Archer
+      1: Magic-1
+      2: Overlord-1
+      3: Arco-1
+      4: Texaco-1
+      5: Shell-1
+      6: Shell-2
+      7: Stennis
+      8: Tarawa
+      9: Archer
+      10: Arctic
+      11: Ninja
+      12: Pinder
+      13: Bengal
+      14: Blade
     primary_2: # deuxième radio V/UHF (VHF) ; seule radio des warbirds
-      01: { title: Guard/VHF, channel: Guard }
-      02: Base-Sochi-Adler
-      03: Base-Gudauta
-      04: Base-Batumi
-      05: Base-Kobuleti
-      06: Base-Kutaisi
-      07: Base-Nalchik
-      08: Base-Tbilisi-Lochini
-      09: Base-Vaziani
-      10: Base-Beslan
-      11: Reaper-1
-      12: Reaper-2
-      13: Archer
-      14: Arctic
-      15: Ninja
-      16: Pinder
-      17: Bengal
-      18: Blade
+      1: Base-Sochi-Adler
+      2: Base-Gudauta
+      3: Base-Batumi
+      4: Base-Kobuleti
+      5: Base-Kutaisi
+      6: Base-Nalchik
+      7: Base-Tbilisi-Lochini
+      8: Base-Vaziani
+      9: Base-Beslan
     fm_supplement: # FM en plus de deux radios V/UHF (A-10C, hélicoptères) ; 31-34 = balises du Mountain hike
       01: 30
       02: 31
@@ -67,28 +52,17 @@ channel_lists:
       20: 49
   red:
     primary_1: # première radio V/UHF
-      01: { title: Guard/UHF, channel: Guard }
-      02: AWACS-Rouge
-      03: Tanker-Rouge
-      04: AWACS-Arene-Rouge
-      05: Base-Maykop-Khanskaya
-      06: Base-Krasnodar-Pashkovsky
-      07: Base-Mineralnye Vody
-      08: Base-Mozdok
-      09: Rouge-1
-      10: Rouge-2
-      11: Rouge-3
-      12: Rouge-4
+      1: AWACS-Rouge
+      2: Tanker-Rouge
+      3: Rouge-1
+      4: Rouge-2
+      5: Rouge-3
+      6: Rouge-4
     primary_2: # deuxième radio V/UHF (VHF)
-      01: { title: Guard/VHF, channel: Guard }
-      02: Base-Maykop-Khanskaya
-      03: Base-Krasnodar-Pashkovsky
-      04: Base-Mineralnye Vody
-      05: Base-Mozdok
-      06: Rouge-1
-      07: Rouge-2
-      08: Rouge-3
-      09: Rouge-4
+      1: Base-Maykop-Khanskaya
+      2: Base-Krasnodar-Pashkovsky
+      3: Base-Mineralnye Vody
+      4: Base-Mozdok
     fm_supplement: # FM en plus de deux radios V/UHF (A-10C, hélicoptères) ; 31-34 = balises du Mountain hike
       01: 30
       02: 31

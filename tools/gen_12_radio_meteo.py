@@ -35,22 +35,24 @@ L = ["# Plan radio de la mission VEAF Open Training Caucasus (moderne).",
      "# L'ATC DCS est coupé (silence_atc_on_all_airbases) : les fréquences de base sont des fréquences de",
      "# trafic propres à la mission. Même fréquence partout : groupe DCS, preset, texte ASSETS, briefing.",
      "# Généré par tools/gen_12_radio_meteo.py.",
-     "channel_lists:", "  blue:", "    primary_1: # première radio V/UHF (20 canaux au plus)",
-     "      01: { title: Guard/UHF, channel: Guard }"]
-blue_uhf = [c for c, _, _ in TACT] + [f"Base-{b}" for b in BLUE_BASES] + ["Archer"]
-L += [f"      {i:02d}: {c}" for i, c in enumerate(blue_uhf, 2)]
-assert len(blue_uhf) + 1 <= 20
-L += ["    primary_2: # deuxième radio V/UHF (VHF) ; seule radio des warbirds", "      01: { title: Guard/VHF, channel: Guard }"]
-blue_vhf = [f"Base-{b}" for b in BLUE_BASES] + ["Reaper-1", "Reaper-2"] + FLIGHTS
-L += [f"      {i:02d}: {c}" for i, c in enumerate(blue_vhf, 2)]
+     "channel_lists:", "  blue:", "    primary_1: # première radio V/UHF (20 canaux au plus)"]
+# Convention du gabarit VMCT (FIX-OT-RADIO-PLAN-CONVENTION, 11/11/2026) : UHF = AWACS et ravitailleurs, puis
+# porte-avions, puis patrouilles ; VHF = aérodromes. Ni Guard, ni drones, ni AWACS de l'arène.
+NOT_ON_UHF = ("Darkstar-1", "Stennis", "Tarawa")
+blue_uhf = [c for c, _, _ in TACT if c not in NOT_ON_UHF] + ["Stennis", "Tarawa"] + FLIGHTS
+L += [f"      {i}: {c}" for i, c in enumerate(blue_uhf, 1)]
+assert len(blue_uhf) <= 20
+L += ["    primary_2: # deuxième radio V/UHF (VHF) ; seule radio des warbirds"]
+blue_vhf = [f"Base-{b}" for b in BLUE_BASES]
+L += [f"      {i}: {c}" for i, c in enumerate(blue_vhf, 1)]
 FM = ["    fm_supplement: # FM en plus de deux radios V/UHF (A-10C, hélicoptères) ; 31-34 = balises du Mountain hike"]
 FM += [f"      {i:02d}: {30 + i - 1}" for i in range(1, 21)]  # 20 au plus : la FM du Kiowa (OH58D) plante au-delà de 21 slots
 L += FM
-L += ["  red:", "    primary_1: # première radio V/UHF", "      01: { title: Guard/UHF, channel: Guard }"]
-red_uhf = [c for c, _, _ in RED_TACT] + [f"Base-{b}" for b in RED_BASES] + ["Rouge-1", "Rouge-2", "Rouge-3", "Rouge-4"]
-L += [f"      {i:02d}: {c}" for i, c in enumerate(red_uhf, 2)]
-L += ["    primary_2: # deuxième radio V/UHF (VHF)", "      01: { title: Guard/VHF, channel: Guard }"]
-L += [f"      {i:02d}: {c}" for i, c in enumerate([f"Base-{b}" for b in RED_BASES] + ["Rouge-1", "Rouge-2", "Rouge-3", "Rouge-4"], 2)]
+L += ["  red:", "    primary_1: # première radio V/UHF"]
+red_uhf = [c for c, _, _ in RED_TACT if c != "AWACS-Arene-Rouge"] + ["Rouge-1", "Rouge-2", "Rouge-3", "Rouge-4"]
+L += [f"      {i}: {c}" for i, c in enumerate(red_uhf, 1)]
+L += ["    primary_2: # deuxième radio V/UHF (VHF)"]
+L += [f"      {i}: {c}" for i, c in enumerate([f"Base-{b}" for b in RED_BASES], 1)]
 L += FM
 # surcharges et collections : reprises telles quelles de GermanyCW-v6 (Mi-8 sans injection, CH-47 FM/UHF)
 gcw = (ROOT.parent / "VEAF-Open-Training-Mission-GermanyCW-v6/src/presets.yaml").read_text(encoding="utf-8")

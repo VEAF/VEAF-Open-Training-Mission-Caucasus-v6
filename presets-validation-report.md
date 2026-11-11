@@ -13,7 +13,7 @@ Plages valides : 225.0–400.0 MHz (AM/FM), 118.0–140.0 MHz (AM/FM), 225.0–4
 
 | Canal | Titre | Fréquence (MHz) | Collection | Radio |
 |---------|-------|-----------------|------------|-------|
-| 10 | Beslan | 141.0 |  | radio_2 |
+| 9 | Beslan | 141.0 |  | radio_2 |
 
 **Rien à faire :** les canaux à portée restent sur les radios de cet avion ; DCS aurait ignoré ceux-ci. Ne passez pas le type à `none` — cela retire tous ses presets.
 
@@ -23,37 +23,26 @@ Plages valides : 38.0–156.0 MHz (AM/FM), 100.0–200.0 MHz (AM/FM)
 
 | Canal | Titre | Fréquence (MHz) | Collection | Radio |
 |---------|-------|-----------------|------------|-------|
-| 1 | Guard | 243.0 |  | radio_2 |
-| 2 | Magic 1 (AWACS) | 285.0 |  | radio_2 |
-| 3 | Overlord 1 (AWACS) | 286.0 |  | radio_2 |
-| 4 | Arco 1 / perche / 51Y | 291.0 |  | radio_2 |
-| 5 | Texaco 1 / panier / 52Y | 292.0 |  | radio_2 |
-| 6 | Shell 1 / panier / 53Y | 293.0 |  | radio_2 |
-| 7 | Shell 2 / perche / 54Y | 294.0 |  | radio_2 |
-| 8 | CVN-74 Stennis / 10X | 225.0 |  | radio_2 |
-| 9 | LHA-1 Tarawa / 11X | 226.0 |  | radio_2 |
-| 10 | Darkstar 1 (AWACS arene) | 280.0 |  | radio_2 |
-| 11 | Sochi-Adler | 256.0 |  | radio_2 |
-| 12 | Gudauta | 259.0 |  | radio_2 |
-| 13 | Batumi / 16X | 260.0 |  | radio_2 |
-| 14 | Kobuleti / 67X | 262.0 |  | radio_2 |
-| 15 | Kutaisi / 44X | 263.0 |  | radio_2 |
-| 16 | Nalchik | 265.0 |  | radio_2 |
-| 17 | Tbilisi-Lochini / 25X | 267.0 |  | radio_2 |
-| 18 | Vaziani / 22X | 269.0 |  | radio_2 |
-| 19 | Beslan | 270.0 |  | radio_2 |
-| 20 | Archer | 360.0 |  | radio_2 |
-| 2 | AWACS Rouge (A-50) | 296.0 |  | radio_2 |
-| 3 | Tanker Rouge (Il-78M) | 297.0 |  | radio_2 |
-| 4 | AWACS Arene Rouge (A-50) | 281.0 |  | radio_2 |
-| 5 | Maykop-Khanskaya | 254.0 |  | radio_2 |
-| 6 | Krasnodar-Pashkovsky | 257.0 |  | radio_2 |
-| 7 | Mineralnye Vody | 264.0 |  | radio_2 |
-| 8 | Mozdok | 266.0 |  | radio_2 |
-| 9 | Rouge-1 | 380.0 |  | radio_2 |
-| 10 | Rouge-2 | 380.1 |  | radio_2 |
-| 11 | Rouge-3 | 380.2 |  | radio_2 |
-| 12 | Rouge-4 | 380.3 |  | radio_2 |
+| 1 | Magic 1 (AWACS) | 285.0 |  | radio_2 |
+| 2 | Overlord 1 (AWACS) | 286.0 |  | radio_2 |
+| 3 | Arco 1 / perche / 51Y | 291.0 |  | radio_2 |
+| 4 | Texaco 1 / panier / 52Y | 292.0 |  | radio_2 |
+| 5 | Shell 1 / panier / 53Y | 293.0 |  | radio_2 |
+| 6 | Shell 2 / perche / 54Y | 294.0 |  | radio_2 |
+| 7 | CVN-74 Stennis / 10X | 225.0 |  | radio_2 |
+| 8 | LHA-1 Tarawa / 11X | 226.0 |  | radio_2 |
+| 9 | Archer | 360.0 |  | radio_2 |
+| 10 | Arctic | 360.1 |  | radio_2 |
+| 11 | Ninja | 360.2 |  | radio_2 |
+| 12 | Pinder | 360.3 |  | radio_2 |
+| 13 | Bengal | 360.4 |  | radio_2 |
+| 14 | Blade | 360.5 |  | radio_2 |
+| 1 | AWACS Rouge (A-50) | 296.0 |  | radio_2 |
+| 2 | Tanker Rouge (Il-78M) | 297.0 |  | radio_2 |
+| 3 | Rouge-1 | 380.0 |  | radio_2 |
+| 4 | Rouge-2 | 380.1 |  | radio_2 |
+| 5 | Rouge-3 | 380.2 |  | radio_2 |
+| 6 | Rouge-4 | 380.3 |  | radio_2 |
 
 **Rien à faire :** les canaux à portée restent sur les radios de cet avion ; DCS aurait ignoré ceux-ci. Ne passez pas le type à `none` — cela retire tous ses presets.
 
@@ -62,3 +51,5 @@ Plages valides : 38.0–156.0 MHz (AM/FM), 100.0–200.0 MHz (AM/FM)
 | Groupe | Tâche | Fréquence (MHz) | Coalition |
 |--------|------|-----------------|-----------|
 | `CVN-74 Stennis S3B-Tanker` | Refueling | 290.9 | blue |
+| `Darkstar 1` | AWACS | 280.0 | blue |
+| `AWACS Arène Rouge` | AWACS | 281.0 | red |
