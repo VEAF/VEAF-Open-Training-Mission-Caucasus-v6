@@ -216,7 +216,7 @@ FL150 au-dessus de la zone"
         friendly_name: Kobuleti - hélicoptères - moyen
         radio_group_name: Entraînement hélicoptères
         training: true
-        briefing: 'Range de Kobuleti, cibles du niveau facile plus DCA légère : deux pièces tirées parmi quatre (ZU-23, Shilka). BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.'
+        briefing: 'Range de Kobuleti, cibles du niveau facile plus DCA légère, deux pièces tirées parmi quatre (ZU-23, Shilka), et défense courte portée à guidage infrarouge, trois systèmes tirés parmi SA-13, SA-9 et MANPADS. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.'
         completable: true
         includes:
           - combatZone_Kobuleti_Easy
@@ -225,7 +225,7 @@ FL150 au-dessus de la zone"
         friendly_name: Kobuleti - hélicoptères - difficile
         radio_group_name: Entraînement hélicoptères
         training: true
-        briefing: 'Range de Kobuleti, niveau moyen plus une défense courte portée à guidage infrarouge : trois systèmes tirés parmi SA-13, SA-9 et MANPADS. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.'
+        briefing: 'Range de Kobuleti, niveau moyen plus une défense courte portée à guidage radar : deux systèmes tirés parmi SA-15 Tor, SA-19 Tunguska et SA-8 Osa, au sud des cibles. Approchez au ras du relief. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.'
         completable: true
         includes:
           - combatZone_Kobuleti_Medium

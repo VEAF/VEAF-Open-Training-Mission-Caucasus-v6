@@ -111,8 +111,8 @@ Trois familles de trois niveaux (facile ⊂ moyen ⊂ difficile) : chaque niveau
 ### Entraînement hélicoptères
 
 - **Kobuleti - hélicoptères - facile** — `N41°50.531' E041°47.878'` — Range de Kobuleti, 6 nm au sud-ouest de la base. Cibles inertes (statiques) : blindés, camions, missiles SCUD, bâtiments. Aucune défense. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
-- **Kobuleti - hélicoptères - moyen** — `N41°50.531' E041°47.878'` — Range de Kobuleti, cibles du niveau facile plus DCA légère : deux pièces tirées parmi quatre (ZU-23, Shilka). BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
-- **Kobuleti - hélicoptères - difficile** — `N41°50.531' E041°47.878'` — Range de Kobuleti, niveau moyen plus une défense courte portée à guidage infrarouge : trois systèmes tirés parmi SA-13, SA-9 et MANPADS. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
+- **Kobuleti - hélicoptères - moyen** — `N41°50.531' E041°47.878'` — Range de Kobuleti, cibles du niveau facile plus DCA légère, deux pièces tirées parmi quatre (ZU-23, Shilka), et défense courte portée à guidage infrarouge, trois systèmes tirés parmi SA-13, SA-9 et MANPADS. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
+- **Kobuleti - hélicoptères - difficile** — `N41°50.531' E041°47.878'` — Range de Kobuleti, niveau moyen plus une défense courte portée à guidage radar : deux systèmes tirés parmi SA-15 Tor, SA-19 Tunguska et SA-8 Osa, au sud des cibles. Approchez au ras du relief. BULLSEYE 191/96. Ravitailleur le plus proche : Texaco 1 (TACAN 52Y, 292.0 MHz, FL220) à 51 nm.
 
 ### Entraînement attaque
 
@@ -262,7 +262,7 @@ Rôles sans avion : 5 slots par camp pour chaque rôle (Game Master, commandant 
 
 ## Pour les créateurs de mission
 
-Construite de zéro le 28/09/2026 avec VEAF Mission Creation Tools et le serveur MCP `veaf-mission-mcp`, à partir du prompt `new-open-training-mission.fr.md` de VMCT, en s'inspirant de la v5 (`VEAF-Open-Training-Mission-Caucasus`, dossier `backup_v5/`) sans la recopier. Trois ensembles en sont repris : l'arène « Air Quake », le groupe aéronaval du Stennis et la zone hélicoptère « Mountain Hike ». Compilée avec `veaf-tools` 6.29.0.
+Construite de zéro le 28/09/2026 avec VEAF Mission Creation Tools et le serveur MCP `veaf-mission-mcp`, à partir du prompt `new-open-training-mission.fr.md` de VMCT, en s'inspirant de la v5 (`VEAF-Open-Training-Mission-Caucasus`, dossier `backup_v5/`) sans la recopier. Trois ensembles en sont repris : l'arène « Air Quake », le groupe aéronaval du Stennis et la zone hélicoptère « Mountain Hike ». Compilée avec `veaf-tools` 6.36.0+9b61e96e.
 
 ### Construire
 

@@ -1,0 +1,113 @@
+[
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "combatZone_Kobuleti_Hard-sr-1",
+   "new_name": "combatZone_Kobuleti_Medium-sr-1",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "combatZone_Kobuleti_Hard-sr-2",
+   "new_name": "combatZone_Kobuleti_Medium-sr-2",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "combatZone_Kobuleti_Hard-sr-3",
+   "new_name": "combatZone_Kobuleti_Medium-sr-3",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "combatZone_Kobuleti_Hard-sr-4",
+   "new_name": "combatZone_Kobuleti_Medium-sr-4",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "set_group_properties",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "group_name": "combatZone_Kobuleti_Hard-sr-5",
+   "new_name": "combatZone_Kobuleti_Medium-sr-5",
+   "acknowledge_conventions": true
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "rad-1",
+   "position": {
+    "x": -330279.0,
+    "y": 631220.0
+   },
+   "for_combat_zone": "combatZone_Kobuleti_Hard",
+   "units": [
+    {
+     "type": "Tor 9A331",
+     "name": "#command=\"-sa15\" #spawngroup=\"rad\" #spawncount=2 KobH-rad-1"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "rad-2",
+   "position": {
+    "x": -329753.4736797202,
+    "y": 630187.5624145682
+   },
+   "for_combat_zone": "combatZone_Kobuleti_Hard",
+   "units": [
+    {
+     "type": "2S6 Tunguska",
+     "name": "#command=\"-sa19\" #spawngroup=\"rad\" #spawncount=2 KobH-rad-2"
+    }
+   ]
+  }
+ },
+ {
+  "name": "add_group",
+  "params": {
+   "mission_path": "D:/dev/_VEAF/VEAF-Open-Training-Mission-Caucasus-v6",
+   "coalition": "red",
+   "country_id": 0,
+   "country_name": "Russia",
+   "category": "vehicle",
+   "name": "rad-3",
+   "position": {
+    "x": -329917.304088578,
+    "y": 632367.1528727021
+   },
+   "for_combat_zone": "combatZone_Kobuleti_Hard",
+   "units": [
+    {
+     "type": "Osa 9A33 ln",
+     "name": "#command=\"-sa8\" #spawngroup=\"rad\" #spawncount=2 KobH-rad-3"
+    }
+   ]
+  }
+ }
+]

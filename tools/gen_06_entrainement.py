@@ -50,16 +50,20 @@ zone("combatZone_Kobuleti_Medium", K, 3000,
      [{"name": f"aaa-{i + 1}", "units": [cmd_unit(a, t, f"KobM-{i + 1}", '#spawngroup="aaa" #spawncount=2')],
        "position": xy(off(K, 90 * i + 45, 1200))} for i, (a, t) in enumerate(MED_AAA)],
      "vehicle", "Kobuleti - hélicoptères - moyen", "Entraînement hélicoptères",
-     "Range de Kobuleti, cibles du niveau facile plus DCA légère : deux pièces tirées parmi quatre "
-     "(ZU-23, Shilka). " + where(K), includes="combatZone_Kobuleti_Easy")
+     "Range de Kobuleti, cibles du niveau facile plus DCA légère, deux pièces tirées parmi quatre (ZU-23, "
+     "Shilka), et défense courte portée à guidage infrarouge, trois systèmes tirés parmi SA-13, SA-9 et "
+     "MANPADS. " + where(K), includes="combatZone_Kobuleti_Easy")
+# lot 06e : les groupes sr-* ci-dessous sont passés au niveau moyen, et le difficile tient trois lanceurs radar
+# (gen_06e_kobuleti_radar.py). Ce lot-ci n'est pas à rejouer : il garde la construction d'origine.
 HARD_K = [("-sa13_squad", "Strela-10M3"), ("-sa9_squad", "Strela-1 9P31"), ("-sa13_squad", "Strela-10M3"),
           ("-sa18s", "SA-18 Igla-S manpad"), ("-sa18s", "SA-18 Igla-S manpad")]
 zone("combatZone_Kobuleti_Hard", K, 3000,
      [{"name": f"sr-{i + 1}", "units": [cmd_unit(a, t, f"KobH-{i + 1}", '#spawngroup="sr" #spawncount=3')],
        "position": xy(off(K, 72 * i, 1800))} for i, (a, t) in enumerate(HARD_K)],
      "vehicle", "Kobuleti - hélicoptères - difficile", "Entraînement hélicoptères",
-     "Range de Kobuleti, niveau moyen plus une défense courte portée à guidage infrarouge : trois systèmes "
-     "tirés parmi SA-13, SA-9 et MANPADS. " + where(K), includes="combatZone_Kobuleti_Medium")
+     "Range de Kobuleti, niveau moyen plus une défense courte portée à guidage radar : deux systèmes tirés "
+     "parmi SA-15 Tor, SA-19 Tunguska et SA-8 Osa, au sud des cibles. Approchez au ras du relief. " + where(K),
+     includes="combatZone_Kobuleti_Medium")
 
 # ── 2. Avions d'attaque : plateau d'Akhalkalaki (135 nm du front) ──────────────────────────────
 A = off((-360693, 777466), 90, 5000)

@@ -618,6 +618,12 @@ def declare_pictures(pictures):
     for side, value in (("B", listed), ("N", listed), ("R", "{},")):
         mission, n = re.subn(r"(?m)^  pictureFileName%s = (?:\{\},|\{\n(?:    .*\n)*?  \},)" % side,
                              f"  pictureFileName{side} = {value}", mission)
+        if n == 0:   # la mise en page de l'éditeur, qu'écrivent les actions MCP de VMCT depuis FEAT-DCS-EDITOR-LUA-LAYOUT
+            items = "".join(f'\t\t[{i}] = "{reskey(p)}",\n' for i, p in enumerate(pictures, 1))
+            body = f'\n\t{{\n{items}\t}}, -- end of ["pictureFileName{side}"]' if side != "R" else "{},"
+            pattern = (r'(?m)^\t\["pictureFileName%s"\] = (?:\{\},|\n\t\{\n(?:\t\t.*\n)*?\t\}, -- end of '
+                       r'\["pictureFileName%s"\])' % (side, side))
+            mission, n = re.subn(pattern, lambda _m, s=side, b=body: f'\t["pictureFileName{s}"] = {b}', mission)
         if n != 1:
             raise RuntimeError(f"pictureFileName{side} : {n} correspondance(s) dans {mpath}")
     mpath.write_text(mission, encoding="utf-8", newline=nl)
