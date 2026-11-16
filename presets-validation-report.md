@@ -1,7 +1,7 @@
 # Rapport de validation des fréquences radio
 
 Fichier presets : `src/presets.yaml`  
-Mission : `VEAF_OpenTraining_Caucasus_ICAO_UGTB_LOCAL_TEST`
+Mission : `VEAF_OpenTraining_Caucasus_ICAO_UGTB`
 
 ## ℹ️ Hors plage — retirées de la radio injectée (DCS les stockerait mais les ignorerait)
 
