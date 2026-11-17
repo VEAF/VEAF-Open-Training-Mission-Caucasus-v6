@@ -1,0 +1,154 @@
+{
+  "name": "nevinnomyssk-depot",
+  "title": "Dépôt logistique de Nevinnomyssk",
+  "heading_deg": 316.0,
+  "pitch_deg": 30.0,
+  "slant_m": 2800.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Nevinnomyssk_Depot",
+  "camera": {
+    "position": [
+      -19364.27298159686,
+      1741.5166666666664,
+      614896.6570281533
+    ],
+    "forward": [
+      0.6229665410464976,
+      -0.49999999999999994,
+      -0.6015917957689936
+    ],
+    "up": [
+      0.3596699001693254,
+      0.8660254037844387,
+      -0.34732918522949874
+    ],
+    "right": [
+      0.6946583704589976,
+      0.0,
+      0.7193398003386509
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -17619.966666666667,
+    "z": 613212.2000000001,
+    "alt_m": 341.51666666666665,
+    "lat": 44.62308104888065,
+    "lon": 41.983911066276534,
+    "dms": "N44°37'23.09\" E041°59'02.08\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:08",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Nevinnomyssk_Depot [r] Ural-375 ZU-23#11365",
+      "type": "Ural-375 ZU-23",
+      "x": -17881.4,
+      "z": 612533.6,
+      "alt": 334.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nevinnomyssk_Depot [r] SA19#11362",
+      "type": "2S6 Tunguska",
+      "x": -16767.1,
+      "z": 613275.8,
+      "alt": 331.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Nevinnomyssk_Depot [r] SA19#11362",
+      "type": "Ural-375",
+      "x": -16699.1,
+      "z": 613299.8,
+      "alt": 330.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-08#11361 #343",
+      "type": "Warehouse",
+      "x": -17693.1,
+      "z": 612859.0,
+      "alt": 336.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-09#11363 #344",
+      "type": "Tech combine",
+      "x": -17397.6,
+      "z": 612997.1,
+      "alt": 337.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-01#11364 #336",
+      "type": "Fuel tank",
+      "x": -17523.0,
+      "z": 613312.0,
+      "alt": 343.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-07#11367 #342",
+      "type": "Warehouse",
+      "x": -17988.0,
+      "z": 612939.6,
+      "alt": 338.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-04#11368 #339",
+      "type": "Fuel tank",
+      "x": -17943.0,
+      "z": 613606.4,
+      "alt": 351.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-05#11369 #340",
+      "type": ".Ammunition depot",
+      "x": -18120.7,
+      "z": 613438.6,
+      "alt": 352.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-06#11370 #341",
+      "type": ".Ammunition depot",
+      "x": -18148.9,
+      "z": 613175.2,
+      "alt": 347.1
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-02#11371 #337",
+      "type": "Fuel tank",
+      "x": -17558.5,
+      "z": 613492.0,
+      "alt": 345.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Nevinnomyssk_Depot [r] combatZone_Nevinnomyssk_Depot-03#11372 #338",
+      "type": "Fuel tank",
+      "x": -17719.2,
+      "z": 613617.3,
+      "alt": 348.8
+    }
+  ],
+  "image": "nevinnomyssk-depot.jpg",
+  "heading": 316,
+  "pitch": -30.0,
+  "x": -19364.27298159686,
+  "y": 614896.6570281533,
+  "altitude_m": 1742,
+  "order": 21
+}

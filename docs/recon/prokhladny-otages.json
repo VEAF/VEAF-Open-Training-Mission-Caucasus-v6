@@ -1,0 +1,194 @@
+{
+  "name": "prokhladny-otages",
+  "title": "Otages à Prokhladny",
+  "heading_deg": 335.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Prokhladny_Otages",
+  "camera": {
+    "position": [
+      -99179.14281509309,
+      3194.5352941176466,
+      795722.7418458005
+    ],
+    "forward": [
+      0.7848855672213959,
+      -0.49999999999999994,
+      -0.36599815077066666
+    ],
+    "up": [
+      0.45315389351832497,
+      0.8660254037844387,
+      -0.21130913087034958
+    ],
+    "right": [
+      0.4226182617406992,
+      0.0,
+      0.90630778703665
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -94469.82941176472,
+    "z": 793526.7529411765,
+    "alt_m": 194.53529411764706,
+    "lat": 43.74460250751213,
+    "lon": 44.08855944805753,
+    "dms": "N43°44'40.57\" E044°05'18.81\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:07",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] Red Modern Manpad Squad#11354",
+      "type": "SA-18 Igla-S manpad",
+      "x": -94054.0,
+      "z": 791073.5,
+      "alt": 202.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] Red Modern Manpad Squad#11354",
+      "type": "SA-18 Igla-S manpad",
+      "x": -93929.0,
+      "z": 791021.5,
+      "alt": 202.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] Red Modern Manpad Squad#11354",
+      "type": "Infantry AK ver2",
+      "x": -94084.0,
+      "z": 791020.5,
+      "alt": 203.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] Red Modern Manpad Squad#11354",
+      "type": "Infantry AK ver2",
+      "x": -93970.0,
+      "z": 791061.5,
+      "alt": 202.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] Red Modern Manpad Squad#11354",
+      "type": "Tigr_233036",
+      "x": -94086.0,
+      "z": 791128.5,
+      "alt": 202.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-patrouille-14#11352",
+      "type": "BTR-80",
+      "x": -92797.2,
+      "z": 801445.9,
+      "alt": 173.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-patrouille-14#11352",
+      "type": "BTR-80",
+      "x": -92788.1,
+      "z": 801467.4,
+      "alt": 173.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-patrouille-21#11351",
+      "type": "BTR-80",
+      "x": -94039.4,
+      "z": 803840.3,
+      "alt": 172.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-patrouille-21#11351",
+      "type": "BTR-80",
+      "x": -94011.1,
+      "z": 803864.5,
+      "alt": 172.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] SA9#11350",
+      "type": "Strela-1 9P31",
+      "x": -93632.0,
+      "z": 792197.1,
+      "alt": 199.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] SA9#11350",
+      "type": "GAZ-66",
+      "x": -93619.0,
+      "z": 792226.1,
+      "alt": 199.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] ZSU-23-4 Shilka#11348",
+      "type": "ZSU-23-4 Shilka",
+      "x": -94912.3,
+      "z": 791778.8,
+      "alt": 195.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] ZSU-23-4 Shilka#11346",
+      "type": "ZSU-23-4 Shilka",
+      "x": -93573.6,
+      "z": 790921.8,
+      "alt": 198.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-patrouille-15#11345",
+      "type": "BTR-80",
+      "x": -98912.0,
+      "z": 787693.6,
+      "alt": 199.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-patrouille-15#11345",
+      "type": "BTR-80",
+      "x": -98910.4,
+      "z": 787675.8,
+      "alt": 199.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-caserne#11344 #321",
+      "type": "house1arm",
+      "x": -94296.0,
+      "z": 790626.0,
+      "alt": 205.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Prokhladny_Otages [r] combatZone_Prokhladny_Otages-hotel#11353 #320",
+      "type": "houseA_arm",
+      "x": -94373.0,
+      "z": 790912.0,
+      "alt": 204.7
+    }
+  ],
+  "image": "prokhladny-otages.jpg",
+  "heading": 335,
+  "pitch": -30.0,
+  "x": -99179.14281509309,
+  "y": 795722.7418458005,
+  "altitude_m": 3195,
+  "order": 19
+}

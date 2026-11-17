@@ -1,0 +1,370 @@
+{
+  "name": "akhalkalaki-hard",
+  "title": "Akhalkalaki - attaque - difficile",
+  "heading_deg": 248.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Akhalkalaki_Hard",
+  "camera": {
+    "position": [
+      -358651.5024266754,
+      4841.338461538461,
+      787421.0270937402
+    ],
+    "forward": [
+      -0.3244188263233285,
+      -0.49999999999999994,
+      -0.8029647720336143
+    ],
+    "up": [
+      -0.18730329670795612,
+      0.8660254037844387,
+      -0.4635919272833936
+    ],
+    "right": [
+      0.9271838545667873,
+      0.0,
+      -0.3746065934159123
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -360598.0153846154,
+    "z": 782603.2384615385,
+    "alt_m": 1841.3384615384614,
+    "lat": 41.40304388080968,
+    "lon": 43.54598913311383,
+    "dms": "N41°24'10.96\" E043°32'45.56\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:01",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] SA13#11252",
+      "type": "Strela-10M3",
+      "x": -362700.0,
+      "z": 782464.0,
+      "alt": 1861.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] SA13#11252",
+      "type": "GAZ-66",
+      "x": -362685.0,
+      "z": 782473.0,
+      "alt": 1861.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] SA8#11251",
+      "type": "Osa 9A33 ln",
+      "x": -358675.0,
+      "z": 782462.0,
+      "alt": 1982.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] SA8#11251",
+      "type": "GAZ-66",
+      "x": -358701.0,
+      "z": 782484.0,
+      "alt": 1978.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11250",
+      "type": "T-72B",
+      "x": -361310.2,
+      "z": 784199.4,
+      "alt": 1932.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11250",
+      "type": "BMP-3",
+      "x": -361297.2,
+      "z": 784162.4,
+      "alt": 1931.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11250",
+      "type": "Chieftain_mk3",
+      "x": -361147.2,
+      "z": 784203.4,
+      "alt": 1929.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11250",
+      "type": "CHAP_T64BV",
+      "x": -361189.2,
+      "z": 784088.4,
+      "alt": 1927.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11250",
+      "type": "Chieftain_mk3",
+      "x": -361284.2,
+      "z": 784222.4,
+      "alt": 1933.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11250",
+      "type": "CHAP_T64BV",
+      "x": -361166.2,
+      "z": 784072.4,
+      "alt": 1924.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11247",
+      "type": "BMP-2",
+      "x": -359073.5,
+      "z": 782945.3,
+      "alt": 1921.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11247",
+      "type": "VAB_Mephisto",
+      "x": -359233.5,
+      "z": 782928.3,
+      "alt": 1924.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11247",
+      "type": "BMP-2",
+      "x": -359271.5,
+      "z": 782907.3,
+      "alt": 1921.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11247",
+      "type": "BTR-82A",
+      "x": -359166.5,
+      "z": 782997.3,
+      "alt": 1919.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11247",
+      "type": "T-55",
+      "x": -359138.5,
+      "z": 783090.3,
+      "alt": 1911.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11247",
+      "type": "BMP-2",
+      "x": -359097.5,
+      "z": 783044.3,
+      "alt": 1914.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11244",
+      "type": "BMP-2",
+      "x": -362018.7,
+      "z": 782003.7,
+      "alt": 1813.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11244",
+      "type": "T-55",
+      "x": -362054.7,
+      "z": 781861.7,
+      "alt": 1818.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11244",
+      "type": "BMP-2",
+      "x": -361973.7,
+      "z": 781949.7,
+      "alt": 1807.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Armored Platoon#11244",
+      "type": "BMP-2",
+      "x": -362034.7,
+      "z": 782020.7,
+      "alt": 1815.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Ural-375 ZU-23#11241",
+      "type": "Ural-375 ZU-23",
+      "x": -360190.7,
+      "z": 782867.4,
+      "alt": 1800.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] ZSU-23-4 Shilka#11239",
+      "type": "ZSU-23-4 Shilka",
+      "x": -361501.1,
+      "z": 781783.8,
+      "alt": 1775.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Red Modern Manpad Squad#11238",
+      "type": "SA-18 Igla-S manpad",
+      "x": -360112.7,
+      "z": 781887.8,
+      "alt": 1765.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Red Modern Manpad Squad#11238",
+      "type": "SA-18 Igla-S manpad",
+      "x": -360188.7,
+      "z": 781725.8,
+      "alt": 1756.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Red Modern Manpad Squad#11238",
+      "type": "Infantry AK ver2",
+      "x": -360226.7,
+      "z": 781827.8,
+      "alt": 1759.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Red Modern Manpad Squad#11238",
+      "type": "Infantry AK ver2",
+      "x": -360211.7,
+      "z": 781756.8,
+      "alt": 1756.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Red Modern Manpad Squad#11238",
+      "type": "Infantry AK ver2",
+      "x": -360148.7,
+      "z": 781877.8,
+      "alt": 1763.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Red Modern Manpad Squad#11238",
+      "type": "Infantry AK ver2",
+      "x": -360123.7,
+      "z": 781765.8,
+      "alt": 1758.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Akhalkalaki_Hard [r] Red Modern Manpad Squad#11238",
+      "type": "Tigr_233036",
+      "x": -360170.7,
+      "z": 781716.7,
+      "alt": 1755.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-01#11233 #152",
+      "type": "T-72B",
+      "x": -360393.0,
+      "z": 782466.0,
+      "alt": 1778.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-07#11234 #158",
+      "type": "Ural-375",
+      "x": -361226.9,
+      "z": 782078.1,
+      "alt": 1767.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-10#11235 #161",
+      "type": "Ural-375 PBU",
+      "x": -360013.4,
+      "z": 781972.2,
+      "alt": 1772.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-09#11236 #160",
+      "type": "ZIL-131 KUNG",
+      "x": -360452.0,
+      "z": 781724.2,
+      "alt": 1754.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-03#11237 #154",
+      "type": "T-72B",
+      "x": -360563.2,
+      "z": 782865.4,
+      "alt": 1819.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-04#11243 #155",
+      "type": "BMP-2",
+      "x": -360841.3,
+      "z": 782922.5,
+      "alt": 1844.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-05#11245 #156",
+      "type": "BMP-2",
+      "x": -361129.9,
+      "z": 782783.4,
+      "alt": 1822.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-06#11246 #157",
+      "type": "BTR-80",
+      "x": -361293.0,
+      "z": 782466.0,
+      "alt": 1786.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-08#11248 #159",
+      "type": "Ural-375",
+      "x": -360915.5,
+      "z": 781781.2,
+      "alt": 1753.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Akhalkalaki_Hard [r] combatZone_Akhalkalaki_Easy-cible-02#11249 #153",
+      "type": "T-72B",
+      "x": -360401.7,
+      "z": 782677.6,
+      "alt": 1792.5
+    }
+  ],
+  "image": "akhalkalaki-hard.jpg",
+  "heading": 248,
+  "pitch": -30.0,
+  "x": -358651.5024266754,
+  "y": 787421.0270937402,
+  "altitude_m": 4841,
+  "order": 6
+}

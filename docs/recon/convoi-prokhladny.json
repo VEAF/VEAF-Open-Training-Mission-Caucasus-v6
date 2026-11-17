@@ -1,0 +1,138 @@
+{
+  "name": "convoi-prokhladny",
+  "title": "Convoi de secours vers Prokhladny",
+  "heading_deg": 345.0,
+  "pitch_deg": 30.0,
+  "slant_m": 600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Convoi_Prokhladny",
+  "camera": {
+    "position": [
+      -88035.47978224269,
+      437.6099999999999,
+      835070.3463208252
+    ],
+    "forward": [
+      0.8365163037378079,
+      -0.49999999999999994,
+      -0.22414386804201333
+    ],
+    "up": [
+      0.4829629131445341,
+      0.8660254037844387,
+      -0.12940952255126031
+    ],
+    "right": [
+      0.2588190451025207,
+      0.0,
+      0.9659258262890683
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -87533.57,
+    "z": 834935.86,
+    "alt_m": 137.60999999999999,
+    "lat": 43.75510557192678,
+    "lon": 44.60454256447198,
+    "dms": "N43°45'18.38\" E044°36'16.35\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:06",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "T-72B",
+      "x": -87605.3,
+      "z": 834924.7,
+      "alt": 137.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "T-72B",
+      "x": -87605.6,
+      "z": 834937.1,
+      "alt": 137.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "BTR-80",
+      "x": -87585.6,
+      "z": 834937.1,
+      "alt": 137.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "BTR-80",
+      "x": -87565.6,
+      "z": 834937.1,
+      "alt": 137.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "Ural-375",
+      "x": -87545.6,
+      "z": 834937.1,
+      "alt": 137.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "Ural-375",
+      "x": -87525.6,
+      "z": 834937.1,
+      "alt": 137.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "Ural-375",
+      "x": -87505.6,
+      "z": 834937.1,
+      "alt": 137.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "Ural-375",
+      "x": -87485.6,
+      "z": 834937.1,
+      "alt": 137.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "ZSU-23-4 Shilka",
+      "x": -87465.6,
+      "z": 834937.1,
+      "alt": 137.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_Prokhladny [r] combatZone_Convoi_Prokhladny-convoi#11319",
+      "type": "Strela-10M3",
+      "x": -87445.6,
+      "z": 834937.1,
+      "alt": 137.7
+    }
+  ],
+  "image": "convoi-prokhladny.jpg",
+  "heading": 345,
+  "pitch": -30.0,
+  "x": -88035.47978224269,
+  "y": 835070.3463208252,
+  "altitude_m": 438,
+  "order": 16
+}

@@ -1,0 +1,298 @@
+{
+  "name": "kobuleti-easy",
+  "title": "Kobuleti - hélicoptères - facile",
+  "heading_deg": 267.0,
+  "pitch_deg": 30.0,
+  "slant_m": 1650.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Kobuleti_Easy",
+  "camera": {
+    "position": [
+      -328190.0149583977,
+      835.0966666666666,
+      632707.3502676771
+    ],
+    "forward": [
+      -0.045324267637740556,
+      -0.49999999999999994,
+      -0.8648385460668959
+    ],
+    "up": [
+      -0.02616797812147215,
+      0.8660254037844387,
+      -0.49931476737728686
+    ],
+    "right": [
+      0.9986295347545738,
+      0.0,
+      -0.052335956242944306
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -328264.8,
+    "z": 631280.3666666667,
+    "alt_m": 10.096666666666666,
+    "lat": 41.84224666959344,
+    "lon": 41.798705452024016,
+    "dms": "N41°50'32.09\" E041°47'55.34\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "11:59",
+  "units": [
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-06#11102 #117",
+      "type": "Windsock",
+      "x": -328446.0,
+      "z": 631199.0,
+      "alt": 9.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-02#11104 #113",
+      "type": "Electric power box",
+      "x": -328037.0,
+      "z": 631321.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-03#11121 #114",
+      "type": "Container red 3",
+      "x": -328159.0,
+      "z": 631357.0,
+      "alt": 9.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-05#11122 #116",
+      "type": "Small werehouse 2",
+      "x": -328698.0,
+      "z": 630968.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-04#11123 #115",
+      "type": "Container white",
+      "x": -328221.0,
+      "z": 631328.0,
+      "alt": 9.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-08#11125 #119",
+      "type": "FARP Tent",
+      "x": -328490.0,
+      "z": 631094.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-01#11126 #112",
+      "type": "Ka-27",
+      "x": -328068.0,
+      "z": 631390.0,
+      "alt": 12.1
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-21#11128 #132",
+      "type": "A-50",
+      "x": -327938.0,
+      "z": 631432.0,
+      "alt": 14.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-31#11130 #142",
+      "type": "Mi-24V",
+      "x": -328019.0,
+      "z": 631416.0,
+      "alt": 11.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-13#11101 #124",
+      "type": "MAZ-6303",
+      "x": -328192.0,
+      "z": 631190.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-10#11103 #121",
+      "type": "GAZ-3307",
+      "x": -327902.0,
+      "z": 631099.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-09#11105 #120",
+      "type": "house2arm",
+      "x": -328381.0,
+      "z": 631165.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-30#11106 #141",
+      "type": "Scud_B",
+      "x": -328256.0,
+      "z": 631238.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-29#11107 #140",
+      "type": "Scud_B",
+      "x": -328226.0,
+      "z": 631258.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-28#11108 #139",
+      "type": "Scud_B",
+      "x": -328199.0,
+      "z": 631275.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-27#11109 #138",
+      "type": "Scud_B",
+      "x": -328168.0,
+      "z": 631293.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-26#11110 #137",
+      "type": "T-90",
+      "x": -328133.0,
+      "z": 631411.0,
+      "alt": 9.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-25#11111 #136",
+      "type": "T-90",
+      "x": -328119.0,
+      "z": 631417.0,
+      "alt": 9.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-24#11112 #135",
+      "type": "T-90",
+      "x": -328152.0,
+      "z": 631413.0,
+      "alt": 9.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-23#11113 #134",
+      "type": "T-90",
+      "x": -328111.0,
+      "z": 631435.0,
+      "alt": 9.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-22#11114 #133",
+      "type": "T-90",
+      "x": -328170.0,
+      "z": 631423.0,
+      "alt": 9.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-20#11115 #131",
+      "type": "BTR_D",
+      "x": -328806.0,
+      "z": 631383.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-19#11116 #130",
+      "type": "KAMAZ Truck",
+      "x": -328715.0,
+      "z": 631355.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-18#11117 #129",
+      "type": "MTLB",
+      "x": -328626.0,
+      "z": 631326.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-16#11118 #127",
+      "type": "VAZ Car",
+      "x": -328450.0,
+      "z": 631274.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-17#11119 #128",
+      "type": "ZIL-4331",
+      "x": -328534.0,
+      "z": 631297.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-15#11120 #126",
+      "type": "Trolley bus",
+      "x": -328355.0,
+      "z": 631243.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-14#11124 #125",
+      "type": "Tigr_233036",
+      "x": -328275.0,
+      "z": 631116.0,
+      "alt": 9.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-12#11127 #123",
+      "type": "LAZ Bus",
+      "x": -328098.0,
+      "z": 631160.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Easy [r] combatZone_Kobuleti_Easy-cible-11#11129 #122",
+      "type": "IKARUS Bus",
+      "x": -328000.0,
+      "z": 631135.0,
+      "alt": 10.0
+    }
+  ],
+  "image": "kobuleti-easy.jpg",
+  "heading": 267,
+  "pitch": -30.0,
+  "x": -328190.0149583977,
+  "y": 632707.3502676771,
+  "altitude_m": 835,
+  "order": 1
+}

@@ -1,0 +1,178 @@
+{
+  "name": "mozdok-sa11",
+  "title": "Site SA-11 au nord de Mozdok",
+  "heading_deg": 347.0,
+  "pitch_deg": 30.0,
+  "slant_m": 4100.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Mozdok_SA11",
+  "camera": {
+    "position": [
+      -80597.99317137685,
+      2184.7199999999993,
+      840143.4479767798
+    ],
+    "forward": [
+      0.843829228791103,
+      -0.49999999999999994,
+      -0.1948133276698812
+    ],
+    "up": [
+      0.4871850323926175,
+      0.8660254037844387,
+      -0.11247552717193265
+    ],
+    "right": [
+      0.22495105434386534,
+      0.0,
+      0.9743700647852351
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -77138.29333333332,
+    "z": 839344.7133333333,
+    "alt_m": 134.72,
+    "lat": 43.84123062986028,
+    "lon": 44.676264952903,
+    "dms": "N43°50'28.43\" E044°40'34.55\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:05",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] ZSU-23-4 Shilka#11295",
+      "type": "ZSU-23-4 Shilka",
+      "x": -77128.4,
+      "z": 838328.7,
+      "alt": 135.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA15#11294",
+      "type": "Tor 9A331",
+      "x": -77130.0,
+      "z": 840706.0,
+      "alt": 133.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA15#11294",
+      "type": "GAZ-66",
+      "x": -77142.0,
+      "z": 840705.0,
+      "alt": 133.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk SR 9S18M1",
+      "x": -77154.0,
+      "z": 839231.0,
+      "alt": 134.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk CC 9S470M1",
+      "x": -77157.0,
+      "z": 839182.0,
+      "alt": 134.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -77079.0,
+      "z": 839144.0,
+      "alt": 134.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -77080.0,
+      "z": 839218.0,
+      "alt": 134.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -77072.0,
+      "z": 839255.0,
+      "alt": 134.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -77181.0,
+      "z": 839265.0,
+      "alt": 134.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -77196.0,
+      "z": 839197.0,
+      "alt": 134.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -77194.0,
+      "z": 839257.0,
+      "alt": 134.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "ZSU-23-4 Shilka",
+      "x": -77102.0,
+      "z": 839159.0,
+      "alt": 134.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "ZSU-23-4 Shilka",
+      "x": -77140.0,
+      "z": 839212.0,
+      "alt": 134.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "ATZ-5",
+      "x": -77205.0,
+      "z": 839134.0,
+      "alt": 135.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_SA11 [r] SA11#11293",
+      "type": "Ural-375",
+      "x": -77114.0,
+      "z": 839177.0,
+      "alt": 134.9
+    }
+  ],
+  "image": "mozdok-sa11.jpg",
+  "heading": 347,
+  "pitch": -30.0,
+  "x": -80597.99317137685,
+  "y": 840143.4479767798,
+  "altitude_m": 2185,
+  "order": 14
+}

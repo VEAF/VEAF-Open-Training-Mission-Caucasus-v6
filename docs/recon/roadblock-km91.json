@@ -1,0 +1,346 @@
+{
+  "name": "roadblock-km91",
+  "title": "Barrage routier KM91",
+  "heading_deg": 260.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_RoadBlock_KM91",
+  "camera": {
+    "position": [
+      -343283.74482313957,
+      4838.694444444443,
+      704178.9056361591
+    ],
+    "forward": [
+      -0.1503837331804353,
+      -0.49999999999999994,
+      -0.8528685319524433
+    ],
+    "up": [
+      -0.08682408883346515,
+      0.8660254037844387,
+      -0.49240387650610395
+    ],
+    "right": [
+      0.984807753012208,
+      0.0,
+      -0.17364817766693033
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -344186.0472222222,
+    "z": 699061.6944444445,
+    "alt_m": 1838.6944444444443,
+    "lat": 41.63576742962653,
+    "lon": 42.58297629572102,
+    "dms": "N41°38'08.76\" E042°34'58.71\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:05",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] Red Modern Manpad Squad#11316",
+      "type": "SA-18 Igla-S manpad",
+      "x": -348150.6,
+      "z": 703574.0,
+      "alt": 2055.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] Red Modern Manpad Squad#11316",
+      "type": "Infantry AK ver2",
+      "x": -348115.6,
+      "z": 703591.0,
+      "alt": 2057.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] Red Modern Manpad Squad#11316",
+      "type": "Infantry AK ver2",
+      "x": -348208.6,
+      "z": 703723.0,
+      "alt": 2049.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] Red Modern Manpad Squad#11316",
+      "type": "Infantry AK ver2",
+      "x": -348048.6,
+      "z": 703545.0,
+      "alt": 2062.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] Red Modern Manpad Squad#11316",
+      "type": "Tigr_233036",
+      "x": -348130.6,
+      "z": 703592.0,
+      "alt": 2055.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-convoi#11308",
+      "type": "GAZ-3307",
+      "x": -339317.7,
+      "z": 714440.5,
+      "alt": 1116.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-convoi#11308",
+      "type": "GAZ-3307",
+      "x": -339321.4,
+      "z": 714447.7,
+      "alt": 1116.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-convoi#11308",
+      "type": "GAZ-3307",
+      "x": -339301.4,
+      "z": 714447.7,
+      "alt": 1117.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-convoi#11308",
+      "type": "GAZ-3307",
+      "x": -339281.4,
+      "z": 714447.7,
+      "alt": 1117.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-convoi#11308",
+      "type": "GAZ-3307",
+      "x": -339261.4,
+      "z": 714447.7,
+      "alt": 1118.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-convoi#11308",
+      "type": "ZSU-23-4 Shilka",
+      "x": -339241.4,
+      "z": 714447.7,
+      "alt": 1119.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-infanterie#11300",
+      "type": "Infantry AK",
+      "x": -344709.0,
+      "z": 694540.0,
+      "alt": 1962.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-infanterie#11300",
+      "type": "Infantry AK",
+      "x": -344689.0,
+      "z": 694540.0,
+      "alt": 1962.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-infanterie#11300",
+      "type": "Infantry AK",
+      "x": -344669.0,
+      "z": 694540.0,
+      "alt": 1962.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-infanterie#11300",
+      "type": "Infantry AK",
+      "x": -344649.0,
+      "z": 694540.0,
+      "alt": 1962.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-infanterie#11300",
+      "type": "Paratrooper RPG-16",
+      "x": -344629.0,
+      "z": 694540.0,
+      "alt": 1962.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-infanterie#11300",
+      "type": "Paratrooper RPG-16",
+      "x": -344609.0,
+      "z": 694540.0,
+      "alt": 1962.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-07#11302 #250",
+      "type": ".Command Center",
+      "x": -344519.0,
+      "z": 694455.0,
+      "alt": 1971.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-14#11312 #257",
+      "type": "FARP Fuel Depot",
+      "x": -344547.0,
+      "z": 694400.0,
+      "alt": 1972.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-13#11315 #256",
+      "type": ".Ammunition depot",
+      "x": -344530.0,
+      "z": 694415.0,
+      "alt": 1973.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-04#11297 #247",
+      "type": "Sandbox",
+      "x": -344421.0,
+      "z": 693580.0,
+      "alt": 2008.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-19#11298 #262",
+      "type": "T-72B",
+      "x": -344509.0,
+      "z": 694493.0,
+      "alt": 1969.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-18#11299 #261",
+      "type": "T-72B",
+      "x": -344515.0,
+      "z": 694493.0,
+      "alt": 1968.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-01#11301 #244",
+      "type": "outpost_road",
+      "x": -344698.0,
+      "z": 695286.0,
+      "alt": 1919.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-17#11303 #260",
+      "type": "T-72B",
+      "x": -344520.0,
+      "z": 694493.0,
+      "alt": 1968.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-16#11304 #259",
+      "type": "T-72B",
+      "x": -344525.0,
+      "z": 694493.0,
+      "alt": 1968.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-06#11305 #249",
+      "type": "Sandbox",
+      "x": -344842.0,
+      "z": 695028.0,
+      "alt": 1929.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-15#11306 #258",
+      "type": "T-72B",
+      "x": -344531.0,
+      "z": 694493.0,
+      "alt": 1968.1
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-03#11307 #246",
+      "type": "Sandbox",
+      "x": -344424.0,
+      "z": 693756.0,
+      "alt": 2005.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-12#11309 #255",
+      "type": "BTR-80",
+      "x": -344534.0,
+      "z": 694379.0,
+      "alt": 1974.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-08#11310 #251",
+      "type": "BTR-80",
+      "x": -344525.0,
+      "z": 694401.0,
+      "alt": 1974.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-11#11311 #254",
+      "type": "BTR-80",
+      "x": -344532.0,
+      "z": 694385.0,
+      "alt": 1974.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-02#11313 #245",
+      "type": "outpost_road",
+      "x": -344572.0,
+      "z": 693826.0,
+      "alt": 1986.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-10#11314 #253",
+      "type": "BTR-80",
+      "x": -344529.0,
+      "z": 694391.0,
+      "alt": 1974.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-09#11317 #252",
+      "type": "BTR-80",
+      "x": -344527.0,
+      "z": 694396.0,
+      "alt": 1982.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_RoadBlock_KM91 [r] combatZone_RoadBlock_KM91-poste-05#11318 #248",
+      "type": "Sandbox",
+      "x": -344565.0,
+      "z": 695114.0,
+      "alt": 1943.8
+    }
+  ],
+  "image": "roadblock-km91.jpg",
+  "heading": 260,
+  "pitch": -30.0,
+  "x": -343283.74482313957,
+  "y": 704178.9056361591,
+  "altitude_m": 4839,
+  "order": 15
+}

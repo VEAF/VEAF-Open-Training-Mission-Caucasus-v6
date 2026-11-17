@@ -1,0 +1,474 @@
+{
+  "name": "kobuleti-hard",
+  "title": "Kobuleti - hélicoptères - difficile",
+  "heading_deg": 267.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Kobuleti_Hard",
+  "camera": {
+    "position": [
+      -328208.7601634043,
+      3009.413461538461,
+      636224.0255071706
+    ],
+    "forward": [
+      -0.045324267637740556,
+      -0.49999999999999994,
+      -0.8648385460668959
+    ],
+    "up": [
+      -0.02616797812147215,
+      0.8660254037844387,
+      -0.49931476737728686
+    ],
+    "right": [
+      0.9986295347545738,
+      0.0,
+      -0.052335956242944306
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -328480.7057692307,
+    "z": 631034.9942307692,
+    "alt_m": 9.413461538461538,
+    "lat": 41.84055042099286,
+    "lon": 41.795519503709166,
+    "dms": "N41°50'25.98\" E041°47'43.87\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:00",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11190",
+      "type": "SA-18 Igla-S manpad",
+      "x": -327527.8,
+      "z": 629681.9,
+      "alt": 5.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11190",
+      "type": "Infantry AK ver2",
+      "x": -327749.8,
+      "z": 629530.9,
+      "alt": 5.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11190",
+      "type": "Infantry AK ver2",
+      "x": -327577.8,
+      "z": 629523.9,
+      "alt": 5.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11190",
+      "type": "Infantry AK ver2",
+      "x": -327537.8,
+      "z": 629577.9,
+      "alt": 5.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11190",
+      "type": "Infantry AK ver2",
+      "x": -327726.8,
+      "z": 629686.9,
+      "alt": 5.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11190",
+      "type": "Infantry AK ver2",
+      "x": -327646.8,
+      "z": 629528.9,
+      "alt": 5.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11190",
+      "type": "Tigr_233036",
+      "x": -327525.8,
+      "z": 629613.9,
+      "alt": 5.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] SA9#11189",
+      "type": "Strela-1 9P31",
+      "x": -327883.8,
+      "z": 632939.9,
+      "alt": 17.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] SA9#11189",
+      "type": "GAZ-66",
+      "x": -327856.8,
+      "z": 632928.9,
+      "alt": 17.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11188",
+      "type": "SA-18 Igla-S manpad",
+      "x": -329630.6,
+      "z": 630164.3,
+      "alt": 5.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11188",
+      "type": "Infantry AK ver2",
+      "x": -329514.6,
+      "z": 630197.3,
+      "alt": 5.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11188",
+      "type": "Infantry AK ver2",
+      "x": -329703.6,
+      "z": 630205.3,
+      "alt": 5.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11188",
+      "type": "Infantry AK ver2",
+      "x": -329628.6,
+      "z": 630196.3,
+      "alt": 5.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11188",
+      "type": "Infantry AK ver2",
+      "x": -329586.6,
+      "z": 630261.3,
+      "alt": 5.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11188",
+      "type": "Infantry AK ver2",
+      "x": -329545.6,
+      "z": 630137.3,
+      "alt": 5.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Red Modern Manpad Squad#11188",
+      "type": "Tigr_233036",
+      "x": -329523.6,
+      "z": 630097.3,
+      "alt": 5.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Ural-375 ZU-23#11178",
+      "type": "Ural-375 ZU-23",
+      "x": -327329.7,
+      "z": 632014.2,
+      "alt": 10.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] Ural-375 ZU-23#11176",
+      "type": "Ural-375 ZU-23",
+      "x": -329162.0,
+      "z": 631957.1,
+      "alt": 11.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] SA8#11174",
+      "type": "Osa 9A33 ln",
+      "x": -329904.3,
+      "z": 632363.1,
+      "alt": 15.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] SA8#11174",
+      "type": "GAZ-66",
+      "x": -329934.3,
+      "z": 632366.1,
+      "alt": 15.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] SA15#11173",
+      "type": "Tor 9A331",
+      "x": -330272.0,
+      "z": 631224.0,
+      "alt": 12.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Kobuleti_Hard [r] SA15#11173",
+      "type": "GAZ-66",
+      "x": -330284.0,
+      "z": 631212.0,
+      "alt": 12.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-02#11171 #113",
+      "type": "Electric power box",
+      "x": -328037.0,
+      "z": 631321.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-04#11180 #115",
+      "type": "Container white",
+      "x": -328221.0,
+      "z": 631328.0,
+      "alt": 9.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-31#11181 #142",
+      "type": "Mi-24V",
+      "x": -328019.0,
+      "z": 631416.0,
+      "alt": 11.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-03#11185 #114",
+      "type": "Container red 3",
+      "x": -328159.0,
+      "z": 631357.0,
+      "alt": 9.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-06#11186 #117",
+      "type": "Windsock",
+      "x": -328446.0,
+      "z": 631199.0,
+      "alt": 9.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-08#11192 #119",
+      "type": "FARP Tent",
+      "x": -328490.0,
+      "z": 631094.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-05#11198 #116",
+      "type": "Small werehouse 2",
+      "x": -328698.0,
+      "z": 630968.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-21#11204 #132",
+      "type": "A-50",
+      "x": -327938.0,
+      "z": 631432.0,
+      "alt": 14.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-01#11206 #112",
+      "type": "Ka-27",
+      "x": -328068.0,
+      "z": 631390.0,
+      "alt": 12.1
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-13#11168 #124",
+      "type": "MAZ-6303",
+      "x": -328192.0,
+      "z": 631190.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-16#11169 #127",
+      "type": "VAZ Car",
+      "x": -328450.0,
+      "z": 631274.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-20#11170 #131",
+      "type": "BTR_D",
+      "x": -328806.0,
+      "z": 631383.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-19#11172 #130",
+      "type": "KAMAZ Truck",
+      "x": -328715.0,
+      "z": 631355.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-17#11175 #128",
+      "type": "ZIL-4331",
+      "x": -328534.0,
+      "z": 631297.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-18#11182 #129",
+      "type": "MTLB",
+      "x": -328626.0,
+      "z": 631326.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-30#11183 #141",
+      "type": "Scud_B",
+      "x": -328256.0,
+      "z": 631238.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-29#11184 #140",
+      "type": "Scud_B",
+      "x": -328226.0,
+      "z": 631258.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-28#11187 #139",
+      "type": "Scud_B",
+      "x": -328199.0,
+      "z": 631275.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-10#11191 #121",
+      "type": "GAZ-3307",
+      "x": -327902.0,
+      "z": 631099.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-09#11193 #120",
+      "type": "house2arm",
+      "x": -328381.0,
+      "z": 631165.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-27#11194 #138",
+      "type": "Scud_B",
+      "x": -328168.0,
+      "z": 631293.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-26#11195 #137",
+      "type": "T-90",
+      "x": -328133.0,
+      "z": 631411.0,
+      "alt": 9.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-25#11196 #136",
+      "type": "T-90",
+      "x": -328119.0,
+      "z": 631417.0,
+      "alt": 9.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-24#11197 #135",
+      "type": "T-90",
+      "x": -328152.0,
+      "z": 631413.0,
+      "alt": 9.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-23#11199 #134",
+      "type": "T-90",
+      "x": -328111.0,
+      "z": 631435.0,
+      "alt": 9.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-22#11200 #133",
+      "type": "T-90",
+      "x": -328170.0,
+      "z": 631423.0,
+      "alt": 9.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-15#11201 #126",
+      "type": "Trolley bus",
+      "x": -328355.0,
+      "z": 631243.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-14#11202 #125",
+      "type": "Tigr_233036",
+      "x": -328275.0,
+      "z": 631116.0,
+      "alt": 9.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-12#11203 #123",
+      "type": "LAZ Bus",
+      "x": -328098.0,
+      "z": 631160.0,
+      "alt": 10.0
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Kobuleti_Hard [r] combatZone_Kobuleti_Easy-cible-11#11205 #122",
+      "type": "IKARUS Bus",
+      "x": -328000.0,
+      "z": 631135.0,
+      "alt": 10.0
+    }
+  ],
+  "image": "kobuleti-hard.jpg",
+  "heading": 267,
+  "pitch": -30.0,
+  "x": -328208.7601634043,
+  "y": 636224.0255071706,
+  "altitude_m": 3009,
+  "order": 3
+}

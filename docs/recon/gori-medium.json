@@ -1,0 +1,178 @@
+{
+  "name": "gori-medium",
+  "title": "Gori - SEAD - moyen",
+  "heading_deg": 298.0,
+  "pitch_deg": 30.0,
+  "slant_m": 4550.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Gori_Medium",
+  "camera": {
+    "position": [
+      -281887.93306375766,
+      3105.4199999999996,
+      833517.0004575991
+    ],
+    "forward": [
+      0.40657429972696224,
+      -0.49999999999999994,
+      -0.7646550456261505
+    ],
+    "up": [
+      0.23473578139294518,
+      0.8660254037844387,
+      -0.4414737964294635
+    ],
+    "right": [
+      0.8829475928589271,
+      0.0,
+      0.4694715627858904
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -280038.01999999996,
+    "z": 830037.8200000001,
+    "alt_m": 830.42,
+    "lat": 42.06185260703459,
+    "lon": 44.227883253287416,
+    "dms": "N42°03'42.67\" E044°13'40.38\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:02",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "Kub 1S91 str",
+      "x": -280002.0,
+      "z": 830023.0,
+      "alt": 849.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "Kub 2P25 ln",
+      "x": -279952.0,
+      "z": 830018.0,
+      "alt": 850.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "Kub 2P25 ln",
+      "x": -280001.0,
+      "z": 829955.0,
+      "alt": 847.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "Kub 2P25 ln",
+      "x": -279994.0,
+      "z": 830034.0,
+      "alt": 849.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "Kub 2P25 ln",
+      "x": -280043.0,
+      "z": 830025.0,
+      "alt": 848.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "ZSU-23-4 Shilka",
+      "x": -280020.0,
+      "z": 830000.0,
+      "alt": 848.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "ZSU-23-4 Shilka",
+      "x": -279998.0,
+      "z": 829981.0,
+      "alt": 848.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "ATZ-5",
+      "x": -280022.0,
+      "z": 829956.0,
+      "alt": 847.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "ZIL-135",
+      "x": -279972.0,
+      "z": 829965.0,
+      "alt": 848.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA6#11258",
+      "type": "Ural-375 PBU",
+      "x": -279972.0,
+      "z": 829975.0,
+      "alt": 848.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA15#11257",
+      "type": "Tor 9A331",
+      "x": -278922.3,
+      "z": 831074.7,
+      "alt": 808.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA15#11257",
+      "type": "GAZ-66",
+      "x": -278953.3,
+      "z": 831057.7,
+      "alt": 809.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] ZSU-23-4 Shilka#11255",
+      "type": "ZSU-23-4 Shilka",
+      "x": -280590.3,
+      "z": 830634.3,
+      "alt": 827.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA8#11254",
+      "type": "Osa 9A33 ln",
+      "x": -281067.7,
+      "z": 828946.3,
+      "alt": 763.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Medium [r] SA8#11254",
+      "type": "GAZ-66",
+      "x": -281060.7,
+      "z": 828922.3,
+      "alt": 761.2
+    }
+  ],
+  "image": "gori-medium.jpg",
+  "heading": 298,
+  "pitch": -30.0,
+  "x": -281887.93306375766,
+  "y": 833517.0004575991,
+  "altitude_m": 3105,
+  "order": 8
+}

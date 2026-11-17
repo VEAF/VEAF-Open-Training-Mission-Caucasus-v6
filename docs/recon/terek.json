@@ -1,0 +1,570 @@
+{
+  "name": "terek",
+  "title": "Parc logistique de Terek",
+  "heading_deg": 338.0,
+  "pitch_deg": 30.0,
+  "slant_m": 5200.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Terek",
+  "camera": {
+    "position": [
+      -118240.2574395748,
+      2908.7390624999994,
+      818944.7185218813
+    ],
+    "forward": [
+      0.8029647720336143,
+      -0.49999999999999994,
+      -0.3244188263233285
+    ],
+    "up": [
+      0.4635919272833936,
+      0.8660254037844387,
+      -0.18730329670795615
+    ],
+    "right": [
+      0.37460659341591235,
+      0.0,
+      0.9271838545667873
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -114064.840625,
+    "z": 817257.740625,
+    "alt_m": 308.7390625,
+    "lat": 43.5428568401437,
+    "lon": 44.34454831784676,
+    "dms": "N43°32'34.28\" E044°20'40.37\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:04",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZIL-131 KUNG",
+      "x": -114359.5,
+      "z": 816288.3,
+      "alt": 305.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "Ural-375",
+      "x": -114433.5,
+      "z": 817211.3,
+      "alt": 307.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "SKP-11",
+      "x": -114126.5,
+      "z": 816947.3,
+      "alt": 308.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZIL-131 KUNG",
+      "x": -114112.5,
+      "z": 816228.3,
+      "alt": 307.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "SKP-11",
+      "x": -113837.5,
+      "z": 816233.3,
+      "alt": 314.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "KAMAZ Truck",
+      "x": -114546.5,
+      "z": 817043.3,
+      "alt": 308.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "SKP-11",
+      "x": -114069.5,
+      "z": 816425.3,
+      "alt": 308.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZIL-131 KUNG",
+      "x": -113793.5,
+      "z": 816536.3,
+      "alt": 313.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "Ural-4320 APA-5D",
+      "x": -114194.5,
+      "z": 816688.3,
+      "alt": 308.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "Tigr_233036",
+      "x": -113580.5,
+      "z": 817043.3,
+      "alt": 316.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZIL-131 KUNG",
+      "x": -113765.5,
+      "z": 817129.3,
+      "alt": 308.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "Ural-375",
+      "x": -113794.5,
+      "z": 816839.3,
+      "alt": 311.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZIL-135",
+      "x": -114180.5,
+      "z": 816583.3,
+      "alt": 308.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "KrAZ6322",
+      "x": -114501.5,
+      "z": 816703.3,
+      "alt": 308.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "Tigr_233036",
+      "x": -113582.5,
+      "z": 816377.3,
+      "alt": 321.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZSU_57_2",
+      "x": -113935.5,
+      "z": 816723.3,
+      "alt": 309.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ATZ-5",
+      "x": -114286.5,
+      "z": 817199.3,
+      "alt": 307.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZSU_57_2",
+      "x": -113879.5,
+      "z": 816642.3,
+      "alt": 310.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "KAMAZ Truck",
+      "x": -113619.5,
+      "z": 816890.3,
+      "alt": 316.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ATZ-5",
+      "x": -114448.5,
+      "z": 816541.3,
+      "alt": 308.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "KAMAZ Truck",
+      "x": -114020.5,
+      "z": 816484.3,
+      "alt": 308.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZIL-135",
+      "x": -114607.5,
+      "z": 816444.3,
+      "alt": 308.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ATZ-60_Maz",
+      "x": -114275.5,
+      "z": 816903.3,
+      "alt": 308.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZSU_57_2",
+      "x": -114257.5,
+      "z": 816800.3,
+      "alt": 308.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "Ural-4320 APA-5D",
+      "x": -113529.5,
+      "z": 816539.3,
+      "alt": 322.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "GAZ-66",
+      "x": -113775.5,
+      "z": 816814.3,
+      "alt": 312.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "KAMAZ Truck",
+      "x": -113666.5,
+      "z": 816198.3,
+      "alt": 319.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Transport Company#11281",
+      "type": "ZIL-135",
+      "x": -114026.5,
+      "z": 816290.3,
+      "alt": 308.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -113701.0,
+      "z": 818359.1,
+      "alt": 305.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "BMP-1",
+      "x": -113453.0,
+      "z": 817934.1,
+      "alt": 306.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -113470.0,
+      "z": 818162.1,
+      "alt": 305.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -113893.0,
+      "z": 818576.1,
+      "alt": 305.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -114431.0,
+      "z": 818239.1,
+      "alt": 306.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -114121.0,
+      "z": 817709.1,
+      "alt": 306.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -114748.0,
+      "z": 817742.1,
+      "alt": 307.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -113975.0,
+      "z": 818499.1,
+      "alt": 305.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -114745.0,
+      "z": 817984.1,
+      "alt": 307.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver2",
+      "x": -114513.0,
+      "z": 817699.1,
+      "alt": 307.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -114662.0,
+      "z": 818577.1,
+      "alt": 306.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -113978.0,
+      "z": 817623.1,
+      "alt": 306.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -114574.0,
+      "z": 817930.1,
+      "alt": 307.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -114202.0,
+      "z": 818160.1,
+      "alt": 306.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -113944.0,
+      "z": 818540.1,
+      "alt": 305.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver2",
+      "x": -113632.0,
+      "z": 817883.1,
+      "alt": 306.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -113958.0,
+      "z": 818136.1,
+      "alt": 306.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -113725.0,
+      "z": 818077.1,
+      "alt": 306.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -114011.0,
+      "z": 817756.1,
+      "alt": 306.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver2",
+      "x": -113606.0,
+      "z": 817831.1,
+      "alt": 306.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver2",
+      "x": -114057.0,
+      "z": 817953.1,
+      "alt": 306.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -114391.0,
+      "z": 818678.1,
+      "alt": 305.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -113548.0,
+      "z": 817772.1,
+      "alt": 306.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver3",
+      "x": -114303.0,
+      "z": 818411.1,
+      "alt": 306.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver2",
+      "x": -113794.0,
+      "z": 818632.1,
+      "alt": 305.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver2",
+      "x": -114430.0,
+      "z": 818052.1,
+      "alt": 306.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Infantry AK ver2",
+      "x": -113833.0,
+      "z": 818372.1,
+      "alt": 305.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "ZSU-23-4 Shilka",
+      "x": -113850.0,
+      "z": 817833.1,
+      "alt": 306.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "ZSU_57_2",
+      "x": -114253.0,
+      "z": 818415.1,
+      "alt": 306.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Infantry Section#11280",
+      "type": "Paratrooper RPG-16",
+      "x": -114606.0,
+      "z": 818318.1,
+      "alt": 306.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Red Modern Manpad Squad#11279",
+      "type": "SA-18 Igla-S manpad",
+      "x": -114122.8,
+      "z": 815704.5,
+      "alt": 309.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Red Modern Manpad Squad#11279",
+      "type": "SA-18 Igla-S manpad",
+      "x": -114100.8,
+      "z": 815725.5,
+      "alt": 310.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Red Modern Manpad Squad#11279",
+      "type": "Infantry AK ver2",
+      "x": -114181.8,
+      "z": 815653.5,
+      "alt": 308.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Red Modern Manpad Squad#11279",
+      "type": "Infantry AK ver2",
+      "x": -114025.8,
+      "z": 815693.5,
+      "alt": 312.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Red Modern Manpad Squad#11279",
+      "type": "Infantry AK ver2",
+      "x": -114003.8,
+      "z": 815598.5,
+      "alt": 312.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Terek [r] Red Modern Manpad Squad#11279",
+      "type": "Tigr_233036",
+      "x": -114100.8,
+      "z": 815516.5,
+      "alt": 310.1
+    }
+  ],
+  "image": "terek.jpg",
+  "heading": 338,
+  "pitch": -30.0,
+  "x": -118240.2574395748,
+  "y": 818944.7185218813,
+  "altitude_m": 2909,
+  "order": 11
+}

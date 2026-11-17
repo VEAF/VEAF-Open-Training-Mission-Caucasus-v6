@@ -1,0 +1,242 @@
+{
+  "name": "psebay-sam",
+  "title": "Sites SAM de Psebay",
+  "heading_deg": 302.0,
+  "pitch_deg": 30.0,
+  "slant_m": 3150.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Psebay_SAM",
+  "camera": {
+    "position": [
+      -78376.51351388534,
+      2310.891304347826,
+      522759.6452204646
+    ],
+    "forward": [
+      0.45892354478071373,
+      -0.49999999999999994,
+      -0.7344311949024934
+    ],
+    "up": [
+      0.2649596321166023,
+      0.8660254037844387,
+      -0.424024048078213
+    ],
+    "right": [
+      0.8480480961564261,
+      0.0,
+      0.5299192642332047
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -76930.90434782609,
+    "z": 520446.18695652176,
+    "alt_m": 735.8913043478261,
+    "lat": 44.17987016934254,
+    "lon": 40.75552536582211,
+    "dms": "N44°10'47.53\" E040°45'19.89\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:05",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "SNR_75V",
+      "x": -77254.0,
+      "z": 520391.0,
+      "alt": 758.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "p-19 s-125 sr",
+      "x": -77323.0,
+      "z": 520463.0,
+      "alt": 752.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "S_75M_Volhov",
+      "x": -77224.0,
+      "z": 520378.0,
+      "alt": 762.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "S_75M_Volhov",
+      "x": -77210.0,
+      "z": 520438.0,
+      "alt": 752.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "S_75M_Volhov",
+      "x": -77256.0,
+      "z": 520356.0,
+      "alt": 764.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "S_75M_Volhov",
+      "x": -77259.0,
+      "z": 520462.0,
+      "alt": 750.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "S_75M_Volhov",
+      "x": -77291.0,
+      "z": 520380.0,
+      "alt": 758.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "S_75M_Volhov",
+      "x": -77304.0,
+      "z": 520433.0,
+      "alt": 754.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "ZSU_57_2",
+      "x": -77284.0,
+      "z": 520365.0,
+      "alt": 761.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "S-60_Type59_Artillery",
+      "x": -77238.0,
+      "z": 520455.0,
+      "alt": 750.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA2#11292",
+      "type": "ZIL-135",
+      "x": -77273.0,
+      "z": 520413.0,
+      "alt": 754.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] ZSU-23-4 Shilka#11290",
+      "type": "ZSU-23-4 Shilka",
+      "x": -76410.8,
+      "z": 519638.3,
+      "alt": 746.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "Kub 1S91 str",
+      "x": -76816.0,
+      "z": 520585.0,
+      "alt": 720.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "Kub 2P25 ln",
+      "x": -76772.0,
+      "z": 520586.0,
+      "alt": 718.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "Kub 2P25 ln",
+      "x": -76821.0,
+      "z": 520515.0,
+      "alt": 729.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "Kub 2P25 ln",
+      "x": -76822.0,
+      "z": 520593.0,
+      "alt": 719.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "Kub 2P25 ln",
+      "x": -76838.0,
+      "z": 520576.0,
+      "alt": 722.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "ZSU-23-4 Shilka",
+      "x": -76792.0,
+      "z": 520602.0,
+      "alt": 717.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "ATZ-5",
+      "x": -76806.0,
+      "z": 520561.0,
+      "alt": 722.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "ZIL-135",
+      "x": -76786.0,
+      "z": 520537.0,
+      "alt": 724.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA6#11289",
+      "type": "Ural-375 PBU",
+      "x": -76845.0,
+      "z": 520555.0,
+      "alt": 725.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA15#11288",
+      "type": "Tor 9A331",
+      "x": -75898.0,
+      "z": 520490.0,
+      "alt": 679.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_SAM [r] SA15#11288",
+      "type": "GAZ-66",
+      "x": -75888.0,
+      "z": 520490.0,
+      "alt": 678.9
+    }
+  ],
+  "image": "psebay-sam.jpg",
+  "heading": 302,
+  "pitch": -30.0,
+  "x": -78376.51351388534,
+  "y": 522759.6452204646,
+  "altitude_m": 2311,
+  "order": 13
+}

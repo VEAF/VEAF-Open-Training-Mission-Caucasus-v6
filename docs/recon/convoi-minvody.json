@@ -1,0 +1,130 @@
+{
+  "name": "convoi-minvody",
+  "title": "Convoi Mineralnye Vody - Baksan",
+  "heading_deg": 325.0,
+  "pitch_deg": 30.0,
+  "slant_m": 600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Convoi_MinVody",
+  "camera": {
+    "position": [
+      -52952.63277683862,
+      607.6888888888889,
+      710587.3390589353
+    ],
+    "forward": [
+      0.7094064799162223,
+      -0.49999999999999994,
+      -0.4967317648921544
+    ],
+    "up": [
+      0.40957602214449573,
+      0.8660254037844387,
+      -0.2867882181755232
+    ],
+    "right": [
+      0.5735764363510465,
+      0.0,
+      0.8191520442889916
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -52526.98888888888,
+    "z": 710289.3,
+    "alt_m": 307.6888888888889,
+    "lat": 44.211602915981615,
+    "lon": 43.13538955642853,
+    "dms": "N44°12'41.77\" E043°08'07.40\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:06",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "Ural-375",
+      "x": -52605.3,
+      "z": 710306.9,
+      "alt": 308.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "Ural-375",
+      "x": -52587.2,
+      "z": 710287.1,
+      "alt": 308.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "Ural-375",
+      "x": -52567.2,
+      "z": 710287.1,
+      "alt": 308.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "Ural-375",
+      "x": -52547.2,
+      "z": 710287.1,
+      "alt": 308.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "Ural-375",
+      "x": -52527.2,
+      "z": 710287.1,
+      "alt": 307.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "Ural-375",
+      "x": -52507.2,
+      "z": 710287.1,
+      "alt": 307.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "BMP-2",
+      "x": -52487.2,
+      "z": 710287.1,
+      "alt": 307.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "BMP-2",
+      "x": -52467.2,
+      "z": 710287.1,
+      "alt": 307.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Convoi_MinVody [r] combatZone_Convoi_MinVody-convoi#11320",
+      "type": "ZSU-23-4 Shilka",
+      "x": -52447.2,
+      "z": 710287.1,
+      "alt": 306.8
+    }
+  ],
+  "image": "convoi-minvody.jpg",
+  "heading": 325,
+  "pitch": -30.0,
+  "x": -52952.63277683862,
+  "y": 710587.3390589353,
+  "altitude_m": 608,
+  "order": 17
+}

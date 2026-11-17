@@ -30,3 +30,8 @@ src/scripts/veaf-config.lua
 
 # Intermediate maps of build_mission_briefing: the kneeboard pages are in src/mission/KNEEBOARD/IMAGES/
 /docs/maps/
+
+# Photos de reconnaissance : originaux pleine résolution et fichiers de travail de la prise de vue
+# (le dépôt garde les copies 1400 px de docs/recon/, qui suffisent au kneeboard)
+/docs/recon-originals/
+/docs/build/

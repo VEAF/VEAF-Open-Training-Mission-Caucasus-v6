@@ -1,0 +1,274 @@
+{
+  "name": "gori-hard",
+  "title": "Gori - SEAD - difficile",
+  "heading_deg": 298.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Gori_Hard",
+  "camera": {
+    "position": [
+      -282557.7606131766,
+      3777.244444444444,
+      833068.4339774606
+    ],
+    "forward": [
+      0.40657429972696224,
+      -0.49999999999999994,
+      -0.7646550456261505
+    ],
+    "up": [
+      0.23473578139294518,
+      0.8660254037844387,
+      -0.4414737964294635
+    ],
+    "right": [
+      0.8829475928589271,
+      0.0,
+      0.4694715627858904
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -280118.31481481483,
+    "z": 828480.5037037038,
+    "alt_m": 777.2444444444444,
+    "lat": 42.06297148118306,
+    "lon": 44.20929462973206,
+    "dms": "N42°03'46.70\" E044°12'33.46\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:03",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "Kub 1S91 str",
+      "x": -279991.0,
+      "z": 830003.0,
+      "alt": 849.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "Kub 2P25 ln",
+      "x": -279944.0,
+      "z": 830008.0,
+      "alt": 849.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "Kub 2P25 ln",
+      "x": -279985.0,
+      "z": 829956.0,
+      "alt": 847.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "Kub 2P25 ln",
+      "x": -279989.0,
+      "z": 830044.0,
+      "alt": 849.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "Kub 2P25 ln",
+      "x": -280051.0,
+      "z": 829996.0,
+      "alt": 848.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "ZSU-23-4 Shilka",
+      "x": -279949.0,
+      "z": 829976.0,
+      "alt": 849.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "ATZ-5",
+      "x": -279968.0,
+      "z": 830004.0,
+      "alt": 849.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "ZIL-135",
+      "x": -280014.0,
+      "z": 830028.0,
+      "alt": 849.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA6#11265",
+      "type": "Ural-375 PBU",
+      "x": -280029.0,
+      "z": 830034.0,
+      "alt": 849.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA15#11264",
+      "type": "Tor 9A331",
+      "x": -278946.3,
+      "z": 831075.7,
+      "alt": 808.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA15#11264",
+      "type": "GAZ-66",
+      "x": -278937.3,
+      "z": 831047.7,
+      "alt": 809.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk SR 9S18M1",
+      "x": -279991.0,
+      "z": 826538.0,
+      "alt": 717.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk CC 9S470M1",
+      "x": -279986.0,
+      "z": 826479.0,
+      "alt": 717.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -279948.0,
+      "z": 826435.0,
+      "alt": 717.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -279954.0,
+      "z": 826524.0,
+      "alt": 718.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -279952.0,
+      "z": 826567.0,
+      "alt": 718.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -280035.0,
+      "z": 826568.0,
+      "alt": 717.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -280055.0,
+      "z": 826498.0,
+      "alt": 716.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "SA-11 Buk LN 9A310M1",
+      "x": -280046.0,
+      "z": 826568.0,
+      "alt": 717.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "ZSU-23-4 Shilka",
+      "x": -280049.0,
+      "z": 826463.0,
+      "alt": 716.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "ZSU-23-4 Shilka",
+      "x": -279968.0,
+      "z": 826501.0,
+      "alt": 717.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "ATZ-5",
+      "x": -280017.0,
+      "z": 826559.0,
+      "alt": 717.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA11#11263",
+      "type": "Ural-375",
+      "x": -279995.0,
+      "z": 826564.0,
+      "alt": 718.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] ZSU-23-4 Shilka#11261",
+      "type": "ZSU-23-4 Shilka",
+      "x": -280618.2,
+      "z": 830641.5,
+      "alt": 826.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] combatZone_Gori_Hard-ewr#11260",
+      "type": "55G6 EWR",
+      "x": -282656.3,
+      "z": 830005.1,
+      "alt": 760.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA8#11259",
+      "type": "Osa 9A33 ln",
+      "x": -281057.7,
+      "z": 828933.3,
+      "alt": 762.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Hard [r] SA8#11259",
+      "type": "GAZ-66",
+      "x": -281062.7,
+      "z": 828957.3,
+      "alt": 763.9
+    }
+  ],
+  "image": "gori-hard.jpg",
+  "heading": 298,
+  "pitch": -30.0,
+  "x": -282557.7606131766,
+  "y": 833068.4339774606,
+  "altitude_m": 3777,
+  "order": 9
+}

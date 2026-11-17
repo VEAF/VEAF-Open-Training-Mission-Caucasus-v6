@@ -1,0 +1,258 @@
+{
+  "name": "psebay-usine",
+  "title": "Usine d'armes chimiques de Psebay",
+  "heading_deg": 303.0,
+  "pitch_deg": 30.0,
+  "slant_m": 1750.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Psebay_Usine",
+  "camera": {
+    "position": [
+      -76323.7646703774,
+      1606.46,
+      526270.6305301824
+    ],
+    "forward": [
+      0.4716712402156555,
+      -0.49999999999999994,
+      -0.7263100172470606
+    ],
+    "up": [
+      0.27231951750751326,
+      0.8660254037844387,
+      -0.4193352839727121
+    ],
+    "right": [
+      0.8386705679454243,
+      0.0,
+      0.5446390350150266
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -75498.34,
+    "z": 524999.588,
+    "alt_m": 731.46,
+    "lat": 44.188778611281045,
+    "lon": 40.81366207252532,
+    "dms": "N44°11'19.60\" E040°48'49.18\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:07",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] Ural-375 ZU-23#11333",
+      "type": "Ural-375 ZU-23",
+      "x": -75711.8,
+      "z": 524539.7,
+      "alt": 718.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] ZSU-23-4 Shilka#11331",
+      "type": "ZSU-23-4 Shilka",
+      "x": -75740.3,
+      "z": 525534.6,
+      "alt": 719.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-blindes#11326",
+      "type": "T-90",
+      "x": -75476.1,
+      "z": 525428.6,
+      "alt": 742.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-blindes#11326",
+      "type": "T-90",
+      "x": -75456.1,
+      "z": 525428.6,
+      "alt": 743.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-blindes#11326",
+      "type": "BMP-3",
+      "x": -75436.1,
+      "z": 525428.6,
+      "alt": 744.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-blindes#11326",
+      "type": "BMP-3",
+      "x": -75416.1,
+      "z": 525428.6,
+      "alt": 745.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] SA15#11324",
+      "type": "Tor 9A331",
+      "x": -74919.5,
+      "z": 525028.5,
+      "alt": 721.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Psebay_Usine [r] SA15#11324",
+      "type": "GAZ-66",
+      "x": -74937.5,
+      "z": 525039.5,
+      "alt": 723.4
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-02#11321 #291",
+      "type": "Fuel tank",
+      "x": -75595.0,
+      "z": 524900.0,
+      "alt": 730.2
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-09#11322 #298",
+      "type": ".Ammunition depot",
+      "x": -75636.0,
+      "z": 524963.0,
+      "alt": 734.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-10#11323 #299",
+      "type": "Barracks 2",
+      "x": -75500.0,
+      "z": 524863.0,
+      "alt": 728.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-03#11325 #292",
+      "type": "Fuel tank",
+      "x": -75612.0,
+      "z": 524925.0,
+      "alt": 731.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-07#11328 #296",
+      "type": "FARP Fuel Depot",
+      "x": -75630.0,
+      "z": 524952.0,
+      "alt": 741.1
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-17#11335 #306",
+      "type": "Tech combine",
+      "x": -75386.0,
+      "z": 524733.0,
+      "alt": 717.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-11#11336 #300",
+      "type": "Barracks 2",
+      "x": -75509.0,
+      "z": 524880.0,
+      "alt": 730.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-16#11337 #305",
+      "type": "Tech combine",
+      "x": -75417.0,
+      "z": 524783.0,
+      "alt": 722.5
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-04#11338 #293",
+      "type": "Fuel tank",
+      "x": -75603.0,
+      "z": 524913.0,
+      "alt": 730.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-15#11339 #304",
+      "type": "Comms tower M",
+      "x": -75442.0,
+      "z": 525027.0,
+      "alt": 744.1
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-14#11340 #303",
+      "type": ".Command Center",
+      "x": -75551.0,
+      "z": 524963.0,
+      "alt": 736.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-06#11341 #295",
+      "type": "FARP Fuel Depot",
+      "x": -75635.0,
+      "z": 524949.0,
+      "alt": 740.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-08#11342 #297",
+      "type": "FARP Fuel Depot",
+      "x": -75624.0,
+      "z": 524955.0,
+      "alt": 739.6
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-05#11343 #294",
+      "type": "Fuel tank",
+      "x": -75620.0,
+      "z": 524939.0,
+      "alt": 734.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-13#11327 #302",
+      "type": "Sandbox",
+      "x": -75377.0,
+      "z": 524605.0,
+      "alt": 707.3
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-12#11329 #301",
+      "type": "house1arm",
+      "x": -75543.0,
+      "z": 524850.0,
+      "alt": 727.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Psebay_Usine [r] combatZone_Psebay_Usine-batiment-01#11330 #290",
+      "type": "outpost_road",
+      "x": -75685.0,
+      "z": 524933.0,
+      "alt": 730.4
+    }
+  ],
+  "image": "psebay-usine.jpg",
+  "heading": 303,
+  "pitch": -30.0,
+  "x": -76323.7646703774,
+  "y": 526270.6305301824,
+  "altitude_m": 1606,
+  "order": 18
+}
