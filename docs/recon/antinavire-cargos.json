@@ -1,0 +1,98 @@
+{
+  "name": "antinavire-cargos",
+  "title": "Cargos isolés",
+  "heading_deg": 272.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Antinavire_Cargos",
+  "camera": {
+    "position": [
+      -295499.22310434195,
+      2999.9999999999995,
+      198788.74706704606
+    ],
+    "forward": [
+      0.03022385072365736,
+      -0.49999999999999994,
+      -0.8654978445076765
+    ],
+    "up": [
+      0.017449748351250637,
+      0.8660254037844387,
+      -0.4996954135095478
+    ],
+    "right": [
+      0.9993908270190958,
+      0.0,
+      0.03489949670250128
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -295317.88,
+    "z": 193595.76,
+    "alt_m": 0.0,
+    "lat": 42.42211996254707,
+    "lon": 36.56269059077688,
+    "dms": "N42°25'19.63\" E036°33'45.69\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:09",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Cargos [r] Cargo ships with no defense#11397",
+      "type": "Dry-cargo ship-1",
+      "x": -294483.3,
+      "z": 192585.6,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Cargos [r] Cargo ships with no defense#11397",
+      "type": "Dry-cargo ship-1",
+      "x": -296480.3,
+      "z": 193828.6,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Cargos [r] Cargo ships with no defense#11397",
+      "type": "Dry-cargo ship-2",
+      "x": -296980.2,
+      "z": 191819.6,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Cargos [r] Cargo ships with no defense#11397",
+      "type": "ELNYA",
+      "x": -295072.3,
+      "z": 195080.5,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Cargos [r] Cargo ships with no defense#11397",
+      "type": "ELNYA",
+      "x": -293573.3,
+      "z": 194664.5,
+      "alt": 0.0
+    }
+  ],
+  "image": "antinavire-cargos.jpg",
+  "heading": 272,
+  "pitch": -30.0,
+  "x": -295499.22310434195,
+  "y": 198788.74706704606,
+  "altitude_m": 3000,
+  "order": 24
+}

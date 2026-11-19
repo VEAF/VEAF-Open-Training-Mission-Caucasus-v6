@@ -1,0 +1,138 @@
+{
+  "name": "antinavire-escorte",
+  "title": "Convoi naval escorté",
+  "heading_deg": 273.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Antinavire_Escorte",
+  "camera": {
+    "position": [
+      -284410.7856058264,
+      2999.9999999999995,
+      197867.90127640136
+    ],
+    "forward": [
+      0.045324267637740244,
+      -0.49999999999999994,
+      -0.8648385460668959
+    ],
+    "up": [
+      0.02616797812147197,
+      0.8660254037844387,
+      -0.49931476737728686
+    ],
+    "right": [
+      0.9986295347545738,
+      0.0,
+      0.052335956242943946
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -284138.83999999997,
+    "z": 192678.87,
+    "alt_m": 0.0,
+    "lat": 42.52294909375267,
+    "lon": 36.55726001915544,
+    "dms": "N42°31'22.62\" E036°33'26.14\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:10",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "Dry-cargo ship-1",
+      "x": -285994.3,
+      "z": 196097.0,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "Dry-cargo ship-2",
+      "x": -284464.6,
+      "z": 188580.5,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "Dry-cargo ship-2",
+      "x": -285596.7,
+      "z": 193998.4,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "Dry-cargo ship-2",
+      "x": -286250.7,
+      "z": 193467.2,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "ELNYA",
+      "x": -281135.3,
+      "z": 195081.6,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "ELNYA",
+      "x": -287169.5,
+      "z": 189680.2,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "MOLNIYA",
+      "x": -282786.8,
+      "z": 190669.0,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "MOLNIYA",
+      "x": -283595.3,
+      "z": 191527.6,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "ALBATROS",
+      "x": -281723.9,
+      "z": 195607.3,
+      "alt": 0.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Antinavire_Escorte [r] Cargo ships with escort#11398",
+      "type": "NEUSTRASH",
+      "x": -282671.3,
+      "z": 192079.9,
+      "alt": 0.0
+    }
+  ],
+  "image": "antinavire-escorte.jpg",
+  "heading": 273,
+  "pitch": -30.0,
+  "x": -284410.7856058264,
+  "y": 197867.90127640136,
+  "altitude_m": 3000,
+  "order": 25
+}

@@ -1,0 +1,138 @@
+{
+  "name": "mozdok-oca",
+  "title": "Avions au sol de Mozdok",
+  "heading_deg": 345.0,
+  "pitch_deg": 30.0,
+  "slant_m": 2850.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Mozdok_OCA",
+  "camera": {
+    "position": [
+      -86061.83146565275,
+      1576.8799999999997,
+      836014.0700239198
+    ],
+    "forward": [
+      0.8365163037378079,
+      -0.49999999999999994,
+      -0.22414386804201333
+    ],
+    "up": [
+      0.4829629131445341,
+      0.8660254037844387,
+      -0.12940952255126031
+    ],
+    "right": [
+      0.2588190451025207,
+      0.0,
+      0.9659258262890683
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -83677.76,
+    "z": 835375.26,
+    "alt_m": 151.88,
+    "lat": 43.78856027147468,
+    "lon": 44.61656095271571,
+    "dms": "N43°47'18.82\" E044°36'59.62\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:09",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_OCA [r] SA15#11392",
+      "type": "Tor 9A331",
+      "x": -83043.5,
+      "z": 836080.5,
+      "alt": 140.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_OCA [r] SA15#11392",
+      "type": "GAZ-66",
+      "x": -83040.5,
+      "z": 836061.5,
+      "alt": 140.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_OCA [r] ZSU-23-4 Shilka#11388",
+      "type": "ZSU-23-4 Shilka",
+      "x": -84267.5,
+      "z": 835731.1,
+      "alt": 142.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Mozdok_OCA [r] ZSU-23-4 Shilka#11386",
+      "type": "ZSU-23-4 Shilka",
+      "x": -83322.6,
+      "z": 834733.5,
+      "alt": 152.8
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mozdok_OCA [r] combatZone_Mozdok_OCA-avion-5#11390 #367",
+      "type": "Su-25",
+      "x": -83913.2,
+      "z": 835014.4,
+      "alt": 156.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mozdok_OCA [r] combatZone_Mozdok_OCA-avion-3#11391 #365",
+      "type": "Su-24M",
+      "x": -83886.3,
+      "z": 835222.7,
+      "alt": 156.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mozdok_OCA [r] combatZone_Mozdok_OCA-avion-4#11393 #366",
+      "type": "Su-25",
+      "x": -83899.8,
+      "z": 835118.6,
+      "alt": 156.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mozdok_OCA [r] combatZone_Mozdok_OCA-avion-1#11394 #363",
+      "type": "Tu-22M3",
+      "x": -83760.6,
+      "z": 835549.7,
+      "alt": 157.7
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mozdok_OCA [r] combatZone_Mozdok_OCA-avion-2#11395 #364",
+      "type": "Su-24M",
+      "x": -83717.0,
+      "z": 835330.4,
+      "alt": 156.9
+    },
+    {
+      "kind": "static",
+      "group": "combatZone_Mozdok_OCA [r] combatZone_Mozdok_OCA-avion-6#11396 #368",
+      "type": "IL-76MD",
+      "x": -83926.6,
+      "z": 834910.2,
+      "alt": 158.6
+    }
+  ],
+  "image": "mozdok-oca.jpg",
+  "heading": 345,
+  "pitch": -30.0,
+  "x": -86061.83146565275,
+  "y": 836014.0700239198,
+  "altitude_m": 1577,
+  "order": 23
+}

@@ -1,0 +1,314 @@
+{
+  "name": "maykop-defenses",
+  "title": "Défenses de la base de Maykop",
+  "heading_deg": 304.0,
+  "pitch_deg": 30.0,
+  "slant_m": 5600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Maykop_Defenses",
+  "camera": {
+    "position": [
+      -25968.68520612122,
+      2965.1406249999995,
+      460621.56855173694
+    ],
+    "forward": [
+      0.48427526002164634,
+      -0.49999999999999994,
+      -0.7179675985244508
+    ],
+    "up": [
+      0.27959645173537345,
+      0.8660254037844387,
+      -0.41451878627752076
+    ],
+    "right": [
+      0.8290375725550416,
+      0.0,
+      0.559192903470747
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -23256.74375,
+    "z": 456600.95,
+    "alt_m": 165.140625,
+    "lat": 44.710823891213636,
+    "lon": 40.02057192985827,
+    "dms": "N44°42'38.97\" E040°01'14.06\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:08",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Transport Company#11385",
+      "type": "ATZ-5",
+      "x": -22744.6,
+      "z": 455776.6,
+      "alt": 162.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Transport Company#11385",
+      "type": "ATZ-5",
+      "x": -22906.6,
+      "z": 455694.6,
+      "alt": 162.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Transport Company#11385",
+      "type": "KAMAZ Truck",
+      "x": -22835.6,
+      "z": 455764.6,
+      "alt": 162.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Transport Company#11385",
+      "type": "Ural-375",
+      "x": -22814.6,
+      "z": 455880.6,
+      "alt": 162.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Transport Company#11385",
+      "type": "KrAZ6322",
+      "x": -22850.6,
+      "z": 455827.6,
+      "alt": 162.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] ZSU-23-4 Shilka#11383",
+      "type": "ZSU-23-4 Shilka",
+      "x": -24719.6,
+      "z": 457765.9,
+      "alt": 172.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Ural-375 ZU-23#11381",
+      "type": "Ural-375 ZU-23",
+      "x": -24637.2,
+      "z": 455815.2,
+      "alt": 164.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Ural-375 ZU-23#11379",
+      "type": "Ural-375 ZU-23",
+      "x": -22211.6,
+      "z": 455345.9,
+      "alt": 158.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Ural-375 ZU-23#11377",
+      "type": "Ural-375 ZU-23",
+      "x": -24684.9,
+      "z": 457464.4,
+      "alt": 171.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 40B6MD sr",
+      "x": -23213.0,
+      "z": 456639.0,
+      "alt": 166.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 40B6M tr",
+      "x": -23090.0,
+      "z": 456541.0,
+      "alt": 165.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85C ln",
+      "x": -23114.0,
+      "z": 456458.0,
+      "alt": 165.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85D ln",
+      "x": -23100.0,
+      "z": 456621.0,
+      "alt": 165.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85D ln",
+      "x": -23132.0,
+      "z": 456482.0,
+      "alt": 165.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85C ln",
+      "x": -23132.0,
+      "z": 456600.0,
+      "alt": 165.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85C ln",
+      "x": -23143.0,
+      "z": 456493.0,
+      "alt": 165.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85D ln",
+      "x": -23149.0,
+      "z": 456573.0,
+      "alt": 165.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85D ln",
+      "x": -23168.0,
+      "z": 456521.0,
+      "alt": 165.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 5P85C ln",
+      "x": -23173.0,
+      "z": 456556.0,
+      "alt": 165.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 64H6E sr",
+      "x": -23183.0,
+      "z": 456545.0,
+      "alt": 165.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "S-300PS 54K6 cp",
+      "x": -23208.0,
+      "z": 456447.0,
+      "alt": 165.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "ZSU-23-4 Shilka",
+      "x": -23191.0,
+      "z": 456558.0,
+      "alt": 165.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] S300#11376",
+      "type": "2S6 Tunguska",
+      "x": -23119.0,
+      "z": 456447.0,
+      "alt": 165.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Armored Platoon#11375",
+      "type": "T-55",
+      "x": -23122.5,
+      "z": 457461.2,
+      "alt": 166.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Armored Platoon#11375",
+      "type": "BTR-82A",
+      "x": -23159.5,
+      "z": 457559.2,
+      "alt": 166.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Armored Platoon#11375",
+      "type": "VAB_Mephisto",
+      "x": -23211.5,
+      "z": 457433.2,
+      "alt": 166.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Armored Platoon#11375",
+      "type": "BMP-2",
+      "x": -23050.5,
+      "z": 457568.2,
+      "alt": 165.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] Armored Platoon#11375",
+      "type": "BMP-2",
+      "x": -23178.5,
+      "z": 457517.2,
+      "alt": 166.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] SA15#11374",
+      "type": "Tor 9A331",
+      "x": -24786.0,
+      "z": 455604.0,
+      "alt": 163.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] SA15#11374",
+      "type": "GAZ-66",
+      "x": -24770.0,
+      "z": 455588.0,
+      "alt": 163.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] SA15#11373",
+      "type": "Tor 9A331",
+      "x": -22197.0,
+      "z": 457829.0,
+      "alt": 163.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Maykop_Defenses [r] SA15#11373",
+      "type": "GAZ-66",
+      "x": -22220.0,
+      "z": 457854.0,
+      "alt": 163.5
+    }
+  ],
+  "image": "maykop-defenses.jpg",
+  "heading": 304,
+  "pitch": -30.0,
+  "x": -25968.68520612122,
+  "y": 460621.56855173694,
+  "altitude_m": 2965,
+  "order": 22
+}

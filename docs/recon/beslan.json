@@ -1,0 +1,338 @@
+{
+  "name": "beslan",
+  "title": "Bataille de Beslan",
+  "heading_deg": 346.0,
+  "pitch_deg": 30.0,
+  "slant_m": 6000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Beslan",
+  "camera": {
+    "position": [
+      -118071.4387745452,
+      3388.368571428571,
+      849204.4059010689
+    ],
+    "forward": [
+      0.8403007481384851,
+      -0.49999999999999994,
+      -0.20951050732099918
+    ],
+    "up": [
+      0.4851478631379982,
+      0.8660254037844387,
+      -0.12096094779983392
+    ],
+    "right": [
+      0.24192189559966787,
+      0.0,
+      0.9702957262759965
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -113029.63428571429,
+    "z": 847947.3428571429,
+    "alt_m": 388.36857142857144,
+    "lat": 43.51394243933402,
+    "lon": 44.71842230646861,
+    "dms": "N43°30'50.19\" E044°43'06.32\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:03",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] SA8#11278",
+      "type": "Osa 9A33 ln",
+      "x": -110983.3,
+      "z": 850030.9,
+      "alt": 459.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] SA8#11278",
+      "type": "GAZ-66",
+      "x": -110967.3,
+      "z": 850034.9,
+      "alt": 459.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-90",
+      "x": -112269.5,
+      "z": 845437.6,
+      "alt": 417.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-72B3",
+      "x": -112126.5,
+      "z": 845510.6,
+      "alt": 414.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-90",
+      "x": -112317.5,
+      "z": 845643.6,
+      "alt": 406.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-80UD",
+      "x": -112368.5,
+      "z": 845404.6,
+      "alt": 419.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-90",
+      "x": -112453.5,
+      "z": 845544.6,
+      "alt": 409.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-72B3",
+      "x": -112203.5,
+      "z": 845567.6,
+      "alt": 411.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-80UD",
+      "x": -112445.5,
+      "z": 845476.6,
+      "alt": 414.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11277",
+      "type": "T-72B3",
+      "x": -112459.5,
+      "z": 845631.6,
+      "alt": 405.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-2#11275",
+      "type": "BTR-80",
+      "x": -113884.0,
+      "z": 848540.3,
+      "alt": 383.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-2#11275",
+      "type": "BTR-80",
+      "x": -113848.7,
+      "z": 848527.8,
+      "alt": 382.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-2#11275",
+      "type": "BTR-80",
+      "x": -113823.4,
+      "z": 848524.6,
+      "alt": 382.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-2#11275",
+      "type": "BTR-80",
+      "x": -113803.4,
+      "z": 848524.5,
+      "alt": 382.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-3#11274",
+      "type": "BTR-80",
+      "x": -113636.6,
+      "z": 843050.8,
+      "alt": 376.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-3#11274",
+      "type": "BTR-80",
+      "x": -113598.4,
+      "z": 843053.4,
+      "alt": 377.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-3#11274",
+      "type": "BTR-80",
+      "x": -113570.0,
+      "z": 843054.7,
+      "alt": 378.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-3#11274",
+      "type": "BTR-80",
+      "x": -113550.0,
+      "z": 843054.7,
+      "alt": 379.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] ZSU-23-4 Shilka#11272",
+      "type": "ZSU-23-4 Shilka",
+      "x": -112990.4,
+      "z": 848647.3,
+      "alt": 379.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11270",
+      "type": "BMP-3",
+      "x": -112570.1,
+      "z": 850222.4,
+      "alt": 394.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11270",
+      "type": "CHAP_T90M",
+      "x": -112672.1,
+      "z": 850396.4,
+      "alt": 386.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11270",
+      "type": "T-80UD",
+      "x": -112504.1,
+      "z": 850485.4,
+      "alt": 391.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11270",
+      "type": "T-72B3",
+      "x": -112608.1,
+      "z": 850264.4,
+      "alt": 388.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11270",
+      "type": "BMP-3",
+      "x": -112686.1,
+      "z": 850231.4,
+      "alt": 385.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11270",
+      "type": "ZTZ96B",
+      "x": -112685.1,
+      "z": 850388.4,
+      "alt": 386.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Armored Platoon#11270",
+      "type": "T-80UD",
+      "x": -112647.1,
+      "z": 850275.4,
+      "alt": 386.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Red Modern Manpad Squad#11269",
+      "type": "SA-18 Igla-S manpad",
+      "x": -113185.9,
+      "z": 846033.8,
+      "alt": 377.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Red Modern Manpad Squad#11269",
+      "type": "Infantry AK ver2",
+      "x": -113228.9,
+      "z": 845912.8,
+      "alt": 376.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Red Modern Manpad Squad#11269",
+      "type": "Infantry AK ver2",
+      "x": -113158.9,
+      "z": 845938.8,
+      "alt": 378.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Red Modern Manpad Squad#11269",
+      "type": "Infantry AK ver2",
+      "x": -113271.9,
+      "z": 845991.8,
+      "alt": 374.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] Red Modern Manpad Squad#11269",
+      "type": "Tigr_233036",
+      "x": -113263.9,
+      "z": 846084.8,
+      "alt": 374.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-1#11267",
+      "type": "BTR-80",
+      "x": -114600.1,
+      "z": 854150.2,
+      "alt": 337.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-1#11267",
+      "type": "BTR-80",
+      "x": -114572.8,
+      "z": 854172.3,
+      "alt": 337.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-1#11267",
+      "type": "BTR-80",
+      "x": -114551.3,
+      "z": 854174.0,
+      "alt": 338.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Beslan [r] combatZone_Beslan-assaut-1#11267",
+      "type": "BTR-80",
+      "x": -114531.3,
+      "z": 854174.0,
+      "alt": 338.6
+    }
+  ],
+  "image": "beslan.jpg",
+  "heading": 346,
+  "pitch": -30.0,
+  "x": -118071.4387745452,
+  "y": 849204.4059010689,
+  "altitude_m": 3388,
+  "order": 10
+}

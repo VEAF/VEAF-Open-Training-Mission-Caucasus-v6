@@ -1,0 +1,146 @@
+{
+  "name": "gori-easy",
+  "title": "Gori - SEAD - facile",
+  "heading_deg": 298.0,
+  "pitch_deg": 30.0,
+  "slant_m": 600.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Gori_Easy",
+  "camera": {
+    "position": [
+      -280242.4900343816,
+      1148.7727272727273,
+      830455.611209194
+    ],
+    "forward": [
+      0.40657429972696224,
+      -0.49999999999999994,
+      -0.7646550456261505
+    ],
+    "up": [
+      0.23473578139294518,
+      0.8660254037844387,
+      -0.4414737964294635
+    ],
+    "right": [
+      0.8829475928589271,
+      0.0,
+      0.4694715627858904
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -279998.54545454547,
+    "z": 829996.8181818182,
+    "alt_m": 848.7727272727273,
+    "lat": 42.06224949119575,
+    "lon": 44.22745942828907,
+    "dms": "N42°03'44.10\" E044°13'38.85\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:02",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "Kub 1S91 str",
+      "x": -279997.0,
+      "z": 830003.0,
+      "alt": 849.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "Kub 2P25 ln",
+      "x": -279963.0,
+      "z": 830006.0,
+      "alt": 849.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "Kub 2P25 ln",
+      "x": -279995.0,
+      "z": 829956.0,
+      "alt": 847.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "Kub 2P25 ln",
+      "x": -280000.0,
+      "z": 830040.0,
+      "alt": 849.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "Kub 2P25 ln",
+      "x": -280032.0,
+      "z": 829998.0,
+      "alt": 848.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "ZSU-23-4 Shilka",
+      "x": -280021.0,
+      "z": 830026.0,
+      "alt": 849.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "ZSU-23-4 Shilka",
+      "x": -279995.0,
+      "z": 829984.0,
+      "alt": 848.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "ATZ-5",
+      "x": -279983.0,
+      "z": 830025.0,
+      "alt": 849.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "ZIL-135",
+      "x": -280014.0,
+      "z": 830001.0,
+      "alt": 848.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "ZIL-135",
+      "x": -279962.0,
+      "z": 829960.0,
+      "alt": 848.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Gori_Easy [r] SA6#11253",
+      "type": "Ural-375 PBU",
+      "x": -280022.0,
+      "z": 829966.0,
+      "alt": 847.6
+    }
+  ],
+  "image": "gori-easy.jpg",
+  "heading": 298,
+  "pitch": -30.0,
+  "x": -280242.4900343816,
+  "y": 830455.611209194,
+  "altitude_m": 1149,
+  "order": 7
+}

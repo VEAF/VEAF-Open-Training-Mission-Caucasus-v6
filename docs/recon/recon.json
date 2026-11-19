@@ -1,0 +1,155 @@
+{
+  "operation": "Open Training Caucasus",
+  "shots": [
+    {
+      "name": "kobuleti-easy",
+      "title": "Kobuleti - hélicoptères - facile",
+      "image": "kobuleti-easy.jpg",
+      "metadata": "kobuleti-easy.json"
+    },
+    {
+      "name": "kobuleti-medium",
+      "title": "Kobuleti - hélicoptères - moyen",
+      "image": "kobuleti-medium.jpg",
+      "metadata": "kobuleti-medium.json"
+    },
+    {
+      "name": "kobuleti-hard",
+      "title": "Kobuleti - hélicoptères - difficile",
+      "image": "kobuleti-hard.jpg",
+      "metadata": "kobuleti-hard.json"
+    },
+    {
+      "name": "akhalkalaki-easy",
+      "title": "Akhalkalaki - attaque - facile",
+      "image": "akhalkalaki-easy.jpg",
+      "metadata": "akhalkalaki-easy.json"
+    },
+    {
+      "name": "akhalkalaki-medium",
+      "title": "Akhalkalaki - attaque - moyen",
+      "image": "akhalkalaki-medium.jpg",
+      "metadata": "akhalkalaki-medium.json"
+    },
+    {
+      "name": "akhalkalaki-hard",
+      "title": "Akhalkalaki - attaque - difficile",
+      "image": "akhalkalaki-hard.jpg",
+      "metadata": "akhalkalaki-hard.json"
+    },
+    {
+      "name": "gori-easy",
+      "title": "Gori - SEAD - facile",
+      "image": "gori-easy.jpg",
+      "metadata": "gori-easy.json"
+    },
+    {
+      "name": "gori-medium",
+      "title": "Gori - SEAD - moyen",
+      "image": "gori-medium.jpg",
+      "metadata": "gori-medium.json"
+    },
+    {
+      "name": "gori-hard",
+      "title": "Gori - SEAD - difficile",
+      "image": "gori-hard.jpg",
+      "metadata": "gori-hard.json"
+    },
+    {
+      "name": "beslan",
+      "title": "Bataille de Beslan",
+      "image": "beslan.jpg",
+      "metadata": "beslan.json"
+    },
+    {
+      "name": "terek",
+      "title": "Parc logistique de Terek",
+      "image": "terek.jpg",
+      "metadata": "terek.json"
+    },
+    {
+      "name": "lazarevskoye",
+      "title": "Front côtier de Lazarevskoye",
+      "image": "lazarevskoye.jpg",
+      "metadata": "lazarevskoye.json"
+    },
+    {
+      "name": "psebay-sam",
+      "title": "Sites SAM de Psebay",
+      "image": "psebay-sam.jpg",
+      "metadata": "psebay-sam.json"
+    },
+    {
+      "name": "mozdok-sa11",
+      "title": "Site SA-11 au nord de Mozdok",
+      "image": "mozdok-sa11.jpg",
+      "metadata": "mozdok-sa11.json"
+    },
+    {
+      "name": "roadblock-km91",
+      "title": "Barrage routier KM91",
+      "image": "roadblock-km91.jpg",
+      "metadata": "roadblock-km91.json"
+    },
+    {
+      "name": "convoi-prokhladny",
+      "title": "Convoi de secours vers Prokhladny",
+      "image": "convoi-prokhladny.jpg",
+      "metadata": "convoi-prokhladny.json"
+    },
+    {
+      "name": "convoi-minvody",
+      "title": "Convoi Mineralnye Vody - Baksan",
+      "image": "convoi-minvody.jpg",
+      "metadata": "convoi-minvody.json"
+    },
+    {
+      "name": "psebay-usine",
+      "title": "Usine d'armes chimiques de Psebay",
+      "image": "psebay-usine.jpg",
+      "metadata": "psebay-usine.json"
+    },
+    {
+      "name": "prokhladny-otages",
+      "title": "Otages à Prokhladny",
+      "image": "prokhladny-otages.jpg",
+      "metadata": "prokhladny-otages.json"
+    },
+    {
+      "name": "georgievsk-scud",
+      "title": "Site SCUD de Georgievsk",
+      "image": "georgievsk-scud.jpg",
+      "metadata": "georgievsk-scud.json"
+    },
+    {
+      "name": "nevinnomyssk-depot",
+      "title": "Dépôt logistique de Nevinnomyssk",
+      "image": "nevinnomyssk-depot.jpg",
+      "metadata": "nevinnomyssk-depot.json"
+    },
+    {
+      "name": "maykop-defenses",
+      "title": "Défenses de la base de Maykop",
+      "image": "maykop-defenses.jpg",
+      "metadata": "maykop-defenses.json"
+    },
+    {
+      "name": "mozdok-oca",
+      "title": "Avions au sol de Mozdok",
+      "image": "mozdok-oca.jpg",
+      "metadata": "mozdok-oca.json"
+    },
+    {
+      "name": "antinavire-cargos",
+      "title": "Cargos isolés",
+      "image": "antinavire-cargos.jpg",
+      "metadata": "antinavire-cargos.json"
+    },
+    {
+      "name": "antinavire-escorte",
+      "title": "Convoi naval escorté",
+      "image": "antinavire-escorte.jpg",
+      "metadata": "antinavire-escorte.json"
+    }
+  ]
+}

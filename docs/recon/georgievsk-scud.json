@@ -1,0 +1,202 @@
+{
+  "name": "georgievsk-scud",
+  "title": "Site SCUD de Georgievsk",
+  "heading_deg": 328.0,
+  "pitch_deg": 30.0,
+  "slant_m": 3000.0,
+  "mark": "groups",
+  "labels": {},
+  "zone": "combatZone_Georgievsk_SCUD",
+  "camera": {
+    "position": [
+      -58114.29358470748,
+      1844.3944444444442,
+      733546.9317454533
+    ],
+    "forward": [
+      0.7344311949024932,
+      -0.49999999999999994,
+      -0.45892354478071407
+    ],
+    "up": [
+      0.42402404807821287,
+      0.8660254037844387,
+      -0.26495963211660245
+    ],
+    "right": [
+      0.529919264233205,
+      0.0,
+      0.8480480961564258
+    ],
+    "hfov_deg": 80.0
+  },
+  "window": {
+    "width": 2650,
+    "height": 1660,
+    "cropped_bottom": 40
+  },
+  "target": {
+    "x": -55911.0,
+    "z": 732170.1611111112,
+    "alt_m": 344.39444444444445,
+    "lat": 44.15715084745869,
+    "lon": 43.39950341919603,
+    "dms": "N44°09'25.74\" E043°23'58.21\""
+  },
+  "theatre": "Caucasus",
+  "date": "2022-06-29",
+  "time": "12:08",
+  "units": [
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] ZSU-23-4 Shilka#11359",
+      "type": "ZSU-23-4 Shilka",
+      "x": -56881.1,
+      "z": 731913.4,
+      "alt": 354.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] SA15#11358",
+      "type": "Tor 9A331",
+      "x": -54958.0,
+      "z": 732273.0,
+      "alt": 335.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] SA15#11358",
+      "type": "GAZ-66",
+      "x": -54980.0,
+      "z": 732279.0,
+      "alt": 336.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-soutien#11357",
+      "type": "Ural-375",
+      "x": -56153.5,
+      "z": 732775.9,
+      "alt": 335.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-soutien#11357",
+      "type": "Ural-375",
+      "x": -56133.5,
+      "z": 732775.9,
+      "alt": 335.7
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-soutien#11357",
+      "type": "Ural-375",
+      "x": -56113.5,
+      "z": 732775.9,
+      "alt": 335.5
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-soutien#11357",
+      "type": "ZIL-131 KUNG",
+      "x": -56093.5,
+      "z": 732775.9,
+      "alt": 335.4
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] Red Modern Manpad Squad#11356",
+      "type": "SA-18 Igla-S manpad",
+      "x": -55826.3,
+      "z": 731781.1,
+      "alt": 351.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] Red Modern Manpad Squad#11356",
+      "type": "Infantry AK ver2",
+      "x": -55696.3,
+      "z": 731813.1,
+      "alt": 350.2
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] Red Modern Manpad Squad#11356",
+      "type": "Infantry AK ver2",
+      "x": -55827.3,
+      "z": 731679.1,
+      "alt": 353.1
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] Red Modern Manpad Squad#11356",
+      "type": "Infantry AK ver2",
+      "x": -55850.3,
+      "z": 731737.1,
+      "alt": 352.0
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] Red Modern Manpad Squad#11356",
+      "type": "Infantry AK ver2",
+      "x": -55709.3,
+      "z": 731726.1,
+      "alt": 351.8
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] Red Modern Manpad Squad#11356",
+      "type": "Infantry AK ver2",
+      "x": -55807.3,
+      "z": 731842.1,
+      "alt": 349.9
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] Red Modern Manpad Squad#11356",
+      "type": "Tigr_233036",
+      "x": -55791.3,
+      "z": 731716.1,
+      "alt": 352.3
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-scud#11355",
+      "type": "Scud_B",
+      "x": -56174.2,
+      "z": 732299.8,
+      "alt": 342.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-scud#11355",
+      "type": "Scud_B",
+      "x": -56154.2,
+      "z": 732299.8,
+      "alt": 342.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-scud#11355",
+      "type": "Scud_B",
+      "x": -56134.2,
+      "z": 732299.8,
+      "alt": 342.6
+    },
+    {
+      "kind": "unit",
+      "group": "combatZone_Georgievsk_SCUD [r] combatZone_Georgievsk_SCUD-scud#11355",
+      "type": "Scud_B",
+      "x": -56114.2,
+      "z": 732299.8,
+      "alt": 342.6
+    }
+  ],
+  "image": "georgievsk-scud.jpg",
+  "heading": 328,
+  "pitch": -30.0,
+  "x": -58114.29358470748,
+  "y": 733546.9317454533,
+  "altitude_m": 1844,
+  "order": 20
+}
